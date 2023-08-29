@@ -1,0 +1,13 @@
+.jutify-content-between{
+    justify-content: space-between;
+}
+.container {
+   max-width: 1230px !important;
+}
+.text-align-end{
+    text-align: end;
+}
+
+.text-align-left{
+    text-align: left;
+}
