@@ -1,0 +1,252 @@
+@media screen and (min-width:768px) {
+    .footer_dashboard_logo {
+        width: 100%;
+    }
+}
+
+.footer_accordian {
+    display: none;
+}
+
+.my-footer {
+    margin-top: -80px;
+    padding-top: 120px !important;
+    background: linear-gradient(141deg, #FFF 0%, #D0D0D0 25%, #E1E1E1 50%, #FFF 75%, #E1E1E1 100%);
+}
+
+.my-footer a {
+    text-decoration: none;
+    display: block;
+}
+.my-footer a:hover {
+    color: gray !important;
+}
+
+.logo_disclamer {
+    margin-top: 1rem;
+}
+
+.normal {
+    width: 70%;
+}
+
+.font-weight-bold {
+    font-weight: 600;
+}
+.accordion-button{
+    
+    background-color: transparent !important;
+    border: none !important;
+
+}
+.footer_accourdian_header{
+    background-color: transparent !important;
+    border: none !important;
+}
+.footer_acccourdian_item{
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.fa-icons {
+    font-size: 30px;
+}
+
+.border-top {
+    border-top: 1px solid transparent !important;
+}
+
+.my-footer ul li {
+    margin-top: 15px;
+}
+
+
+.m-t {
+    margin: 0rem;
+}
+
+.header_background button {
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.accordian_body {
+    background-color: transparent !important;
+}
+
+
+.s-1 {
+    font-size: 11px;
+    text-align: left;
+}
+
+.s-2 {
+    font-size: 12px;
+}
+
+.white_logo_image img {
+    width: 20px;
+    height: 20px;
+}
+
+.white_logo_image {
+    width: 100%;
+    border-radius: 5px;
+    background: #007CB6;
+
+}
+.copyright-policy a{
+    display: inline-block;
+    color: #4F4F4F;
+}
+.copyright-policy ul a:hover{
+   transform: translateY(-5px);
+   transition-duration: 0.3s;
+}
+
+@media screen and (min-width:991px)and (max-width:1055px) {
+    .s-2 {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .my-footer ul li {
+        font-size: 14px;
+    }
+
+    .logo_disclamer {
+        font-size: 13px;
+    }
+
+    .white_logo_image img {
+        width: 26px;
+        height: 26px;
+    }
+
+    .s-1 {
+        font-size: 13px;
+    }
+
+    .s-2 {
+        font-size: 13px;
+    }
+}
+.f-btn:hover{
+    background-color: #EDA288 !important;
+    border: 1px solid #EDA288;
+}
+
+
+@media screen and (max-width:768px) {
+    .plus {
+        width: 85% !important;
+        margin-left: 2rem;
+
+        margin-top: 20 !important;
+    }
+
+    .normal {
+        margin-top: 20px;
+        width: 85% !important;
+    }
+
+    .d-m-flex {
+        display: flex;
+        align-items: center;
+    }
+
+    .footer_dashboard_logo {
+        width: 45%;
+    }
+
+    .d-none-768 {
+        display: none;
+    }
+
+    .footer_accordian {
+        display: block;
+    }
+
+    .white_logo_image {
+        width: 212px;
+        margin: auto;
+    }
+
+    .white_logo_image img {
+        width: 32px;
+        height: 32px;
+    }
+   
+
+    .s-1 {
+        font-size: 14px;
+    }
+
+    .s-2 {
+        font-size: 16px;
+    }
+
+    .mt-x-sm-2 {
+        margin-top: 2rem !important;
+    }
+}
+
+
+@media screen and (max-width:576px) {
+    .copyright-policy {
+        color: #4F4F4F;
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .footer_accourdian_header button{
+        font-size: 16px !important;
+    }
+
+    .mt-sm-2 {
+        margin-top: 1rem !important;
+    }
+
+    .plus {
+        width: 65% !important;
+        margin-left: 0rem;
+
+    }
+
+    .normal {
+        width: 65% !important;
+    }
+
+    .logo_disclamer {
+        font-size: 12px;
+    }
+
+    .copyright-policy p {
+        font-size: 14px;
+    }
+
+    .footer_dashboard_logo {
+        width: 60%;
+    }
+    .copyright-policy ul a{
+        width: 25px;
+        height: 25px;
+        transition-duration: 0.3s;
+    }
+    .copyright-policy svg{
+        width: 25px;
+        height: 25px;
+    }
+    /* .my-footer ul li {
+        margin-top: 0px;
+    } */
+
+}
+
+@media screen and (max-width:477px) {
+    .my-footer {
+        padding-top: 80px !important;
+    }
+}

@@ -1,0 +1,81 @@
+.navbar-nav a{
+    padding: 0px 1.1rem !important;
+}
+.ml-15{
+    margin-left: 1rem !important;
+}
+.nav_navbar {
+    padding: 15px 0px;
+}
+.dropdown-menu{
+    margin-top: 0 !important;
+}
+.header_btn{
+    padding: 12px 18px;
+    background-color: #0087C1;
+    border: none;
+}
+.header_btn:hover{
+    background-color: #EDA288;
+}
+.toggle_btn{
+    border: none;
+}
+.toggle_btn:focus{
+    box-shadow: none;
+}
+.dropdown-menu{
+    border-radius: 0px !important;
+    background: #FFF !important;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25) !important;
+    padding: 8px !important;
+}
+.dropdown-menu a{
+    padding: 4px 1rem !important;
+    color: black;
+    font-size: 14px;
+}
+.button_shopify{
+    text-decoration:none;
+    color: initial;
+}
+@media screen and (min-width:991px){
+    .d-none-min-991{
+        display: none;
+    }
+}
+
+@media screen and (max-width:991px){
+    .navbar-nav a{
+        padding: 8px 1rem !important;
+    }
+    .d-none-991{
+        display: none;
+    }
+}
+
+@media screen and (max-width:576px){
+.header_btn {
+    padding: 8px 12px;
+    font-size: 10px;
+    }
+    .customer_logo{
+        width: 35%;
+        margin: 0;
+    }
+    .toggle_btn {
+        font-size: 18px;
+    }
+    .customer_logo img{
+        width: 100%;
+    }
+    .d-none-min-991{
+        margin: 0 !important;
+    }
+    .main_heading h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+}
+
