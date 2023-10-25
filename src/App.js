@@ -33,22 +33,22 @@ function App() {
     <Header />
     <Routes>
     <Route path='/' element={<Home/>}/>
-      <Route path='/Customer-Account-Page' element={<CustomerAccountPageManu/>}/>
-      <Route path='/Customer-Menu' element={<CustomerManu/>}/>
-      <Route path='/Edit-Profile' element={<EditProfile/>}/>
-      <Route path='/Re-Order' element={<ReOrder/>}/>
-      <Route path='/Change-Color' element={<ChangeColor/>}/>
-      <Route path='/Change-Password' element={<ChangePassword/>}/>
-      <Route path='/Easy-Transition' element={<EasyTransition/>}/>
-      <Route path='/Integration' element={<Intigration/>}/>
-      <Route path='/Become-a-Partner' element={<BecomePartner/>}/>
-      <Route path='/Careers' element={<Careers/>}/>
-      <Route path='/Most-importants-FAQs' element={<ImpFaqs/>}/>
-      <Route path='/ALl-FAQs' element={<AllFaqs data={faqData}/>}/>
-      <Route path='/Blog' element={<Blog/>}/>
+      <Route path='/customer-account-page' element={<Home/>}/>
+      <Route path='/customer-menu' element={<Home/>}/>
+      <Route path='/edit-profile' element={<Home/>}/>
+      <Route path='/re-order' element={<Home/>}/>
+      <Route path='/change-color' element={<Home/>}/>
+      <Route path='/change-password' element={<Home/>}/>
+      <Route path='/easy-transition' element={<Home/>}/>
+      <Route path='/integration' element={<Home/>}/>
+      <Route path='/become-a-partner' element={<Home/>}/>
+      <Route path='/careers' element={<Home/>}/>
+      <Route path='/most-importants-fAQs' element={<Home/>}/>
+      <Route path='/aLl-fAQs' element={<AllFaqs data={faqData}/>}/>
+      <Route path='/blog' element={<Home/>}/>
       <Route path='/privacy-policy' element={<PrivacyPolicy/>}/>
-      <Route path='/Contact-Us' element={<ContactUs/>}/>
-      <Route path='/About-Us' element={<AboutUs/>}/>
+      <Route path='/contact-us' element={<Home/>}/>
+      <Route path='/about-us' element={<Home/>}/>
     </Routes>
     <Footer />
     </div>
