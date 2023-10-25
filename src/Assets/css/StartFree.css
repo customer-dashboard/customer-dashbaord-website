@@ -4,6 +4,7 @@
     min-height: 440px;
     position: relative;
     z-index: 2;
+    margin-bottom: -75px;
 }
 
 
@@ -130,7 +131,7 @@
     .free_trial_section{
         background-image: url('../Images/New.png');
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         min-height: 293px;
     }
     

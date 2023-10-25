@@ -10,14 +10,14 @@ function Footer() {
   return (
     <>
 
-      <footer class="text-center text-lg-start bg-light-dark text-muted">
+      <footer className="text-center text-lg-start bg-light-dark text-muted">
 
 
-        <section class="my_footer">
-          <div class="container text-center text-md-start mt-1 pt-3 pb-3">
-            <div class="row mt-3">
-              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 col-sm-3">
-                <h6 class="text-uppercase fw-bold mb-4">
+        <section className="my_footer">
+          <div className="container text-center text-md-start mt-1 pt-3 pb-3">
+            <div className="row mt-3">
+              <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 col-sm-3">
+                <h6 className="text-uppercase fw-bold mb-4">
                   <a href="#"><Image src={footer_customer_dashboard_logo}></Image></a>
                 </h6>
                 <p>
@@ -28,43 +28,43 @@ function Footer() {
                 </p>
               </div>
 
-              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 col-sm-3">
-                <h6 class="text-uppercase fw-bold mb-4">
+              <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 col-sm-3">
+                <h6 className="text-uppercase fw-bold mb-4">
                   SUPPORT
                 </h6>
                 <p>
-                  <a href="#!" class="text-reset">Most importants FAQs</a>
+                  <a href="#!" className="text-reset">Most importants FAQs</a>
                 </p>
                 <p>
-                  <a href="#!" class="text-reset">ALl FAQs</a>
+                  <a href="#!" className="text-reset">ALl FAQs</a>
                 </p>
                 <p>
-                  <a href="#!" class="text-reset">Blog</a>
+                  <a href="#!" className="text-reset">Blog</a>
                 </p>
                 <p>
-                  <a href="#!" class="text-reset">Contact Us</a>
+                  <a href="#!" className="text-reset">Contact Us</a>
                 </p>
                 <p>
-                  <a href="#!" class="text-reset">About Us</a>
+                  <a href="#!" className="text-reset">About Us</a>
                 </p>
               </div>
 
-              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 col-sm-3">
-                <h6 class="text-uppercase fw-bold mb-4">
+              <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 col-sm-3">
+                <h6 className="text-uppercase fw-bold mb-4">
                   EORK WITH US
                 </h6>
                 <p>
-                  <a href="#!" class="text-reset">Integration</a>
+                  <a href="#!" className="text-reset">Integration</a>
                 </p>
                 <p>
-                  <a href="#!" class="text-reset">Become a Partner</a>
+                  <a href="#!" className="text-reset">Become a Partner</a>
                 </p>
                 <p>
-                  <a href="#!" class="text-reset">Careers</a>
+                  <a href="#!" className="text-reset">Careers</a>
                 </p>
               </div>
 
-              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 col-sm-3">
+              <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 col-sm-3">
                 <Image src={normal_logo}></Image>
                 <Image src={shopify_logo_plus}></Image>
                 <div className="shopify">
@@ -81,7 +81,7 @@ function Footer() {
           </div>
         </section>
 
-        <div class="text-center p-4" >
+        <div className="text-center p-4" >
           © 2021 Copyright:
 
         </div>

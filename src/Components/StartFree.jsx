@@ -17,14 +17,16 @@ function StartFree() {
                                 <div className="freen_btns">
                                 <Row>
                                     <Col lg={6} className="text-align-end col-md-6 col-sm-6 col-x-sm-6">
+                                        <a href='#'>
                                         <Button className="Start_btn freen_section_btn">Start For Free</Button>
+                                        </a>
                                     </Col>
                                     <Col lg={6} className="text-align-left col-md-6 col-sm-6 col-x-sm-6">
-                                        <Button className="price_btn freen_section_btn">See Pricing Plans</Button>
+                                        <Button href='https://customerdashboard.pro/pricing' target='_blank' className="price_btn freen_section_btn">See Pricing Plans</Button>
                                     </Col>
                                 </Row>
                                 </div>
-                                <p className="disclamer">Don’t have a Shopify store yet? <a href="#">Get one now</a></p>
+                                <p className="disclamer">Don’t have a Shopify store yet? <a href="https://www.shopify.com/partners" target='_blank'>Get one now</a></p>
                             </div>
                         </Col>
                     </Row>

@@ -142,6 +142,12 @@ function TabsReuse() {
     console.log(index__1);
     setIsActive(!isActive);
   };
+  const [activeHeader2, setActiveHeader2] = useState(false);
+  const handleHeaderClick2 = (index__2) => {
+    setActiveHeader2(index__2);
+    console.log(index__2);
+  };
+  
   return (
     <>
       <section className='tabs_reuse_section'>
@@ -170,11 +176,11 @@ function TabsReuse() {
                         const index = i + "_index";
                         return (
                           <Nav.Item className='first_1'>
-                            <Nav.Link eventKey={index} className="nav__links__" onClick={() => handleHeaderClick(i)}>
+                            <Nav.Link href="javascript:void(0)" eventKey={index} className="nav__links__" onClick={() => handleHeaderClick(i)}>
                               <div className={' first_tab ' + item.small_border_class}>
                                 <div className="all">
                                   {
-                                    activeHeader === i ?
+                                    activeHeader === i | index === "0_index"?
                                       <Image src={item.blue_img} className=' blue_rounded_img second-id-img'></Image> :
                                       <Image src={item.InActiveImage} className="blue_rounded_img"></Image>
                                   }
@@ -219,11 +225,11 @@ function TabsReuse() {
                         const index = i + "_index";
                         return (
                           <Nav.Item className='first_1'>
-                            <Nav.Link eventKey={index} className="nav__links__" onClick={() => handleHeaderClick(i)}>
+                            <Nav.Link eventKey={index} className="nav__links__" onClick={() => handleHeaderClick2(i)}>
                               <div className={' first_tab ' + item.small_border_class}>
                                 <div className="all">
                                   {
-                                    activeHeader === i ?
+                                    activeHeader2 === i | index == "0_index"?
                                       <Image src={item.blue_img} className="blue_rounded_img second-id-img"></Image> :
                                       <Image src={item.InActiveImage} className="blue_rounded_img"></Image>
                                   }

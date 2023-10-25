@@ -20,7 +20,7 @@ function Banner() {
                                     <Row>
                                         <Col lg={6} className="col-md-6 col-sm-6 my-md-4 my-sm-4 my-x-sm col-x-sm-6">
                                             <div className="shopify">
-                                            <Button href="#" className="d-flex s_btn btns justify-content-evenly">
+                                            <Button href="https://apps.shopify.com/customer-dashboard-pro" target="_blank" className="d-flex s_btn btns justify-content-evenly">
                                                 <Image src={shopify_logo}></Image>
                                                 <div className="btn_details">
                                                     <span className="span_1 banner-span">INSTALL FROM THE </span>
@@ -31,12 +31,14 @@ function Banner() {
                                         </Col>
                                         <Col lg={6} className="col-md-6 col-sm-6 my-md-4 my-sm-4 my-x-sm col-x-sm-6">
                                             <div className="forever">
-                                            <Button href="#" className="btns f_btn">
+                                            <a href="#">
+                                            <Button className="btns f_btn">
                                                 <div>
                                                     <span className="span_3 banner-span">Free Forever</span>
                                                     <span className="span_4 banner-span">for new shopify merchants</span>
                                                 </div>
                                             </Button>
+                                            </a>
                                             </div>
                                         </Col>
                                     </Row>

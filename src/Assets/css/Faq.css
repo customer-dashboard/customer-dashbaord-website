@@ -10,7 +10,12 @@
 .faq {
     padding: 70px 0px;
 }
-
+.accordian_index_data img{
+    margin-top: 1rem;
+}
+.index-6-content{
+    padding: 0px 15px !important;
+}
 .faq_main_heading {
     padding: 25px 0px;
     text-align: center;
@@ -69,6 +74,23 @@
     font-weight: 500;
 }
 
+.accordian_index_2_data p{
+    margin-bottom: 15px;
+}
+/* .accordian_index_2_title{
+    margin: 1rem 0rem;
+} */
+
+
+.accordian_index_2_data img{
+    max-width: 100%;
+}
+/* .manu_builder_list_steps{
+    margin: 1.5rem 0rem;
+} */
+.manu_builder_list_steps ol li{
+    margin: 6px 0px;
+}
 @media screen and (max-width:991px){
     .view_all_btn {
         padding: 10px 50px;

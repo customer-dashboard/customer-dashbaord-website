@@ -43,7 +43,7 @@ const settings = {
 
 function Carousel() {
   return (
-    <>
+    <>  
       <section className="carousel_logo">
         <Container>
           <Row>
@@ -51,7 +51,7 @@ function Carousel() {
               <div className="carousel_heading"><h2>TRUSTED BY <strong>1100+</strong> SHOPIFY MERCHANTS</h2></div>
               <Slider {...settings} className="my-track">
                 {Images.map((item) => (
-                  <div className="images_padding">
+                  <div className="images_padding" key={item.id}>
                     <div key={item.id}>
                       <img src={item.src} alt={item.alt} className="img" />
                     </div>

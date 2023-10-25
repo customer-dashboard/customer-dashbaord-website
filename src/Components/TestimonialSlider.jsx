@@ -13,17 +13,11 @@ function TestimonialSlider() {
 
 
 const date = new Date();
-
 var month = date.toLocaleString('default', { month: 'long' });
-
 let currentDay= String(date.getDate()).padStart(2, '0');
-
 let currentMonth = month;
-
 let currentYear = date.getFullYear();
-
 // we will display the date as DD-MM-YYYY 
-
 let currentDate = `${currentDay}-${currentMonth}-${currentYear}`;
 
 
@@ -33,7 +27,7 @@ let currentDate = `${currentDay}-${currentMonth}-${currentYear}`;
             para:`“It’s a nice app, has the features your customers and you need and is easy
             to navigate. Integrated very quickly and easily with my Shopify site.”`,
             starImage: StarImage,
-            name:"Dishu",
+            name:"Nikhil Mehta",
             time:currentDate
         },
         {
@@ -41,7 +35,7 @@ let currentDate = `${currentDay}-${currentMonth}-${currentYear}`;
             para:`“This is by far the best app we've tried for this and its affordable! Does what
             it says and runs smoothly on our site. Really Excellent!”`,
             starImage: StarImage,
-            name:"Jiyan Varma",
+            name:"Anshul Jain",
             time: currentDate
         },
         {
@@ -49,7 +43,7 @@ let currentDate = `${currentDay}-${currentMonth}-${currentYear}`;
             para:`“A very good app, easy to use, navigate, nice design, very
             customisable; and helpful customer service!”`,
             starImage: StarImage,
-            name:"Doremon Bhai",
+            name:"Lokesh Naphade",
             time:currentDate
         },
         {
@@ -57,7 +51,7 @@ let currentDate = `${currentDay}-${currentMonth}-${currentYear}`;
             para:`“This is by far the best app we've tried for this and its affordable! Does what
             it says and runs smoothly on our site. Really Excellent!”`,
             starImage: StarImage,
-            name:" Nobita Chakravarti",
+            name:"Prajjwal Wanjari",
             time: currentDate
         },
         {
@@ -65,7 +59,7 @@ let currentDate = `${currentDay}-${currentMonth}-${currentYear}`;
             para:`“A very good app, easy to use, navigate, nice design, very
             customisable; and helpful customer service!”`,
             starImage: StarImage,
-            name:"Sizuka Sharma",
+            name:"Animesh Jain",
             time: currentDate
         },
         {
@@ -73,7 +67,7 @@ let currentDate = `${currentDay}-${currentMonth}-${currentYear}`;
             para:`“A very good app, easy to use, navigate, nice design, very
             customisable; and helpful customer service!”`,
             starImage: StarImage,
-            name:"Suniyo singh",
+            name:"Rahul Chouhan",
             time:currentDate
         }
     ];
@@ -125,8 +119,8 @@ let currentDate = `${currentDay}-${currentMonth}-${currentYear}`;
                     <Col lg={12}>
                         <Slider {...settings}>
                             {slidesData.map((slide) =>
-                                <div className="d-flex tracks ">
-                                <div className="slick-slide testimonial_slide" key={slide.id}>
+                                <div className="d-flex tracks" key={slide.id}>
+                                <div className="slick-slide testimonial_slide" >
                                     <p className="dotable-para-element">{slide.para}</p>
                                     <Image src={slide.starImage}></Image>
                                     <span className="customer_name">{slide.name}</span>

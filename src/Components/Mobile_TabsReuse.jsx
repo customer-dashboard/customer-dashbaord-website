@@ -61,7 +61,7 @@ function Mobile_TabsReuse(props) {
                   name.map((item, i) => {
                     const index = i + "_index";
                     return (
-                      <Accordion.Item eventKey={index} defaultActiveKey="0" className="mb-3 mt-3  main_item_original">
+                      <Accordion.Item eventKey={index} key={index} className="mb-3 mt-3  main_item_original">
                         <div className={'main_item' + item.small_border_class} >
                           {/* <Accordion.Header onClick={() => TogleHendleChange(item.onToggle)}> */}
                           <Accordion.Header onClick={() => handleHeaderClick(i)}>
@@ -99,7 +99,7 @@ function Mobile_TabsReuse(props) {
                               </Nav.Link>
                             </Nav.Item>
                           </Accordion.Header>
-                          <Accordion.Body activeKey={index} >
+                          <Accordion.Body activekey={index} >
                             <Row>
                               {
                                 item.id === 1 && item.class === "Tabs" ? TabSection_1 : item.id === 2 && item.class === "Tabs" ? TabSection_2 : item.id === 3 && item.class === "Tabs" ? TabSection_3 : ""

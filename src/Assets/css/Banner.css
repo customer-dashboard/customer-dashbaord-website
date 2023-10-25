@@ -173,15 +173,29 @@ video{
 
 @media screen and (max-width:476px){
     .span_1 {
-        font-size: 12px;
+        font-size: 11px;
     }
     .span_2 {
-        font-size: 12px;
+        font-size: 11px;
     }
     .span_3 {
-        font-size: 16px;
+        font-size: 14px;
     }
     .span_4 {
+        font-size: 7px;
+    }
+}
+@media screen and (max-width:374px){
+    .span_3 {
+        font-size: 11px;
+    }
+    .span_4 {
+        font-size: 6px;
+    }
+    .span_1 {
+        font-size: 8px;
+    }
+    .span_2 {
         font-size: 8px;
     }
 }
