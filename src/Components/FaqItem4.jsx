@@ -1,26 +1,32 @@
 import React from 'react'
 import { Image } from 'react-bootstrap';
 import { Accordion } from 'react-bootstrap';
-import manu_builder_image from '../Assets/Images/manu_builder.png';
-
+import ForthFirstImage from '../Assets/Images/FAQ___Images/ForthFirstImage.png';
+import ForthSecondImage from '../Assets/Images/FAQ___Images/ForthSecondImage.png';
 export function FaqItem4() {
   return (
    <>
    
    <Accordion.Item eventKey="4" className="mb-3 mt-3">
-                                <Accordion.Header>How to add a Shopify Page to your Menu ?</Accordion.Header>
+                                <Accordion.Header>How to add a profile fields to your profile page?</Accordion.Header>
                                 <Accordion.Body>
                                 <div className="accordian_index_2_data accordian_index_data">
-                                        <div className="accordian_index_2_title"><span>Follow this guide to add one or more page links to your customer account menu.</span></div>    
+                                        <div className="accordian_index_2_title">
+                                          <p>To add one or more fields to your customer account profile, follow this guide:</p></div>    
                                          <div className="manu_builder_list_steps">
                                          <ol>
-                                            <li>Select <strong>"Menu Builder"</strong> from menus.</li>
-                                            <li>Click <strong>add Shopify Page.</strong></li>
-                                            <li>Click on <strong>edit</strong> to change page or edit menu text.</li>
-                                            <li>When you are done, click on save and your new <strong>Shopify Page</strong> will be added to the customer account page.</li>
+                                            <li>Select <strong>"Profile"</strong> from the profile setup.</li>
+                                            <li>Then, click on the <strong>"Add extra field" button.</strong></li>
+                                            <li>Choose the type of field you want to add, such as Single line, Multiline, Date, Single choice options, or Multiple choice options.</li>
+                                            <li>After selecting the field type, save your changes, and the fields will be added to your profile.</li>
                                         </ol> 
                                         </div>
-                                        <Image src={manu_builder_image}></Image>
+                                        <div>
+                                        <Image src={ForthFirstImage}></Image>
+                                        </div>
+                                        <div>
+                                          <Image src={ForthSecondImage}></Image>
+                                        </div>
                                        </div>
                                 </Accordion.Body>
                             </Accordion.Item>

@@ -10,7 +10,12 @@
 .faq {
     padding: 70px 0px;
 }
-
+.accordian_index_data img{
+    margin-top: 1rem;
+}
+.index-6-content{
+    padding: 0px 15px !important;
+}
 .faq_main_heading {
     padding: 25px 0px;
     text-align: center;

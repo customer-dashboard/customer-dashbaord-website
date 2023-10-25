@@ -1,7 +1,7 @@
 
 .small_border_class_left {
     border: 2px dashed #eda288;
-    padding: 5px;
+    padding: 10px;
     border-top-right-radius: 70px;
     border-bottom-right-radius: 70px;
     border-left: none;
@@ -37,9 +37,9 @@
 } */
 .small_border_class_right {
     border: 2px dashed #eda288;
-    padding: 5px;
-    border-top-left-radius: 70px;
-    border-bottom-left-radius: 70px;
+    padding: 10px;
+    border-top-left-radius: 90px;
+    border-bottom-left-radius: 90px;
     border-right: none;
 }
 
@@ -103,13 +103,18 @@
     left: 10px;
     width: 80%;
 }
+ .faq_Container button{
+    background-color: transparent !important;
+    color: inherit !important;
+    border: none !important;
+ }
 
 .item_discription {
     padding-left: 10px;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 4;
     line-clamp: 2;
     -webkit-box-orient: vertical;
 }

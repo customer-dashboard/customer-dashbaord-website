@@ -1,27 +1,33 @@
 import React from 'react'
-import index_3_image from '../Assets/Images/index_3_image.png';
 import { Accordion } from 'react-bootstrap';
 import {Image} from 'react-bootstrap';
-
+import ThirdFirstImage from '../Assets/Images/FAQ___Images/3FaqFirst.png';
+import ThirdSecondImage from '../Assets/Images/FAQ___Images/3rdfaqSecond.png';
 
  export function FaqItem_3() {
   return (
 <>
 
 <Accordion.Item eventKey="3" className="mb-3 mt-3">
-                                <Accordion.Header>How to add a Custom Link to your Menu ?</Accordion.Header>
+                                <Accordion.Header>How to add a link and page to your Menu ?</Accordion.Header>
                                 <Accordion.Body>
                                 <div className="accordian_index_2_data accordian_index_data">
-                                        <div className="accordian_index_2_title"><span>Follow this guide to add one or more page links to your customer account menu.</span></div>    
+                                        <div className="accordian_index_2_title">
+                                          <p>To add one or more menus to your customer account, follow this guide:</p></div>    
                                          <div className="manu_builder_list_steps">
                                          <ol>
-                                            <li>Select <strong> "Menu Builder" </strong>tab</li>
-                                            <li>Click <strong>add custom link</strong>.</li>
-                                            <li>Click on <strong>edit</strong> and change the Menu Text and add your Link - be sure to include <strong>"https://"</strong> at the start of you link.</li>
-                                            <li>When you are done, click on save and your new custom link will be added to the customer account page.</li>
+                                            <li>Select <strong> "Menu"</strong> from the Menu builder.</li>
+                                            <li>Then, click on the <strong>"Add menu item"</strong> button.</li>
+                                            <li>Choose the type of menu you want to add.</li>
+                                            <li>After selecting the menu type, save your changes, and the menu will be added to your menu.</li>
                                         </ol> 
                                         </div>
-                                        <Image src={index_3_image}></Image>
+                                        <div>
+                                        <Image src={ThirdFirstImage}></Image>
+                                        </div>
+                                        <div>
+                                          <Image src={ThirdSecondImage}></Image>
+                                        </div>
                                        </div>
                                 </Accordion.Body>
                             </Accordion.Item>

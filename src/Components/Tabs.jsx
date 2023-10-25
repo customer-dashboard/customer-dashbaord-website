@@ -125,7 +125,7 @@ export function Tabs() {
                             <div className={' first_tab ' + item.small_border_class}>
                               <div className="all">
                                 {
-                                  activeHeader === i ?
+                                    activeHeader === i | index === "0_index"?
                                     <Image src={item.blue_img} className="blue_rounded_img second-id-img"></Image> :
                                     <Image src={item.InActiveImage} className="blue_rounded_img"></Image>
                                 }

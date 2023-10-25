@@ -2,8 +2,9 @@ import React from 'react';
 import { Accordion, Container } from 'react-bootstrap';
 import {Image,Col,Row} from 'react-bootstrap';
 import Theme_Setting_Image from '../Assets/Images/FAQ___Images/Theme_setting_Image.png';
-import App_Imbed_Image from '../Assets/Images/FAQ___Images/App_Embed_Image.png';
-
+import ThirdStep from '../Assets/Images/FAQ___Images/third_step-768x368.png';
+import SecondStep from '../Assets/Images/FAQ___Images/second_step-768x341.png';
+import FirstStep from '../Assets/Images/FAQ___Images/first_step-768x341.png';
 export function FaqItem_1() {
   return (
     <>
@@ -14,22 +15,25 @@ export function FaqItem_1() {
                                     <Row>
                                         <Col lg={12}>
 
-                                            <div className="tab_container">
+                                            <div className="tab_container accordian-body-content">
                                                 <div className="tab_para mb-4">
                                                     Installation of customer dashboard pro is very easy . <a href="#">Click HERE</a> to install the customer dashboard pro app.
                                                 </div>
                                                 <Row>
-                                                    <Col lg={6} className="col-md-6 col-sm-6 col-x-sm-6">
+                                                    <Col lg={12} className="col-md-12 col-sm-12 col--sm-6">
                                                         <div className="theme_setting_image mb-4">
-                                                            <span>1.Simply activate customer dashboard pro from dashboard.</span>
-                                                            <Image src={Theme_Setting_Image}></Image>
+                                                            <p>Click the installation button, then select a theme. After that, click the <strong>"Manage Installation"</strong> button to enable the Customer Dashboard Pro extension, and then click the <strong>"Save"</strong> button to save your settings.</p>
+                                                            <Image src={FirstStep}></Image>
+                                                            <div className="app_embed_image mb-4">
+                                                            <Image src={SecondStep}></Image>
+                                                            </div>
+                                                            <div>
+                                                             <Image src={ThirdStep}></Image>
+                                                            </div>
                                                         </div>
                                                     </Col>
-                                                    <Col lg={6} className="col-md-6 col-sm-6 col-x-sm-6">
-                                                        <div className="app_embed_image mb-4">
-                                                            <span>2. Ensure customer dashboard pro is toggled on from app embeds.</span>
-                                                            <Image src={App_Imbed_Image}></Image>
-                                                        </div>
+                                                    <Col lg={12} className="col-md-6 col-sm-6 col-x-sm-6">
+                                                        
                                                     </Col>
 
                                                 </Row>

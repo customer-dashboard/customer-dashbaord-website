@@ -19,10 +19,10 @@ export function FaqItem_6() {
                                         </ol>                                    
                                         </div>
                                         <div className="d-flex justify-content-center align-items-center">
-                                        <div className="col-md-6 col-lg-6">
+                                        <div className="col-md-6 col-lg-6 index-6-content">
                                             <Image src={translation_first}></Image>
                                         </div>
-                                        <div className="col-md-6 col-lg-6">
+                                        <div className="col-md-6 col-lg-6 index-6-content">
                                         <Image src={translation_second}></Image>
                                         </div>
                                         </div>

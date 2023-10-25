@@ -6,13 +6,16 @@ import normal_logo from '../Assets/Images/footer_shopify.png';
 import shopify_logo_plus from '../Assets/Images/footer_shopify_plus.png';
 import shopify_white_logo from '../Assets/Images/Shopify_white_footer_logo.png';
 import Accordion from 'react-bootstrap/Accordion';
+import { Link } from 'react-router-dom';
 
 const Footer = () => <footer className="page-footer font-small blue pt-4 my-footer">
     <div className="container  text-md-left">
         <div className="row justify-content-between">
             <div className="col-md-3 col-lg-3 mt-md-0 mt-3 text-align-left">
                 <h5 className="text-uppercase">
-                    <a href="#"><Image className="footer_dashboard_logo" src={footer_customer_dashboard_logo}></Image></a>
+                <Link to="/" className="customer_logo">
+                        <Image src={footer_customer_dashboard_logo}></Image>
+                    </Link>
                 </h5>
                 <p className="logo_disclamer">This creates a convenient andversatile customer account page,
                     allowing customers to fully customize
@@ -26,11 +29,12 @@ const Footer = () => <footer className="page-footer font-small blue pt-4 my-foot
                         <Accordion.Header className="header_background footer_accourdian_header">SUPPORT</Accordion.Header>
                         <Accordion.Body className="accordian_body">
                             <ul className="list-unstyled text-align-left">
-                                <li><a href="#!" className="text-reset">Most importants FAQs</a></li>
-                                <li> <a href="#!" className="text-reset">ALl FAQs</a></li>
-                                <li><a href="#!" className="text-reset">Blog</a></li>
-                                <li><a href="#!" className="text-reset">Contact Us</a></li>
-                                <li><a href="#!" className="text-reset">About Us</a></li>
+                                <li><Link to='Most-importants-FAQs' className="text-reset">Most importants FAQs</Link></li>
+                                <li> <Link to='ALl-FAQs' className="text-reset">ALl FAQs</Link></li>
+                                <li><Link to='Blog' className="text-reset">Blog</Link></li>
+                                <li><Link to='privacy-policy' className="text-reset">PRIVACY POLICY</Link></li>
+                                <li><Link to='Contact-Us' className="text-reset">Contact Us</Link></li>
+                                <li><Link to='About-Us' className="text-reset">About Us</Link></li>
                             </ul>
                         </Accordion.Body>
                     </Accordion.Item>
@@ -39,9 +43,9 @@ const Footer = () => <footer className="page-footer font-small blue pt-4 my-foot
                         <Accordion.Header className="header_background footer_accourdian_header">WORK WITH US</Accordion.Header>
                         <Accordion.Body className="accordian_body">
                             <ul className="list-unstyled text-align-left">
-                                <li><a href="#!" className="text-reset">Integration</a></li>
-                                <li> <a href="#!" className="text-reset">Become a Partner</a></li>
-                                <li><a href="#!" className="text-reset">Careers</a></li>
+                                <li><Link to='Integration' className="text-reset">Integration</Link></li>
+                                <li><Link to='Become-a-Partner' className="text-reset">Become a Partner</Link></li>
+                                <li><Link to='Careers' className="text-reset">Careers</Link></li>
                             </ul>
                         </Accordion.Body>
                     </Accordion.Item>
@@ -52,11 +56,12 @@ const Footer = () => <footer className="page-footer font-small blue pt-4 my-foot
             <div className="col-md-3 col-lg-2 mb-md-0 mb-3 text-align-left d-none-768">
                 <h5 className="text-uppercase text-align-left font-weight-bold">WORK WITH US</h5>
                 <ul className="list-unstyled text-align-left">
-                    <li><a href="#!" className="text-reset">Most importants FAQs</a></li>
-                    <li> <a href="#!" className="text-reset">ALl FAQs</a></li>
-                    <li><a href="#!" className="text-reset">Blog</a></li>
-                    <li><a href="#!" className="text-reset">Contact Us</a></li>
-                    <li><a href="#!" className="text-reset">About Us</a></li>
+                       <li><Link to='Most-importants-FAQs' className="text-reset">Most importants FAQs</Link></li>
+                       <li> <Link to='ALl-FAQs' className="text-reset">ALl FAQs</Link></li>
+                       <li><Link to='Blog' className="text-reset">Blog</Link></li>
+                       <li><Link to='privacy-policy' className="text-reset">PRIVACY POLICY</Link></li>
+                       <li><Link to='Contact-Us' className="text-reset">Contact Us</Link></li>
+                       <li><Link to='About-Us' className="text-reset">About Us</Link></li>
                 </ul>
                 
 
@@ -65,9 +70,9 @@ const Footer = () => <footer className="page-footer font-small blue pt-4 my-foot
             <div className="col-md-3 col-lg-2 mb-md-0 mb-3 d-none-768">
                 <h5 className="text-uppercase text-align-left font-weight-bold">WORK WITH US</h5>
                 <ul className="list-unstyled text-align-left">
-                    <li><a href="#!" className="text-reset">Integration</a></li>
-                    <li> <a href="#!" className="text-reset">Become a Partner</a></li>
-                    <li><a href="#!" className="text-reset">Careers</a></li>
+                        <li><Link to='Integration' className="text-reset">Integration</Link></li>
+                        <li><Link to='Become-a-Partner' className="text-reset">Become a Partner</Link></li>
+                         <li><Link to='Careers' className="text-reset">Careers</Link></li>
                 </ul>
             </div>
             <div className="col-md-3 col-lg-2 mb-md-0 mb-3">

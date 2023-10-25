@@ -1,6 +1,7 @@
 .tabs_reuse_section {
     background-image: url('../Images/TabsREuse_Section.png');
     background-repeat: no-repeat;
+    background-size: cover;
   } 
 
   .account_potential{
