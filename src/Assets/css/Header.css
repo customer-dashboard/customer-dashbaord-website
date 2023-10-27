@@ -10,6 +10,16 @@
 .hamburger-icon{
     padding-left: 0;
 }
+/* styles.css */
+.sticky-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    z-index: 999;
+  }
+  
 .nav_navbar{
     box-shadow: 0px 0px 7px 1px darkgray;
 }
@@ -29,9 +39,10 @@
     margin-top: 0 !important;
 }
 .header_btn{
-    padding: 12px 18px;
+    padding: 10px 18px;
     background-color: #0087C1;
     border: none;
+    font-size: 0.9rem;
 }
 .header_btn:hover{
     background-color: #EDA288;
