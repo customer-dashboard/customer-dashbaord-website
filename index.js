@@ -15,7 +15,7 @@ app.use(bodyParser.json())
 app.use(cors());
 app.get("/api", (req, res) => {
 res.send("hello");
-})
+}) 
 app.post("/contact-us", (req, resp) => {
   const formData = (req.body);
   try {
