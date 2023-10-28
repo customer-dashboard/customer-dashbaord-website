@@ -1,0 +1,152 @@
+.tabs_reuse_section {
+    background-image: url('../Images/TabsREuse_Section.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
+
+  .account_potential{
+    margin-top: 6rem !important;
+    width: 50%;
+    margin: auto;
+  }
+  .account_potential h2{
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: 400;
+    width: 90%;
+    margin: auto;
+  }
+  .accordian_coming{
+    display: block;
+  }
+  .account_potential p{
+    font-size: 18px;
+    line-height: 27px;
+
+  }
+  .accordian__tabs_mobile{
+    display: none;
+  }
+  .account_potential h2 span{
+    color: #EDA288;
+    font-weight: 700;
+  }
+.medium_form{
+    top: 9%;
+    right: 0%;
+    width: 44%;
+}
+  .small_form{
+    left: -6%;
+    top: 28%;
+    width: 55%;
+}
+  
+.hobbies_from{
+  bottom: 9%;
+  right: 0;
+  width: 38%;
+  height: 50%;
+  top: 38%;
+
+}
+
+.gender_form{
+  right: 3%;
+  top: 6%;
+  width: 34%;
+}
+
+.date_of_birth_form{
+    left: 0;
+    top: 53%;
+    width: 54%;
+}
+
+
+
+.main_item .nav-item{
+  width: 100%;
+}
+
+
+@media screen and (max-width:991px){
+    .account_potential h2{
+        width: 100%;
+        font-size: 26px;
+      }
+      .account_potential p{
+        font-size: 16px;
+      }
+      .account_potential{
+        width: 80%;
+      }
+      .section_2_color_picker{
+        right: 0;
+      }
+      .small_form{
+        left: 0%;
+    }
+    .accordian__tabs_mobile{
+      display: block;
+    }
+    .accordian_coming{
+      display: none;
+    }
+}
+@media screen and (max-width:768px){
+    .tabs_reuse_section {
+        background-image: url('../Images/TabReuse_section_background_MObile_view.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .account_potential{
+        margin-top: 3rem !important;
+      } 
+}
+
+@media screen and (max-width:576px){
+    
+    .account_potential p {
+        font-size: 10px;
+        line-height: 16px;
+        margin: 15px 0px;
+    }
+    .account_potential {
+        width: 90%;
+    }
+    .account_potential h2 {
+        width: 100%;
+        font-size: 17px;
+        line-height: 27px;
+        margin-bottom: 15px;
+    }
+    .account_potential {
+        margin-top: 1rem !important;
+    }
+}
+ .item_discription p{
+    font-weight: 100;
+    margin: 0;
+}
+
+.first_tab{
+  padding: 8px;
+}
+@media screen and (max-width:768px){
+  .new_tab_section_for_mobie_block{
+    display: block;
+  }
+  .accordian_section_withreuse{
+    display: none;
+  }
+}
+@media screen and (min-width:768px){
+  .new_tab_section_for_mobie_block{
+    display: none;
+  }
+  .accordian_section_withreuse{
+    display: block;
+  }
+}
+

@@ -1,0 +1,177 @@
+.free_trial_section{
+    background-image: url('../Images//Start_Free_Background.png');
+    max-height: 440px;
+    min-height: 440px;
+    position: relative;
+    z-index: 2;
+    margin-bottom: -75px;
+}
+
+
+
+
+.free_trial{
+    padding: 70px 0px;
+}
+.freen_start_and_free_plans{
+    text-align: center;
+    font-weight: 400;
+    color: white;
+
+}
+.freen_start_and_free_plans h2{
+    font-size: 30px;
+}
+.freen_start_and_free_plans h2 span{
+    color: #EDA288;
+    font-weight: 700;
+}
+.freen_start_and_free_plans p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    
+}
+.freen_btns{
+    margin: 1.4rem 0;
+}
+
+.freen_section_btn{
+    width: 50%;
+    padding: 23px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 2px solid #EDA288;
+}
+.freen_section_btn:hover{
+    background-color: #EDA288;
+    border: 2px solid #EDA288;
+}
+.price_btn{
+    border: 2px solid #EDA288;
+    background-color: transparent;
+    color: #EDA288;
+}
+.Start_btn{
+    background-color: #EDA288;
+}
+
+.disclamer a{
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+@media screen and (max-width:991px){
+    .freen_section_btn{
+        width: 60%;
+        padding: 18px;
+        font-size: 18px;
+    }
+    .freen_start_and_free_plans p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .freen_section_btn {
+        width: 70%;
+        padding: 14px;
+        font-size: 15px;
+    }
+    .freen_start_and_free_plans p {
+        font-size: 16px;
+    }
+    .freen_start_and_free_plans h2 {
+        font-size: 28px;
+    }
+    .free_trial {
+        padding: 45px 0px;
+    }
+    .free_trial_section{
+        background-image: url('../Images/New.png');
+        background-repeat: no-repeat;
+        min-height: 1px;
+        background-size: contain;
+        min-height: 393px;
+    }
+    
+}
+@media screen and (max-width:680px){
+    .free_trial_section{
+        min-height: 1px;
+        min-height: 348px;
+    }
+}
+
+@media screen and (max-width:576px){
+    .col-x-sm-6{
+        width: 50%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .freen_btns {
+        margin: 0.8rem 0;
+    }
+    .freen_section_btn {
+        padding: 10px;
+        font-size: 12px;
+        border-radius: 5px;
+    }
+    .freen_start_and_free_plans h2 {
+        font-size: 20px;
+    }
+    .freen_start_and_free_plans p {
+        font-size: 12px;
+    }
+    .free_trial{
+        padding: 40px 0px;
+    }
+    .free_trial_section{
+        background-image: url('../Images/New.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 293px;
+    }
+    
+    @media screen and (max-width:520px){
+        .free_trial_section{
+            min-height: 266px;
+        }
+        
+    }
+    
+}
+
+@media screen and (max-width:476px){
+    .freen_start_and_free_plans p {
+        font-size: 10px;
+        margin: 0.1rem 0;
+    }
+    .freen_section_btn {
+        font-size: 10px;
+        width: 80%;
+    }
+    .freen_btns {
+        margin: 0.5rem 0;
+    }
+    .free_trial_section{
+        min-height: 240px;
+    }
+    .free_trial{
+        padding: 30px 0px;
+    }
+}
+
+
+@media screen and (max-width:400px){
+    .free_trial_section{
+        min-height: 220px;
+    }   
+}
+@media screen and (max-width: 403px){
+    .free_trial_section {
+        min-height: 197px;
+    }
+}

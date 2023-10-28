@@ -1,0 +1,139 @@
+.facility {
+    background: linear-gradient(141deg, #FFF 0%, #D0D0D0 25%, #E1E1E1 50%, #FFF 75%, #E1E1E1 100%);
+}
+
+.facility_group {
+    padding: 50px 0px;
+}
+
+.show_facility_content {
+    position: relative;
+}
+
+.section_heading {
+    color: #4F4F4F;
+    font-family: Poppins;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section_heading span {
+    color: #EDA288;
+    font-weight: bold;
+}
+
+.why_install ul li {
+    list-style: none;
+    display: flex;
+
+}
+
+.why_install ul li {
+    margin-bottom: 12px;
+    color: #4F4F4F;
+    font-size: 21px;
+}
+
+.why_install ul {
+    padding: 0;
+}
+
+li span:last-child {
+    margin-left: 15px;
+
+}
+
+.last-li-child {
+    margin: 0 !important;
+    color: #EDA288;
+    font-weight: bolder;
+}
+
+.Beard_man_image {
+    display: none;
+}
+
+@media screen and (max-width:991px) {
+    .Beard_man_image_1 {
+        display: none;
+    }
+
+    .Beard_man_image {
+        display: block;
+        height: 261px;
+        width: 263px;
+        min-height: 275px;
+        min-width: 295px;
+        position: absolute;
+        text-align: 0;
+        z-index: 0;
+        background-size: cover;
+    }
+
+    .Beard_man_image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .why_install {
+        z-index: 1;
+        position: relative;
+    }
+
+    .why_install ul {
+        padding-left: 15rem;
+    }
+
+    .why_install ul li {
+        font-size: 15px;
+    }
+
+    .section_heading {
+        font-size: 28px;
+        padding-left: 15rem;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .why_install ul li {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    ul li span img {
+        width: 10px;
+        height: 10px;
+    }
+
+    .why_install ul {
+        padding-left: 6rem;
+    }
+
+    .section_heading {
+        font-size: 22px;
+        padding-left: 6rem;
+    }
+
+    .Beard_man_image {
+        min-height: 258px;
+        min-width: 246px;
+        left: -55px;
+    }
+
+    .why_install ul li {
+        font-size: 10px;
+    }
+    .facility_group {
+        padding: 50px 0px;
+        padding-bottom: 75px;
+    }
+
+}
+
+
+
+
