@@ -28,7 +28,7 @@ app.post("/contact-us", (req, resp) => {
       });
       const mainOption = {
           from: "customerdashboardpro@gmail.com",
-          to: "dtailor377@gmail.com",
+          to: "support@customerdashboard.pro",
           subject: `New partner integration message on ${finaldate}`,
           html: `<table style="text-align:left;width: 100%; margin: auto;  max-width:700px;background-color:#f8f8f8;border-radius:3px;font-family:helvetica;" cellpadding="10"> 
           <tr><td colspan="2" style="text-align:center;font-weight: bold; font-size: 20px; color: #000;padding-top:30px;" align="center">New Integration Request</td>  </tr>
