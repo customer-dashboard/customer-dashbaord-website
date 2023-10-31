@@ -1,7 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Accordion, Button } from 'react-bootstrap';
 import '../Assets/css/Faq.css';
 const AllFaqs = ({ data }) => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const [searchQuery, setSearchQuery] = useState('');
   const filteredFAQ = data.filter(
     (faq) =>
