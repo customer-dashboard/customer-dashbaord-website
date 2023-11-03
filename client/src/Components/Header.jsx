@@ -56,22 +56,6 @@ function Header() {
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                         <Nav>
                             <NavDropdown href="features" title="Features" id="basic-nav-dropdown" show={IsOpen} onClick={()=>UpdateIsOpen(!IsOpen)} onMouseOver={()=>UpdateIsOpen(true)} onMouseLeave={()=>UpdateIsOpen(false)}>                               
-<<<<<<< HEAD:src/Components/Header.jsx
-                                <Link to="/customer-account-page" className="Nav-item nav-link-custom">Customer Account Page</Link>
-                                <Link to="/customer-menu" className="Nav-item nav-link-custom">Customer Menu</Link>
-                                <Link to="/edit-profile" className="Nav-item nav-link-custom">Edit Profile</Link>
-                                <Link to="/re-order" className="Nav-item nav-link-custom">Re-Order</Link>
-                                <Link to="/change-color" className="Nav-item nav-link-custom">Change Color</Link>
-                                <Link to="/change-password" className="Nav-item nav-link-custom">Change Password</Link>
-                                <Link to="/easy-transition" className="Nav-item nav-link-custom">Easy Transition</Link>
-                            </NavDropdown>
-
-                            <NavDropdown href="Resources" title="Resources" id="basic-nav-dropdown" show={SecondIsOpen} onClick={()=>UpdateSecondIsOpen(!SecondIsOpen)} onMouseOver={handleIsSecondOpen} onMouseLeave={handleIsSecondClosed} >
-                                <Link to="/customer-account-page" className="Nav-item nav-link-custom">Customer Account Page</Link>
-                                <Link to="/customer-menu" className="Nav-item nav-link-custom">Customer Menu</Link>
-                                <Link to="/edit-profile" className="Nav-item nav-link-custom">Edit Profile</Link>
-                                <Link to="/re-order" className="Nav-item nav-link-custom">Re-Order</Link>
-=======
                                 <Link to="/#" className="Nav-item nav-link-custom">Customer Account Page</Link>
                                 <Link to="/#" className="Nav-item nav-link-custom">Customer Menu</Link>
                                 <Link to="/#" className="Nav-item nav-link-custom">Edit Profile</Link>
@@ -86,24 +70,16 @@ function Header() {
                                 <Link to="/#" className="Nav-item nav-link-custom">Blog</Link>
                                 <Link to="/#" className="Nav-item nav-link-custom">Case Study</Link>
                                 {/* <Link to="/re-order" className="Nav-item nav-link-custom">Re-Order</Link> */}
->>>>>>> master:client/src/Components/Header.jsx
                             </NavDropdown>
 
                             <Link to="/pricing" className="Nav-item nav-link-custom">pricing</Link>
 
 
                             <NavDropdown href="#partners" title="Partners" id="basic-nav-dropdown" show={ThirdIsOpen} onClick={()=>UpdateThirdIsOpen(!ThirdIsOpen)} onMouseOver={handleIsThirdOpen} onMouseLeave={handleIsThirdClosed}>
-<<<<<<< HEAD:src/Components/Header.jsx
-                                <Link to="/customer-account-page" className="Nav-item nav-link-custom">Customer Account Page</Link>
-                                <Link to="/customer-menu" className="Nav-item nav-link-custom">Customer Menu</Link>
-                                <Link to="/edit-profile" className="Nav-item nav-link-custom">Edit Profile</Link>
-                                <Link to="/re-order" className="Nav-item nav-link-custom">Re-Order</Link>
-=======
                                 {/* <Link to="/customer-menu" className="Nav-item nav-link-custom">Customer Menu</Link>
                                 <Link to="/edit-profile" className="Nav-item nav-link-custom">Edit Profile</Link>
                                 <Link to="/re-order" className="Nav-item nav-link-custom">Re-Order</Link> */}
                                 <a href="https://mandasadevelopment.com/customer-account-activation/" target="_blank" className="Nav-item nav-link-custom">Email Checker</a>
->>>>>>> master:client/src/Components/Header.jsx
                             </NavDropdown>
                             <Link to="/contact-us" className="Nav-item nav-link-custom">Contact Us</Link>
                        </Nav>
