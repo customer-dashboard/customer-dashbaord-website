@@ -19,24 +19,24 @@ function App() {
     <div className="App">
     <Header />
     <Routes>
-    <Route path='/' element={<Home/>}/>
-      <Route path='/#' element={<Home/>}/>
-      <Route path='/#' element={<Home/>}/>
-      <Route path='/#' element={<Home/>}/>
-      <Route path='/#' element={<Home/>}/>
-      <Route path='/#' element={<Home/>}/>
-      <Route path='/#' element={<Home/>}/>
-      <Route path='/#' element={<Home/>}/>
-      <Route path='/#' element={<Home/>}/>
-      <Route path='/#' element={<Home/>}/>
-      <Route path='/#' element={<Home/>}/>
-      <Route path='/pricing' element={<Pricing/>}/>
-      <Route path='/#' element={<Home/>}/>
-      <Route path='/all-faqs' element={<AllFaqs data={faqData}/>}/>
-      <Route path='/#' element={<Home/>}/>
-      <Route path='/privacy-policy' element={<PrivacyPolicy/>}/>
-      <Route path='/contact-us' element={<ContactUs/>}/>
-      <Route path='/#' element={<Home/>}/>
+    <Route path='/' element={<Home  title="Customer Dashboard Pro App for Shopify"/>}/>
+      <Route path='/#' element={<Home title="Customer Dashboard Pro App for Shopify"/>}/>
+      <Route path='/#' element={<Home title="Customer Dashboard Pro App for Shopify"/>}/>
+      <Route path='/#' element={<Home title="Customer Dashboard Pro App for Shopify"/>}/>
+      <Route path='/#' element={<Home title="Customer Dashboard Pro App for Shopify"/>}/>
+      <Route path='/#' element={<Home title="Customer Dashboard Pro App for Shopify"/>}/>
+      <Route path='/#' element={<Home title="Customer Dashboard Pro App for Shopify"/>}/>
+      <Route path='/#' element={<Home title="Customer Dashboard Pro App for Shopify"/>}/>
+      <Route path='/#' element={<Home title="Customer Dashboard Pro App for Shopify"/>}/>
+      <Route path='/#' element={<Home title="Customer Dashboard Pro App for Shopify"/>}/>
+      <Route path='/#' element={<Home title="Customer Dashboard Pro App for Shopify"/>}/>
+      <Route path='/pricing' element={<Pricing title="Pricing"/>}/>
+      <Route path='/#' element={<Home title="Customer Dashboard Pro App for Shopify"/>}/>
+      <Route path='/faq' element={<AllFaqs data={faqData} title="Faqs"/>}/>
+      <Route path='/#' element={<Home title="Customer Dashboard Pro App for Shopify"/>}/>
+      <Route path='/privacy-policy' element={<PrivacyPolicy title="Privacy Policy - Customer Dashboard Pro"/>}/>
+      <Route path='/contact-us' element={<ContactUs title="Contact Us" description="this is for contact us"/>}/>
+      <Route path='/#' element={<Home title="Customer Dashboard Pro App for Shopify"/>}/>
     </Routes>
     <Footer />
     </div>

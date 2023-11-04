@@ -1,7 +1,8 @@
 import React from 'react'
 import { useEffect } from 'react';
+import { Helmet } from 'react-helmet';
 
-function PrivacyPolicy() {
+function PrivacyPolicy({ title }) {
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -10,7 +11,12 @@ function PrivacyPolicy() {
 
   return (
     <>
-
+      <Helmet>
+        <title>{title}</title>
+        <meta name="description" content="our Privacy Policy" />
+        <meta property="og:title" content="privacy Policy - Customer-Dashboard-Pro" />
+        <meta property="og:description" content="Privacy Policy Og Description" />
+      </Helmet>
       <section className='privacy-policy-page-manu'>
         <div className='pages-container page-main-section container'>
           <div className='privacy-policy-page-container'>
@@ -148,7 +154,7 @@ function PrivacyPolicy() {
               <p>Cookies can be “Persistent” or “Session” Cookies. Persistent Cookies remain on Your personal computer or mobile device when You go offline, while Session Cookies are deleted as soon as You close Your web browser.</p>
               <p>We use both Session and Persistent Cookies for the purposes set out below:</p>
               <ul className='list-content'>
-                <li>               
+                <li>
                   <p> <strong>Necessary / Essential Cookies</strong> </p>
                   <p>Type: Session Cookies</p>
                   <p>Administered by: Us</p>
@@ -172,10 +178,10 @@ function PrivacyPolicy() {
               <p>The Company may use Personal Data for the following purposes:</p>
               <ul className='list-content'>
                 <li>
-                <p>
-                  <strong>To provide and maintain our Service</strong>
-                  &nbsp; , including to monitor the usage of our Service.
-                </p>
+                  <p>
+                    <strong>To provide and maintain our Service</strong>
+                    &nbsp; , including to monitor the usage of our Service.
+                  </p>
                 </li>
                 <li>
                   <p>
@@ -231,7 +237,7 @@ function PrivacyPolicy() {
                   <strong>With business partners:</strong> &nbsp;  We may share Your information with Our business partners to offer You certain products, services or promotions.
                 </li>
                 <li>
-                   <strong>With other users:</strong> &nbsp;  when You share personal information or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed outside. If You interact with other users or register through a Third-Party Social Media Service, Your contacts on the Third-Party Social Media Service may see Your name, profile, pictures and description of Your activity. Similarly, other users will be able to view descriptions of Your activity, communicate with You and view Your profile.
+                  <strong>With other users:</strong> &nbsp;  when You share personal information or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed outside. If You interact with other users or register through a Third-Party Social Media Service, Your contacts on the Third-Party Social Media Service may see Your name, profile, pictures and description of Your activity. Similarly, other users will be able to view descriptions of Your activity, communicate with You and view Your profile.
                 </li>
                 <li>
                   <strong>With Your consent</strong> &nbsp; : We may disclose Your personal information for any other purpose with Your consent.
@@ -274,8 +280,8 @@ function PrivacyPolicy() {
               <p>If you have any questions about this Privacy Policy, You can contact us:</p>
               <ul className='list-content'>
                 <li>
-                By emailing: &nbsp; 
-                <a href="mailto:support@customerdashboard.pro">support@customerdashboard.pro</a>
+                  By emailing: &nbsp;
+                  <a href="mailto:support@customerdashboard.pro">support@customerdashboard.pro</a>
                 </li>
               </ul>
             </div>

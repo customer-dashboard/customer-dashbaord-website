@@ -2,13 +2,13 @@ import React from 'react'
 import '../Assets/css/PricingPage.css';
 import { useEffect } from 'react';
 import { Col, Row } from 'react-bootstrap'
-
-const Pricing = () => {
+import { Helmet } from "react-helmet";
+const Pricing = ({title}) => {
 
     useEffect(() => {
-        window.scrollTo(0, 0);
+        window.scrollTo(0, 0);      
       }, []);
-
+    
       
     const PricingData = [
         {
@@ -74,7 +74,12 @@ const Pricing = () => {
     ]
     return (
         <>
-
+            <Helmet>
+  <title>{title}</title>
+  <meta name="description" content="our Pricing Plan" />
+  <meta property="og:title" content="pricing - Customer-Dashboard-Pro" />
+  <meta property="og:description" content="Pricing Og Description" />
+</Helmet>
             <section className='pricing-page-manu'>
                 <div className='container'>
                     <div className='pricing-page-container'>
