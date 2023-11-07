@@ -46,10 +46,10 @@ function TestimonialSlider() {
         },
         {
             id: 6,
-            para: `vitasell.net Looks like a great app,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,`,
+            para: `Really good app and customer service, they fixed every issue I had. The plan change, they integrated with the other app that I have. I'm very satisfied.`,
             starImage: StarImage,
-            name: "Vitasell.net",
-            time: `July 2, 2023`
+            name: "Özel Beslenme",
+            time: `September 12, 2023`
         }
     ];
     const settings = {
