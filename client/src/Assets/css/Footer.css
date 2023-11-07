@@ -1,3 +1,7 @@
+.customer_logo_footer img{
+    max-width: 100%;
+}
+
 @media screen and (min-width:768px) {
     .footer_dashboard_logo {
         width: 100%;
@@ -98,6 +102,9 @@
     display: inline-block;
     color: #4F4F4F;
 }
+.copyright-policy p{
+    margin-top: 1rem;
+}
 .copyright-policy ul a:hover{
    transform: translateY(-5px);
    transition-duration: 0.3s;
@@ -138,6 +145,10 @@
 
 
 @media screen and (max-width:768px) {
+    .customer_logo_footer{
+        width: 70%;
+        margin: auto;
+    }
     .plus {
         width: 85% !important;
         margin-left: 2rem;

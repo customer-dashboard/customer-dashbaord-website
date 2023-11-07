@@ -1,32 +1,27 @@
 import React from 'react'
 import { Image } from 'react-bootstrap';
 import { Accordion } from 'react-bootstrap';
-import ForthFirstImage from '../Assets/Images/FAQ___Images/ForthFirstImage.png';
-import ForthSecondImage from '../Assets/Images/FAQ___Images/ForthSecondImage.png';
 export function FaqItem4() {
   return (
    <>
    
    <Accordion.Item eventKey="4" className="mb-3 mt-3">
-                                <Accordion.Header>How to add a profile fields to your profile page?</Accordion.Header>
+                                <Accordion.Header>4. How to activate Top ordered products in your menu?</Accordion.Header>
                                 <Accordion.Body>
                                 <div className="accordian_index_2_data accordian_index_data">
                                         <div className="accordian_index_2_title">
-                                          <p>To add one or more fields to your customer account profile, follow this guide:</p></div>    
+                                          <p>A. Top ordered products will be off by default. </p></div>    
                                          <div className="manu_builder_list_steps">
-                                         <ol>
-                                            <li>Select <strong>"Profile"</strong> from the profile setup.</li>
-                                            <li>Then, click on the <strong>"Add extra field" button.</strong></li>
-                                            <li>Choose the type of field you want to add, such as Single line, Multiline, Date, Single choice options, or Multiple choice options.</li>
-                                            <li>After selecting the field type, save your changes, and the fields will be added to your profile.</li>
-                                        </ol> 
+                                         
+                                          <p>B. To turn it on, go to the <strong>Top ordered products</strong> menu in the Customer Dashboard app menu.</p> 
+                                          <Image src='https://mandasa1.b-cdn.net/customer-dashbaord-pro/top-ordered-products-step-1.gif'></Image>
                                         </div>
                                         <div>
-                                        <Image src={ForthFirstImage}></Image>
+                                          <br></br>
+                                        <p>C. After clicking on the <strong>Top ordered products</strong> button, you can see its preview along with it, here you can also make other settings, after this click on the save button to save it and check it by going to the <strong>Menu builder</strong>.</p>
+                                        <Image src='https://mandasa1.b-cdn.net/customer-dashbaord-pro/top-ordered-products-step-2.gif'></Image>
                                         </div>
-                                        <div>
-                                          <Image src={ForthSecondImage}></Image>
-                                        </div>
+                                       
                                        </div>
                                 </Accordion.Body>
                             </Accordion.Item>
