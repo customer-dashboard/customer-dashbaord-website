@@ -66,7 +66,7 @@ function Header() {
                             </NavDropdown>
 
                             <NavDropdown href="Resources" title="Resources" id="basic-nav-dropdown" show={SecondIsOpen} onClick={()=>UpdateSecondIsOpen(!SecondIsOpen)} onMouseOver={handleIsSecondOpen} onMouseLeave={handleIsSecondClosed} >
-                                <Link to="/all-faqs" className="Nav-item nav-link-custom">Faq's</Link>
+                                <Link to="/faq" className="Nav-item nav-link-custom">Faq's</Link>
                                 <Link to="/#" className="Nav-item nav-link-custom">Blog</Link>
                                 <Link to="/#" className="Nav-item nav-link-custom">Case Study</Link>
                                 {/* <Link to="/re-order" className="Nav-item nav-link-custom">Re-Order</Link> */}

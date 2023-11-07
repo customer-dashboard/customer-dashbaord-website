@@ -1,10 +1,10 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
 import { Form, Button, Row, Col } from 'react-bootstrap';
+import { Helmet } from 'react-helmet';
 import '../Assets/css/ContactUs.css';
 
-function ContactUs() {
-
+function ContactUs({ title }) {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
@@ -45,17 +45,17 @@ function ContactUs() {
         if (formData.LastName.trim().length < 3) {
             errors['LastName'] = 'Name is to Short';
         }
-        if (!formData.email.trim())  {
+        if (!formData.email.trim()) {
             errors.email = 'Valid email is required';
         }
-        
-        if ( !/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/.test(formData.email.trim())) {
+
+        if (!/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/.test(formData.email.trim())) {
             errors.email = 'Invalid Email';
         }
 
         if (!formData.message.trim()) {
             errors.message = 'Message is required';
-            
+
         }
 
         setFormErrors(errors);
@@ -72,7 +72,7 @@ function ContactUs() {
                 email: '',
                 message: '',
             })
-         await fetch("/contact-us", {
+            await fetch("/contact-us", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
@@ -92,7 +92,12 @@ function ContactUs() {
 
     return (
         <>
-
+            <Helmet>
+                <title>{title}</title>
+                <meta name="description" content="Contact us for more information" />
+                <meta property="og:title" content="Contact us - Customer-Dashboard-Pro Contact us" />
+                <meta property="og:description" content="Contact Us Og Description" />
+            </Helmet>
             <section className='contact-us-page-manu'>
                 <div className='container'>
                     <div className='contact-us-page-container'>
