@@ -17,7 +17,7 @@ export function FaqItem_1() {
 
                                             <div className="tab_container accordian-body-content">
                                                 <div className="tab_para mb-4">
-                                                    Installation of customer dashboard pro is very easy . <a href="#">Click HERE</a> to install the customer dashboard pro app.
+                                                    Installation of customer dashboard pro is very easy . <a href="https://apps.shopify.com/customer-dashboard-pro">Click HERE</a> to install the customer dashboard pro app.
                                                 </div>
                                                 <Row>
                                                     <Col lg={12} className="col-md-12 col-sm-12 col--sm-6">
