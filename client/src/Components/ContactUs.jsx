@@ -34,22 +34,25 @@ function ContactUs({ title }) {
         const errors = {};
 
         if (!formData.FirstName.trim()) {
-            errors['FirstName'] = 'Name is required';
+            errors['FirstName'] = 'FirstName is required';
+
+
         }
-        if (formData.FirstName.trim().length < 3) {
-            errors['FirstName'] = 'Name is to Short';
-        }
-        if (!formData.LastName.trim()) {
-            errors['LastName'] = 'Name is required';
-        }
-        if (formData.LastName.trim().length < 3) {
-            errors['LastName'] = 'Name is to Short';
-        }
-        if (!formData.email.trim()) {
-            errors.email = 'Valid email is required';
+        else if (formData.FirstName.trim().length < 3) {
+            errors['FirstName'] = 'FirstName is to Short';
         }
 
-        if (!/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/.test(formData.email.trim())) {
+        if (!formData.LastName.trim()) {
+            errors['LastName'] = 'LastName is required';
+        }
+        else if (formData.LastName.trim().length < 3) {
+            errors['LastName'] = 'LastName is to Short';
+        }
+        if (!formData.email.trim()) {
+            errors.email = ' email is required';
+        }
+
+         else if (!/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/.test(formData.email.trim())) {
             errors.email = 'Invalid Email';
         }
 

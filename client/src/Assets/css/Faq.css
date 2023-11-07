@@ -76,6 +76,9 @@
 
 .accordian_index_2_data p{
     margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 1.8;
+    margin: 0;
 }
 /* .accordian_index_2_title{
     margin: 1rem 0rem;

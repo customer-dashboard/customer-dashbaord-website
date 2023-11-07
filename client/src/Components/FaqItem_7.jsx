@@ -1,24 +1,27 @@
 import React from 'react'
-import toggle_feature from '../Assets/Images/toggle_feature.png';
-import { Image } from 'react-bootstrap';
 import { Accordion } from 'react-bootstrap';
 export function FaqItem_7() {
   return (
     <>
      <Accordion.Item eventKey="7" className="mb-3 mt-3">
-                                <Accordion.Header>How to turn on/off Customer Dashboard Pro Features.</Accordion.Header>
+                                <Accordion.Header>7. How to add translations for customer account page.</Accordion.Header>
                                 <Accordion.Body>
                                 <div className="accordian_index_2_data accordian_index_data">
-                                         <div className="manu_builder_list_steps">
-                                         <ol>
-                                            <li>Select <strong>"Toggle features"</strong> from menus.</li>
-                                            <li>Select the feature you want to enable or disable and click button next to it to toggle on or off.</li>
-                                            <li>Save changes.</li>
-                                        </ol> 
-                                      
-                                        </div>
-                                        <Image src={toggle_feature}></Image>
-                                       </div>
+                                      <div className="manu_builder_list_steps">
+                                        <p>To add multiple translations, follow these steps:</p>
+                                        <br />
+                                        <p>First, click on the "Translation" tab in the menu.</p>
+                                        <br />
+                                        <p>Next, select the language and click on "Manage"</p>
+                                        <br />
+                                        <p>On the new page, you'll see all the translations, where you can edit translations for different pages.</p>
+                                        <br />
+                                        <p>After making changes, click the "Save" button.</p>
+                                        <br />
+                                        <p>Save again, and your translations will be saved.</p>
+                                        <br />
+                                      </div>
+                                </div>
                                 </Accordion.Body>
                             </Accordion.Item>
     </>

@@ -17,7 +17,7 @@ function StartFree() {
                                 <div className="freen_btns">
                                 <Row>
                                     <Col lg={6} className="text-align-end col-md-6 col-sm-6 col-x-sm-6">
-                                        <a href='#'>
+                                        <a href='https://apps.shopify.com/customer-dashboard-pro' target='_blank'>
                                         <Button className="Start_btn freen_section_btn">Start For Free</Button>
                                         </a>
                                     </Col>

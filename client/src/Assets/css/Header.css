@@ -17,8 +17,11 @@
     width: 100%;
     background-color: white;
     padding: 10px;
-    z-index: 999;
+    z-index: 9999;
   }
+  .customer_logo img{
+    max-width: 100%;
+}
   
 .nav_navbar{
     box-shadow: 0px 0px 7px 1px darkgray;
@@ -39,10 +42,10 @@
     margin-top: 0 !important;
 }
 .header_btn{
-    padding: 10px 18px;
+    padding: 10px 15px;
     background-color: #0087C1;
     border: none;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 .header_btn:hover{
     background-color: #EDA288;
@@ -69,10 +72,15 @@
     text-decoration:none;
     color: initial;
 }
+.customer_logo{
+    width: 18%;
+    margin: auto;
+}
 @media screen and (min-width:991px){
     .d-none-min-991{
         display: none;
     }
+  
 }
 
 @media screen and (max-width:991px){
@@ -82,26 +90,25 @@
     .d-none-991{
         display: none;
     }
+    .customer_logo{
+        width: 25%;
+    }
 }
 
 @media screen and (max-width:576px){
 .header_btn {
-    padding: 8px 12px;
+    padding: 6px 9px;
     font-size: 10px;
+    margin-left: 0.5rem !important;
     }
     .customer_logo{
-        width: 35%;
-        margin: 0;
+        width: 30%;
     }
     .toggle_btn {
         font-size: 18px;
     }
-    .customer_logo img{
-        width: 100%;
-    }
-    .d-none-min-991{
-        margin: 0 !important;
-    }
+   
+   
     .main_heading h1 {
         font-size: 20px;
         line-height: 30px;

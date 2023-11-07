@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button, Container, Nav, NavDropdown, Navbar,Image } from "react-bootstrap";
 import logo from '../Assets/Images/Customer Dashboard_Logo.png';
+import newLogo from '../Assets/Images/Logo/newLogo.png'
 import { Link } from "react-router-dom";
 
 function Header() {
@@ -50,9 +51,12 @@ function Header() {
                 <Container>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggle_btn hamburger-icon"/>
                     <Link to="/" className="customer_logo">
-                        <Image src={logo}></Image>
+                        <Image src={newLogo}></Image>
                     </Link>
+                    <div className="min-width-header-btn">
                     <Button variant="primary" href="https://customer-dashboard.myshopify.com" target="_blank" className="btn header_btn btn-md ml-15 d-none-min-991">View Demo</Button>
+                    <Button variant="primary" href="https://apps.shopify.com/customer-dashboard-pro" target="_blank" className="btn header_btn btn-md ml-15 d-none-min-991">Install</Button>
+                    </div>
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                         <Nav>
                             <NavDropdown href="features" title="Features" id="basic-nav-dropdown" show={IsOpen} onClick={()=>UpdateIsOpen(!IsOpen)} onMouseOver={()=>UpdateIsOpen(true)} onMouseLeave={()=>UpdateIsOpen(false)}>                               
@@ -79,13 +83,14 @@ function Header() {
                                 {/* <Link to="/customer-menu" className="Nav-item nav-link-custom">Customer Menu</Link>
                                 <Link to="/edit-profile" className="Nav-item nav-link-custom">Edit Profile</Link>
                                 <Link to="/re-order" className="Nav-item nav-link-custom">Re-Order</Link> */}
-                                <a href="https://mandasadevelopment.com/customer-account-activation/" target="_blank" className="Nav-item nav-link-custom">Email Checker</a>
+                                <a href="https://apps.shopify.com/customer-account-verification" target="_blank" className="Nav-item nav-link-custom">Email Checker</a>
                             </NavDropdown>
                             <Link to="/contact-us" className="Nav-item nav-link-custom">Contact Us</Link>
                        </Nav>
                       
                     </Navbar.Collapse>
                      <Button variant="primary" href="https://customer-dashboard.myshopify.com" target="_blank" className="btn header_btn btn-md ml-15 d-none-991">View Demo</Button>
+                     <Button variant="primary" href="https://apps.shopify.com/customer-dashboard-pro" target="_blank" className="btn header_btn btn-md ml-15 d-none-991">Install</Button>
                 </Container>
             </Navbar>
         </>

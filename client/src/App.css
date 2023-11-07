@@ -65,7 +65,37 @@
 .manu-page-title{
     text-align: center;
 }
+.react-video-player-section{
+    position: relative;
+}
+.play-pause-button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    z-index: 99;
+    display: none;
 
+}
+.play-pause-button:hover, .play-pause-button:focus, .play-pause-button:active{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.react-video-player-section:hover{
+    .play-pause-button{
+        display: block;
+    }
+}
+
+.play-pause-button svg{
+    width:60px;
+    height: 60px;
+}
 
 @media screen and (max-width:921px){
     .manu-page-title h1{

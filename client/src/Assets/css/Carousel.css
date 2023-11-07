@@ -43,19 +43,19 @@
     color: black !important;
 }
 
-.slick-prev {
-  left: 0 !important;
-  z-index: 999999999999999;
+
+.carousel_logo .slick-arrow{
+  z-index: 999;
   color: black !important;
   height: 2rem !important;
   width: 2rem !important;
 }
+.slick-prev {
+  left: 0 !important;
+  
+}
 .slick-next{
    right: 0 !important;
-   z-index: 999999999999999;
-   color: black !important;
-  height: 2rem !important;
-  width: 2rem !important;
 }
 .slick-next:before {
   line-height: 0.5 !important;

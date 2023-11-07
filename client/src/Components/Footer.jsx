@@ -5,6 +5,7 @@ import { Image, Button } from 'react-bootstrap';
 import normal_logo from '../Assets/Images/footer_shopify.png';
 import shopify_logo_plus from '../Assets/Images/footer_shopify_plus.png';
 import shopify_white_logo from '../Assets/Images/Shopify_white_footer_logo.png';
+import newLogo from '../Assets/Images/Logo/newLogo.png'
 import Accordion from 'react-bootstrap/Accordion';
 import { Link } from 'react-router-dom';
 
@@ -13,8 +14,8 @@ const Footer = () => <footer className="page-footer font-small blue pt-4 my-foot
         <div className="row justify-content-between">
             <div className="col-md-3 col-lg-3 mt-md-0 mt-3 text-align-left">
                 <h5 className="text-uppercase">
-                <Link to="/" className="customer_logo">
-                        <Image src={footer_customer_dashboard_logo}></Image>
+                <Link to="/" className="customer_logo_footer">
+                        <Image src={newLogo}></Image>
                     </Link>
                 </h5>
                 <p className="logo_disclamer">This creates a convenient andversatile customer account page,
@@ -93,7 +94,7 @@ const Footer = () => <footer className="page-footer font-small blue pt-4 my-foot
             </div>
         </div>
         <div className="d-flex justify-content-between align-items-center py-4 mt-5 mt-sm-2 border-top copyright-policy">
-            <p>© 2023 Customer Dashboard Pro, All Rights Reserved | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            <p>© 2023 Customer Dashboard Pro, All Rights Reserved</p>
             <ul className="list-unstyled d-flex">
 
 

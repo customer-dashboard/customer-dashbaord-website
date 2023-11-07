@@ -24,11 +24,12 @@ const Pricing = ({title}) => {
             recentlyViewd: "Recently viewed",
             topOrderProducts: "Top ordered products",
             ViewLink: "https://apps.shopify.com/customer-dashboard-pro",
+            muchMore:"Much more",
             ButtonName:"View"
         },
         {
             cutomerQuantity: "1501-5000 Customers",
-            pricePlan: "$4",
+            pricePlan: "$4/month",
             improveAccountPage: 'Improved account page',
             multilingual: "Multilingual",
             quickReorder: "Quick reorder",
@@ -39,11 +40,12 @@ const Pricing = ({title}) => {
             recentlyViewd: "Recently viewed",
             topOrderProducts: "Top ordered products",
             ViewLink: "https://apps.shopify.com/customer-dashboard-pro",
+            muchMore:"Much more",
             ButtonName:"View"
         },
         {
             cutomerQuantity: "5001-25000 Customers",
-            pricePlan: "$10",
+            pricePlan: "$10/month",
             improveAccountPage: 'Improved account page',
             multilingual: "Multilingual",
             quickReorder: "Quick reorder",
@@ -54,11 +56,12 @@ const Pricing = ({title}) => {
             recentlyViewd: "Recently viewed",
             topOrderProducts: "Top ordered products",
             ViewLink: "https://apps.shopify.com/customer-dashboard-pro",
+            muchMore:"Much more",
             ButtonName:"View"
         },
         {
             cutomerQuantity: "More than 25000 Customers",
-            pricePlan: "$20",
+            pricePlan: "$20/month",
             improveAccountPage: 'Improved account page',
             multilingual: "Multilingual",
             quickReorder: "Quick reorder",
@@ -69,6 +72,7 @@ const Pricing = ({title}) => {
             recentlyViewd: "Recently viewed",
             topOrderProducts: "Top ordered products",
             ViewLink: "https://apps.shopify.com/customer-dashboard-pro",
+            muchMore:"Much more",
             ButtonName:"View"
         }
     ]
@@ -111,6 +115,7 @@ const Pricing = ({title}) => {
                                                                 <li>{item.contactForm}</li>
                                                                 <li>{item.recentlyViewd}</li>
                                                                 <li>{item.topOrderProducts}</li>
+                                                                <li>{item.muchMore}</li>
                                                             </ul>
                                                         </div>
                                                         <div className="plan-view-buttons">
