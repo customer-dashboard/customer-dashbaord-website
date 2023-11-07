@@ -81,7 +81,7 @@ const Footer = () => <footer className="page-footer font-small blue pt-4 my-foot
 
                 </ul>
                 <div className="footer_white_shopify_logo mt-x-sm-2 mt-5">
-                <a href='#'>
+                <a href='https://apps.shopify.com/customer-dashboard-pro' target='_blank'>
                 <Button className="d-flex align-items-center justify-content-around white_logo_image f-btn">
                     <Image src={shopify_white_logo}></Image>
                     <div className="white_logo_spans">

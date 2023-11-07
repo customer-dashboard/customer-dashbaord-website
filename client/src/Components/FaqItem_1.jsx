@@ -13,11 +13,10 @@ export function FaqItem_1() {
 
                                             <div className="tab_container accordian-body-content">
                                                 <div className="tab_para mb-4">
-                                                    Installation of customer dashboard pro is very easy . <a href="https://apps.shopify.com/customer-dashboard-pro">Click HERE</a> to install the customer dashboard pro app.
+                                                    Installation of customer dashboard pro is very easy . <a href="https://apps.shopify.com/customer-dashboard-pro" target='_blank'>Click HERE</a> to install the customer dashboard pro app.
                                                 </div>
                                                 <Row>
                                                     <Col lg={12} className="col-md-12 col-sm-12 col--sm-6">
-                                                        <p className='mb-3'>Installation of customer dashboard pro is very easy. <a href='https://apps.shopify.com/customer-dashboard-pro' target='_blank'>Click HERE</a> to install the customer dashboard pro app.</p>
                                                         <div className="theme_setting_image mb-4">
                                                             <p>A. First of all, select the theme on your store. App default is set to live theme</p>
                                                             <Image src="https://mandasa1.b-cdn.net/customer-dashbaord-pro/installation_1.gif"></Image>

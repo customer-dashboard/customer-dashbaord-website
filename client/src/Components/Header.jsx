@@ -55,7 +55,6 @@ function Header() {
                     </Link>
                     <div className="min-width-header-btn">
                     <Button variant="primary" href="https://customer-dashboard.myshopify.com" target="_blank" className="btn header_btn btn-md ml-15 d-none-min-991">View Demo</Button>
-                    <Button variant="primary" href="https://apps.shopify.com/customer-dashboard-pro" target="_blank" className="btn header_btn btn-md ml-15 d-none-min-991">Install</Button>
                     </div>
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                         <Nav>
@@ -86,11 +85,11 @@ function Header() {
                                 <a href="https://apps.shopify.com/customer-account-verification" target="_blank" className="Nav-item nav-link-custom">Email Checker</a>
                             </NavDropdown>
                             <Link to="/contact-us" className="Nav-item nav-link-custom">Contact Us</Link>
+                            <a href="https://apps.shopify.com/customer-dashboard-pro" className="Nav-item nav-link-custom" target="_blank">Install</a>
                        </Nav>
                       
                     </Navbar.Collapse>
                      <Button variant="primary" href="https://customer-dashboard.myshopify.com" target="_blank" className="btn header_btn btn-md ml-15 d-none-991">View Demo</Button>
-                     <Button variant="primary" href="https://apps.shopify.com/customer-dashboard-pro" target="_blank" className="btn header_btn btn-md ml-15 d-none-991">Install</Button>
                 </Container>
             </Navbar>
         </>
