@@ -31,7 +31,7 @@ function Banner() {
                                         </Col>
                                         <Col lg={6} className="col-md-6 col-sm-6 my-md-4 my-sm-4 my-x-sm col-x-sm-6">
                                             <div className="forever">
-                                            <a href="https://apps.shopify.com/customer-dashboard-pro">
+                                            <a href="https://apps.shopify.com/customer-dashboard-pro" target="_blank">
                                             <Button className="btns f_btn">
                                                 <div>
                                                     <span className="span_3 banner-span">Free Forever</span>
