@@ -15,7 +15,9 @@ function CustomerAccountPage(){
                             <div className="heading">
                                 <h2>Built for customizing the look and feel for <span>shopify stores account page</span></h2>
                             </div>
+                            <div className="account-page-video">
                             <PlayerComponent />
+                            </div>
                         </Col>
                     </Row>
                 </Container>

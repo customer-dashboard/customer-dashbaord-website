@@ -45,7 +45,7 @@ function Banner() {
                                 </div>
                             </Col>
                             <Col lg={7}>
-                                <div className="shopify_video">
+                                <div className="shopify_video banner_video">
                                     <PlayerComponent />
                                 </div>
                             </Col>
