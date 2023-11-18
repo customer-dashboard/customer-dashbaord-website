@@ -50,7 +50,7 @@ function Mobilove() {
                                         <Image src={mobilove_logo}></Image>
                                         <p className="mobilove_logo_para mt-3">Mobilove Boosts <span>Loyalty and Repeat Purchases</span> With the customer dashboard pro Customer Account Page</p>
                                         <p className="mobilove_logo_para-2 mt-2">As a result, customers can reap the benefits of increased loyalty and an improved shopping experience.</p>
-                                        <a href="#" className="d-block mt-5 ready_case_link">Read case study</a>
+                                        {/* <a href="#" className="d-block mt-5 ready_case_link">Read case study</a> */}
                                     </div>
                                 </Col>
                         </Row>

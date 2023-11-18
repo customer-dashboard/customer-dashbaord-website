@@ -8,7 +8,19 @@
     padding: 70px 0px;
 }
 
-
+.shopify-official-logo-black{
+    border: none !important;
+    background-color: none;
+    padding: 0;
+    border-radius: 0 !important;
+    background-color: transparent;
+}
+.shopify-official-logo-black:hover{
+    background-color: transparent !important;
+}
+.shopify-official-logo-black img{
+    max-width: 100%;
+}
 .main_heading h1{
     font-size: 29px;
     font-weight: 600;
@@ -19,15 +31,7 @@
     color: white;
     font-size: 18px;
 }
-.btn_details{
-    text-align: left !important;
-}
 
-.s_btn{
-    background-color: white;
-    align-items: center;
-    color: #007CB6;
-}
 .btns{
     width: 100%;
     border-radius: 3px;
@@ -41,19 +45,10 @@
 .f_btn{
     background-color: transparent;
 }
-.s_btn img{
-    height: 30px;
-    width: 30px;
-}
 .banner-span{
     display: block;
 }
-.span_1{
-    font-size: 14px;
-}
-.span_2{
-    font-size: 18px;
-}
+
 .span_3{
     font-size: 22px;
 }
@@ -80,34 +75,20 @@ video{
         font-size: 20px;
         text-align: center;
     }
-    .span_1 {
-        font-size: 25px;
-    }
-    .span_2 {
-        font-size: 30px;
-    }
+   
     .span_3{
         font-size: 36px;
     }
     .span_4{
         font-size: 18px;
     }
-    .s_btn img {
-        height: 42px;
-        width: 42px;
-    }
+   
 }
 
 
 @media screen and (min-width:991px) and (max-width:1200px){
     .main_heading h1{
         font-size: 24px;
-    }
-    .span_1 {
-        font-size: 14px;
-    }
-    .span_2 {
-        font-size: 14px;
     }
     .span_3 {
         font-size: 19px;
@@ -118,12 +99,7 @@ video{
 }
 
 @media screen and (min-width:576px) and (max-width:768px){
-    .span_1 {
-        font-size: 20px;
-    }
-    .span_2 {
-        font-size: 21px;
-    }
+  
     .span_3 {
         font-size: 30px;
     }
@@ -151,16 +127,7 @@ video{
     .span_3 {
         font-size: 20px;
     }
-    .span_2 {
-        font-size: 16px;
-    }
-    .span_1 {
-        font-size: 14px;
-    }
-    .s_btn img {
-        height: 22px;
-        width: 22px;
-    }
+ 
     .banner_background{
         padding: 2px 0px;
         padding-bottom: 30px;
@@ -172,13 +139,7 @@ video{
 }
 
 @media screen and (max-width:476px){
-    .span_1 {
-        font-size: 11px;
-    }
-   
-    .span_2 {
-        font-size: 11px;
-    }
+
     .span_3 {
         font-size: 14px;
     }
@@ -193,10 +154,5 @@ video{
     .span_4 {
         font-size: 6px;
     }
-    .span_1 {
-        font-size: 8px;
-    }
-    .span_2 {
-        font-size: 8px;
-    }
+  
 }

@@ -199,6 +199,11 @@
 
     .mt-x-sm-2 {
         margin-top: 2rem !important;
+        
+    }
+    .scolf{
+        width: 50%;
+        margin: auto;
     }
 }
 

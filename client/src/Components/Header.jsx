@@ -58,7 +58,7 @@ function Header() {
                     </div>
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                         <Nav>
-                            <NavDropdown href="features" title="Features" id="basic-nav-dropdown" show={IsOpen} onClick={()=>UpdateIsOpen(!IsOpen)} onMouseOver={()=>UpdateIsOpen(true)} onMouseLeave={()=>UpdateIsOpen(false)}>                               
+                            {/* <NavDropdown href="features" title="Features" id="basic-nav-dropdown" show={IsOpen} onClick={()=>UpdateIsOpen(!IsOpen)} onMouseOver={()=>UpdateIsOpen(true)} onMouseLeave={()=>UpdateIsOpen(false)}>                               
                                 <Link to="/#" className="Nav-item nav-link-custom">Customer Account Page</Link>
                                 <Link to="/#" className="Nav-item nav-link-custom">Customer Menu</Link>
                                 <Link to="/#" className="Nav-item nav-link-custom">Edit Profile</Link>
@@ -66,30 +66,29 @@ function Header() {
                                 <Link to="/#" className="Nav-item nav-link-custom">Change Color</Link>
                                 <Link to="/#" className="Nav-item nav-link-custom">Change Password</Link>
                                 <Link to="/#" className="Nav-item nav-link-custom">Easy Translation</Link>
-                            </NavDropdown>
+                            </NavDropdown> */}
 
-                            <NavDropdown href="Resources" title="Resources" id="basic-nav-dropdown" show={SecondIsOpen} onClick={()=>UpdateSecondIsOpen(!SecondIsOpen)} onMouseOver={handleIsSecondOpen} onMouseLeave={handleIsSecondClosed} >
+                            {/* <NavDropdown href="Resources" title="Resources" id="basic-nav-dropdown" show={SecondIsOpen} onClick={()=>UpdateSecondIsOpen(!SecondIsOpen)} onMouseOver={handleIsSecondOpen} onMouseLeave={handleIsSecondClosed} >
                                 <Link to="/faq" className="Nav-item nav-link-custom">Faq's</Link>
                                 <Link to="/#" className="Nav-item nav-link-custom">Blog</Link>
-                                <Link to="/#" className="Nav-item nav-link-custom">Case Study</Link>
+                                <Link to="/#" className="Nav-item nav-link-custom">Case Study</Link> */}
                                 {/* <Link to="/re-order" className="Nav-item nav-link-custom">Re-Order</Link> */}
-                            </NavDropdown>
+                            {/* </NavDropdown> */}
+                            <Link to="/faq" className="Nav-item nav-link-custom">Faq's</Link>
+                            <Link to="/pricing" className="Nav-item nav-link-custom">Pricing</Link>
 
-                            <Link to="/pricing" className="Nav-item nav-link-custom">pricing</Link>
-
-
-                            <NavDropdown href="#partners" title="Partners" id="basic-nav-dropdown" show={ThirdIsOpen} onClick={()=>UpdateThirdIsOpen(!ThirdIsOpen)} onMouseOver={handleIsThirdOpen} onMouseLeave={handleIsThirdClosed}>
+                            <NavDropdown href="javascript:void(0)" title="Partners" id="basic-nav-dropdown" show={ThirdIsOpen} onClick={()=>UpdateThirdIsOpen(!ThirdIsOpen)} onMouseOver={handleIsThirdOpen} onMouseLeave={handleIsThirdClosed}>
                                 {/* <Link to="/customer-menu" className="Nav-item nav-link-custom">Customer Menu</Link>
                                 <Link to="/edit-profile" className="Nav-item nav-link-custom">Edit Profile</Link>
                                 <Link to="/re-order" className="Nav-item nav-link-custom">Re-Order</Link> */}
-                                <a href="https://apps.shopify.com/customer-account-verification" target="_blank" className="Nav-item nav-link-custom">Email Checker</a>
+                                <a href="https://apps.shopify.com/customer-account-verification" target="_blank" rel="noreferrer" className="Nav-item nav-link-custom">Email Checker</a>
                             </NavDropdown>
                             <Link to="/contact-us" className="Nav-item nav-link-custom">Contact Us</Link>
-                            <a href="https://apps.shopify.com/customer-dashboard-pro" className="Nav-item nav-link-custom" target="_blank">Install</a>
+                            <a href="https://apps.shopify.com/customer-dashboard-pro" className="Nav-item nav-link-custom" rel="noreferrer" target="_blank">Install</a>
                        </Nav>
                       
                     </Navbar.Collapse>
-                     <Button variant="primary" href="https://customer-dashboard.myshopify.com" target="_blank" className="btn header_btn btn-md ml-15 d-none-991">View Demo</Button>
+                     <Button variant="primary" href="https://customer-dashboard.myshopify.com" target="_blank" rel="noreferrer" className="btn header_btn btn-md ml-15 d-none-991">View Demo</Button>
                 </Container>
             </Navbar>
         </>
