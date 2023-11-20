@@ -25,16 +25,16 @@ function Mobilove() {
                                             <Col lg={6} className="col-md-6 col-sm-6 col-x-sm-6">
                                                 <div className="progress_content">
                                                     <div className="progeress_increase_bar">
-                                                        <h3>41%</h3>
+                                                        <h3>70%</h3>
                                                         <p>Increase in orders using store credits</p>
                                                     </div>
                                                     <div className="progeress_increase_bar">
-                                                        <h3>41%</h3>
-                                                        <p>Increase in orders using store credits</p>
+                                                        <h3>80%</h3>
+                                                        <p>Make account page fast and stable</p>
                                                     </div>
                                                     <div className="progeress_increase_bar">
-                                                        <h3>41%</h3>
-                                                        <p>Increase in orders using store credits</p>
+                                                        <h3>85%</h3>
+                                                        <p>Increase visitors to website</p>
                                                     </div>
                                                 </div>
                                             </Col>
@@ -48,7 +48,7 @@ function Mobilove() {
                                 <Col lg={6}>
                                     <div className="mobilove_side_content">
                                         <Image src={mobilove_logo}></Image>
-                                        <p className="mobilove_logo_para mt-3">Mobilove Boosts <span>Loyalty and Repeat Purchases</span> With the customer dashboard pro Customer Account Page</p>
+                                        <p className="mobilove_logo_para mt-3">Mobilove Boosts <span>Loyalty and Repeat Purchases</span> With the customer dashboard pro app</p>
                                         <p className="mobilove_logo_para-2 mt-2">As a result, customers can reap the benefits of increased loyalty and an improved shopping experience.</p>
                                         {/* <a href="#" className="d-block mt-5 ready_case_link">Read case study</a> */}
                                     </div>

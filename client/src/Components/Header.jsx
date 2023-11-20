@@ -59,7 +59,7 @@ function Header() {
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                         <Nav>
                             {/* <NavDropdown href="features" title="Features" id="basic-nav-dropdown" show={IsOpen} onClick={()=>UpdateIsOpen(!IsOpen)} onMouseOver={()=>UpdateIsOpen(true)} onMouseLeave={()=>UpdateIsOpen(false)}>                               
-                                <Link to="/#" className="Nav-item nav-link-custom">Customer Account Page</Link>
+                                <Link to="customer-account" className="Nav-item nav-link-custom">Customer Account Page</Link>
                                 <Link to="/#" className="Nav-item nav-link-custom">Customer Menu</Link>
                                 <Link to="/#" className="Nav-item nav-link-custom">Edit Profile</Link>
                                 <Link to="/#" className="Nav-item nav-link-custom">Re-Order</Link>
