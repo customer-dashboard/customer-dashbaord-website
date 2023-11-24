@@ -27,10 +27,10 @@ const Footer = () => <footer className="page-footer font-small blue pt-4 my-foot
                         <Accordion.Header className="header_background footer_accourdian_header">SUPPORT</Accordion.Header>
                         <Accordion.Body className="accordian_body">
                             <ul className="list-unstyled text-align-left">
-                                <li> <Link to='/faq' className="text-reset">All Faqs</Link></li>
+                                <li> <Link to='/pages/faq' className="text-reset">All Faqs</Link></li>
                                 {/* <li><Link to='/#' className="text-reset">Blog</Link></li> */}
-                                <li><Link to='privacy-policy' className="text-reset">Privacy Policy</Link></li>
-                                <li><Link to='contact-us' className="text-reset">Contact Us</Link></li>
+                                <li><Link to='/pages/privacy-policy' className="text-reset">Privacy Policy</Link></li>
+                                <li><Link to='/pages/contact-us' className="text-reset">Contact Us</Link></li>
                                 <li><Link to='/#' className="text-reset">About Us</Link></li>
                             </ul>
                         </Accordion.Body>
@@ -41,7 +41,7 @@ const Footer = () => <footer className="page-footer font-small blue pt-4 my-foot
                         <Accordion.Body className="accordian_body">
                             <ul className="list-unstyled text-align-left">
                                 {/* <li><Link to='/#' className="text-reset">Integration</Link></li> */}
-                                <li><Link to='contact-us' className="text-reset">Become a Partner</Link></li>
+                                <li><Link to='/pages/contact-us' className="text-reset">Become a Partner</Link></li>
                                 {/* <li><Link to='/#' className="text-reset">Careers</Link></li> */}
                             </ul>
                         </Accordion.Body>
@@ -53,10 +53,10 @@ const Footer = () => <footer className="page-footer font-small blue pt-4 my-foot
             <div className="col-md-3 col-lg-2 mb-md-0 mb-3 text-align-left d-none-768">
                 <h5 className="text-uppercase text-align-left font-weight-bold">SUPPORT</h5>
                 <ul className="list-unstyled text-align-left">
-                       <li> <Link to='/faq' className="text-reset">All Faqs</Link></li>
+                       <li> <Link to='/pages/faq' className="text-reset">All Faqs</Link></li>
                        {/* <li><Link to='/#' className="text-reset">Blog</Link></li> */}
-                       <li><Link to='privacy-policy' className="text-reset">Privacy Policy</Link></li>
-                       <li><Link to='contact-us' className="text-reset">Contact Us</Link></li>
+                       <li><Link to='/pages/privacy-policy' className="text-reset">Privacy Policy</Link></li>
+                       <li><Link to='/pages/contact-us' className="text-reset">Contact Us</Link></li>
                        <li><Link to='/#' className="text-reset">About Us</Link></li>
                 </ul>
                 
@@ -67,7 +67,7 @@ const Footer = () => <footer className="page-footer font-small blue pt-4 my-foot
                 <h5 className="text-uppercase text-align-left font-weight-bold">WORK WITH US</h5>
                 <ul className="list-unstyled text-align-left">
                         {/* <li><Link to='/#' className="text-reset">Integration</Link></li> */}
-                        <li><Link to='contact-us' className="text-reset">Become a Partner</Link></li>
+                        <li><Link to='/pages/contact-us' className="text-reset">Become a Partner</Link></li>
                          {/* <li><Link to='/#' className="text-reset">Careers</Link></li> */}
                 </ul>
             </div>

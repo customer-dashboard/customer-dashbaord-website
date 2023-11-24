@@ -9,7 +9,10 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "aos": "^3.0.0-beta.6",
+    "axios": "^1.6.2",
     "bootstrap": "^5.3.0",
+    "html-react-parser": "^5.0.6",
     "jquery": "^3.7.0",
     "mdb-react-ui-kit": "^6.1.0",
     "rc-tabs": "^12.10.0",
@@ -27,6 +30,8 @@
     "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
   },
+  
+  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

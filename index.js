@@ -1,21 +1,98 @@
 const path = require('path');
 const cors = require('cors');
 const express = require("express");
-const PORT = process.env.PORT || 3000;
 const bodyParser = require('body-parser')
+const { MongoClient, ServerApiVersion }= require("mongodb");
 const nodemailer = require('nodemailer');
+// const { Router } = require('react-router-dom'); 
+// const React = require('react');
+// const { Helmet } = require('react-helmet');
+// const App = require('./client/src/App.js');
+// const ReactDomServer = require('react-dom/server');
+
+
+// import path from 'path';
+// import cors from 'cors';
+// import express from 'express';
+
+const PORT = process.env.PORT || 3001;
+
+// import bodyParser from 'body-parser'
+// import { MongoClient, ServerApiVersion } from 'mongodb';
+
+// import nodemailer from 'nodemailer';
+// import { BrowserRouter as Router } from 'react-router-dom';
+
 const today = new Date();
 const month = today.getMonth() + 1;
 const year = today.getFullYear();
 const date = today.getDate();
 const finaldate = `${month}/${date}/${year}`;
 const app = express();
+// import React from 'react';
+// import { Helmet } from 'react-helmet';
+// import App from './client/src/App.js';
+// import ReactDomServer from 'react-dom/server';
 app.use(express.static(path.resolve(__dirname, './client/build')));
 app.use(bodyParser.json())
 app.use(cors());
 app.get("/api", (req, res) => {
 res.send("hello");
 }) 
+const uri = "mongodb+srv://customerdashboardpro:aaPo77bxI4OvaHB8@cluster0.f619pih.mongodb.net/?retryWrites=true&w=majority";
+const mongoclient = new MongoClient(uri, {
+  serverApi: {
+    version: ServerApiVersion.v1,
+    strict: true,
+    deprecationErrors: true,
+  }
+});
+
+async function GetCollectionMongoDB(Collection) {
+    try {
+      await mongoclient.connect();
+      const dbName = "Sessions_data";
+      var collectionName = Collection;
+      const database = mongoclient.db(dbName);
+      const collection = database.collection(collectionName);
+      try {
+       return await collection.find({}).toArray();
+      } catch (err) {
+      console.error(`Something went wrong trying to find one document: ${err}\n`);
+      }
+    } finally {
+    }
+  }
+
+  app.get("/get-changelog", async(req, resp) => {
+    let data = await GetCollectionMongoDB("installation_faq");
+    resp.send({data});
+  });
+
+// SEO Server Side Rendering Rest API
+//   app.get('/pages/customer-account', (req,res)=>{
+//     const context = {}; 
+//    const MainComponent = ReactDomServer.renderToString(
+//     React.createElement(Router, null, React.createElement(App))
+//    )
+//   const helmet = Helmet.renderStatic();
+
+//   const fullHtml = `
+//     <!DOCTYPE html>
+//     <html lang="en">
+//       <head>
+//         ${helmet.title.toString()}
+//         ${helmet.meta.toString()}
+//       </head>
+//       <body>
+//         <div id="app">${MainComponent}</div>
+//       </body>
+//     </html>
+//   `;
+
+//   res.send(fullHtml);
+// });
+
 app.post("/contact-us", (req, resp) => {
   const formData = (req.body);
   try {
