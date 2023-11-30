@@ -130,7 +130,8 @@
     font-weight: 700;
 }
 .sec-4-acntpageconatiner{
-    background: linear-gradient(133deg, #0087C1 0%, #1E235C 100%);   
+    /* background: linear-gradient(133deg, #0087C1 0%, #1E235C 100%);    */
+    background-image: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );
     padding-top: 3rem;
     padding-bottom: 5rem;
 }
@@ -234,7 +235,33 @@
 .feature-com-head, .feature-com-subhead{
     color: #fff;
 }
-
+.page-not-found{
+    width: 35%;
+    margin: auto;
+}
+.pnf-content{
+    text-align: center;
+}
+.pnfcontainer{
+    padding: 3.9rem 0rem;
+}
+.main-pnf-heading h1 {
+    font-size: 90px;
+    background-image: linear-gradient(to right, #1A2980 0%, #434db0 51%, #1A2980 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .pnf-foot-content a{
+    background-image: linear-gradient(to right, #1A2980 0%, #434db0 51%, #1A2980 100%);
+    border: 1px solid transparent;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+    width: 175px;
+    margin: auto;
+  }
 @media screen and (max-width:991px) {
     .shpfy-trial-demo-btn {
         font-size: 16px;
@@ -242,6 +269,9 @@
 
     .acntpagmnu-hero-heading {
         font-size: 39px;
+    }
+    .page-not-found{
+        width: 60%;
     }
 }
 
@@ -264,6 +294,15 @@
         padding-right: 10px;
         padding-top: 15px;
         padding-bottom: 15px;
+    }
+    .pnfcontainer{
+        padding: 2rem 0rem;
+    }
+    .page-not-found{
+        width:100%;
+    }
+    .pnf-foot-content p{
+        font-size: 14px;
     }
 
     .shopify-logos-for-customer-with-rating a {

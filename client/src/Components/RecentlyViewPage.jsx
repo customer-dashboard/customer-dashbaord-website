@@ -15,7 +15,7 @@ function RecentlyViewPage() {
     useEffect(() => {
         window.scrollTo(0, 0);
         Aos.init({
-            duration: 400,
+            duration: 500,
             easing: 'ease-in-sine',
             delay: 100,
             once: true

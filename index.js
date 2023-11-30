@@ -4,11 +4,11 @@ const express = require("express");
 const bodyParser = require('body-parser')
 const { MongoClient, ServerApiVersion }= require("mongodb");
 const nodemailer = require('nodemailer');
-// const { Router } = require('react-router-dom'); 
-// const React = require('react');
-// const { Helmet } = require('react-helmet');
-// const App = require('./client/src/App.js');
-// const ReactDomServer = require('react-dom/server');
+const { Router } = require('react-router-dom'); 
+const React = require('react');
+const { Helmet } = require('react-helmet');
+// const App = require('./client/src/App');
+const ReactDomServer = require('react-dom/server');
 
 
 // import path from 'path';
@@ -71,21 +71,20 @@ async function GetCollectionMongoDB(Collection) {
 
 // SEO Server Side Rendering Rest API
 //   app.get('/pages/customer-account', (req,res)=>{
-//     const context = {}; 
-//    const MainComponent = ReactDomServer.renderToString(
-//     React.createElement(Router, null, React.createElement(App))
-//    )
-//   const helmet = Helmet.renderStatic();
+//   //   const context = {}; 
+//   //  const MainComponent = ReactDomServer.renderToString(
+//   //   React.createElement(Router, null, React.createElement(App))
+//   //  )
+//   // const helmet = Helmet.renderStatic();
 
 //   const fullHtml = `
 //     <!DOCTYPE html>
 //     <html lang="en">
 //       <head>
-//         ${helmet.title.toString()}
-//         ${helmet.meta.toString()}
+//         <meta name="name" content="name name name name name bame bame bame name name name bame abme"></meta>
 //       </head>
 //       <body>
-//         <div id="app">${MainComponent}</div>
+//         <div id="root"></div>
 //       </body>
 //     </html>
 //   `;

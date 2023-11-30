@@ -31,7 +31,7 @@ const TopOrderProducticon = <svg xmlns="http://www.w3.org/2000/svg" width="260" 
  export const FeaturedData = [
     {
         featureIcon:AccountIcon,
-        featureName:"Wishlist",
+        featureName:"Account",
         featureDescription:"This is used for wishlist product"
     },
     {

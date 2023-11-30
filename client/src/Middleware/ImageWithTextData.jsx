@@ -1,6 +1,7 @@
 import RevampPanelImage from '../Assets/Images/NewDataImages/Revamp panel.png';
 import reorderPageImage from '../Assets/Images/NewDataImages/Hassle-free reorder.png';
 import customFieldImage from '../Assets/Images/NewDataImages/customfieldimage.png';
+import Multi_Languages_Support from '../Assets/Images/NewDataImages/Multi Languages Support.png';
  export const dataOfAccountPageImageWithText = [
      {
         "imageUrl": RevampPanelImage,
@@ -60,5 +61,25 @@ export const dataOfTopOrderedProductImageWithText = [
      <p>Customers can easily find the most popular products on the website which have been viewed by the maximum number of people.</p>
      <p>Customers are more attracted towards the most liked and viewed products which can increase sales.</p>`
    }
+  
+]
+
+export const dataOfTranslationPageImageWithText = [
+  {
+     "imageUrl": Multi_Languages_Support,
+     "altText": "translation-page-image-2",
+     right:true,
+     "heading":`Smooth Translation Experience: Effortlessly Customize in Your Preferred Language`,
+     caption: `<p className='mt-3'>Translate effortlessly with our user-friendly tools, customizing your content in seconds.</p>
+     <p>Unlock the power of translation tools, enhancing your browsing experience by adapting content to your language.</p>`
+   },
+   {
+    "imageUrl": Multi_Languages_Support,
+    "altText": "translation-page-image-3",
+    right:false,
+    "heading":`Transform Your Website: Discover Easy Translation Tools`,
+    caption: `<p className='mt-3'>Change your customer account page to your language and use it easily.</p>
+    <p>Allows customers to view the website in their preferred language, improving understanding and engagement.</p>`
+  }
   
 ]
