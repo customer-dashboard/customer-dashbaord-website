@@ -9,7 +9,7 @@ function PagesComparison(prop) {
             <section className='section-5-acntpage'>
                 <div className='section-5-main-container'>
                     <div className='container'>
-                        <div className='section-5-content' data-aos='fade-up'>
+                        <div className='section-5-content'>
                             <div className="sec-5heading">
                                 <h2>{pageData.MainHeading}</h2>
                                 <p>{pageData.SubHeading}</p>

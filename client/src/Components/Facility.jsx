@@ -21,24 +21,28 @@ function Facility() {
                                     <div className="Beard_man_image">
                                     <Image src={Beard_Man}></Image>
                                     </div>
-                                    <div className="why_install">
+                                    <div className="why_install why-install-data-container">
                                         <h2 className='section_heading'>WHY <span>INSTALL?</span></h2>
                                         <ul>
                                             <li>
                                                 <span><Image src={One_Star_Image}></Image></span>
-                                                <span>The customer account page is not given as much attention by the biggest store as other pages.</span>
+                                                <span>Customer Dashboard Pro offers a user-friendly interface, making it easy for customers to navigate and access their account information effortlessly.</span>
                                             </li>
                                             <li>
                                                 <span><Image src={One_Star_Image}></Image></span>
-                                                <span>Therefore, it remains boring and uninteresting.</span>
+                                                <span>Choose your language effortlessly! With Customer Dashboard Pro, customers can quickly switch languages for a more user-friendly experience.</span>
                                             </li>
                                             <li>
                                                 <span><Image src={One_Star_Image}></Image></span>
-                                                <span>What is the reason for this?</span>
+                                                <span>Shop with confidence! Customer Dashboard Pro ensures your information is secure for worry-free.</span>
                                             </li>
                                             <li>
                                                 <span><Image src={One_Star_Image}></Image></span>
-                                                <span>Let your customers interact with you in a more sophisticated way.</span>
+                                                <span>Stay informed about your orders with effortless tracking for a smooth shopping experience.</span>
+                                            </li>
+                                            <li>
+                                                <span><Image src={One_Star_Image}></Image></span>
+                                                <span>Customer Dashboard Pro supports third-party integrations, allowing you to amplify your customer journey with features like rewards and wishlists.</span>
                                             </li>
                                             <li>
                                             <span><Image src={One_Star_Image}></Image></span>

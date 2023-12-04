@@ -1,6 +1,19 @@
 .navbar-nav a{
     padding: 0px 1.1rem !important;
 }
+.main-headernav:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #5c5c5c;
+    transition: width .3s;
+}
+.main-headernav:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
 .ml-15{
     margin-left: 1rem !important;
 }
@@ -58,9 +71,14 @@
     background-image: linear-gradient(to right, #1A2980 0%, #434db0 51%, #1A2980 100%);
     border: none;
     font-size: 0.8rem;
+    border: 1px solid transparent;
 }
+
+
 .header_btn:hover{
-    background-color: #EDA288;
+    background-image: linear-gradient(to right, #f5f6f8 0%, #f3f3f8 51%, #eeeff4 0%);
+    border:1px solid  rgb(9, 9, 58);
+    color: #000;
 }
 .toggle_btn{
     border: none;

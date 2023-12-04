@@ -1,3 +1,4 @@
+
 import NewAccountPagefoAccountPageData from '../Assets/Images/NewDataImages/newAccountPage.png';
 import ReOrderPage from '../Assets/Images/NewDataImages/OrderPageImage.png';
 import MultiLanguage_Image from '../Assets/Images/NewDataImages/Multi Languages Support.png';
@@ -11,7 +12,7 @@ export const AccountPageData = {
 }
 
 export const reOrderPageData = {
-    pageHeading:'Maximize Shopify: Simplify re-orders with Customer Dashboard Pro',
+    pageHeading:'Simplify Shopify: Easy Reorders with Customer Dashboard Pro',
     pageSubHeading:'Streamline Customer Reorders Effortlessly with Our Customer Dashboard Pro.',
     fistPara:'Facilitate an Easy Reorder Process for Customers on Your Shopify Store.',
     secondPara:'Simplify Your Shopping Experience: Effortlessly Explore Order History and Add Past Purchases to Your Cart with a Single Click Using Customer Dashboard Pro.',

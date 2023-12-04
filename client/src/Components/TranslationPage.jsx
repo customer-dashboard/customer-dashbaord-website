@@ -39,8 +39,9 @@ function TranslationPage() {
       </Helmet>
 
       {/* Page Top Component Calling Here */}
+      <div className="pageTopSectionOnTranslationPage" data-aos="fade-up">
       <PagesTopSection data={translationPagedata} />
-
+      </div>
       {/* Carousel Component Calling Here */}
       <div className="carousel-section-on-account-page" data-aos='fade-up'>
         <Carousel />
@@ -50,8 +51,9 @@ function TranslationPage() {
       <ImageWithText imageWithTextData={dataOfTranslationPageImageWithText} />
 
       {/* Featured Content component calling here */}
+      <div className="pageTopSectionOnHomePage" data-aos="fade-up">
       <FeaturedContent />
-
+      </div>
       {/* Testimonial Component Calling Here */}
       <div className="testimonialOnTranslationPage" data-aos="fade-up">
         <TestimonialSlider />

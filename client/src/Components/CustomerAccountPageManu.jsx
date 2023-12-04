@@ -37,22 +37,25 @@ function CustomerAccountPageManu() {
             </Helmet>
 
             {/* Page Top Component Calling Here */}
-            <PagesTopSection data={AccountPageData} />
-
+            <div className="pageTopSectionOnAccountPage" data-aos="fade-up">
+                <PagesTopSection data={AccountPageData} />
+            </div>
             {/* Carousel Component Calling Here */}
             <div className="carousel-section-on-account-page" data-aos='fade-up'>
-                    <Carousel />
+                <Carousel />
             </div>
 
             {/* Image With Text Component Calling Here */}
-            <ImageWithText imageWithTextData={dataOfAccountPageImageWithText}/>
+            <ImageWithText imageWithTextData={dataOfAccountPageImageWithText} />
 
             {/* Featured Content component calling here */}
+            <div className="FeaturedContentOnAccountPage" data-aos='fade-up'>
             <FeaturedContent />
-
+            </div>
             {/* pages comparison component calling here */}
+            <div className="pageTopSectionOnHomePage" data-aos="fade-up">
             <PagesComparison pageData={AccountPageDataOfComparision} />
-
+            </div>
             {/* Testimonial Component Calling Here */}
             <div className="testimonialOnAccountPage" data-aos="fade-up">
                 <TestimonialSlider />

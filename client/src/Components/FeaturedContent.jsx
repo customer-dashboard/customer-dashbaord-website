@@ -9,11 +9,11 @@ function FeaturedContent() {
       <section className='section-4-acntpage'>
         <div className='sec-4-acntpageconatiner'>
           <div className="container" >
-            <div className='section-4-main-heading feature-com-head' data-aos='fade-up'>
+            <div className='section-4-main-heading feature-com-head'>
               <h2>Explore Customer Dashboard Pro: Beyond Basic Shopify Accounts.</h2>
               <p className='mt-4 feature-com-subhead'>Revolutionize Customer Interaction: Unleash the Power of Customer Dashboard Pro's Advanced Features for Unparalleled Insights and Engagement.</p>
             </div>
-            <Row className='justify-content-center' data-aos='fade-up'>
+            <Row className='justify-content-center'>
               <Col lg={7}>
                 <Row className='justify-content-center'>
                   {

@@ -36,24 +36,27 @@ function RecentlyViewPage() {
             </Helmet>
 
             {/* Page Top Section Component Calling Here */}
-            <PagesTopSection data={recentlyViewPageData} />
-
+            <div className="pageTopSectionOnRecentlyView" data-aos="fade-up">
+                <PagesTopSection data={recentlyViewPageData} />
+            </div>
             {/* Carouse Component Calling Here */}
             <div className="carouseSectionOnRecentViewPage" data-aos='fade-up'>
-            <Carousel />
+                <Carousel />
             </div>
 
             {/* Fetured Content Component Calling Here */}
-            <FeaturedContent/>
-            
-            
-            {/* Image With Text Data Component Calling Here */}
-            <ImageWithText imageWithTextData={dataOfRecentViewImageWithText}/>
+            <div className="pageTopSectionOnHomePage" data-aos="fade-up">
+                <FeaturedContent />
+            </div>
 
-        
+
+            {/* Image With Text Data Component Calling Here */}
+            <ImageWithText imageWithTextData={dataOfRecentViewImageWithText} />
+
+
             {/* testimonial Component Calling Here */}
             <div className="TestimonialOnRecentViewPage" data-aos='fade-up'>
-            <TestimonialSlider/>
+                <TestimonialSlider />
             </div>
         </>
     )

@@ -100,15 +100,19 @@
 }
 
 .acntpagetrlbtn {
-    background-color: #ee6f43 !important;
+    background-color: #ee6f43;
 }
 
 .acntpagedmobtn {
     color: #ee6f43;
     background-color: transparent;
 }
+.acntpagetrlbtn:hover{
+    background-color: transparent;
+    color: #ee6f43 ;
+}
 
-.shpfy-trial-demo-btn:hover {
+.acntpagedmobtn:hover {
     background-color: #ee6f43 !important;
     color: #fff !important;
 }

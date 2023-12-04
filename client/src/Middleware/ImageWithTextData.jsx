@@ -1,3 +1,4 @@
+
 import RevampPanelImage from '../Assets/Images/NewDataImages/Revamp panel.png';
 import reorderPageImage from '../Assets/Images/NewDataImages/Hassle-free reorder.png';
 import customFieldImage from '../Assets/Images/NewDataImages/customfieldimage.png';

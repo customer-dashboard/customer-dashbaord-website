@@ -38,22 +38,26 @@ function ReOrderPage() {
             </Helmet>
 
             {/* Page Top Section Component Calling Here */}
-            <PagesTopSection data={reOrderPageData} />
-
+            <div className="pageTopSectionOnReorderPage" data-aos="fade-up">
+                <PagesTopSection data={reOrderPageData} />
+            </div>
             {/* Carousel Component Calling Here */}
             <div className="carousel-section-on-re-order--page" data-aos='fade-up'>
                 <Carousel />
             </div>
-            
+
             {/* Image With Text Component Calling Here */}
-            <ImageWithText imageWithTextData={dataOfReOrderPageImageWithText}/>
+            <ImageWithText imageWithTextData={dataOfReOrderPageImageWithText} />
 
             {/* Featured Content Component Calling Here */}
-            <FeaturedContent />
+            <div className="pageTopSectionOnHomePage" data-aos="fade-up">
+                <FeaturedContent />
+            </div>
 
             {/* Page COmparision Component Calling Here */}
+            <div className="pageTopSectionOnHomePage" data-aos="fade-up">
             <PagesComparison pageData={ReOrderPageDataOfComparision} />
-
+            </div>
             {/* testimonial Component Calling Here */}
             <div className="testimonialOnReOrderPage" data-aos="fade-up">
                 <TestimonialSlider />

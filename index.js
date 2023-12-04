@@ -4,25 +4,19 @@ const express = require("express");
 const bodyParser = require('body-parser')
 const { MongoClient, ServerApiVersion }= require("mongodb");
 const nodemailer = require('nodemailer');
-const { Router } = require('react-router-dom'); 
+const { Router } = require('react-router-dom');
 const React = require('react');
 const { Helmet } = require('react-helmet');
 // const App = require('./client/src/App');
 const ReactDomServer = require('react-dom/server');
-
-
 // import path from 'path';
 // import cors from 'cors';
 // import express from 'express';
-
 const PORT = process.env.PORT || 3001;
-
 // import bodyParser from 'body-parser'
 // import { MongoClient, ServerApiVersion } from 'mongodb';
-
 // import nodemailer from 'nodemailer';
 // import { BrowserRouter as Router } from 'react-router-dom';
-
 const today = new Date();
 const month = today.getMonth() + 1;
 const year = today.getFullYear();
@@ -38,7 +32,7 @@ app.use(bodyParser.json())
 app.use(cors());
 app.get("/api", (req, res) => {
 res.send("hello");
-}) 
+})
 const uri = "mongodb+srv://customerdashboardpro:aaPo77bxI4OvaHB8@cluster0.f619pih.mongodb.net/?retryWrites=true&w=majority";
 const mongoclient = new MongoClient(uri, {
   serverApi: {
@@ -47,7 +41,6 @@ const mongoclient = new MongoClient(uri, {
     deprecationErrors: true,
   }
 });
-
 async function GetCollectionMongoDB(Collection) {
     try {
       await mongoclient.connect();
@@ -63,20 +56,17 @@ async function GetCollectionMongoDB(Collection) {
     } finally {
     }
   }
-
   app.get("/get-changelog", async(req, resp) => {
     let data = await GetCollectionMongoDB("installation_faq");
     resp.send({data});
   });
-
 // SEO Server Side Rendering Rest API
 //   app.get('/pages/customer-account', (req,res)=>{
-//   //   const context = {}; 
+//   //   const context = {};
 //   //  const MainComponent = ReactDomServer.renderToString(
 //   //   React.createElement(Router, null, React.createElement(App))
 //   //  )
 //   // const helmet = Helmet.renderStatic();
-
 //   const fullHtml = `
 //     <!DOCTYPE html>
 //     <html lang="en">
@@ -88,10 +78,8 @@ async function GetCollectionMongoDB(Collection) {
 //       </body>
 //     </html>
 //   `;
-
 //   res.send(fullHtml);
 // });
-
 app.post("/contact-us", (req, resp) => {
   const formData = (req.body);
   try {
@@ -106,25 +94,24 @@ app.post("/contact-us", (req, resp) => {
           from: "customerdashboardpro@gmail.com",
           to: "support@customerdashboard.pro",
           subject: `New partner integration message on ${finaldate}`,
-          html: `<table style="text-align:left;width: 100%; margin: auto;  max-width:700px;background-color:#f8f8f8;border-radius:3px;font-family:helvetica;" cellpadding="10"> 
+          html: `<table style="text-align:left;width: 100%; margin: auto;  max-width:700px;background-color:#f8f8f8;border-radius:3px;font-family:helvetica;" cellpadding="10">
           <tr><td colspan="2" style="text-align:center;font-weight: bold; font-size: 20px; color: #000;padding-top:30px;" align="center">New Integration Request</td>  </tr>
           <tr style="display:block; margin:1rem 0rem;">
               <th style="display:block; padding:5px 10px;">FirstName:</th>
-              <td style="display:block; padding:5px 10px;">${formData.formData.FirstName}</td> 
+              <td style="display:block; padding:5px 10px;">${formData.formData.FirstName}</td>
            </tr>
-          <tr style="display:block; margin:1rem 0rem;">   
+          <tr style="display:block; margin:1rem 0rem;">
               <th style="display:block; padding:5px 10px;">LastName:</th>
-              <td style="display:block; padding:5px 10px;">${formData.formData.LastName}</td> 
+              <td style="display:block; padding:5px 10px;">${formData.formData.LastName}</td>
           </tr>
           <tr style="display:block; margin:1rem 0rem;">
-              <th style="display:block; padding:5px 10px;">Email:</th> 
-              <td style="display:block; padding:5px 10px;">${formData.formData.email}</td> 
+              <th style="display:block; padding:5px 10px;">Email:</th>
+              <td style="display:block; padding:5px 10px;">${formData.formData.email}</td>
           </tr>
           <tr style="display:block; margin:1rem 0rem;">
               <th style="display:block; padding:5px 10px;">Message:</th>
                <td style="display:block; padding:5px 10px;">${formData.formData.message}</td>
-           </tr>  
-                  
+           </tr>
           </table>`
       }
       transporter.sendMail(mainOption, (error, info) => {
@@ -142,7 +129,6 @@ app.post("/contact-us", (req, resp) => {
 app.get('*', (req, res) => {
   res.sendFile(path.resolve(__dirname, './client/build', 'index.html'));
 });
-
 app.listen(PORT, () => {
   console.log(`Server listening on ${PORT}`);
 });

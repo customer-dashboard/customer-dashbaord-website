@@ -36,22 +36,25 @@ function TopOrderProductPage() {
             </Helmet>
 
             {/* Pages Top Section Component Calling here */}
-            <PagesTopSection data={topOrderProductPagedata} />
-
+            <div className="pageTopSectionOnTOpOrderPage" data-aos="fade-up">
+                <PagesTopSection data={topOrderProductPagedata} />
+            </div>
             {/* Carouse Component Calling Here */}
             <div className="carouseSectionOnRecentViewPage" data-aos='fade-up'>
                 <Carousel />
             </div>
 
             {/* Fetured Content Component Calling Here */}
-            <FeaturedContent />
+            <div className="pageTopSectionOnHomePage" data-aos="fade-up">
+                <FeaturedContent />
+            </div>
 
             {/* Image With Text Data Component Calling Here */}
             <ImageWithText imageWithTextData={dataOfTopOrderedProductImageWithText} />
 
             {/* testimonial Component Calling Here */}
             <div className="TestimonialOnToporderProductsPage" data-aos='fade-up'>
-            <TestimonialSlider/>
+                <TestimonialSlider />
             </div>
 
         </>

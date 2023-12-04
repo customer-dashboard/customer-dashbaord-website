@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Row, Container, Button } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import '../Assets/css/Faq.css';
 import Accordion from 'react-bootstrap/Accordion';
 import { FaqItem_5 } from './FaqItem_5';

@@ -58,11 +58,11 @@ function Header() {
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                         <Nav>
                             <NavDropdown href="features" title="Features" id="basic-nav-dropdown" show={IsOpen} onClick={()=>UpdateIsOpen(!IsOpen)} onMouseOver={()=>UpdateIsOpen(true)} onMouseLeave={()=>UpdateIsOpen(false)}>                               
-                                <Link to="/pages/customer-account" className="Nav-item nav-link-custom nav-link-custom-drppdown">Customer Account Page</Link>
+                                {/* <Link to="/pages/customer-account" className="Nav-item nav-link-custom nav-link-custom-drppdown">Customer Account Page</Link> */}
                                 {/* <Link to="/pages/changelog" className="Nav-item nav-link-custom">Changelog</Link> */}
                                 <Link to="/pages/re-order" className="Nav-item nav-link-custom nav-link-custom-drppdown">Re-Order</Link>
-                                <Link to="/pages/recent-view" className="Nav-item nav-link-custom nav-link-custom-drppdown">Recently Viewed Product</Link>
-                                <Link to="/pages/top-order-products" className="Nav-item nav-link-custom nav-link-custom-drppdown">Top Order Products</Link>
+                                {/* <Link to="/pages/recent-view" className="Nav-item nav-link-custom nav-link-custom-drppdown">Recently Viewed Product</Link> */}
+                                {/* <Link to="/pages/top-order-products" className="Nav-item nav-link-custom nav-link-custom-drppdown">Top Order Products</Link> */}
                                 <Link to="/pages/translation" className="Nav-item nav-link-custom nav-link-custom-drppdown">Easy Translation</Link> 
                                 {/* <Link to="/#" className="Nav-item nav-link-custom-drppdown">Change Color</Link>
                                 <Link to="/#" className="Nav-item nav-link-custom-drppdown">Change Password</Link>
@@ -75,17 +75,17 @@ function Header() {
                                 <Link to="/#" className="Nav-item nav-link-custom">Case Study</Link> */}
                                 {/* <Link to="/re-order" className="Nav-item nav-link-custom">Re-Order</Link> */}
                             {/* </NavDropdown> */}
-                            <Link to="/pages/faq" className="Nav-item nav-link-custom">Faq's</Link>
-                            <Link to="/pages/pricing" className="Nav-item nav-link-custom">Pricing</Link>
+                            <Link to="/pages/faq" className=" main-headernav Nav-item nav-link-custom">Faq's</Link>
+                            <Link to="/pages/pricing" className=" main-headernav Nav-item nav-link-custom">Pricing</Link>
 
-                            <NavDropdown href="javascript:void(0)" title="Partners" id="basic-nav-dropdown" show={ThirdIsOpen} onClick={()=>UpdateThirdIsOpen(!ThirdIsOpen)} onMouseOver={handleIsThirdOpen} onMouseLeave={handleIsThirdClosed}>
+                            {/* <NavDropdown href="javascript:void(0)" title="Partners" id="basic-nav-dropdown" show={ThirdIsOpen} onClick={()=>UpdateThirdIsOpen(!ThirdIsOpen)} onMouseOver={handleIsThirdOpen} onMouseLeave={handleIsThirdClosed}> */}
                                 {/* <Link to="/customer-menu" className="Nav-item nav-link-custom">Customer Menu</Link>
                                 <Link to="/edit-profile" className="Nav-item nav-link-custom">Edit Profile</Link>
                                 <Link to="/re-order" className="Nav-item nav-link-custom">Re-Order</Link> */}
-                                <a href="https://apps.shopify.com/customer-account-verification" target="_blank" rel="noreferrer" className="Nav-item nav-link-custom nav-link-custom-drppdown">Email Checker</a>
-                            </NavDropdown>
-                            <Link to="/pages/contact-us" className="Nav-item nav-link-custom">Contact Us</Link>
-                            <a href="https://apps.shopify.com/customer-dashboard-pro" className="Nav-item nav-link-custom" rel="noreferrer" target="_blank">Install</a>
+                                {/* <a href="https://apps.shopify.com/customer-account-verification" target="_blank" rel="noreferrer" className="Nav-item nav-link-custom nav-link-custom-drppdown">Email Checker</a> */}
+                            {/* </NavDropdown> */}
+                            <Link to="/pages/contact-us" className=" main-headernav Nav-item nav-link-custom">Contact Us</Link>
+                            <a href="https://apps.shopify.com/customer-dashboard-pro" className=" main-headernav Nav-item nav-link-custom" rel="noreferrer" target="_blank">Install</a>
                        </Nav>
                       
                     </Navbar.Collapse>

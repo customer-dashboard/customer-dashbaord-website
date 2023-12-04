@@ -57,6 +57,11 @@
 .Start_btn{
     background-color: #EDA288;
 }
+.Start_btn:hover{
+    background-color: transparent;
+    color: #EDA288;
+
+}
 
 .disclamer a{
     color: #FFFFFF;

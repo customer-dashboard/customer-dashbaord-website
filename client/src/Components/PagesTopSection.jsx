@@ -9,7 +9,7 @@ function PagesTopSection(props) {
 
             <section className='customer-account-page-manu'>
                 <div className='container'>
-                    <div className='page-content customer-account-page-manu-content' data-aos='fade-up'>
+                    <div className='page-content customer-account-page-manu-content'>
                         <div className="customer-account-main-content">
                             <Row className='align-items-center'>
                                 <Col lg={6} className='acntpage-col-fst col-md-6'>
@@ -22,7 +22,7 @@ function PagesTopSection(props) {
                                         <p className='mt-3'>{data.secondPara}</p>
                                         <div className="shpfacntpagbtns mt-4">
                                             <Button href='https://apps.shopify.com/customer-dashboard-pro' target='_blank' className='shpfy-trial-demo-btn acntpagetrlbtn'>Start Free Trial</Button>
-                                            <Button href='https://customer-dashboard.myshopify.com/account/login' target='_blank' className='shpfy-trial-demo-btn acntpagedmobtn'>Our Demo Store</Button>
+                                            <Button href='https://customer-dashboard.myshopify.com/account/login' target='_blank' className='shpfy-trial-demo-btn acntpagedmobtn'>View Demo Store</Button>
                                         </div>
                                     </div>
                                 </Col>

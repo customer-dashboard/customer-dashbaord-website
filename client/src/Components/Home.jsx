@@ -11,6 +11,11 @@ import TestimonialSlider from './TestimonialSlider';
 import Facility from './Facility';
 import StartFree from './StartFree';
 import { useEffect } from 'react';
+import PagesTopSection from './PagesTopSection';
+import { AccountPageData } from '../Middleware/PagesTopSectiondata';
+import FeaturedContent from './FeaturedContent';
+import PagesComparison from './pagesComparison';
+import { AccountPageDataOfComparision } from '../Middleware/PageComparisonData';
 
 function Home({ title }) {
 
@@ -29,8 +34,12 @@ function Home({ title }) {
       <Banner />
       <Carousel />
       <TabsReuse />
-      <Mobilove />
+       {/* Page Top Component Calling Here */}
+      <PagesTopSection data={AccountPageData}/>
       <Tabs />
+      <FeaturedContent/>
+      <Mobilove />
+      <PagesComparison pageData={AccountPageDataOfComparision}/>
       <Faq />
       <CustomerAccountPage />
       <TestimonialSlider />
