@@ -4,29 +4,13 @@ const express = require("express");
 const bodyParser = require('body-parser')
 const { MongoClient, ServerApiVersion }= require("mongodb");
 const nodemailer = require('nodemailer');
-const { Router } = require('react-router-dom');
-const React = require('react');
-const { Helmet } = require('react-helmet');
-// const App = require('./client/src/App');
-const ReactDomServer = require('react-dom/server');
-// import path from 'path';
-// import cors from 'cors';
-// import express from 'express';
 const PORT = process.env.PORT || 3001;
-// import bodyParser from 'body-parser'
-// import { MongoClient, ServerApiVersion } from 'mongodb';
-// import nodemailer from 'nodemailer';
-// import { BrowserRouter as Router } from 'react-router-dom';
 const today = new Date();
 const month = today.getMonth() + 1;
 const year = today.getFullYear();
 const date = today.getDate();
 const finaldate = `${month}/${date}/${year}`;
 const app = express();
-// import React from 'react';
-// import { Helmet } from 'react-helmet';
-// import App from './client/src/App.js';
-// import ReactDomServer from 'react-dom/server';
 app.use(express.static(path.resolve(__dirname, './client/build')));
 app.use(bodyParser.json())
 app.use(cors());
@@ -60,26 +44,6 @@ async function GetCollectionMongoDB(Collection) {
     let data = await GetCollectionMongoDB("installation_faq");
     resp.send({data});
   });
-// SEO Server Side Rendering Rest API
-//   app.get('/pages/customer-account', (req,res)=>{
-//   //   const context = {};
-//   //  const MainComponent = ReactDomServer.renderToString(
-//   //   React.createElement(Router, null, React.createElement(App))
-//   //  )
-//   // const helmet = Helmet.renderStatic();
-//   const fullHtml = `
-//     <!DOCTYPE html>
-//     <html lang="en">
-//       <head>
-//         <meta name="name" content="name name name name name bame bame bame name name name bame abme"></meta>
-//       </head>
-//       <body>
-//         <div id="root"></div>
-//       </body>
-//     </html>
-//   `;
-//   res.send(fullHtml);
-// });
 app.post("/contact-us", (req, resp) => {
   const formData = (req.body);
   try {
