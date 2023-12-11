@@ -1,0 +1,400 @@
+.update-date {
+    margin-bottom: 15px;
+}
+
+.list-content {
+    margin: 0 0 1.5em 3em;
+    padding: 0;
+}
+
+.page-main-section {
+    padding: 1rem 1rem;
+}
+
+.privacy-policy-page-manu {
+    padding-top: 2rem;
+}
+
+.privacy-policy-page-container h2 {
+    font-size: 2.1rem;
+    line-height: 1.4em;
+    color: #1E1810;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.privacy-policy-page-container p {
+    color: rgb(87, 82, 80);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.2px;
+    margin-bottom: 25.6px;
+}
+
+.privacy-policy-page-container h3 {
+    margin-bottom: 20px;
+    line-height: 1.4;
+    font-weight: 700;
+    color: #1E1810;
+    font-size: 1.5rem;
+}
+
+.privacy-policy-page-container h4 {
+    font-size: 1.25rem;
+    color: #1E1810;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.customer-account-page-manu-content {
+    padding: 4rem 0rem;
+}
+
+.acnt-pg-sctn-3-container {
+    padding: 4rem 1.5rem;
+}
+.acnt-pg-sctn-3-container img{
+    max-width: 100%;
+}
+.acnt-pg-sctn-3-container p{
+    font-size: 1rem;
+    color: #000;
+}
+.acntpagmnu-hero-heading {
+    font-size: 34px;
+    color: #000654;
+    font-weight: 700;
+}
+
+.acntpage-col-fst-cntnt h3 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #000654;
+}
+
+.acntpage-col-scnd-cntnt {
+    display: flex;
+    justify-content: center;
+}
+.acntpage-col-scnd-cntnt img{
+    max-width: 100%;
+}
+
+
+.shopify-logos-for-customer img {
+    max-width: 100%;
+}
+
+.shpfy-trial-demo-btn {
+    padding: 20px 10px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 2px solid #ee6f43 !important;
+    width: 46%;
+    margin-right: 10px;
+
+}
+
+.acntpagetrlbtn {
+    background-color: #ee6f43;
+}
+
+.acntpagedmobtn {
+    color: #ee6f43;
+    background-color: transparent;
+}
+.acntpagetrlbtn:hover{
+    background-color: transparent;
+    color: #ee6f43 ;
+}
+
+.acntpagedmobtn:hover {
+    background-color: #ee6f43 !important;
+    color: #fff !important;
+}
+
+
+.acnt-pg-inner-feature-col-second img {
+    max-width: 100%;
+}
+
+/* .account-page-section-3 {
+    background: linear-gradient(141deg, #FFF 0%, #E1E1E1 25%, #FFF 50%, #E1E1E1 75%, #E1E1E1 100%);
+} */
+
+.sec-5-fstcol img{
+    padding: 10px;
+}
+.acnt-pg-inner-feature-container h2 {
+    color:#000654;
+    font-weight: 700;
+}
+.sec-4-acntpageconatiner{
+    /* background: linear-gradient(133deg, #0087C1 0%, #1E235C 100%);    */
+    background-image: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+.section-4-main-heading{
+    margin-bottom: 4rem;
+    margin-top: 1.5rem;
+}
+.section-4-main-heading, .section-5-content h2{
+    font-weight: 900;
+    color: #000654;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.section-4-main-heading, .section-5-content p{
+    font-size: 18px;
+    color: #000654;
+    text-align: center;
+}
+.feature-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000654;
+    margin-top: 10px;
+}
+.featuredescription{
+    margin-top: 0.6rem;
+}
+.featured-icon{
+    width: 55px;
+    height: 55px;
+    max-width: 100%;
+    border-radius: 50%;
+}
+.featured-icon svg{
+    height:55px;
+    width: 100%;
+}
+.main-items-of-featured-content {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    background-color: #fff;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.section-5-acntpage{
+    padding: 3.5rem 0rem;
+}
+.row-container-for-account-page-sec-5{
+    border: 2px solid #000654;
+}
+.row-container-for-account-page-sec-5 img{
+    max-width: 100%;
+}
+
+.customer-dashboardproimage{
+    display: block;
+    margin: auto;
+}
+.sec-5columns h5{
+    margin-bottom: 0;
+    color: #000654;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid;
+    padding-top: 1rem;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.sec-5columns{
+    padding: 0;
+}
+.sec-5columns img{
+    width: 100%;
+}
+.section-5-acntpage {
+    background: linear-gradient(141deg, #FFF 0%, #E1E1E1 25%, #FFF 50%, #E1E1E1 75%, #E1E1E1 100%);
+}
+.sec-5col-first{
+    border-right:1px solid #000654;
+}
+.sec-5col-second{
+    border-left:1px solid #000654;
+}
+.sec-5heading{
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+}
+.sec-5heading p{
+    font-weight: 600;
+    font-size: 18px;
+}
+.sec-5-scndcol img{
+    padding: 10px;
+}
+.feature-com-head, .feature-com-subhead{
+    color: #fff;
+}
+.page-not-found{
+    width: 35%;
+    margin: auto;
+}
+.pnf-content{
+    text-align: center;
+}
+.pnfcontainer{
+    padding: 3.9rem 0rem;
+}
+.main-pnf-heading h1 {
+    font-size: 90px;
+    background-image: linear-gradient(to right, #1A2980 0%, #434db0 51%, #1A2980 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .pnf-foot-content a{
+    background-image: linear-gradient(to right, #1A2980 0%, #434db0 51%, #1A2980 100%);
+    border: 1px solid transparent;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+    width: 175px;
+    margin: auto;
+  }
+@media screen and (max-width:991px) {
+    .shpfy-trial-demo-btn {
+        font-size: 16px;
+    }
+
+    .acntpagmnu-hero-heading {
+        font-size: 39px;
+    }
+    .page-not-found{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .mob-order{
+        order: 2;
+    }
+    .acnt-pg-sctn-3-container{
+        padding: 1rem 1.5rem;
+    }
+    .sec-5columns h5{
+        font-size: 12px !important;
+       }
+}
+
+@media screen and (max-width:576px) {
+    .shpfy-trial-demo-btn {
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .pnfcontainer{
+        padding: 2rem 0rem;
+    }
+    .page-not-found{
+        width:100%;
+    }
+    .pnf-foot-content p{
+        font-size: 14px;
+    }
+
+    .shopify-logos-for-customer-with-rating a {
+        width: 100%;
+    }
+
+    .shpdashboard-pro-rating-system img {
+        width: 65%;
+        margin-bottom: 5px;
+    }
+
+    .acntpagmnu-hero-heading {
+        font-size: 27px;
+    }
+    .customer-account-main-content p{
+        font-size: 14px;
+    }
+
+    .acntpage-col-fst-cntnt h3 {
+        font-size: 18px;
+    }
+    .acnt-pg-sctn-3-container p {
+        font-size: 14px;
+    }
+    .acnt-pg-inner-feature-container h2{
+        font-size: 18px;
+    }
+
+    .customer-account-page-manu-content {
+        padding: 2.5rem 0rem;
+    }
+    .section-4-main-heading{
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+        font-size: 24px;
+    }
+    .section-4-main-heading p {
+        font-size: 16px;
+    }
+    .sec-5heading {
+        margin-bottom: 2rem;
+    }
+    .sec-5heading p {
+        font-size: 15px;
+    }
+  
+    .sec-5-scndcol h5{
+        border-top: 2px solid;
+        border-right: 1px solid;
+    }
+}
+
+@media screen and (min-width:991px) {
+    .pages-container {
+        max-width: 1200px !important;
+        padding: 15px 2rem;
+    }
+}
+
+@media screen and (max-width:921px) {
+    .privacy-policy-page-container h2 {
+        font-size: 1.4rem;
+    }
+
+    .privacy-policy-page-container h3 {
+        font-size: 1.2rem;
+    }
+
+    .privacy-policy-page-container h4 {
+        font-size: 1.1rem;
+    }
+}
+@media screen and (max-width:768px) {
+    .after-md-margin-top{
+        margin-top: 2.5rem !important;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .list-content {
+        margin: 0 0 1.5em 2em;
+    }
+
+    .privacy-policy-page-container p {
+        font-size: 14px;
+    }
+}
+
+.customer-account-page-manu {
+    background: linear-gradient(141deg, #FFF 0%, #E1E1E1 25%, #FFF 50%, #E1E1E1 75%, #E1E1E1 100%);
+}

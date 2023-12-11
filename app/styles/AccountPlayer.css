@@ -1,0 +1,39 @@
+.section_7{
+    padding: 70px 0px;
+}
+.heading{
+    padding: 30px 0px;
+    text-align: center;
+}
+.heading span{
+    color: #EDA288;
+    font-weight: 700;
+}
+.heading h2{
+    font-size: 1.8rem;
+}
+.account-page-video iframe{
+    height: 600px;
+}
+
+@media screen and (max-width:991px){
+    .heading h2{
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width:576px){
+    .heading{
+        padding: 30px 0px;
+        padding-top:0;
+    }
+    .account-page-video iframe{
+        height: 360px !important;
+    }
+    .heading h2{
+        font-size: 19px;
+    }
+    .section_7 {
+        padding: 30px 0px;
+    }
+}

@@ -1,0 +1,64 @@
+.contact-us-page-container{
+    padding-top: 2rem;
+    padding-bottom:2rem;
+}
+.form-input-feild{
+    background-color:#f5f8fa ;
+    font-size: .9rem;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+    padding: 8px;
+}
+.form-input-feild:focus{
+    background-color: #fff;
+    
+}
+.contact-form-button{
+    width: 100%;
+    background-color: #eda288;
+    color: white;
+    font-weight: 400;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+}
+.form-control:focus {
+    border: 1px solid black;
+    box-shadow: none;
+}
+.contact-form-button{
+    background-image: linear-gradient(to right, #1A2980 0%, #434db0 51%, #1A2980 100%);
+}
+.contact-us-page-container label{
+    margin: 10px 0px;
+    font-weight: 500;
+}
+.contact-us-page-container em{
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(193, 26, 26);
+}
+.contact-form-button:hover{
+    background-image: linear-gradient(to right, #000000 0%, #101547 51%, #000000 100%);
+}
+.success-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.success-message p{
+    margin: 0;
+    font-size: 0.9rem;
+}
+.form-input-label{
+    font-size: 0.9rem;
+}
+.green-circle {
+    width: 16px;
+    height: 16px;
+    background-color: green;
+    border-radius: 50%;
+    margin-right: 0.8rem;
+  }
+  
