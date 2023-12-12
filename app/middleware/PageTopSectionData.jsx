@@ -1,5 +1,5 @@
 
-import NewAccountPagefoAccountPageData from '../Assets/Images/NewDataImages/newAccountPage.png';
+import NewAccountPagefoAccountPageData from '../assets/images/NewDataImages/newAccountPage.png';
 import reorderGif from '../assets/images/NewDataImages/reorder GIF.gif';
 import TranslateImage from '../assets/images/NewDataImages/Translator.png';
 
