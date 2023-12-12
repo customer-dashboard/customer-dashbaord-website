@@ -1,0 +1,158 @@
+.banner_background{
+    background: url(../assets/images/banner-background.png), lightgray 50% / cover no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.banner_background{
+    padding: 70px 0px;
+}
+
+.shopify-official-logo-black{
+    border: none !important;
+    background-color: none;
+    padding: 0;
+    border-radius: 0 !important;
+    background-color: transparent;
+}
+.shopify-official-logo-black:hover{
+    background-color: transparent !important;
+}
+.shopify-official-logo-black img{
+    max-width: 100%;
+}
+.main_heading h1{
+    font-size: 29px;
+    font-weight: 600;
+    color: white;
+    line-height: 42px;
+}
+.main_heading p{
+    color: white;
+    font-size: 18px;
+}
+
+.btns{
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid white;
+}
+.btns:hover {
+    background-color: white;
+    color: #007CB6;
+    border: 1px solid white;
+}
+.f_btn{
+    background-color: transparent;
+}
+.banner-span{
+    display: block;
+}
+
+.span_3{
+    font-size: 22px;
+}
+.span_4{
+    font-size: 11px;
+}
+
+video{
+    border-radius: 5px;
+}
+
+.forever  button:hover{
+    background-color: white;
+    color: #007CB6;
+}
+
+@media screen and (max-width:991px) {
+    .main_heading h1 {
+        font-size: 30px;
+        line-height: 46px;
+        text-align: center;
+    }
+    .main_heading p {
+        font-size: 20px;
+        text-align: center;
+    }
+   
+    .span_3{
+        font-size: 36px;
+    }
+    .span_4{
+        font-size: 18px;
+    }
+   
+}
+
+
+@media screen and (min-width:991px) and (max-width:1200px){
+    .main_heading h1{
+        font-size: 24px;
+    }
+    .span_3 {
+        font-size: 19px;
+    }
+    .span_4 {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:768px){
+  
+    .span_3 {
+        font-size: 30px;
+    }
+    .span_4 {
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width:576px){
+    .main_heading p {
+        font-size: 14px;
+    }   
+    .col-x-sm-6{
+        width: 50%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .my-x-sm{
+        margin:20px 0px;
+    }
+    .span_4 {
+        font-size: 10px;
+    }
+    .span_3 {
+        font-size: 20px;
+    }
+ 
+    .banner_background{
+        padding: 2px 0px;
+        padding-bottom: 30px;
+    }
+    .banner_left_section{
+        padding: 0px 30px !important;
+    }
+    
+}
+
+@media screen and (max-width:476px){
+
+    .span_3 {
+        font-size: 14px;
+    }
+    .span_4 {
+        font-size: 7px;
+    }
+}
+@media screen and (max-width:374px){
+    .span_3 {
+        font-size: 11px;
+    }
+    .span_4 {
+        font-size: 6px;
+    }
+  
+}
