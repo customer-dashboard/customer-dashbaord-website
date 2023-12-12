@@ -1,5 +1,5 @@
 .banner_background{
-    background: url('../assets/images/banner-background.png'), lightgray 50% / cover no-repeat;
+    background: url(../assets/images/banner-background.png), lightgray 50% / cover no-repeat;
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -33,6 +33,7 @@
 }
 
 .btns{
+    width: 100%;
     border-radius: 3px;
     border: 1px solid white;
 }
@@ -40,9 +41,6 @@
     background-color: white;
     color: #007CB6;
     border: 1px solid white;
-}
-.btns button{
-    border: none!important;
 }
 .f_btn{
     background-color: transparent;
@@ -62,21 +60,14 @@ video{
     border-radius: 5px;
 }
 
-.btns:hover{
+.forever  button:hover{
     background-color: white;
-    color: #007CB6 !important;
-}
-.btns button:hover{
-    background-color: transparent !important;
-    color: #007CB6 !important;
-}
-.forever{
-    text-align: center;
+    color: #007CB6;
 }
 
 @media screen and (max-width:991px) {
     .main_heading h1 {
-        font-size: 28px;
+        font-size: 30px;
         line-height: 46px;
         text-align: center;
     }
