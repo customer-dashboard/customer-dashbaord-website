@@ -1,6 +1,6 @@
-/.git
-/node_modules
-.dockerignore
+node_modules
+
+/.cache
+/build
+/public/build
 .env
-Dockerfile
-fly.toml

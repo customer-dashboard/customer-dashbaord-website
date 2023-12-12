@@ -1,7 +1,7 @@
 import { Link } from '@remix-run/react';
 import { useState, useEffect } from "react";
 import { Button, Container, Nav, NavDropdown, Navbar,Image } from "react-bootstrap";
-import newLogo from '../Assets/Images/Logo/newLogo.png'
+import newLogo from '../assets/images/Logo/newLogo.png'
 
 function Header() {
 
