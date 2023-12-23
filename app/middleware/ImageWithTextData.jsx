@@ -1,8 +1,8 @@
 
-import RevampPanelImage from '../Assets/Images/NewDataImages/Revamp panel.png';
-import reorderPageImage from '../Assets/Images/NewDataImages/Hassle-free reorder.png';
-import customFieldImage from '../Assets/Images/NewDataImages/customfieldimage.png';
-import Multi_Languages_Support from '../Assets/Images/NewDataImages/Multi Languages Support.png';
+import RevampPanelImage from '../assets/images/NewDataImages/Revamp panel.png';
+import reorderPageImage from '../assets/images/NewDataImages/Hassle-free reorder.png';
+import customFieldImage from '../assets/images/NewDataImages/customfieldimage.png';
+import Multi_Languages_Support from '../assets/images/NewDataImages/Multi Languages Support.png';
 import TranslateImage from '../assets/images/NewDataImages/Translator.png';
  export const dataOfAccountPageImageWithText = [
      {

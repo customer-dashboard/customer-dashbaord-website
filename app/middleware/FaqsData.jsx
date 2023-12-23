@@ -1,11 +1,11 @@
 
-import { FaqItem_1 } from "../Components/FaqItem_1";
-import { FaqItem_2 } from "../Components/FaqItem_2";
-import { FaqItem_3 } from "../Components/FaqItem_3";
+import { FaqItem_1 } from "../components/FaqItem_1";
+import { FaqItem_2 } from "../components/FaqItem_2";
+import { FaqItem_3 } from "../components/FaqItem_3";
 import { FaqItem4 } from "../components/FaqItem_4";
-import { FaqItem_5 } from "../Components/FaqItem_5";
-import { FaqItem_6 } from "../Components/FaqItem_6";
-import { FaqItem_7 } from "../Components/FaqItem_7";
+import { FaqItem_5 } from "../components/FaqItem_5";
+import { FaqItem_6 } from "../components/FaqItem_6";
+import { FaqItem_7 } from "../components/FaqItem_7";
 
 const faqData = [
     {
