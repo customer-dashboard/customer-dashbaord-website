@@ -23,7 +23,7 @@ export default function SendEmailApi(newUser){
                 <td style="display:block; padding:5px 10px;">${firstName}</td>
              </tr>
              <tr style="display:block; margin:1rem 0rem;">
-                <th style="display:block; padding:5px 10px;">FirstName:</th>
+                <th style="display:block; padding:5px 10px;">LastName:</th>
                 <td style="display:block; padding:5px 10px;">${lastName}</td>
              </tr>
            
@@ -32,7 +32,7 @@ export default function SendEmailApi(newUser){
                 <td style="display:block; padding:5px 10px;">${email}</td>
             </tr>
             <tr style="display:block; margin:1rem 0rem;">
-                <th style="display:block; padding:5px 10px;">FirstName:</th>
+                <th style="display:block; padding:5px 10px;">Message:</th>
                 <td style="display:block; padding:5px 10px;">${message}</td>
              </tr>
         
