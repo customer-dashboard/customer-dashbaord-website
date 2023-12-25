@@ -1,0 +1,34 @@
+.main-integration-container-grid{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.integrations-partners-page h1{
+    font-size: 52px;
+}
+.partners-integrations-main-content-wraper img{
+    max-width: 100%;
+    width: 55px;
+}
+.partners-integrations-main-content-wraper svg{
+    width: 200px;
+    height: auto;
+}
+.main-integration-container-grid{
+    padding: 20px 6px;
+    border-radius: 10px;
+    transition: all .35s;
+    /* min-height: 250px !important; */
+    margin: auto;
+    border: 1px solid transparent;
+}
+.main-integration-container-grid h5{
+    font-size: 15px;
+    margin: 0;
+}
+.main-integration-container-grid p{
+    font-size: 14px;
+}
+.main-integration-container-grid:hover{
+    cursor: pointer;
+    border: 1px solid black;
+    transform: translateY(-5px);
+}

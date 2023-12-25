@@ -78,6 +78,7 @@ function Header() {
                             {/* </NavDropdown> */}
                             <Link to="/faqs" className=" main-headernav Nav-item nav-link-custom">Faq's</Link>
                             <Link to="/pricing" className=" main-headernav Nav-item nav-link-custom">Pricing</Link>
+                            <Link to="/integrations-partners" className=" main-headernav Nav-item nav-link-custom">Integrations & Partners</Link>
                             
                             {/* <NavDropdown href="javascript:void(0)" title="Partners" id="basic-nav-dropdown" show={ThirdIsOpen} onClick={()=>UpdateThirdIsOpen(!ThirdIsOpen)} onMouseOver={handleIsThirdOpen} onMouseLeave={handleIsThirdClosed}> */}
                                 {/* <Link to="/customer-menu" className="Nav-item nav-link-custom">Customer Menu</Link>

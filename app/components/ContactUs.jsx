@@ -42,11 +42,12 @@ function ContactUs() {
                   <Row className="mb-3">
                     <Col lg={6}>
                       <label name="firstName" id="firstName">
-                        FirstName
+                        FirstName*
                       </label>
                       <input
                         type="text"
                         name="firstName"
+                        placeholder="First Name*"
                         className="form-input-feild first-name-field"
                       />
                       {formActionData?.errors?.firstName ? (
@@ -55,11 +56,12 @@ function ContactUs() {
                     </Col>
                     <Col lg={6}>
                       <label name="lastName" id="lastName">
-                        LastName
+                        LastName*
                       </label>
                       <input
                         type="text"
                         name="lastName"
+                        placeholder="Last Name*"
                         className="form-input-feild first-name-field"
                       />
                       {formActionData?.errors?.lastName ? (
@@ -70,11 +72,12 @@ function ContactUs() {
                   <Row className="mb-3">
                     <Col lg={12}>
                       <label name="email" id="email">
-                        Email
+                        Email*
                       </label>
                       <input
                         type="email"
                         name="email"
+                        placeholder="Email*"
                         className="form-input-feild first-name-field"
                       />
                       {formActionData?.errors?.email ? (
@@ -85,14 +88,22 @@ function ContactUs() {
                   <Row className="mb-3">
                     <Col lg={12}>
                       <label name="message" id="message">
-                        Message
+                        Message*
                       </label>
-                      <input
+                      {/* <input
                         type="textarea"
                         rows={4}
                         name="message"
                         className="form-input-feild first-name-field"
+                      /> */}
+                      <textarea
+                      type="textarea"
+                      rows={4}
+                      name="message"
+                      placeholder="Message*"
+                      className="form-input-feild first-name-field"
                       />
+
                       {formActionData?.errors?.message ? (
                         <em>{formActionData?.errors.message}</em>
                       ) : null}

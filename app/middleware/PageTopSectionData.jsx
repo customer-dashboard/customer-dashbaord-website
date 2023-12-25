@@ -2,6 +2,7 @@
 import NewAccountPagefoAccountPageData from '../assets/images/NewDataImages/newAccountPage.png';
 import reorderGif from '../assets/images/NewDataImages/reorder GIF.gif';
 import TranslateImage from '../assets/images/NewDataImages/Translator.png';
+import IntegrationImage from '../assets/images/NewDataImages/integration.avif';
 
 export const AccountPageData = {
         pageHeading:'Enhance the functionality of Shopify customer accounts page',
@@ -41,4 +42,12 @@ export const translationPagedata = {
     fistPara:'Unlock a world of personalization on your account with advanced translation options. Translate Customer Dashboard Pro into your language, making it uniquely yours.',
     secondPara:'Discover the power of customization on your account page! Explore advanced translation features, allowing you to tailor Customer Dashboard Pro to your language preferences effortlessly.',
     pageImageData:TranslateImage
+}
+export const IntegrationAndPartnerPageData = {
+    pageHeading:'Integrations & Partners',
+    pageSubHeading:'Explore Exciting Opportunities: See How Our App Makes Integration Effortless and Forms Profitable Partnerships in the Shopify World!',
+    fistPara:'Experience the Ease of Integration and Discover Profitable Partnerships in the Shopify Ecosystem through Our App.',
+    secondPara:null,
+    pageImageData:IntegrationImage,
+    new:true
 }
