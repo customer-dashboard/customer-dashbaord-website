@@ -3,12 +3,12 @@
     padding-bottom:2rem;
 }
 .form-input-feild{
-    background-color:#f5f8fa ;
+    background-color:#E5E4E5 ;
     font-size: .9rem;
     width: 100%;
-    border-radius: 5px;
-    border: 1px solid darkgray;
-    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    padding: 15px;
 }
 .form-input-feild:focus{
     background-color: #fff;
@@ -19,7 +19,7 @@
     background-color: #eda288;
     color: white;
     font-weight: 400;
-    padding: 8px;
+    padding: 15px;
     border: none;
     border-radius: 8px;
 }

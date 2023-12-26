@@ -81,6 +81,7 @@ body {
 .react-video-player-section{
     position: relative;
 }
+
 /* .play-pause-button{
     position: absolute;
     top: 50%;
@@ -109,6 +110,15 @@ body {
     width:60px;
     height: 60px;
 } */
+.h-color-dark{
+    color: #000654 !important;
+}
+.fw-600{
+    font-weight: 600;
+}
+.text-decoration-no{
+    text-decoration: none;
+}
 
 @media screen and (max-width:921px){
     .manu-page-title h1{
