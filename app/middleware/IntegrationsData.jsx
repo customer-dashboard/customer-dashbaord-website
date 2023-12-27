@@ -9,6 +9,8 @@ import YoptoLoaylltyLogo from '../assets/images/Logo/yoptoLyallty.webp';
 import GrowaveLoyalltyLogo from '../assets/images/Logo/growave-loyallty.webp';
 import LlLoyalltyLogo from '../assets/images/Logo/LL-loyallty.webp';
 import EmailCheker from '../assets/images/Logo/emailcheker.webp';
+import CheckOutLogo from '../assets/images/Logo/checkoutLogo.webp';
+import ReportLogo from '../assets/images/Logo/reportLogo.webp';
 
 export const integrationdata = [
 
@@ -79,5 +81,17 @@ export const integrationdata = [
     heading: "EmailCheckr: Stop Fake Signups",
     content:"Create a loyalty program to retain new customers for the long term.",
     link:"https://apps.shopify.com/customer-account-verification?search_id=6a5a2051-c18b-4b3f-b47a-51865e2ff1c6&surface_detail=EmailCheckr%3A+Stop+Fake+Signups&surface_inter_position=1&surface_intra_position=4&surface_type=search"
+  },
+  {
+    logo: ReportLogo,
+    heading: "Report Expert ‑ Mandasa",
+    content:"Create a loyalty program to retain new customers for the long term.",
+    link:"https://apps.shopify.com/report-expert?search_id=2a036a96-be52-4601-b1c0-8a3243184474&surface_detail=report+expert&surface_inter_position=1&surface_intra_position=7&surface_type=search"
+  },
+  {
+    logo: CheckOutLogo,
+    heading: "Checkout Extensions Pro",
+    content:"Create a loyalty program to retain new customers for the long term.",
+    link:"https://apps.shopify.com/checkout-extensions-pro?search_id=876e324f-4791-49c2-a199-cdab9479403f&surface_detail=check+extension+pro&surface_inter_position=4&surface_intra_position=6&surface_type=search"
   },
 ];
