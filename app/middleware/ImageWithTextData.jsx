@@ -2,6 +2,7 @@
 import RevampPanelImage from '../assets/images/NewDataImages/Revamp panel.png';
 import reorderPageImage from '../assets/images/NewDataImages/Hassle-free reorder.png';
 import customFieldImage from '../assets/images/NewDataImages/customfieldimage.png';
+import SecondImageOfReorderPage from '../assets/images/NewDataImages/new-order-img.png';
 import Multi_Languages_Support from '../assets/images/NewDataImages/Multi Languages Support.png';
 import TranslateImage from '../assets/images/NewDataImages/Translator.png';
  export const dataOfAccountPageImageWithText = [
@@ -32,7 +33,7 @@ export const dataOfReOrderPageImageWithText = [
      <p>Simply log in to your Shopify customer account, browse order history, and reorder with a single click using the convenient 'Add to Cart' functionality. It's that easy!</p>`
    },
    {
-     "imageUrl": RevampPanelImage,
+     "imageUrl": SecondImageOfReorderPage,
      "altText": "Image 2",
      "heading":`Enable customers to effortlessly edit cart items while reordering`,
      caption: `<p className='mt-4'>Customer Dashboard Pro Reorder allows customers to easily include/exclude items in the reorder. Additionally, they can adjust product quantities, all before swiftly adding to the cart for checkout convenience.</p>

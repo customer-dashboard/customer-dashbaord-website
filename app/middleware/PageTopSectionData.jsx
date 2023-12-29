@@ -1,6 +1,7 @@
 
 import NewAccountPagefoAccountPageData from '../assets/images/NewDataImages/newAccountPage.png';
 import reorderGif from '../assets/images/NewDataImages/reorder GIF.gif';
+import reoderNewGif from '../assets/images/NewDataImages/reorder_top_section_new.gif';
 import TranslateImage from '../assets/images/NewDataImages/Translator.png';
 import IntegrationImage from '../assets/images/NewDataImages/integration.avif';
 
@@ -17,7 +18,7 @@ export const reOrderPageData = {
     pageSubHeading:'Streamline Customer Reorders Effortlessly with Our Customer Dashboard Pro.',
     fistPara:'Facilitate an Easy Reorder Process for Customers on Your Shopify Store.',
     secondPara:'Simplify Your Shopping Experience: Effortlessly Explore Order History and Add Past Purchases to Your Cart with a Single Click Using Customer Dashboard Pro.',
-    pageImageData:reorderGif
+    pageImageData:reoderNewGif
 }
 
 export const recentlyViewPageData = {

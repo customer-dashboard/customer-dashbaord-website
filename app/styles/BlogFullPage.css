@@ -1,0 +1,64 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.topofTOpsection{
+    background: linear-gradient(141deg, #FFF 0%, #E1E1E1 25%, #FFF 50%, #E1E1E1 75%, #E1E1E1 100%);
+}
+.flpgtpscnimg{
+    border-radius: 15px;
+    max-width: 100%;
+}
+.tpmncontainerwithgrid p{
+    letter-spacing: 1px;
+}
+.dttm-bage{
+    margin-right: 15px;
+}
+.blog-tag-bage{
+    padding: 2px 20px;
+    background-color: #000;
+    color: white;
+    font-size: 14px;
+}
+.fullpagemaincontentwithfullinfo *{
+    font-family: 'Roboto', sans-serif !important;
+
+}
+ .fullpagemaincontentwithfullinfo li{
+    letter-spacing: 1px;
+    line-height: 1.9;
+
+}
+.fullpagemaincontentwithfullinfo p{
+    letter-spacing: 1px;
+    line-height: 1.9;
+
+}
+.fullpagemaincontentwithfullinfo ul{
+    margin-top: 1rem;
+
+}
+.fullpagemaincontentwithfullinfo ol{
+    margin-top: 1rem;
+
+}
+
+.fullpagemaincontentwithfullinfo h1,h2,h3,h4,h5,h6{
+    letter-spacing: 1px;
+    margin: 2rem 0rem;
+
+}
+/* .fullpagemaincontentwithfullinfo h2{
+    font-size: 1.8rem;
+
+} */
+.fullpagemaincontentwithfullinfo a{
+    color: black;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+@media screen and (min-width:991px){
+    .tpmncontainerwithgrid h1{
+        letter-spacing: 2px;
+        font-size: 40px;
+    }
+}
