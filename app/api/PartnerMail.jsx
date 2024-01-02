@@ -15,7 +15,7 @@ export default function PartnerMail(newUser){
         const mainOption = {
             from: "customerdashboardpro@gmail.com",
             to: "support@customerdashboard.pro",
-            subject: `Become a partner request on`,
+            subject: `Become a partner request`,
             html: `<table style="text-align:left;width: 100%; margin: auto;  max-width:700px;background-color:#f8f8f8;border-radius:3px;font-family:helvetica;" cellpadding="10">
             <tr><td colspan="2" style="text-align:center;font-weight: bold; font-size: 20px; color: #000;padding-top:30px;" align="center">Become a partner request</td>  </tr>
             <tr style="display:block; margin:1rem 0rem;">
