@@ -1,5 +1,5 @@
 import React from 'react';
-import TranslationPage from '../components/TranslationPage';
+import TranslationPage from '../components/pages/TranslationPage';
 import TestimonialStyle from '../styles/TestimonialSlider.css';
 import CarouselStyle from '../styles/Carousel.css';
 

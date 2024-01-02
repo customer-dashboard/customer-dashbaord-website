@@ -1,10 +1,10 @@
 import React from "react";
 import Aos from "aos";
 import { useEffect } from "react";
-import Integration from "./partner-and-integration/Integration";
+import Integration from "../partner-and-integration/Integration";
 import { Tabs, Tab } from "react-bootstrap";
-import { integrationdata } from "../middleware/IntegrationsData";
-import { partnerData } from "../middleware/IntegrationsData";
+import { partnerData } from "../../middleware/IntegrationsData";
+import { integrationdata } from "../../middleware/IntegrationsData";
 function IntegrationsAndPartners() {
   useEffect(() => {
     window.scrollTo(0, 0);

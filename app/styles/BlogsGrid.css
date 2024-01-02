@@ -11,10 +11,14 @@
 .blg-main-heading-wraper{
     padding: 50px 0px;
 }
+
 .blg-main-heading-wraper{
     color: white;
 }
 
+.blg-grd-lnk a{
+    color: #ee6f43;
+}
 .blg-main-heading-wraper h1{
     letter-spacing: 2px;
 }
@@ -33,6 +37,10 @@
     border-bottom-right-radius: 10px;
     transition: all .35s;
 }
+/* .blg-not-found{
+    font-size: large;
+
+} */
 .main-blg-grd-wraper-container:hover .grid-aftrimg-contnt{
     border: 1px solid;
 }

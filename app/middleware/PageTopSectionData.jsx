@@ -2,8 +2,9 @@
 import NewAccountPagefoAccountPageData from '../assets/images/NewDataImages/newAccountPage.png';
 import reorderGif from '../assets/images/NewDataImages/reorder GIF.gif';
 import reoderNewGif from '../assets/images/NewDataImages/reorder_top_section_new.gif';
-import TranslateImage from '../assets/images/NewDataImages/Translator.png';
+import TranslateImage from '../assets/images/NewDataImages/Translator_01.png';
 import IntegrationImage from '../assets/images/NewDataImages/integration.avif';
+import recentlyView from '../assets/images/NewDataImages/Recently viewed products.png';
 
 export const AccountPageData = {
         pageHeading:'Enhance the functionality of Shopify customer accounts page',
@@ -26,7 +27,7 @@ export const recentlyViewPageData = {
     pageSubHeading:'Transform Browsing into Buying - Your Favorites, Just a Click Away!',
     fistPara:'Revive Interest: Gentle Reminders for Returning Visitors about Their Previous Favorites.',
     secondPara:'Drive Conversions with Customer Dashboard Pro : Turn Reminders into On-Site Sales Catalysts.',
-    pageImageData:reorderGif
+    pageImageData:recentlyView
 }
 
 export const topOrderProductPagedata = {

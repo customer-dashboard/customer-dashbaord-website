@@ -1,16 +1,16 @@
 import React from 'react';
-import { reOrderPageData } from '../middleware/PageTopSectionData';
-import PagesTopSection from './PageTopSection';
+import { recentlyViewPageData } from '../../middleware/PageTopSectionData';
+import PagesTopSection from '../PageTopSection';
 import { useEffect } from 'react';
 import Aos from 'aos';
-import ImageWithText from './ImageWithText';
-import FeaturedContent from '../components/FeaturedContent';
-import { dataOfReOrderPageImageWithText } from '../middleware/ImageWithTextData';
-import PagesComparison from '../components/PageComparision';
-import { ReOrderPageDataOfComparision } from '../middleware/PageComparisionData';
-import TestimonialSlider from '../components/TestimonialSlider';
-import Carousel from './Carousel';
-function ReOrderPage() {
+import ImageWithText from '../ImageWithText';
+import FeaturedContent from '../FeaturedContent';
+import { dataOfRecentViewImageWithText } from '../../middleware/ImageWithTextData';
+import PagesComparison from '../PageComparision';
+import { RecentViewPageDataOfComparision } from '../../middleware/PageComparisionData';
+import TestimonialSlider from '../TestimonialSlider';
+import Carousel from '../Carousel';
+function RecentlyViewd() {
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -29,7 +29,7 @@ function ReOrderPage() {
 
             {/* Page Top Section Component Calling Here */}
             <div className="pageTopSectionOnReorderPage" data-aos="fade-up">
-                <PagesTopSection data={reOrderPageData} />
+                <PagesTopSection data={recentlyViewPageData} />
             </div>
             {/* Carousel Component Calling Here */}
             <div className="carousel-section-on-re-order--page" data-aos='fade-up'>
@@ -37,7 +37,7 @@ function ReOrderPage() {
             </div>
 
             {/* Image With Text Component Calling Here */}
-            <ImageWithText imageWithTextData={dataOfReOrderPageImageWithText} />
+            <ImageWithText imageWithTextData={dataOfRecentViewImageWithText} />
 
             {/* Featured Content Component Calling Here */}
             <div className="pageTopSectionOnHomePage" data-aos="fade-up">
@@ -45,9 +45,9 @@ function ReOrderPage() {
             </div>
 
             {/* Page COmparision Component Calling Here */}
-            <div className="pageTopSectionOnHomePage" data-aos="fade-up">
-            <PagesComparison pageData={ReOrderPageDataOfComparision} />
-            </div>
+            {/* <div className="pageTopSectionOnHomePage" data-aos="fade-up">
+            <PagesComparison pageData={RecentViewPageDataOfComparision} />
+            </div> */}
             {/* testimonial Component Calling Here */}
             <div className="testimonialOnReOrderPage" data-aos="fade-up">
                 <TestimonialSlider/>
@@ -56,4 +56,4 @@ function ReOrderPage() {
     )
 }
 
-export default ReOrderPage
+export default RecentlyViewd

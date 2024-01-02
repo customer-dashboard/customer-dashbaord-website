@@ -14,7 +14,7 @@ import MobiloveStyle from '../styles/Mobilove.css';
 import PagesComparison from "../components/PageComparision";
 import { AccountPageDataOfComparision } from "../middleware/PageComparisionData";
 import FaqStyle from '../styles/Faq.css';
-import Faq from "../components/Faq";
+import Faq from '../components/faqs/Faq';
 import AcountPlayerStyle from '../styles/AccountPlayer.css';
 import AccountPlayer from '../components/AccountPlayer';
 import TestimonialSliderStyle from '../styles/TestimonialSlider.css';

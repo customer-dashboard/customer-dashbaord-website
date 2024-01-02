@@ -68,19 +68,7 @@
 .dropdown-menu{
     margin-top: 0 !important;
 }
-.header_btn{
-    padding: 15px 28px;
-    background-image: linear-gradient(to right, #1A2980 0%, #434db0 51%, #1A2980 100%);
-    border: none;
-    font-size: 0.8rem;
-    border: 1px solid transparent;
-}
 
-
-.header_btn:hover{
-    background-image: linear-gradient(to right, #000000 0%, #101547 51%, #000000 100%);
-    border:1px solid  rgb(9, 9, 58);
-}
 .toggle_btn{
     border: none;
 }
@@ -127,7 +115,7 @@
 
 @media screen and (max-width:576px){
 .header_btn {
-    padding: 6px 9px;
+    padding: 12px 20px;
     font-size: 10px;
     margin-left: 0.5rem !important;
     }

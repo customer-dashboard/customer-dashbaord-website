@@ -1,5 +1,5 @@
 import React from 'react'
-import ReOrderPage from '../components/ReorderPage';
+import ReOrderPage from '../components/pages/ReorderPage';
 import TestimonialStyle from '../styles/TestimonialSlider.css';
 import reoderPageStyle from '~/styles/Pages.css';
 import CarouselStyle from '../styles/Carousel.css';

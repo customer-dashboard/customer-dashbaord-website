@@ -1,6 +1,6 @@
 import React from 'react'
 import PricingpageStyle from '../styles/PricingPage.css';
-import Pricing from '../components/Pricing';
+import Pricing from '../components/pages/Pricing';
 
 
 export const links = () =>[

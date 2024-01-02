@@ -7,7 +7,7 @@
     max-width: 100%;
 }
 .tpmncontainerwithgrid p{
-    letter-spacing: 1px;
+    letter-spacing: normal;
 }
 .dttm-bage{
     margin-right: 15px;
@@ -23,12 +23,12 @@
 
 }
  .fullpagemaincontentwithfullinfo li{
-    letter-spacing: 1px;
+    letter-spacing: normal;
     line-height: 1.9;
 
 }
 .fullpagemaincontentwithfullinfo p{
-    letter-spacing: 1px;
+    letter-spacing: normal;
     line-height: 1.9;
 
 }
@@ -42,7 +42,7 @@
 }
 
 .fullpagemaincontentwithfullinfo h1,h2,h3,h4,h5,h6{
-    letter-spacing: 1px;
+    letter-spacing: normal;
     margin: 2rem 0rem;
 
 }
@@ -58,7 +58,7 @@
 
 @media screen and (min-width:991px){
     .tpmncontainerwithgrid h1{
-        letter-spacing: 2px;
+        letter-spacing: normal;
         font-size: 40px;
     }
 }

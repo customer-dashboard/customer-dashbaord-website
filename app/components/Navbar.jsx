@@ -58,11 +58,11 @@ function Header() {
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                         <Nav>
                             <NavDropdown  title="Features" id="basic-nav-dropdown" show={IsOpen} onClick={()=>UpdateIsOpen(!IsOpen)} onMouseOver={()=>UpdateIsOpen(true)} onMouseLeave={()=>UpdateIsOpen(false)}>                               
-                                {/* <Link to="/pages/customer-account" className="Nav-item nav-link-custom nav-link-custom-drppdown">Customer Account Page</Link> */}
+                                <Link to="/customer-account" className="Nav-item nav-link-custom nav-link-custom-drppdown">Customer Account Page</Link>
                                 {/* <Link to="/pages/changelog" className="Nav-item nav-link-custom">Changelog</Link> */}
                                 <Link to="/re-order" className="Nav-item nav-link-custom nav-link-custom-drppdown">Re-Order</Link>
                                 {/* <Link to="/facility" className="Nav-item nav-link-custom nav-link-custom-drppdown">facility</Link> */}
-                                {/* <Link to="/pages/recent-view" className="Nav-item nav-link-custom nav-link-custom-drppdown">Recently Viewed Product</Link> */}
+                                <Link to="/recently-view" className="Nav-item nav-link-custom nav-link-custom-drppdown">Recently Viewed Product</Link>
                                 {/* <Link to="/pages/top-order-products" className="Nav-item nav-link-custom nav-link-custom-drppdown">Top Order Products</Link> */}
                                 <Link to="/translation" className="Nav-item nav-link-custom nav-link-custom-drppdown">Easy Translation</Link> 
                                 {/* <Link to="/#" className="Nav-item nav-link-custom-drppdown">Change Color</Link>

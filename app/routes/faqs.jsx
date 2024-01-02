@@ -1,5 +1,5 @@
 import React from 'react'
-import AllFaqs from '../components/AllFaqs'
+import AllFaqs from '../components/pages/AllFaqs';
 import AllFaqsStyle from '../styles/Faq.css';
 import faqData from '../middleware/FaqsData';
 export const links = () =>[

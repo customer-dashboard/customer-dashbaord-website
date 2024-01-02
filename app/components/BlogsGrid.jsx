@@ -34,6 +34,8 @@ function BlogsGrid() {
     blog.Date.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
+  const blogFound = filteredBlogs.length > 0;
+
   return (
     <>
       <main className="blog-main-page">
@@ -62,7 +64,8 @@ function BlogsGrid() {
                 </div>
                 <hr className="mb-3 mt-5"/>
 
-                <Row>
+              {
+                blogFound ? (  <Row>
                   {filteredBlogs.map((items, index) => (
                     <Col lg={4} index={index} className="mb-5 col-md-6 col-sm-6" key={index}>
                       <div className="main-blg-grd-wraper-container">
@@ -87,7 +90,10 @@ function BlogsGrid() {
                       </div>
                     </Col>
                   ))}
-                </Row>
+                </Row>) : ( <div className="text-center blg-not-found">
+                    <h2 className="mt-5 mb-5">No blogs found</h2>
+                  </div>)
+              }
               </div>
             </div>
           </div>

@@ -17,7 +17,7 @@ export const klaviyoBlogData = [
         Name:"Customer Dashboard Pro",
         BlogImage:customerDashiboarImage,
         Date:"28th Dec 2023",
-        Heading:"Enhancing the Shopping Experience",
+        Heading:"The Importance of Customer Account Page",
         Content:"The Importance of Customer Account Page: Enhancing the Shopping Experience",
         Link:"/customer-dashboard-blog",
         WatchIcon:watchIcon

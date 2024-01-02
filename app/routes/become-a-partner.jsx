@@ -2,7 +2,8 @@ import React from "react";
 import SendEmailApi from "../api/sendMail";
 import COntactUsStyle from "../styles/COntactUs.css";
 import { json, redirect } from "@remix-run/node";
-import ContactUs from "../components/pages/ContactUs";
+import BecomePartners from "../components/pages/BecomePartners";
+import PartnerMail from "../api/PartnerMail";
 
 export const links = () => [{ rel: "stylesheet", href: COntactUsStyle }];
 export const meta = () => {
@@ -19,7 +20,7 @@ function contactus() {
  return(
   <>
 
-    <ContactUs/>
+    <BecomePartners/>
   
   </>
  )
@@ -29,7 +30,8 @@ export async function action({ request }) {
   const data = await request.formData();
   const newUser = {
     firstName: data.get("firstName"),
-    lastName: data.get("lastName"),
+    websiteName: data.get("websiteName"),
+    chooseType: data.get("chooseType"),
     email: data.get("email"),
     message: data.get("message")
 
@@ -45,9 +47,9 @@ export async function action({ request }) {
     errors.firstName =
       "FirstName should be at least 3 characters";
   }
-  if (newUser.lastName.length < 3) {
-    errors.lastName =
-      "LastName should be at least 3 characters";
+  if (newUser.websiteName.length < 3) {
+    errors.websiteName =
+      "Website Name should be at least 3 characters";
   }
   if (newUser.message.length < 4) {
     errors.message =
@@ -62,7 +64,8 @@ export async function action({ request }) {
   // return redirect('/faqs');
   
   // SendMail Api Calling Here
-  SendEmailApi(newUser);
+//   SendEmailApi(newUser);
+  PartnerMail(newUser)
   return json({ok:true});
   
 }

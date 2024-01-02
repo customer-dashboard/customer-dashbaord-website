@@ -14,7 +14,7 @@ function successMessage() {
 }
 
 
-function ContactUs() {
+function BecomePartners() {
   const [isSubmited, setIsSubmited] = useState(false);
   const formActionData = useActionData();
   const form = useRef(null);
@@ -30,7 +30,7 @@ function ContactUs() {
         <div className="container">
           <div className="contact-us-page-container">
             <div className="contact-us-page-title manu-page-title">
-              <h1 className="page-title">Contact Us</h1>
+              <h1 className="page-title">Become a Partner</h1>
             </div>
             {
               isSubmited ? (successMessage()) : ''
@@ -42,12 +42,12 @@ function ContactUs() {
                   <Row className="mb-3">
                     <Col lg={6}>
                       <label name="firstName" id="firstName">
-                        FirstName*
+                        Name*
                       </label>
                       <input
                         type="text"
                         name="firstName"
-                        placeholder="First Name*"
+                        placeholder="Name*"
                         className="form-input-feild first-name-field"
                       />
                       {formActionData?.errors?.firstName ? (
@@ -55,22 +55,23 @@ function ContactUs() {
                       ) : null}
                     </Col>
                     <Col lg={6}>
-                      <label name="lastName" id="lastName">
-                        LastName*
+                      <label name="websiteName" id="lastName">
+                        Website Url*
                       </label>
                       <input
                         type="text"
-                        name="lastName"
-                        placeholder="Last Name*"
+                        name="websiteName"
+                        placeholder="customerdashboard.pro*"
                         className="form-input-feild first-name-field"
                       />
-                      {formActionData?.errors?.lastName ? (
-                        <em>{formActionData?.errors.lastName}</em>
+                      {formActionData?.errors?.websiteName ? (
+                        <em>{formActionData?.errors.websiteName}</em>
                       ) : null}
                     </Col>
+                    
                   </Row>
                   <Row className="mb-3">
-                    <Col lg={12}>
+                    <Col lg={6}>
                       <label name="email" id="email">
                         Email*
                       </label>
@@ -84,11 +85,33 @@ function ContactUs() {
                         <em>{formActionData?.errors.email}</em>
                       ) : null}
                     </Col>
+                    <Col lg={6}>
+                      <label name="chooseType" id="message">
+                        Choose Type*
+                      </label>
+                      <select
+                       type="textarea"
+                       rows={4}
+                       name="chooseType"
+                       placeholder="Message*"
+                       className="form-input-feild first-name-field">
+
+                        <option selected value="Shopify App">Shopify App</option>
+                        <option value="Agency">Agency</option>
+                        <option  value="Blogger">Blogger</option>
+                        <option value="Influencer">Influencer</option>
+                        <option value="Other">Other</option>
+                        {formActionData?.errors?.message ? (
+                        <em>{formActionData?.errors.message}</em>
+                      ) : null}
+                      </select>
+                    </Col>
                   </Row>
+              
                   <Row className="mb-3">
                     <Col lg={12}>
                       <label name="message" id="message">
-                        Message*
+                        Additional Information*
                       </label>
                       {/* <input
                         type="textarea"
@@ -100,7 +123,7 @@ function ContactUs() {
                       type="textarea"
                       rows={4}
                       name="message"
-                      placeholder="Message*"
+                      placeholder="Hey Customer Dashboard Pro,Let’s explore partnership opportunities*"
                       className="form-input-feild first-name-field"
                       />
 
@@ -109,9 +132,10 @@ function ContactUs() {
                       ) : null}
                     </Col>
                   </Row>
+                  
                   <Row>
                     <Col lg={12} className="my-4">
-                      <button className="submit-btn form-submit-button contact-form-button">
+                      <button className="header_btn submit-btn form-submit-button contact-form-button">
                         Submit
                       </button>
                     </Col>
@@ -126,4 +150,4 @@ function ContactUs() {
   );
 }
 
-export default ContactUs;
+export default BecomePartners;

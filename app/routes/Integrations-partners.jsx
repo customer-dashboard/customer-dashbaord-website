@@ -1,6 +1,6 @@
 import React from 'react'
 import IntegrationPagesStyle from '../styles/Integration.css';
-import IntegrationsAndPartners from '../components/IntegrationsAndPartners';
+import IntegrationsAndPartners from '../components/pages/IntegrationsAndPartners';
 export const links = () => [{ rel: "stylesheet", href: IntegrationPagesStyle }];
 export const meta = () => {
   return [

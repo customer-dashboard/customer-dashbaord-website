@@ -1,5 +1,5 @@
 import React from 'react';
-import PrivacyPolicy from '../components/PrivacyPolicy';
+import PrivacyPolicy from '../components/pages/PrivacyPolicy';
 
 export const meta = () => {
   return [

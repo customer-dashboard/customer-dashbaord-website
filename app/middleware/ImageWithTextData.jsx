@@ -3,7 +3,8 @@ import RevampPanelImage from '../assets/images/NewDataImages/Revamp panel.png';
 import reorderPageImage from '../assets/images/NewDataImages/Hassle-free reorder.png';
 import customFieldImage from '../assets/images/NewDataImages/customfieldimage.png';
 import SecondImageOfReorderPage from '../assets/images/NewDataImages/new-order-img.png';
-import Multi_Languages_Support from '../assets/images/NewDataImages/Multi Languages Support.png';
+import Multi_Languages_Support from '../assets/images/NewDataImages/multi_language.png';
+import recentlyImage from '../assets/images/NewDataImages/Recently viewed products.png';
 import TranslateImage from '../assets/images/NewDataImages/Translator.png';
  export const dataOfAccountPageImageWithText = [
      {
@@ -43,7 +44,7 @@ export const dataOfReOrderPageImageWithText = [
 
 export const dataOfRecentViewImageWithText = [
   {
-     "imageUrl": reorderPageImage,
+     "imageUrl":recentlyImage ,
      "altText": "Recente-View-Image",
      right:true,
      "heading":`Attracting customers by showing them the products they have recently viewed`,

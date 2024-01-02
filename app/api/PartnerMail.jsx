@@ -1,7 +1,7 @@
 import nodemailer from 'nodemailer';
 
-export default function SendEmailApi(newUser){
-    const {firstName, lastName, email, message} = newUser;
+export default function PartnerMail(newUser){
+    const {firstName, websiteName,chooseType, email, message} = newUser;
      try {
     console.log("1 step");
         const transporter = nodemailer.createTransport({
@@ -15,24 +15,28 @@ export default function SendEmailApi(newUser){
         const mainOption = {
             from: "customerdashboardpro@gmail.com",
             to: "support@customerdashboard.pro",
-            subject: `New client request on`,
+            subject: `Become a partner request on`,
             html: `<table style="text-align:left;width: 100%; margin: auto;  max-width:700px;background-color:#f8f8f8;border-radius:3px;font-family:helvetica;" cellpadding="10">
-            <tr><td colspan="2" style="text-align:center;font-weight: bold; font-size: 20px; color: #000;padding-top:30px;" align="center">New client request</td>  </tr>
+            <tr><td colspan="2" style="text-align:center;font-weight: bold; font-size: 20px; color: #000;padding-top:30px;" align="center">Become a partner request</td>  </tr>
             <tr style="display:block; margin:1rem 0rem;">
-                <th style="display:block; padding:5px 10px;">FirstName:</th>
+                <th style="display:block; padding:5px 10px;">Name:</th>
                 <td style="display:block; padding:5px 10px;">${firstName}</td>
              </tr>
              <tr style="display:block; margin:1rem 0rem;">
-                <th style="display:block; padding:5px 10px;">LastName:</th>
-                <td style="display:block; padding:5px 10px;">${lastName}</td>
+                <th style="display:block; padding:5px 10px;">Website:</th>
+                <td style="display:block; padding:5px 10px;">${websiteName}</td>
              </tr>
+             <tr style="display:block; margin:1rem 0rem;">
+             <th style="display:block; padding:5px 10px;">Choose Type:</th>
+             <td style="display:block; padding:5px 10px;">${chooseType}</td>
+          </tr>
            
             <tr style="display:block; margin:1rem 0rem;">
                 <th style="display:block; padding:5px 10px;">Email:</th>
                 <td style="display:block; padding:5px 10px;">${email}</td>
             </tr>
             <tr style="display:block; margin:1rem 0rem;">
-                <th style="display:block; padding:5px 10px;">Message:</th>
+                <th style="display:block; padding:5px 10px;">Additional Info:</th>
                 <td style="display:block; padding:5px 10px;">${message}</td>
              </tr>
         
