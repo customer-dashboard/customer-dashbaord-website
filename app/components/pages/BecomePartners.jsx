@@ -8,7 +8,7 @@ function successMessage() {
       <div className='success-message mb-4 mt-5'>
           <div className="green-circle"></div>
           <p>Thank you for submitting the form. Your data has been received and processed successfully.</p>
-          {/* You can add additional information or links here as needed */}
+          {/* You can add additional information  or links here as needed */}
       </div>
   );
 }
