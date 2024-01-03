@@ -6,10 +6,10 @@ import Aos from 'aos';
 import ImageWithText from '../ImageWithText';
 import FeaturedContent from '../FeaturedContent';
 import { dataOfRecentViewImageWithText } from '../../middleware/ImageWithTextData';
-import PagesComparison from '../PageComparision';
-import { RecentViewPageDataOfComparision } from '../../middleware/PageComparisionData';
-import TestimonialSlider from '../TestimonialSlider';
-import Carousel from '../Carousel';
+// import PagesComparison from '../PageComparision';
+// import { RecentViewPageDataOfComparision } from '../../middleware/PageComparisionData';
+import TestimonialSlider from '../slider/TestimonialSlider';
+import Carousel from '../slider/Carousel';
 function RecentlyViewd() {
 
     useEffect(() => {

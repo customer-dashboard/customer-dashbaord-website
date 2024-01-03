@@ -18,7 +18,12 @@ export const meta = () => {
     {property:"og:title", content:"Recentlly View Page | Customer Dashboard Pro"},
     {property:"og:site_name", content:"Recentlly-Viewd Page | Customer Dashboard Pro"},
     {property:"og:url" ,content:"https://customerdashboard.pro/recently-view"},
-    {property:"og:description" ,content:"Enhance Your Shopping: Navigate effortlessly through your recently viewed products with the intuitive Customer Dashboard Pro on Shopify. Designed for an Amazon-inspired experience, it's now simpler than ever to re-order your favorites. Capture valuable insights effortlessly."}
+    {property:"og:description" ,content:"Enhance Your Shopping: Navigate effortlessly through your recently viewed products with the intuitive Customer Dashboard Pro on Shopify. Designed for an Amazon-inspired experience, it's now simpler than ever to re-order your favorites. Capture valuable insights effortlessly."},
+    {
+      tagName: "link",
+      rel: "canonical",
+      href: "https://customerdashboard.pro/recently-view",
+    },
   ];
 };
 

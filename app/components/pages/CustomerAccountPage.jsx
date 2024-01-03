@@ -8,8 +8,8 @@ import FeaturedContent from '../FeaturedContent';
 import { dataOfAccountPageImageWithText } from '../../middleware/ImageWithTextData';
 import PagesComparison from '../PageComparision';
 import { AccountPageDataOfComparision } from '../../middleware/PageComparisionData';
-import TestimonialSlider from '../TestimonialSlider';
-import Carousel from '../Carousel';
+import TestimonialSlider from '../slider/TestimonialSlider';
+import Carousel from '../slider/Carousel';
 function CustomerAccountPage() {
 
     useEffect(() => {

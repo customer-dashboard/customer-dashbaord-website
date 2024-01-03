@@ -96,6 +96,7 @@
     border: 2px solid #ee6f43 !important;
     width: 46%;
     margin-right: 10px;
+    transition: all .3s ease-in-out 0s;
 
 }
 

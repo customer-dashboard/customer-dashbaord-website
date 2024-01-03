@@ -17,7 +17,12 @@ export const meta = () => {
     {property:"og:title", content:"Customized Shopify Re-order Page | Customer Dashboard Pro"},
     {property:"og:site_name", content:"Re-order Page | Customer Dashboard Pro"},
     {property:"og:url", content:"https://customerdashboard.pro/re-order"},
-    {property:"og:description", content:"Optimize your shopping experience with the Customer Dashboard Pro on Shopify, offering an Amazon-inspired design. Seamlessly re-order your favorite products and effortlessly capture valuable shopper data."}
+    {property:"og:description", content:"Optimize your shopping experience with the Customer Dashboard Pro on Shopify, offering an Amazon-inspired design. Seamlessly re-order your favorite products and effortlessly capture valuable shopper data."},
+    {
+      tagName: "link",
+      rel: "canonical",
+      href: "https://customerdashboard.pro/re-order",
+    },
   ];
 };
 

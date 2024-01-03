@@ -1,6 +1,8 @@
-import shopifyOfficialLogoBlack from '../assets/images/ofiicialBlackShopifyLogo.png';
+import shopifyOfficialLogoBlack from '../../assets/images/ofiicialBlackShopifyLogo.png';
+
 import { Image, Button } from 'react-bootstrap';
-import newLogo from '../assets/images/Logo/newLogo.png';
+// import newLogo from '../assets/images/Logo/newLogo.png';
+import newLogo from '../../assets/images/Logo/newLogo.png';
 import { Link } from '@remix-run/react';
 import {Accordion} from 'react-bootstrap';
 const Footer = () => <footer className="page-footer font-small blue pt-4 my-footer">
@@ -24,7 +26,7 @@ const Footer = () => <footer className="page-footer font-small blue pt-4 my-foot
                         <Accordion.Header className="header_background footer_accourdian_header">SUPPORT</Accordion.Header>
                         <Accordion.Body className="accordian_body">
                             <ul className="list-unstyled text-align-left">
-                                <li> <Link to='/faqs' className="text-reset">All Faqs</Link></li>
+                                <li> <Link to='/faqs' className="text-reset">Faq's</Link></li>
                                 {/* <li><Link to='/#' className="text-reset">Blog</Link></li> */}
                                 <li><Link to='/privacy-policy' className="text-reset">Privacy Policy</Link></li>
                                 <li><Link to='/contact-us' className="text-reset">Contact Us</Link></li>
@@ -50,14 +52,12 @@ const Footer = () => <footer className="page-footer font-small blue pt-4 my-foot
             <div className="col-md-3 col-lg-2 mb-md-0 mb-3 text-align-left d-none-768">
                 <h5 className="text-uppercase text-align-left font-weight-bold">SUPPORT</h5>
                 <ul className="list-unstyled text-align-left">
-                       <li> <Link to='/faqs' className="text-reset">All Faqs</Link></li>
+                       <li> <Link to='/faqs' className="text-reset">Faq's</Link></li>
                        {/* <li><Link to='/#' className="text-reset">Blog</Link></li> */}
                        <li><Link to='/privacy-policy' className="text-reset">Privacy Policy</Link></li>
                        <li><Link to='/contact-us' className="text-reset">Contact Us</Link></li>
                        <li><Link to='/#' className="text-reset">About Us</Link></li>
                 </ul>
-                
-
             </div>
            
             <div className="col-md-3 col-lg-2 mb-md-0 mb-3 d-none-768">

@@ -14,7 +14,7 @@ function Banner() {
                         <Row className="align-items-center mt-4">
                             <Col lg={5} className="banner_left_section">
                                 <div className="main_heading"> 
-                                <h1>UPGRADE CUSTOMERS ACCOUNTS FOR MORE REVENUE & RETENTION</h1>
+                                <h1>Improve Your Shopify Store with the Top Customer Accounts App</h1>
                                 <p>By improving customers accounts, you can top into the value of your existing customers and encourage them to return again and again</p>
                                 </div>
                                 <div className="main_section_btn">

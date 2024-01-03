@@ -44,6 +44,7 @@
     font-weight: 600;
     border-radius: 10px;
     border: 2px solid #EDA288;
+    transition: all .3s ease-in-out 0s;
 }
 .freen_section_btn:hover{
     background-color: #EDA288;

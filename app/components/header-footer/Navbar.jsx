@@ -1,7 +1,8 @@
 import { Link } from '@remix-run/react';
 import { useState, useEffect } from "react";
 import { Button, Container, Nav, NavDropdown, Navbar,Image } from "react-bootstrap";
-import newLogo from '../assets/images/Logo/newLogo.png'
+// import newLogo from '../assets/images/Logo/newLogo.png'
+import newLogo from '../../assets/images/Logo/newLogo.png'
 
 function Header() {
 
@@ -30,18 +31,18 @@ function Header() {
     const [SecondIsOpen , UpdateSecondIsOpen]= useState(false);
     const [ThirdIsOpen , UpdateThirdIsOpen]= useState(false);
    
-    // const handleIsSecondOpen=(e)=>{
-    //     UpdateSecondIsOpen(true);
-    // }
-    // const handleIsSecondClosed=(e)=>{
-    //     UpdateSecondIsOpen(false);
-    // }
-    // const handleIsThirdOpen=(e)=>{
-    //     UpdateThirdIsOpen(true);
-    // }
-    // const handleIsThirdClosed=(e)=>{
-    //     UpdateThirdIsOpen(false);
-    // }
+    const handleIsSecondOpen=(e)=>{
+        UpdateSecondIsOpen(true);
+    }
+    const handleIsSecondClosed=(e)=>{
+        UpdateSecondIsOpen(false);
+    }
+    const handleIsThirdOpen=(e)=>{
+        UpdateThirdIsOpen(true);
+    }
+    const handleIsThirdClosed=(e)=>{
+        UpdateThirdIsOpen(false);
+    }
 
     return (
         <>
@@ -58,7 +59,7 @@ function Header() {
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                         <Nav>
                             <NavDropdown  title="Features" id="basic-nav-dropdown" show={IsOpen} onClick={()=>UpdateIsOpen(!IsOpen)} onMouseOver={()=>UpdateIsOpen(true)} onMouseLeave={()=>UpdateIsOpen(false)}>                               
-                                <Link to="/customer-account" className="Nav-item nav-link-custom nav-link-custom-drppdown">Customer Account Page</Link>
+                                {/* <Link to="/customer-account" className="Nav-item nav-link-custom nav-link-custom-drppdown">Customer Account Page</Link> */}
                                 {/* <Link to="/pages/changelog" className="Nav-item nav-link-custom">Changelog</Link> */}
                                 <Link to="/re-order" className="Nav-item nav-link-custom nav-link-custom-drppdown">Re-Order</Link>
                                 {/* <Link to="/facility" className="Nav-item nav-link-custom nav-link-custom-drppdown">facility</Link> */}
@@ -70,16 +71,22 @@ function Header() {
                                 <Link to="/#" className="Nav-item nav-link-custom-drppdown">Easy Translation</Link> */}
                             </NavDropdown>
 
-                            {/* <NavDropdown href="Resources" title="Resources" id="basic-nav-dropdown" show={SecondIsOpen} onClick={()=>UpdateSecondIsOpen(!SecondIsOpen)} onMouseOver={handleIsSecondOpen} onMouseLeave={handleIsSecondClosed} >
-                                <Link to="/faq" className="Nav-item nav-link-custom">Faq's</Link>
-                                <Link to="/#" className="Nav-item nav-link-custom">Blog</Link>
-                                <Link to="/#" className="Nav-item nav-link-custom">Case Study</Link> */}
+                            <NavDropdown href="Resources" title="Resources" id="basic-nav-dropdown" show={SecondIsOpen} onClick={()=>UpdateSecondIsOpen(!SecondIsOpen)} onMouseOver={handleIsSecondOpen} onMouseLeave={handleIsSecondClosed} >
+                                <Link to="/faqs" className="Nav-item nav-link-custom nav-link-custom-drppdown">Faq's</Link>
+                                <Link to="/blogs" className=" Nav-item nav-link-custom nav-link-custom-drppdown">Blogs</Link>
+                                {/* <Link to="/#" className="Nav-item nav-link-custom">Case Study</Link> */}
                                 {/* <Link to="/re-order" className="Nav-item nav-link-custom">Re-Order</Link> */}
-                            {/* </NavDropdown> */}
-                            <Link to="/faqs" className=" main-headernav Nav-item nav-link-custom">Faq's</Link>
+                            </NavDropdown>
+                            <NavDropdown href="Partners" title="Partners" id="basic-nav-dropdown" show={ThirdIsOpen} onClick={()=>UpdateThirdIsOpen(!ThirdIsOpen)} onMouseOver={handleIsThirdOpen} onMouseLeave={handleIsThirdClosed} >
+                                <Link to="/become-a-partner" className="Nav-item nav-link-custom nav-link-custom-drppdown">Become a Partner</Link>
+                                <Link to="/integrations-partners" className=" Nav-item nav-link-custom nav-link-custom-drppdown">Integrations&nbsp;&&nbsp;Partners</Link>
+                                {/* <Link to="/#" className="Nav-item nav-link-custom">Case Study</Link> */}
+                                {/* <Link to="/re-order" className="Nav-item nav-link-custom">Re-Order</Link> */}
+                            </NavDropdown>
+                            {/* <Link to="/faqs" className=" main-headernav Nav-item nav-link-custom">Faq's</Link> */}
                             <Link to="/pricing" className=" main-headernav Nav-item nav-link-custom">Pricing</Link>
-                            <Link to="/blogs" className=" main-headernav Nav-item nav-link-custom">Blogs</Link>
-                            <Link to="/integrations-partners" className=" main-headernav Nav-item nav-link-custom">Integrations & Partners</Link>
+                            {/* <Link to="/blogs" className=" main-headernav Nav-item nav-link-custom">Blogs</Link> */}
+                            {/* <Link to="/integrations-partners" className=" main-headernav Nav-item nav-link-custom">Integrations & Partners</Link> */}
                             
                             {/* <NavDropdown href="javascript:void(0)" title="Partners" id="basic-nav-dropdown" show={ThirdIsOpen} onClick={()=>UpdateThirdIsOpen(!ThirdIsOpen)} onMouseOver={handleIsThirdOpen} onMouseLeave={handleIsThirdClosed}> */}
                                 {/* <Link to="/customer-menu" className="Nav-item nav-link-custom">Customer Menu</Link>
@@ -88,7 +95,7 @@ function Header() {
                                 {/* <a href="https://apps.shopify.com/customer-account-verification" target="_blank" rel="noreferrer" className="Nav-item nav-link-custom nav-link-custom-drppdown">Email Checker</a> */}
                             {/* </NavDropdown> */}
                             <Link to="/contact-us" className=" main-headernav Nav-item nav-link-custom">Contact Us</Link>
-                            <a href="https://apps.shopify.com/customer-dashboard-pro" className=" main-headernav Nav-item nav-link-custom" rel="noreferrer" target="_blank">Install</a>
+                            {/* <a href="https://apps.shopify.com/customer-dashboard-pro" className=" main-headernav Nav-item nav-link-custom" rel="noreferrer" target="_blank">Install</a> */}
                        </Nav>
                       
                     </Navbar.Collapse>

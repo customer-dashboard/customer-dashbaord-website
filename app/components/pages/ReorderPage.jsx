@@ -8,8 +8,8 @@ import FeaturedContent from '../FeaturedContent';
 import { dataOfReOrderPageImageWithText } from '../../middleware/ImageWithTextData';
 import PagesComparison from '../PageComparision';
 import { ReOrderPageDataOfComparision } from '../../middleware/PageComparisionData';
-import TestimonialSlider from '../TestimonialSlider';
-import Carousel from '../Carousel';
+import TestimonialSlider from '../slider/TestimonialSlider';
+import Carousel from '../slider/Carousel';
 function ReOrderPage() {
 
     useEffect(() => {

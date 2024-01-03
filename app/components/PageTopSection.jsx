@@ -14,9 +14,9 @@ function PagesTopSection(props) {
                             <Row className='align-items-center'>
                                 <Col lg={6} className='acntpage-col-fst col-md-6'>
                                     <div className="acntpage-col-fst-cntnt">
-                                        <h1 className='acntpagmnu-hero-heading main-page-heading'>
+                                        <h2 className='acntpagmnu-hero-heading main-page-heading'>
                                             {data.pageHeading}
-                                        </h1>
+                                        </h2>
                                         <h3 className='mt-4'>{data.pageSubHeading}</h3>
                                         <p className='mt-4'>{data.fistPara}</p>
                                         <p className='mt-3'>{data.secondPara}</p>

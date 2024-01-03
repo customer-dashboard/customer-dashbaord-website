@@ -1,5 +1,5 @@
 import React from "react";
-import SendEmailApi from "../api/sendMail";
+// import SendEmailApi from "../api/sendMail";
 import COntactUsStyle from "../styles/COntactUs.css";
 import { json, redirect } from "@remix-run/node";
 import BecomePartners from "../components/pages/BecomePartners";
@@ -8,10 +8,10 @@ import PartnerMail from "../api/PartnerMail";
 export const links = () => [{ rel: "stylesheet", href: COntactUsStyle }];
 export const meta = () => {
   return [
-    { title: "Contact Us for Shopify Customer Dashboard Pro App" },
-    { name: "description", content: "Contact us for more information about shopify customer dashboard pro app" },
-    {property:"og:title", content:"Contact us - Customer-Dashboard-Pro Contact us"},
-    {property:"og:description", content:"Contact Us for more information about customer dashboard pro shopify app with new feature"}
+    { title: "become-a-partner | Customer Dashboard Pro" },
+    { name: "description", content: "Explore rewarding partnership opportunities with Customer Dashboard Pro! Join forces with us to empower businesses, enhance customer experiences, and drive mutual success. Become a valued partner and unlock a world of collaboration, innovation, and growth in the realm of customer-centric solutions. Let's build the future together! " },
+    {property:"og:title", content:"Become a partner - Customer-Dashboard-Pro"},
+    {property:"og:description", content:"Explore rewarding partnership opportunities with Customer Dashboard Pro! Join forces with us to empower businesses, enhance customer experiences, and drive mutual success. Become a valued partner and unlock a world of collaboration, innovation, and growth in the realm of customer-centric solutions. Let's build the future together!"}
   ];
 };
 

@@ -1,9 +1,11 @@
-import Navbar from "./components/Navbar";
+// import Navbar from "./components/Navbar";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from './components/header-footer/Navbar';
 import AppStyle from './styles/App.css';
 import NavBarStyle from './styles/Navbar.css';
 import FooterStyle from './styles/Footer.css';
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
+import Footer from './components/header-footer/Footer'
 import pagesStyle from './styles/Pages.css';
 import TabReuseStyle from './styles/TabReuse.css';
 

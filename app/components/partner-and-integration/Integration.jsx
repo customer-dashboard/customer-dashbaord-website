@@ -52,7 +52,7 @@ function Integration(props) {
                                     <Row className='align-items-center justify-content-between mt-4'>
                                     <Col lg={6} className='col-md-6 col-sm-6 col-xsm-6'>
                                       <div className="app-store-integration-card-link integration-card-link__">
-                                      <Link to={items.link}> <span className='external-link-svg'>{externalLinkSvg}</span>App Store</Link>
+                                      <Link to={items.link} target='_blank'> <span className='external-link-svg'>{externalLinkSvg}</span>App Store</Link>
                                       </div>
                                     </Col>
                                     {

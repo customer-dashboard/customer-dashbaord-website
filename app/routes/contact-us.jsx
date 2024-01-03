@@ -9,8 +9,14 @@ export const meta = () => {
   return [
     { title: "Contact Us for Shopify Customer Dashboard Pro App" },
     { name: "description", content: "Contact us for more information about shopify customer dashboard pro app" },
+    { name: "keywords", content: "Contact Us" },
     {property:"og:title", content:"Contact us - Customer-Dashboard-Pro Contact us"},
-    {property:"og:description", content:"Contact Us for more information about customer dashboard pro shopify app with new feature"}
+    {property:"og:description", content:"Contact Us for more information about customer dashboard pro shopify app with new feature"},
+    {
+      tagName: "link",
+      rel: "canonical",
+      href: "https://customerdashboard.pro/contact-us",
+    },
   ];
 };
 
