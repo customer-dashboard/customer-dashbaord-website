@@ -1,41 +1,71 @@
 import { Form, useActionData } from "@remix-run/react";
 import React, { useState } from "react";
 import { Col, Row } from "react-bootstrap";
+import { Modal } from "react-bootstrap";
 import { useEffect, useRef } from "react";
 
-function successMessage() {
-  return (
-      <div className='success-message mb-4 mt-5'>
-          <div className="green-circle"></div>
-          <p>Thank you for submitting the form. Your data has been received and processed successfully.</p>
-          {/* You can add additional information or links here as needed */}
-      </div>
-  );
-}
-
-
 function ContactUs() {
+
+  const [show, setShow] = useState(false);
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   const [isSubmited, setIsSubmited] = useState(false);
   const formActionData = useActionData();
   const form = useRef(null);
    useEffect(() => {
      if (formActionData?.ok) {
        form.current?.reset();
-       setIsSubmited(true);
+       handleShow();
      }
    }, [formActionData])
   return (
     <>
+
+<Modal
+        show={show}
+        onHide={handleClose}
+        backdrop="static"
+        keyboard={false}
+      >
+        <Modal.Header closeButton>
+          <Modal.Title>Successfully Submited</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <div className="success-message">
+            <div className="green-circle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="59"
+                height="37"
+                viewBox="0 0 59 37"
+                fill="none"
+              >
+                <path
+                  d="M3 15.1765L17.5442 34L56 3"
+                  stroke="#25B39E"
+                  stroke-width="5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <p>
+              Thank you for submitting the form. Your data has been received and
+              processed successfully.
+            </p>
+            {/* You can add additional information  or links here as needed */}
+          </div>
+        </Modal.Body>
+        <Modal.Footer></Modal.Footer>
+      </Modal>
+
       <section className="contact-us-page-manu">
         <div className="container">
           <div className="contact-us-page-container">
             <div className="contact-us-page-title manu-page-title">
               <h1 className="page-title">Contact Us</h1>
             </div>
-            {
-              isSubmited ? (successMessage()) : ''
-            }
-
             <Row className="justify-content-center">
               <Col lg={8} className="col-md-8">
                 <Form method="post" ref={form}>

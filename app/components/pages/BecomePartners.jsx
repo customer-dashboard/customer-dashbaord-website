@@ -1,40 +1,69 @@
 import { Form, useActionData } from "@remix-run/react";
 import React, { useState } from "react";
 import { Col, Row } from "react-bootstrap";
+// import Modal from 'react-bootstrap/Modal';
+import { Modal } from "react-bootstrap";
 import { useEffect, useRef } from "react";
 
-function successMessage() {
-  return (
-      <div className='success-message mb-4 mt-5'>
-          <div className="green-circle"></div>
-          <p>Thank you for submitting the form. Your data has been received and processed successfully.</p>
-          {/* You can add additional information  or links here as needed */}
-      </div>
-  );
-}
-
-
 function BecomePartners() {
-  const [isSubmited, setIsSubmited] = useState(false);
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   const formActionData = useActionData();
   const form = useRef(null);
-   useEffect(() => {
-     if (formActionData?.ok) {
-       form.current?.reset();
-       setIsSubmited(true);
-     }
-   }, [formActionData])
+  useEffect(() => {
+    if (formActionData?.ok) {
+      form.current?.reset();
+      handleShow();
+    }
+  }, [formActionData]);
   return (
     <>
+      <Modal
+        show={show}
+        onHide={handleClose}
+        backdrop="static"
+        keyboard={false}
+      >
+        <Modal.Header closeButton>
+          <Modal.Title>Successfully Submited</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <div className="success-message">
+            <div className="green-circle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="59"
+                height="37"
+                viewBox="0 0 59 37"
+                fill="none"
+              >
+                <path
+                  d="M3 15.1765L17.5442 34L56 3"
+                  stroke="#25B39E"
+                  stroke-width="5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <p>
+              Thank you for submitting the form. Your data has been received and
+              processed successfully.
+            </p>
+            {/* You can add additional information  or links here as needed */}
+          </div>
+        </Modal.Body>
+        <Modal.Footer></Modal.Footer>
+      </Modal>
       <section className="contact-us-page-manu">
         <div className="container">
           <div className="contact-us-page-container">
             <div className="contact-us-page-title manu-page-title">
               <h1 className="page-title">Become a Partner</h1>
             </div>
-            {
-              isSubmited ? (successMessage()) : ''
-            }
 
             <Row className="justify-content-center">
               <Col lg={8} className="col-md-8">
@@ -68,7 +97,6 @@ function BecomePartners() {
                         <em>{formActionData?.errors.websiteName}</em>
                       ) : null}
                     </Col>
-                    
                   </Row>
                   <Row className="mb-3">
                     <Col lg={6}>
@@ -90,24 +118,26 @@ function BecomePartners() {
                         Choose Type*
                       </label>
                       <select
-                       type="textarea"
-                       rows={4}
-                       name="chooseType"
-                       placeholder="Message*"
-                       className="form-input-feild first-name-field">
-
-                        <option selected value="Shopify App">Shopify App</option>
+                        type="textarea"
+                        rows={4}
+                        name="chooseType"
+                        placeholder="Message*"
+                        className="form-input-feild first-name-field"
+                      >
+                        <option selected value="Shopify App">
+                          Shopify App
+                        </option>
                         <option value="Agency">Agency</option>
-                        <option  value="Blogger">Blogger</option>
+                        <option value="Blogger">Blogger</option>
                         <option value="Influencer">Influencer</option>
                         <option value="Other">Other</option>
                         {formActionData?.errors?.message ? (
-                        <em>{formActionData?.errors.message}</em>
-                      ) : null}
+                          <em>{formActionData?.errors.message}</em>
+                        ) : null}
                       </select>
                     </Col>
                   </Row>
-              
+
                   <Row className="mb-3">
                     <Col lg={12}>
                       <label name="message" id="message">
@@ -120,11 +150,11 @@ function BecomePartners() {
                         className="form-input-feild first-name-field"
                       /> */}
                       <textarea
-                      type="textarea"
-                      rows={4}
-                      name="message"
-                      placeholder="Hey Customer Dashboard Pro,Let’s explore partnership opportunities*"
-                      className="form-input-feild first-name-field"
+                        type="textarea"
+                        rows={4}
+                        name="message"
+                        placeholder="Hey Customer Dashboard Pro,Let’s explore partnership opportunities*"
+                        className="form-input-feild first-name-field"
                       />
 
                       {formActionData?.errors?.message ? (
@@ -132,7 +162,7 @@ function BecomePartners() {
                       ) : null}
                     </Col>
                   </Row>
-                  
+
                   <Row>
                     <Col lg={12} className="my-4">
                       <button className="header_btn submit-btn form-submit-button contact-form-button">

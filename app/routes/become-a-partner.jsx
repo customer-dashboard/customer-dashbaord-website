@@ -1,7 +1,7 @@
 import React from "react";
 // import SendEmailApi from "../api/sendMail";
 import COntactUsStyle from "../styles/COntactUs.css";
-import { json, redirect } from "@remix-run/node";
+import { json } from "@remix-run/node";
 import BecomePartners from "../components/pages/BecomePartners";
 import PartnerMail from "../api/PartnerMail";
 
@@ -61,10 +61,6 @@ export async function action({ request }) {
     return json({ errors });
   }
 
-  // return redirect('/faqs');
-  
-  // SendMail Api Calling Here
-//   SendEmailApi(newUser);
   PartnerMail(newUser)
   return json({ok:true});
   

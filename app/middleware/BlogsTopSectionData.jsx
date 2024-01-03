@@ -1,6 +1,6 @@
 
 import klaviyoblogimage from  '../assets/images/Blogs/New_klaviyo.png'
-import CustomerDashboardBlogImage from '../assets/images/Blogs/customer-dashboard-blog-image.png';
+import CustomerDashboardBlogImage from '../assets/images/Blogs/Customer_dashboard_blog_main_image.png';
 export const klaviyoTop = {
     Date:"Klaviyo .  28th Dec 2023",
     Heading:"Klaviyo Integration with Customer Dashboard Pro.",

@@ -79,7 +79,7 @@ function Header() {
                             </NavDropdown>
                             <NavDropdown href="Partners" title="Partners" id="basic-nav-dropdown" show={ThirdIsOpen} onClick={()=>UpdateThirdIsOpen(!ThirdIsOpen)} onMouseOver={handleIsThirdOpen} onMouseLeave={handleIsThirdClosed} >
                                 <Link to="/become-a-partner" className="Nav-item nav-link-custom nav-link-custom-drppdown">Become a Partner</Link>
-                                <Link to="/integrations-partners" className=" Nav-item nav-link-custom nav-link-custom-drppdown">Integrations&nbsp;&&nbsp;Partners</Link>
+                                <Link to="/partners-and-integrations" className=" Nav-item nav-link-custom nav-link-custom-drppdown">Partners&nbsp;&&nbsp;Integrations</Link>
                                 {/* <Link to="/#" className="Nav-item nav-link-custom">Case Study</Link> */}
                                 {/* <Link to="/re-order" className="Nav-item nav-link-custom">Re-Order</Link> */}
                             </NavDropdown>

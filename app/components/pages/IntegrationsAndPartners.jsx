@@ -23,7 +23,7 @@ function IntegrationsAndPartners() {
         <div className="container">
           <div className="partners-integrations-main-content-wraper pt-4">
             <div className="p-i-h text-center mb-5 pb-3">
-              <h1 className="fw-600">Integrations & partners</h1>
+              <h1 className="fw-600">Partners & Integrations</h1>
             </div>
             <Tabs
               defaultActiveKey="Partners"

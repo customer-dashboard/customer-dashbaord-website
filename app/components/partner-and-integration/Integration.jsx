@@ -25,13 +25,13 @@ function Integration(props) {
                                   <Col lg={3} className="in-pnr-logo-img col-md-3 col-sm-3">
                                   {
                                     items.blog === true ? (
-                                      <>
                                       <Link to={items.blogLink}>
                                       <Image src={items.logo} alt='integration-logo'></Image>
                                       </Link>
-                                      </>
                                     ) : (
+                                      <Link to={items.link} target='_blank'>
                                       <Image src={items.logo} alt='integration-logo'></Image>
+                                      </Link>
                                     )
                                   }
                                   </Col>
@@ -45,7 +45,12 @@ function Integration(props) {
                                           </Link>
                                         </h5>
                                       ) : (
-                                        <h5 className=' fw-600 mt-xsm-3'>{items.heading}</h5>
+                                        // <h5 className=' fw-600 mt-xsm-3'>{items.heading}</h5>
+                                        <h5 className=' fw-600 mt-xsm-3'>
+                                          <Link to={items.link} target='_blank' className='head-link-integration-grid'>
+                                          {items.heading}
+                                          </Link>
+                                        </h5>
                                       )
                                     }
                                     </Col>

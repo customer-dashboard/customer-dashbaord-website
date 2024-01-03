@@ -4,7 +4,7 @@ import reorderPageImage from '../assets/images/NewDataImages/Hassle-free reorder
 import customFieldImage from '../assets/images/NewDataImages/customfieldimage.png';
 import SecondImageOfReorderPage from '../assets/images/NewDataImages/new-order-img.png';
 import Multi_Languages_Support from '../assets/images/NewDataImages/multi_language.png';
-import recentlyImage from '../assets/images/NewDataImages/Recently viewed products.png';
+import recentlyImage from '../assets/images/NewDataImages/recently_view-Image_with_text.png';
 import TranslateImage from '../assets/images/NewDataImages/Translator.png';
  export const dataOfAccountPageImageWithText = [
      {
