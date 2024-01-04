@@ -1,5 +1,6 @@
 import React from 'react'
 import parse from 'html-react-parser';
+import LazyLoadedImage from './lazyLoadImage/LazyLoadImage';
 
 import { Row, Col, Image } from 'react-bootstrap';
 function ImageWithText(props) {
@@ -26,14 +27,16 @@ function ImageWithText(props) {
                                                     {/* col-6 first ended */}
                                                     <Col lg={5} className='col-md-6 after-md-margin-top'>
                                                         <div className="acnt-pg-inner-feature-col-second">
-                                                            <Image src={item.imageUrl} alt={item.altText}></Image>
+                                                            {/* <Image src={item.imageUrl} alt={item.altText}></Image> */}
+                                                              <LazyLoadedImage src={item.imageUrl} alt={item.altText} />
                                                         </div>
                                                     </Col>
                                                     {/* col-6 second ended */}
                                                 </Row> : <Row className='align-items-center Drive-sales-group mb-5 mt-3 justify-content-around'>
                                                     <Col lg={5} className='col-md-6 after-md-margin-top mt-5 mob-order'>
                                                         <div className="acnt-pg-inner-feature-col-second">
-                                                            <Image src={item.imageUrl} alt={item.altText}></Image>
+                                                            {/* <Image src={item.imageUrl} alt={item.altText}></Image> */}
+                                                           <LazyLoadedImage src={item.imageUrl} alt={item.altText} />
                                                         </div>
                                                     </Col>
                                                     {/* col-6 second ended */}

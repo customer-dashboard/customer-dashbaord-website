@@ -1,6 +1,7 @@
 import shopifyOfficialLogoBlack from '../../assets/images/ofiicialBlackShopifyLogo.png';
+import LazyLoadedImage from '../lazyLoadImage/LazyLoadImage';
 
-import { Image, Button } from 'react-bootstrap';
+import {Button } from 'react-bootstrap';
 // import newLogo from '../assets/images/Logo/newLogo.png';
 import newLogo from '../../assets/images/Logo/newLogo.png';
 import { Link } from '@remix-run/react';
@@ -11,7 +12,8 @@ const Footer = () => <footer className="page-footer font-small blue pt-4 my-foot
             <div className="col-md-3 col-lg-3 mt-md-0 mt-3 text-align-left">
                 <h5 className="text-uppercase">
                 <Link to="/" className="customer_logo_footer">
-                        <Image src={newLogo}></Image>
+                        {/* <Image src={newLogo}></Image> */}
+                        <LazyLoadedImage src={newLogo} alt="logo" />
                     </Link>
                 </h5>
                 <p className="logo_disclamer">This creates a convenient andversatile customer account page,
@@ -72,7 +74,7 @@ const Footer = () => <footer className="page-footer font-small blue pt-4 my-foot
                 <div className="footer_white_shopify_logo mt-x-sm-2">
                 <a href='https://apps.shopify.com/customer-dashboard-pro' target='_blank' rel='noreferrer'>
                 <Button className="d-flex align-items-center justify-content-around shopify-official-logo-black scolf">
-                    <Image src={shopifyOfficialLogoBlack} alt='shopify-official-logo-black'></Image>
+                    <LazyLoadedImage src={shopifyOfficialLogoBlack} alt="shopify-official-logo-black" />
                 </Button>
                 </a>
             </div>

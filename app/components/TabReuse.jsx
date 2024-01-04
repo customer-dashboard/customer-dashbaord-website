@@ -1,4 +1,5 @@
 import { Image, Col, Nav, Row, Tab } from 'react-bootstrap';
+import LazyLoadedImage from './lazyLoadImage/LazyLoadImage';
 import dotted_image from '../assets/images/dotted_line_image.png';
 import blue_rounded_image from '../assets/images/leftActive.png';
 import right_direction_dotted_img from '../assets/images/right-direction-dotted-img.png';
@@ -13,8 +14,6 @@ import color_changer_icon from '../assets/images/color_changer_iconsv.svg';
 import eye_icon from '../assets/images/eye_icon.svg';
 
 
-
-import React from 'react';
 import Mobile_TabsReuse from './Mobile_TabReuse';
 import LeftinActiveImage from '../assets/images/leftInActive.png';
 import RightInActiveImage from '../assets/images/rightInactive.png';
@@ -180,8 +179,10 @@ function TabsReuse() {
                                 <div className="all">
                                   {
                                     activeHeader === i | index === "0_index"?
-                                      <Image src={item.blue_img} className=' blue_rounded_img second-id-img'></Image> :
-                                      <Image src={item.InActiveImage} className="blue_rounded_img"></Image>
+                                      // <Image src={item.blue_img} className=' blue_rounded_img second-id-img'></Image> :
+                                      <LazyLoadedImage src={item.blue_img} className=' blue_rounded_img second-id-img' alt="Shopify-official-logo-black" /> :
+                                      // <Image src={item.InActiveImage} className="blue_rounded_img"></Image>
+                                      <LazyLoadedImage src={item.InActiveImage} className="blue_rounded_img" alt="Shopify-official-logo-black" />
                                   }
 
                                   {item.id === 2 ?

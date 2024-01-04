@@ -1,6 +1,5 @@
-import React from 'react'
 import { Accordion } from 'react-bootstrap';
-import {Image} from 'react-bootstrap';
+import LazyLoadedImage from '../lazyLoadImage/LazyLoadImage';
 
  export function FaqItem_3() {
   return (
@@ -14,11 +13,12 @@ import {Image} from 'react-bootstrap';
                                           <p>A. Recently viewed will be off by default. </p></div>  
                                          <div className="manu_builder_list_steps mt-3">
                                               <p>B. To turn it on, go to the <strong>Recently Viewed</strong> menu in the Customer Dashboard app menu.</p>
-                                              <Image src='https://mandasa1.b-cdn.net/customer-dashbaord-pro/recently-viewed-step-1.gif'></Image>
+                                              <LazyLoadedImage src="https://mandasa1.b-cdn.net/customer-dashbaord-pro/recently-viewed-step-1.gif" alt="faq-gif" />
+                                              
                                          </div>
                                          <div className="manu_builder_list_steps mt-4">
                                               <p>C. After clicking on the <strong>Recently viewed</strong> button, you can see its preview along with it, here you can also make other settings, after this click on the save button to save it and check it by going to the <strong>Menu builder</strong>.</p>
-                                              <Image src='https://mandasa1.b-cdn.net/customer-dashbaord-pro/recently-viewed-step-2.gif'></Image>
+                                              <LazyLoadedImage src="https://mandasa1.b-cdn.net/customer-dashbaord-pro/recently-viewed-step-2.gif" alt="faq-gif" />
                                          </div>
                                          
                                        </div>

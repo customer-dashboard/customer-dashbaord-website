@@ -10,7 +10,7 @@ import language_selector_icon from '../assets/images/language_selector.svg';
 import LeftinActiveImage from '../assets/images/leftInActive.png';
 import RightInActiveImage from '../assets/images/rightInactive.png';
 import { useState } from 'react';
-import { Image } from 'react-bootstrap';
+import LazyLoadedImage from './lazyLoadImage/LazyLoadImage';
 import Mobile_TabsReuse from './Mobile_TabReuse';
 import { TabsSection1 } from './TabSection1';
 import { TabSection2 } from './TabSection2';
@@ -122,8 +122,8 @@ export function Tabs() {
                               <div className="all">
                                 {
                                     activeHeader === i | index === "0_index"?
-                                    <Image src={item.blue_img} className="blue_rounded_img second-id-img"></Image> :
-                                    <Image src={item.InActiveImage} className="blue_rounded_img"></Image>
+                                     <LazyLoadedImage src={item.blue_img} className="blue_rounded_img second-id-img" alt="Tab Images" />:
+                                     <LazyLoadedImage src={item.InActiveImage} className="blue_rounded_img" alt="Tab Images" />
                                 }
                                 {item.id === 2 ?
                                   <div className="first_tab_contetnt flex-end right-direction">
@@ -132,12 +132,12 @@ export function Tabs() {
                                       <p>{item.icon_discription}</p>
                                     </div>
                                     <div className="tab-icon col-2 icon-first">
-                                      <Image src={item.icon_img}></Image>
+                                     <LazyLoadedImage src={item.icon_img}  alt="Tab Images" />
                                     </div>
                                   </div> :
                                   <div className="first_tab_contetnt">
                                     <div className="tab-icon col-2">
-                                      <Image src={item.icon_img}></Image>
+                                     <LazyLoadedImage src={item.icon_img}  alt="Tab Images" />
                                     </div>
                                     <div className="tab-icon-content col-7">
                                       <h4>{item.icon_title}</h4>

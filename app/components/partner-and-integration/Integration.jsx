@@ -1,7 +1,7 @@
 import React from 'react'
-import { Row, Col, Image } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import { Link } from '@remix-run/react';
-// import { integrationdata } from '../../middleware/IntegrationsData';
+import LazyLoadedImage from '../lazyLoadImage/LazyLoadImage';
 
 function Integration(props) {
   const integrationPartnerData = props;
@@ -26,11 +26,11 @@ function Integration(props) {
                                   {
                                     items.blog === true ? (
                                       <Link to={items.blogLink}>
-                                      <Image src={items.logo} alt='integration-logo'></Image>
+                                      <LazyLoadedImage src={items.logo} alt="integration-logo" />
                                       </Link>
                                     ) : (
                                       <Link to={items.link} target='_blank'>
-                                      <Image src={items.logo} alt='integration-logo'></Image>
+                                      <LazyLoadedImage src={items.logo} alt="integration-logo" />
                                       </Link>
                                     )
                                   }

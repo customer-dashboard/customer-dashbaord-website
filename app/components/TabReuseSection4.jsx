@@ -1,14 +1,12 @@
-import React from 'react';
 import RevaPanala from '../assets/images/NewDataImages/Revamp panel.png';
-import { Image } from 'react-bootstrap';
-
+import LazyLoadedImage from './lazyLoadImage/LazyLoadImage';
 
 export function TabReuseSection4() {
     return (
       <>
       <div className="tab_dynamic_content">
         <div className="reva__panal__image">
-          <Image src={RevaPanala}></Image>
+        <LazyLoadedImage src={RevaPanala} alt="Tab Images" />
         </div>
       </div>
     </>

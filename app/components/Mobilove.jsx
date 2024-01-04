@@ -1,7 +1,7 @@
-import React from "react";
-import { Col, Container, Image, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import Mobile_Version_Image from '../assets/images/Mobilove_Section_Images/Mobilove.png';
 import mobilove_logo from '../assets/images/Mobilove_logo.png';
+import LazyLoadedImage from "./lazyLoadImage/LazyLoadImage";
 function Mobilove() {
     return (
         <>
@@ -39,14 +39,16 @@ function Mobilove() {
                                             </Col>
                                             <Col lg={6} className="col-md-6 col-sm-6 col-x-sm-6">
                                                 <div className="mibile_virson">
-                                                    <Image  src={Mobile_Version_Image}></Image>
+                                                    {/* <Image  src={Mobile_Version_Image}></Image> */}
+                                                     <LazyLoadedImage src={Mobile_Version_Image} alt="Mobile_Version_Image" />
                                                 </div>
                                             </Col>
                                     </Row>
                                 </Col>
                                 <Col lg={6}>
                                     <div className="mobilove_side_content">
-                                        <Image src={mobilove_logo}></Image>
+                                        {/* <Image src={mobilove_logo}></Image> */}
+                                        <LazyLoadedImage src={mobilove_logo} alt="Mobile_Version_Image" />
                                         <p className="mobilove_logo_para mt-3">Mobilove Boosts <span>Loyalty and Repeat Purchases</span> With the customer dashboard pro app</p>
                                         <p className="mobilove_logo_para-2 mt-2">As a result, customers can reap the benefits of increased loyalty and an improved shopping experience.</p>
                                         {/* <a href="#" className="d-block mt-5 ready_case_link">Read case study</a> */}

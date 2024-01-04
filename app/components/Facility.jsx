@@ -1,7 +1,7 @@
-import React from 'react';
 import { Col, Container, Image, Row } from 'react-bootstrap';
 import One_Star_Image from '../assets/images/One_Star_Image.png';
 import Beard_Man from '../assets/images/Beard_man.png';
+import LazyLoadedImage from './lazyLoadImage/LazyLoadImage';
 function Facility() {
     return (
         <>
@@ -13,12 +13,12 @@ function Facility() {
                             <Row className="align-items-center">
                                 <Col lg={6}>
                                     <div className="Beard_man_image_1">
-                                        <Image src={Beard_Man}></Image>
+                                        <LazyLoadedImage src={Beard_Man} alt="facility image" />
                                     </div>
                                 </Col>
                                 <Col lg={6}>
                                     <div className="Beard_man_image">
-                                    <Image src={Beard_Man}></Image>
+                                    <LazyLoadedImage src={Beard_Man} alt="facility image" />
                                     </div>
                                     <div className="why_install why-install-data-container">
                                         <h2 className='section_heading'>WHY <span>INSTALL?</span></h2>

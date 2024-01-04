@@ -1,5 +1,6 @@
 import React from 'react'
 import { Col, Row, Image, Button } from 'react-bootstrap'
+import LazyLoadedImage from '../components/lazyLoadImage/LazyLoadImage';
 
 function PagesTopSection(props) {
     const { data } = props;
@@ -32,7 +33,8 @@ function PagesTopSection(props) {
                                 </Col>
                                 <Col lg={6} className='acntpage-col-scnd col-md-6 mob-order after-md-margin-top'>
                                     <div className="acntpage-col-scnd-cntnt">
-                                        <Image src={data.pageImageData} alt='account-page-image'></Image>
+                                        {/* <Image src={data.pageImageData} alt='account-page-image'></Image> */}
+                                        <LazyLoadedImage src={data.pageImageData} alt="account-page-image" />
                                     </div>
                                 </Col>
                             </Row>

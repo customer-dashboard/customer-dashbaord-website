@@ -9,6 +9,7 @@ import LlLoyalltyLogo from '../assets/images/Logo/LL-loyallty.webp';
 import EmailCheker from '../assets/images/Logo/emailcheker.webp';
 import CheckOutLogo from '../assets/images/Logo/checkoutLogo.webp';
 import ReportLogo from '../assets/images/Logo/reportLogo.webp';
+import UpPromoteLogo from '../assets/images/Logo/UpPromote Logo.png';
 
 export const integrationdata = [
 {
@@ -17,7 +18,7 @@ export const integrationdata = [
     content: "Email and SMS marketing platform for ecommerce brands.",
     blog:true,
     blogLink:"/klaviyo-blog",
-    link:"https://apps.shopify.com/klaviyo-email-marketing?search_id=acfab5d4-562a-4ba0-9c62-a033ebc62250&surface_detail=klaviyo+-+email+marketing&surface_inter_position=1&surface_intra_position=4&surface_type=search"
+    link:"https://apps.shopify.com/klaviyo-email-marketing?utm_source=customer-dashboard-pro"
   },
  
   { 
@@ -26,7 +27,7 @@ export const integrationdata = [
     content:"Create a loyalty program to retain new customers for the long term.",
     blog:false,
     blogLink:"/klaviyo-blog",
-    link:"https://apps.shopify.com/smile-io?st_source=autocomplete"
+    link:"https://apps.shopify.com/smile-io?utm_source=customer-dashboard-pro"
   },
 {
     logo: wishlistPlusLogo,
@@ -34,7 +35,7 @@ export const integrationdata = [
     content: "Effertlessly set up a wishlist app that enhances conversions. integrate seamlessly with popular platforms to promote your store.",
     blog:false,
     blogLink:"/klaviyo-blog",
-    link:"https://apps.shopify.com/swym-relay?ot=8a6efe44-a2ad-4bfd-8eba-5c791aff5780&search_id=a4553105-6610-4764-834b-f230bb5e813a&surface_detail=wishlist+plus&surface_inter_position=1&surface_intra_position=1&surface_type=search_ad"
+    link:"https://apps.shopify.com/swym-relay?utm_source=customer-dashboard-pro"
   },
   {
     logo: Track123Logo,
@@ -42,7 +43,7 @@ export const integrationdata = [
     content: "Stay ahead of shipping concerns, customiz your order tracking experiance, and engage shoppers effectively.",
     blog:false,
     blogLink:"/klaviyo-blog",
-    link:"https://apps.shopify.com/track123?search_id=5f353192-1b9c-43e4-b201-51211f496f5e&surface_detail=track123&surface_inter_position=1&surface_intra_position=4&surface_type=search"
+    link:"https://apps.shopify.com/track123?utm_source=customer-dashboard-pro"
   },
 
  
@@ -52,7 +53,7 @@ export const integrationdata = [
     content:"Inhance customer satisfaction and increase sales with a personalized post-purchase tracking journey",
     blog:false,
     blogLink:"/klaviyo-blog",
-    link:"https://apps.shopify.com/parcelpanel?search_id=2469e69a-555a-4157-b0d6-d0a6284e466f&surface_detail=parcel+panel&surface_inter_position=1&surface_intra_position=4&surface_type=search"
+    link:"https://apps.shopify.com/parcelpanel?utm_source=customer-dashboard-pro"
   },
   {
     logo: GrowaveLoyalltyLogo,
@@ -60,7 +61,7 @@ export const integrationdata = [
     content:"Access the 'Wishlist King' integration link by navigating to the Configuration > Navigation Builder Section",
     blog:false,
     blogLink:"/klaviyo-blog",
-    link:"https://apps.shopify.com/growave?search_id=e9ba901c-fa57-4343-bb91-05a7660c6bf4&surface_detail=growave&surface_inter_position=1&surface_intra_position=1&surface_type=search"
+    link:"https://apps.shopify.com/growave?utm_source=customer-dashboard-pro"
   },
   {
     logo: YoptoLoaylltyLogo,
@@ -68,7 +69,7 @@ export const integrationdata = [
     content:"Creat a tailored loaylty program that boosts customer retenstion with more than just rewards.",
     blog:false,
     blogLink:"/klaviyo-blog",
-    link:"https://apps.shopify.com/swell?search_id=34a54b82-583b-4c07-a9c4-ce724444b117&surface_detail=yopto&surface_inter_position=1&surface_intra_position=5&surface_type=search"
+    link:"https://apps.shopify.com/swell?utm_source=customer-dashboard-pro"
   },
  
   {
@@ -77,7 +78,7 @@ export const integrationdata = [
     content:"Create a loyalty program to retain new customers for the long term.",
     blog:false,
     blogLink:"/klaviyo-blog",
-    link:"https://apps.shopify.com/loloyal?search_id=6682f05b-b4a8-4cfe-8513-d813b0f478b8&surface_detail=LL&surface_inter_position=1&surface_intra_position=4&surface_type=search"
+    link:"https://apps.shopify.com/loloyal?utm_source=customer-dashboard-pro"
   },
 
 ];
@@ -92,7 +93,7 @@ export const partnerData = [
   content:"Create a loyalty program to retain new customers for the long term.",
   blog:false,
   blogLink:"/klaviyo-blog",
-  link:"https://apps.shopify.com/customer-account-verification?search_id=6a5a2051-c18b-4b3f-b47a-51865e2ff1c6&surface_detail=EmailCheckr%3A+Stop+Fake+Signups&surface_inter_position=1&surface_intra_position=4&surface_type=search"
+  link:"https://apps.shopify.com/customer-account-verification?utm_source=customer-dashboard-pro"
 },
 {
   logo: ReportLogo,
@@ -100,7 +101,7 @@ export const partnerData = [
   content:"Create a loyalty program to retain new customers for the long term.",
   blog:false,
   blogLink:"/klaviyo-blog",
-  link:"https://apps.shopify.com/report-expert?search_id=2a036a96-be52-4601-b1c0-8a3243184474&surface_detail=report+expert&surface_inter_position=1&surface_intra_position=7&surface_type=search"
+  link:"https://apps.shopify.com/report-expert?utm_source=customer-dashboard-pro"
 },
 {
   logo: CheckOutLogo,
@@ -108,6 +109,14 @@ export const partnerData = [
   content:"Create a loyalty program to retain new customers for the long term.",
   blog:false,
   blogLink:"/klaviyo-blog",
-  link:"https://apps.shopify.com/checkout-extensions-pro?search_id=876e324f-4791-49c2-a199-cdab9479403f&surface_detail=check+extension+pro&surface_inter_position=4&surface_intra_position=6&surface_type=search"
+  link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
+},
+{
+  logo: UpPromoteLogo,
+  heading: "UpPromote Affiliate Marketing",
+  content:"Description: Complete, easy referral & affiliate program app, trusted by top brands & experts for a revenue boost",
+  blog:false,
+  blogLink:"/klaviyo-blog",
+  link:"https://partners.secomapp.com/apps/affiliate/customer-dashboard-pro-app"
 },
 ]

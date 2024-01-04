@@ -1,6 +1,7 @@
 import React from 'react';
 import { Accordion, Container } from 'react-bootstrap';
 import {Image,Col,Row} from 'react-bootstrap';
+import LazyLoadedImage from '../lazyLoadImage/LazyLoadImage';
 export function FaqItem_1() {
   return (
     <>
@@ -19,18 +20,18 @@ export function FaqItem_1() {
                                                     <Col lg={12} className="col-md-12 col-sm-12 col--sm-6">
                                                         <div className="theme_setting_image mb-4">
                                                             <p>A. First of all, select the theme on your store. App default is set to live theme</p>
-                                                            <Image src="https://mandasa1.b-cdn.net/customer-dashbaord-pro/installation_1.gif"></Image>
+                                                            <LazyLoadedImage src="https://mandasa1.b-cdn.net/customer-dashbaord-pro/installation_1.gif" alt="faq-gif" />
                                                             <div className="app_embed_image mb-4 mt-4">
                                                             <p>B. Then after selecting theme click on <strong>Manage Installation </strong> which will redirect to theme app embed</p>
-                                                            <Image src="https://mandasa1.b-cdn.net/customer-dashbaord-pro/installation_2.gif"></Image>
+                                                            <LazyLoadedImage src="https://mandasa1.b-cdn.net/customer-dashbaord-pro/installation_2.gif" alt="faq-gif" />
                                                             </div>
                                                             <div className='mb-4 mt-4'>
                                                             <p>C. After going to Embed App, turn on the <strong>Customer Dashboard Pro</strong> extension.</p>
-                                                             <Image src="https://mandasa1.b-cdn.net/customer-dashbaord-pro/installation_step_3.gif"></Image>
+                                                            <LazyLoadedImage src="https://mandasa1.b-cdn.net/customer-dashbaord-pro/installation_step_3.gif" alt="faq-gif" />
                                                             </div>
                                                             <div className='mb-4 mt-4'>
                                                             <p>D. Click <strong>Save</strong> and you're done!</p>
-                                                             <Image src="https://mandasa1.b-cdn.net/customer-dashbaord-pro/installation_step_4.gif"></Image>
+                                                            <LazyLoadedImage src="https://mandasa1.b-cdn.net/customer-dashbaord-pro/installation_step_4.gif" alt="faq-gif" />
                                                             </div>
                                                         </div>
                                                     </Col>

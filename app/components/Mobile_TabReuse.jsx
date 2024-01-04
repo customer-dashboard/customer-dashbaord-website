@@ -1,6 +1,7 @@
 import { Image, Container, Nav, Row } from 'react-bootstrap';
 import { Accordion } from 'react-bootstrap';
 import { useState } from 'react';
+import LazyLoadedImage from './lazyLoadImage/LazyLoadImage';
 
 import { TabReuseSection1 } from './TabReuseSection1';
 import { TabReuseSection2 } from './TabReuseSection2';
@@ -77,12 +78,14 @@ function Mobile_TabsReuse(props) {
                                           <p>{item.icon_discription}</p>
                                         </div>
                                         <div className="item_icon_logo">
-                                          <Image src={item.icon_img}></Image>
+                                          {/* <Image src={item.icon_img}></Image> */}
+                                          <LazyLoadedImage src={item.icon_img} alt="Mobile_tab_reuse_image" />
                                         </div>
                                       </div> :
                                       <div className="item_content">
                                         <div className="item_icon_logo">
-                                          <Image src={item.icon_img}></Image>
+                                          {/* <Image src={item.icon_img}></Image> */}
+                                          <LazyLoadedImage src={item.icon_img} alt="Mobile_tab_reuse_image" />
                                         </div>
                                         <div className="item_discription">
                                           <h4>{item.icon_title}</h4>

@@ -3,6 +3,7 @@ import { klaviyoBlogData } from "../middleware/BlogGridData";
 import { Col, Image, Row } from "react-bootstrap";
 import { Link } from "@remix-run/react";
 import topImage from '../assets/images/Logo/changelog.jpeg';
+import LazyLoadedImage from "./lazyLoadImage/LazyLoadImage";
 import StartFree from "./StartFree";
 
 
@@ -70,7 +71,8 @@ function BlogsGrid() {
                     <Col lg={4} index={index} className="mb-5 col-md-6 col-sm-6" key={index}>
                       <div className="main-blg-grd-wraper-container">
                         <Link to={items.Link} className="blog-link-unstyle">
-                        <Image src={items.BlogImage} alt="blog-image" />
+                        {/* <Image src={items.BlogImage} alt="blog-image" /> */}
+                        <LazyLoadedImage src={items.BlogImage} alt="Image 1" />
                         </Link>
                         <div className="grid-aftrimg-contnt py-4 px-4">
                           <div className="blg-dttm fw-600 mb-3">

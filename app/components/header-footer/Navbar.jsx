@@ -1,8 +1,8 @@
 import { Link } from '@remix-run/react';
 import { useState, useEffect } from "react";
-import { Button, Container, Nav, NavDropdown, Navbar,Image } from "react-bootstrap";
-// import newLogo from '../assets/images/Logo/newLogo.png'
+import { Button, Container, Nav, NavDropdown, Navbar } from "react-bootstrap";
 import newLogo from '../../assets/images/Logo/newLogo.png'
+import LazyLoadedImage from '../lazyLoadImage/LazyLoadImage';
 
 function Header() {
 
@@ -51,7 +51,8 @@ function Header() {
                 <Container>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggle_btn hamburger-icon"/>
                     <Link to="/" className="customer_logo">
-                        <Image src={newLogo}></Image>
+                        {/* <Image src={newLogo}></Image> */}
+                        <LazyLoadedImage src={newLogo} alt="logo" />
                     </Link>
                     <div className="min-width-header-btn">
                     <Button variant="primary" href="https://customer-dashboard.myshopify.com" target="_blank" className="btn header_btn btn-md ml-15 d-none-min-991">View Demo</Button>

@@ -10,12 +10,12 @@ function KlaviyoFullBlog() {
     <>
       <main className="blg-full-pg-main-wraper">
         <section className="blg-full-page-section">
-          <div className="main-container-blg-f-section">
+          <div className="main-container-blg-f-section pt-5">
             <div className="container-main">
               <div className="flblgpagecontainer">
                 <div className="blg_fl_pg_headings">
                   <BlogsTopSection data={klaviyoTop} />
-                  <div className="container">
+                  <div className="container mb-5">
                   <div className="fullpagemaincontentwithfullinfo pb-5">
                   {
                    parse(KlaviyoFullBlogContent())

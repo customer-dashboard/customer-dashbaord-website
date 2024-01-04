@@ -1,7 +1,7 @@
-import { Button, Col, Container, Row ,Image} from "react-bootstrap";
+import { Button, Col, Container, Row} from "react-bootstrap";
 import shopifyOfficialLogoBlack from '../assets/images/ofiicialBlackShopifyLogo.png';
-import BannerStyle from '../styles/Banner.css';
 import PlayerComponent from "./PlayerComponent";
+import LazyLoadedImage from "./lazyLoadImage/LazyLoadImage";
 
 
 function Banner() {
@@ -22,7 +22,8 @@ function Banner() {
                                         <Col lg={6} className="col-md-6 col-sm-6 my-md-4 my-sm-4 my-x-sm col-x-sm-6">
                                             <div className="shopify">
                                             <Button href="https://apps.shopify.com/customer-dashboard-pro" target="_blank" rel="norefferer" className="d-flex s_btn btns justify-content-evenly shopify-official-logo-black">
-                                                <Image src={shopifyOfficialLogoBlack} alt="Shopify-official-logo-black"></Image>
+                                                {/* <Image src={shopifyOfficialLogoBlack} alt="Shopify-official-logo-black"></Image> */}
+                                              <LazyLoadedImage src={shopifyOfficialLogoBlack} alt="Shopify-official-logo-black" />
                                             </Button>
                                             </div>
                                         </Col>

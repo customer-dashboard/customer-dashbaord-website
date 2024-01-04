@@ -1,5 +1,5 @@
-import React from 'react'
-import { Col, Row, Image } from 'react-bootstrap'
+import { Col, Row } from 'react-bootstrap'
+import LazyLoadedImage from './lazyLoadImage/LazyLoadImage';
 
 
 function PagesComparison(prop) {
@@ -18,14 +18,17 @@ function PagesComparison(prop) {
                                 <Col lg={6} className='sec-5columns sec-5col-first col-md-6 col-sm-6'>
                                     <div className='sec-5-fstcol '>
                                         <h5>{pageData.OldPageHeading}</h5>
-                                        <Image src={pageData.OldPageImage} alt={pageData.OldImageAlttext}></Image>
+                                        {/* <Image src={pageData.OldPageImage} alt={pageData.OldImageAlttext}></Image> */}
+                                        <LazyLoadedImage src={pageData.OldPageImage} alt={pageData.OldImageAlttext} />
+                                        
                                     </div>
                                 </Col>
 
                                 <Col lg={6} className='sec-5columns sec-5col-second col-md-6 col-sm-6'>
                                     <div className="sec-5-scndcol">
                                         <h5>{pageData.NewPageHeading}</h5>
-                                        <Image className='customer-dashboardproimage' src={pageData.NewPageImage} alt={pageData.NewImageAlttext}></Image>
+                                        {/* <Image className='customer-dashboardproimage' src={pageData.NewPageImage} alt={pageData.NewImageAlttext}></Image> */}
+                                        <LazyLoadedImage className='customer-dashboardproimage' src={pageData.NewPageImage} alt={pageData.NewImageAlttext} />
                                     </div>
                                 </Col>
                             </Row>

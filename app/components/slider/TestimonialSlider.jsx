@@ -1,11 +1,12 @@
 import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { Col, Container, Image, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import * as Slider from "react-slick";
 import { slidesData } from "../../middleware/testimonialData";
 import { settings } from "../../middleware/testimonialData";
 const Slider2 = Slider.default.default;
+import LazyLoadedImage from "../lazyLoadImage/LazyLoadImage";
 
 
 function TestimonialSlider() {
@@ -28,7 +29,7 @@ function TestimonialSlider() {
                                     <div className="d-flex tracks" key={slide.id}>
                                         <div className="slick-slide testimonial_slide" >
                                             <p className="dotable-para-element">{slide.para}</p>
-                                            <Image src={slide.starImage}></Image>
+                                            <LazyLoadedImage src={slide.starImage} alt={slide.name} />
                                             <span className="customer_name">{slide.name}</span>
                                             <span className="date_time">{slide.time}</span>
                                         </div>

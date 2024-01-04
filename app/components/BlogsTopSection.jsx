@@ -1,5 +1,6 @@
 import React from 'react'
 import { Col, Image, Row } from 'react-bootstrap';
+import LazyLoadedImage from './lazyLoadImage/LazyLoadImage';
 
 function BlogsTopSection({data}) {
 
@@ -13,7 +14,7 @@ function BlogsTopSection({data}) {
         <h3 className='fw-600 h-color-dark'>Read Our Blog</h3>
       </div>
     </div>   */}
-    <div className="container">
+    <div className="container mb-5">
      <div className="tpmncontainerwithgrid pt-5 pb-5 mt-5 mb-5 pb-5">
      <Row>
       <Col lg={6}>
@@ -24,8 +25,8 @@ function BlogsTopSection({data}) {
       <p>{propData.SubHeading}</p>
       </Col>
       <Col lg={6}>
-      <Image src={propData.BannerImage} alt='blog-page-image' className='flpgtpscnimg'></Image>
-
+      {/* <Image src={propData.BannerImage} alt='blog-page-image' className='flpgtpscnimg'></Image> */}
+      <LazyLoadedImage src={propData.BannerImage} className='flpgtpscnimg'  alt="blog-page-image" />
       </Col>
    </Row>
      </div>
