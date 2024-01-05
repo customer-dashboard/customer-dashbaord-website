@@ -81,6 +81,13 @@
 .carousel_heading {
   padding-bottom: 0.8rem;
 }
+.slick-next:before{
+  font-size: 30px !important;
+}
+.slick-prev:before{
+  font-size: 30px !important;
+}
+
 .carousel_heading {
   padding-bottom: 0.8rem;
 }

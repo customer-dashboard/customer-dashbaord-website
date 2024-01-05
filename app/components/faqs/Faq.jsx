@@ -19,7 +19,7 @@ function Faq() {
                         <div className="faq_main_heading">
                             <h2>FREQUENTLY ASKED QUESTIONS <span>(FAQ)</span></h2>
                         </div>
-                        <Accordion defaultActiveKey="0">
+                        <Accordion defaultActiveKey="8">
                             <FaqItem_1/>
                             <FaqItem_2/>
                             <FaqItem_3/>

@@ -1,11 +1,13 @@
 .banner_background{
-    background: url(../assets/images/banner-background.png), lightgray 50% / cover no-repeat;
     width: 100%;
     background-size: cover;
     background-position: center;
 }
 .banner_background{
     padding: 70px 0px;
+}
+.hero-banner-image img{
+    max-width: 100%;
 }
 
 .shopify-official-logo-black{
@@ -22,25 +24,25 @@
     max-width: 100%;
 }
 .main_heading h1{
-    font-size: 29px;
+    font-size: 38px;
     font-weight: 600;
-    color: white;
-    line-height: 42px;
 }
 .main_heading p{
-    color: white;
-    font-size: 18px;
+    line-height: 1.6;
 }
 
 .btns{
     width: 100%;
     border-radius: 3px;
-    border: 1px solid white;
+    border: 1px solid  black;
+    color: #000;
+    transition: transform 330ms ease-in-out;
 }
 .btns:hover {
     background-color: white;
-    color: #007CB6;
-    border: 1px solid white;
+    border: 1px solid black;
+    transform: translateY(-5px);
+    color: #000;
 }
 .f_btn{
     background-color: transparent;
@@ -62,7 +64,6 @@ video{
 
 .forever  button:hover{
     background-color: white;
-    color: #007CB6;
 }
 
 @media screen and (max-width:991px) {
