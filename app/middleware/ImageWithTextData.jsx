@@ -70,7 +70,7 @@ export const dataOfTopOrderedProductImageWithText = [
      <p>Customers are more attracted towards the most liked and viewed products which can increase sales.</p>`
    }
   
-]
+] 
 
 export const dataOfTranslationPageImageWithText = [
   {
