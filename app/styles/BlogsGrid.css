@@ -1,8 +1,4 @@
-.blg-main-heading-wraper {
-    background-image: url(../assets/images/Blogs/blog-background.png);
-    background-size: cover;
-    background-position: center;
-}
+
 .main-blg-grd-wraper-container img{
     max-width: 100%;
     border-top-left-radius: 10px;
@@ -83,11 +79,7 @@ box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 @media screen and (max-width:768px){
-    .blg-main-heading-wraper {
-        /* background-image: url(../assets/images/Blogs); */
-        background-size: cover;
-    }
-    .blg-main-heading-wraper p{
+     .blg-main-heading-wraper p{
         font-size: 14px;
     }
 }

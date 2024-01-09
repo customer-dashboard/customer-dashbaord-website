@@ -43,12 +43,12 @@ function BlogsGrid() {
         
         <section className="blogs-grid-main-page-wraper">
           <div className="blogs-grid-container">
-          <div className="blg-main-heading-wraper mb-5">
+          <div className="blg-main-heading-wraper">
                   <div className="container">
                    <Row className="justify-content-between align-items-center">
-                    <Col lg={6}>
-                    <h1 className="fw-600 mb-4">Welcome To Customer Dashboard Pro Blogs</h1>
-                     <p className="mb-5">In these blogs, we will discuss how to improve customer accounts in Shopify for e-commerce businesses. Learn how to customize the Account page, add features, and get help with technical issues.</p>
+                    <Col lg={12}>
+                    <h1 className="fw-600 mb-4 text-center">Welcome To Customer Dashboard Pro Blogs</h1>
+                     <p className="mb-5 text-center">In these blogs, we will discuss how to improve customer accounts in Shopify for e-commerce businesses. Learn how to customize the Account page, add features, and get help with technical issues.</p>
                      {/* <Button className="py-3 px-5 d-block">Get Started</Button> */}
 
                     </Col>

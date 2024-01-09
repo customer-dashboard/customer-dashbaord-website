@@ -36,12 +36,11 @@
     border-radius: 3px;
     border: 1px solid  black;
     color: #000;
-    transition: transform 330ms ease-in-out;
+   
 }
 .btns:hover {
     background-color: white;
     border: 1px solid black;
-    transform: translateY(-5px);
     color: #000;
 }
 .f_btn{

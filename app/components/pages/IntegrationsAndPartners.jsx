@@ -1,20 +1,13 @@
 import React from "react";
-import Aos from "aos";
 import { useEffect } from "react";
 import Integration from "../partner-and-integration/Integration";
 import { Tabs, Tab } from "react-bootstrap";
 import { partnerData } from "../../middleware/IntegrationsData";
 import { integrationdata } from "../../middleware/IntegrationsData";
+import TransitionEffect from "../FadeTransition/TransitionEffect";
 function IntegrationsAndPartners() {
   useEffect(() => {
-    window.scrollTo(0, 0);
-    Aos.init({
-      duration: 500,
-      easing: "ease-in-sine",
-      delay: 100,
-      once: true,
-    });
-    Aos.refreshHard();
+   TransitionEffect();
   }, []);
 
   return (

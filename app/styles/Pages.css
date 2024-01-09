@@ -60,20 +60,23 @@
 }
 .acnt-pg-sctn-3-container p{
     font-size: 1rem;
-    color: #000;
+    color: #545454;
+    line-height: 1.6;
+    
 }
 .acntpagmnu-hero-heading {
     font-size: 34px;
-    color: #000654;
     font-weight: 700;
 }
 
 .acntpage-col-fst-cntnt h3 {
-    font-size: 25px;
-    font-weight: 500;
-    color: #000654;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.4;
 }
-
+.acntpage-col-fst-cntnt p{
+    color:#545454
+}
 .acntpage-col-scnd-cntnt {
     display: flex;
     justify-content: center;
@@ -88,24 +91,25 @@
 }
 
 .shpfy-trial-demo-btn {
-    padding: 20px 10px;
-    font-size: 18px;
+    padding: 19px 10px;
+    font-size: 16px;
     text-align: center;
     font-weight: 600;
-    border-radius: 10px;
-    border: 2px solid #ee6f43 !important;
-    width: 46%;
+    border-radius: 6px;
+    border: 2px solid #000 !important;
+   display: block;
     margin-right: 10px;
     transition: all .3s ease-in-out 0s;
+    color: black;
 
 }
 
 .acntpagetrlbtn {
-    background-color: #ee6f43;
+    background-color: transparent;
 }
 
 .acntpagedmobtn {
-    color: #ee6f43;
+    color: black;
     background-color: transparent;
 }
 .acntpagetrlbtn:hover{
@@ -114,8 +118,8 @@
 }
 
 .acntpagedmobtn:hover {
-    background-color: #ee6f43 !important;
-    color: #fff !important;
+    background-color: transparent;
+    color: #000 !important;
 }
 
 
@@ -131,12 +135,11 @@
     padding: 10px;
 }
 .acnt-pg-inner-feature-container h2 {
-    color:#000654;
     font-weight: 700;
 }
 .sec-4-acntpageconatiner{
     /* background: linear-gradient(133deg, #0087C1 0%, #1E235C 100%);    */
-    background-image: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );
+    background: linear-gradient(-18deg, #FFF 0%, #E1E1E1 25%, #FFF 50%, #E1E1E1 75%, #E1E1E1 100%);
     padding-top: 3rem;
     padding-bottom: 5rem;
 }
@@ -146,19 +149,16 @@
 }
 .section-4-main-heading, .section-5-content h2{
     font-weight: 900;
-    color: #000654;
     text-align: center;
     margin-bottom: 2rem;
 }
 .section-4-main-heading, .section-5-content p{
     font-size: 18px;
-    color: #000654;
     text-align: center;
 }
 .feature-name {
     font-size: 16px;
     font-weight: 600;
-    color: #000654;
     margin-top: 10px;
 }
 .featuredescription{
@@ -201,7 +201,6 @@
 }
 .sec-5columns h5{
     margin-bottom: 0;
-    color: #000654;
     text-align: center;
     font-size: 16px;
     font-weight: 700;
@@ -237,9 +236,7 @@
 .sec-5-scndcol img{
     padding: 10px;
 }
-.feature-com-head, .feature-com-subhead{
-    color: #fff;
-}
+
 .page-not-found{
     width: 35%;
     margin: auto;
@@ -294,9 +291,7 @@
 
 @media screen and (max-width:576px) {
     .shpfy-trial-demo-btn {
-        font-size: 14px;
-        padding-left: 10px;
-        padding-right: 10px;
+        font-size: 12px;
         padding-top: 15px;
         padding-bottom: 15px;
     }
@@ -394,8 +389,4 @@
     .privacy-policy-page-container p {
         font-size: 14px;
     }
-}
-
-.customer-account-page-manu {
-    background: linear-gradient(141deg, #FFF 0%, #E1E1E1 25%, #FFF 50%, #E1E1E1 75%, #E1E1E1 100%);
 }

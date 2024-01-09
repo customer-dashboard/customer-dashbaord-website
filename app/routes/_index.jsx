@@ -27,7 +27,7 @@ export const meta = () => {
   return [
     { title: "Manage and Customize Shopify Account Pages | Customer Dashboard Pro" },
     { name: "description", content: "Looking to Take Control Manage and Customize of Your Shopify Account Pages? Look No Further Than Customer Dashboard Pro. Easily Manage and Customize Your Account Pages With Ease." },
-    { name: "keywords", content: "Shopify Customer Accounts Page App, Customer Account Page, Customer Dashboard Pro Account Page, Shopify Account Page" },
+    { name: "keywords", content: "Shopify Customer Accounts Page App,customer account shopify, Customer Account Page, Customer Dashboard Pro Account Page, Shopify Account Page" },
     {property:"og:title", content:"Manage and Customize Shopify Account Pages | Customer Dashboard Pro"},
     {property:"og:description", content:"Looking to Take Control Manage and Customize of Your Shopify Account Pages? Look No Further Than Customer Dashboard Pro. Easily Manage and Customize Your Account Pages With Ease."},
     {

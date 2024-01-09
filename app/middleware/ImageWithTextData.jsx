@@ -1,11 +1,15 @@
 
 import RevampPanelImage from '../assets/images/NewDataImages/Revamp panel.png';
-import reorderPageImage from '../assets/images/NewDataImages/Hassle-free reorder.png';
+import reorderPageImage from '../assets/images/NewDataImages/new/Group 256.png';
 import customFieldImage from '../assets/images/NewDataImages/customfieldimage.png';
-import SecondImageOfReorderPage from '../assets/images/NewDataImages/new-order-img.png';
-import Multi_Languages_Support from '../assets/images/NewDataImages/multi_language.png';
-import recentlyImage from '../assets/images/NewDataImages/recently_view-Image_with_text.png';
-import TranslateImage from '../assets/images/NewDataImages/Translator.png';
+import SecondImageOfReorderPage from '../assets/images/NewDataImages/new/Group 257.png';
+import Multi_Languages_Support from '../assets/images/NewDataImages/new/Translator_03.png';
+import recentlyImage from '../assets/images/NewDataImages/new/Recently viewed products_02.png';
+import TranslateImage from '../assets/images/NewDataImages/new/Translator_04.png';
+import TopOrderImageWithText from '../assets/images/NewDataImages/new/Top ordered products_02.png'
+import navigationBuilderImage from '../assets/images/NewDataImages/new/Navigation builder_01.png'
+import customFieldImage_1 from '../assets/images/NewDataImages/new/custom field_02.png';
+import customFieldImage_2 from '../assets/images/NewDataImages/new/custom field_03.png';
  export const dataOfAccountPageImageWithText = [
      {
         "imageUrl": RevampPanelImage,
@@ -57,7 +61,7 @@ export const dataOfRecentViewImageWithText = [
 
 export const dataOfTopOrderedProductImageWithText = [
   {
-     "imageUrl": reorderPageImage,
+     "imageUrl": TopOrderImageWithText,
      "altText": "Top-Ordere-Product-Image",
      right:true,
      "heading":`EXCLUSIVE SELECTIONS: Unveiling Our Top-Ordered Products`,
@@ -70,7 +74,7 @@ export const dataOfTopOrderedProductImageWithText = [
 
 export const dataOfTranslationPageImageWithText = [
   {
-     "imageUrl": Multi_Languages_Support,
+     "imageUrl": TranslateImage,
      "altText": "translation-page-image-2",
      right:true,
      "heading":`Smooth Translation Experience: Effortlessly Customize in Your Preferred Language`,
@@ -78,12 +82,47 @@ export const dataOfTranslationPageImageWithText = [
      <p>Unlock the power of translation tools, enhancing your browsing experience by adapting content to your language.</p>`
    },
    {
-    "imageUrl": TranslateImage,
+    "imageUrl": Multi_Languages_Support,
     "altText": "translation-page-image-3",
     right:false,
     "heading":`Transform Your Website: Discover Easy Translation Tools`,
     caption: `<p className='mt-3'>Change your customer account page to your language and use it easily.</p>
     <p>Allows customers to view the website in their preferred language, improving understanding and engagement.</p>`
+  }
+  
+]
+
+export const dataOfNavigationBuilderImageWithText = [
+  {
+     "imageUrl": navigationBuilderImage,
+     "altText": "navigation builder image",
+     right:true,
+     "heading":`Strategic Shopify Menu Building for Enhanced Store Strength`,
+     caption: `<p className='mt-3'>Unlock the potential of your Shopify store with strategic menu crafting. By tailoring your navigation.</p>
+     <p>Create a compelling storefront narrative by intelligently organizing your products and content. With our intuitive Navigation Builder.</p>
+     <p>Ensuring your Shopify store stands out and leaves a lasting impression on every visitor.</p>`
+   }
+  
+]
+
+export const dataOfCUstomFieldsImageWithText = [
+  {
+     "imageUrl": customFieldImage_1,
+     "altText": "custom field image",
+     right:true,
+     "heading":`Empower Your Store: Create Custom Fields with Ease`,
+     caption: `<p className='mt-3'>Elevate your Shopify experience by seamlessly crafting and integrating custom fields tailored to your business needs.</p>
+     <p>Dive into the exceptional capabilities of our Custom Field feature, revolutionizing the way you gather and utilize customer data.</p>
+     `
+   },
+   {
+    "imageUrl": customFieldImage_2,
+    "altText": "custom field image-2",
+    right:false,
+    "heading":`Capture Data According to Your Preferences, in Just One Click`,
+    caption: `<p className='mt-3'> Create custom fields with just one click and gather customer data tailored to your specifications effortlessly.</p>
+    <p> Our aim is to assist you in making your business more adaptable. Refine your business strategies, connect with customers, and take your store to new heights with the simplicity of our Image Custom Field feature.</p>
+    `
   }
   
 ]

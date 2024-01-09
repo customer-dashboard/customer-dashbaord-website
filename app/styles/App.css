@@ -131,13 +131,20 @@ body {
     height: 60px;
 } */
 .h-color-dark{
-    color: #000654 !important;
+    color: #000 !important;
 }
 .fw-600{
     font-weight: 600;
 }
 .text-decoration-no{
     text-decoration: none;
+}
+.transition-duretion{
+    transition: transform 330ms ease-in-out;
+}
+.transition-duretion:hover{
+    transform: translateY(-5px);
+
 }
 
 @media screen and (max-width:921px){
@@ -152,7 +159,7 @@ body {
         font-size: 30px;
     }
     .col-xsm-6{
-        width: 50%;
+        width: 50% !important;
     }
     .mt-xsm-3{
         margin-top: 1rem !important;

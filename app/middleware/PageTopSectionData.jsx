@@ -1,10 +1,12 @@
 
 import NewAccountPagefoAccountPageData from '../assets/images/NewDataImages/newAccountPage.png';
-import reorderGif from '../assets/images/NewDataImages/reorder GIF.gif';
-import reoderNewGif from '../assets/images/NewDataImages/reorder_top_section_new.gif';
-import TranslateImage from '../assets/images/NewDataImages/Translator_01.png';
+import TopOrderPageImage from '../assets/images/NewDataImages/new/Top ordered products_01.png';
+import reoderNewGif from '../assets/images/NewDataImages/reorder 02.png';
+import TranslateImage from '../assets/images/NewDataImages/new/Translator_02.png';
 import IntegrationImage from '../assets/images/NewDataImages/integration.avif';
-import recentlyView from '../assets/images/NewDataImages/Recently viewed products.png';
+import recentlyView from '../assets/images/NewDataImages/new/Recently viewed products_03.png';
+import navigationBuilderImage from '../assets/images/NewDataImages/new/Navigation builder.png'
+import customeFieldImage from '../assets/images/NewDataImages/new/custom field_01.png'
 
 export const AccountPageData = {
         pageHeading:'Enhance the functionality of Shopify customer accounts page',
@@ -35,7 +37,7 @@ export const topOrderProductPagedata = {
     pageSubHeading:'Discover Our Most Sought-After Products Loved by Discerning Shoppers Worldwide.',
     fistPara:'Show your top order products to your customers and increase your sales as well as attract repeat customers.',
     secondPara:'Maximize your efficiency with our Customer Dashboard app—your gateway to streamlined operations. Seamlessly manage orders, analyze trends, and elevate customer experiences effortlessly, empowering you to drive success and exceed expectations.',
-    pageImageData:reorderGif
+    pageImageData:TopOrderPageImage
 }
 
 export const translationPagedata = {
@@ -52,4 +54,21 @@ export const IntegrationAndPartnerPageData = {
     secondPara:null,
     pageImageData:IntegrationImage,
     new:true
+}
+
+export const NavigationBuilderPageData = {
+    pageHeading:'Initiate the Crafting of Your Unparalleled, Ultimate Navigation Experience',
+    pageSubHeading:'Optimize Shopify Navigation: Empower Your Business with Streamlined Menus',
+    fistPara:"Master Your Store's Navigation effortlessly with our Intuitive Builder. Customize menus seamlessly for a visually appealing and user-friendly online space. Elevate customer experience and boost engagement effortlessly.",
+    secondPara:null,
+    pageImageData:navigationBuilderImage,
+    new:false
+}
+export const CustomFieldPageData = {
+    pageHeading:'Unlock the Full Potential of Shopify Custom Fields',
+    pageSubHeading:'Enhance the strength of your Shopify store by integrating custom fields designed to gather valuable customer insights',
+    fistPara:"Elevate customer engagement and tailor your marketing strategies with a deep understanding of your audience. Discover the ease of implementation and the profound impact custom fields can have on creating a more connected and responsive online storefront.",
+    secondPara:null,
+    pageImageData:customeFieldImage,
+    new:false
 }

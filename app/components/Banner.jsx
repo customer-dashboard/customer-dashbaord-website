@@ -1,6 +1,6 @@
 import { Button, Col, Container, Image, Row} from "react-bootstrap";
 import shopifyOfficialLogoBlack from '../assets/images/ofiicialBlackShopifyLogo.png';
-import BannerHeroImage from '../assets/images/NewDataImages/OWINKS15445454.png';
+import BannerHeroImage from '../assets/images/NewDataImages/OWINKS15445454 (1).png';
 
 
 function Banner() {
@@ -19,7 +19,7 @@ function Banner() {
                                 <div className="main_section_btn">
                                     <Row>
                                         <Col lg={6} className="col-md-6 col-sm-6 my-md-4 my-sm-4 my-x-sm col-x-sm-6">
-                                            <div className="shopify">
+                                            <div className="shopify transition-duretion">
                                             <Button href="https://apps.shopify.com/customer-dashboard-pro" target="_blank" rel="norefferer" className="d-flex s_btn btns justify-content-evenly shopify-official-logo-black">
                                                 <Image src={shopifyOfficialLogoBlack} alt="Shopify-official-logo-black"></Image>
                                               {/* <LazyLoadedImage src={shopifyOfficialLogoBlack} alt="Shopify-official-logo-black" /> */}
@@ -27,7 +27,7 @@ function Banner() {
                                             </div>
                                         </Col>
                                         <Col lg={6} className="col-md-6 col-sm-6 my-md-4 my-sm-4 my-x-sm col-x-sm-6 ">
-                                            <div className="forever">
+                                            <div className="forever transition-duretion">
                                             <a href="https://apps.shopify.com/customer-dashboard-pro" target="_blank" rel="noreferrer">
                                             <Button className=" f_btn btns">
                                                 <div>

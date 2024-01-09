@@ -2,7 +2,6 @@ import React from 'react';
 import { reOrderPageData } from '../../middleware/PageTopSectionData';
 import PagesTopSection from '../PageTopSection';
 import { useEffect } from 'react';
-import Aos from 'aos';
 import ImageWithText from '../ImageWithText';
 import FeaturedContent from '../FeaturedContent';
 import { dataOfReOrderPageImageWithText } from '../../middleware/ImageWithTextData';
@@ -10,17 +9,13 @@ import PagesComparison from '../PageComparision';
 import { ReOrderPageDataOfComparision } from '../../middleware/PageComparisionData';
 import TestimonialSlider from '../slider/TestimonialSlider';
 import Carousel from '../slider/Carousel';
+import TransitionEffect from '../FadeTransition/TransitionEffect';
+
+
 function ReOrderPage() {
 
     useEffect(() => {
-        window.scrollTo(0, 0);
-        Aos.init({
-            duration: 500,
-            easing: 'ease-in-sine',
-            delay: 100,
-            once: true
-        });
-        Aos.refreshHard();
+        TransitionEffect();
     }, []);
 
 

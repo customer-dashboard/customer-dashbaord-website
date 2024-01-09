@@ -5,20 +5,13 @@ import ImageWithText from "../ImageWithText";
 import { dataOfTranslationPageImageWithText } from "../../middleware/ImageWithTextData";
 import FeaturedContent from "../FeaturedContent";
 import { useEffect } from "react";
-import Aos from "aos";
 import TestimonialSlider from '../slider/TestimonialSlider';
 import Carousel from '../slider/Carousel';
+import TransitionEffect from "../FadeTransition/TransitionEffect";
 
 function TranslationPage() {
   useEffect(() => {
-    window.scrollTo(0, 0);
-    Aos.init({
-      duration: 500,
-      easing: "ease-in-sine",
-      delay: 100,
-      once: true,
-    });
-    Aos.refreshHard();
+   TransitionEffect();
   }, []);
 
   return (
