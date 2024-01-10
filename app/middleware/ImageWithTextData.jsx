@@ -88,7 +88,7 @@ export const dataOfTranslationPageImageWithText = [
     "heading":`Transform Your Website: Discover Easy Translation Tools`,
     caption: `<p className='mt-3'>Change your customer account page to your language and use it easily.</p>
     <p>Allows customers to view the website in their preferred language, improving understanding and engagement.</p>`
-  }
+  } 
   
 ]
 
