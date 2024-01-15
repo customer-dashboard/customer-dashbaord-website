@@ -103,7 +103,7 @@ export const partnerData = [
     content:"Qikify Sales Pop up & Proof - A powerful app helps boost sales, enhance conversion rate, build trust, and promote campaigns easily.",
     blog:false,
     blogLink:"/klaviyo-blog",
-    link:"https://apps.shopify.com/customer-account-verification?utm_source=customer-dashboard-pro"
+    link:"https://apps.shopify.com/sale-kit?utm_campaign=partnership&utm_medium=referral&utm_source=customerdashboard&utm_content=in-app"
   },
   
 {
@@ -112,7 +112,7 @@ export const partnerData = [
   content:"Increase conversions and collect more shopper data with a popup alternative that rewards shoppers for learning about your brand.",
   blog:false,
   blogLink:"/klaviyo-blog",
-  link:"https://apps.shopify.com/customer-account-verification?utm_source=customer-dashboard-pro"
+  link:"https://apps.shopify.com/alia?utm_source=customer-dashboard-pro"
 },
 
 {
