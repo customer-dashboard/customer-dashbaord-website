@@ -184,6 +184,7 @@
     align-items: center;
     border-radius: 10px;
     margin-top: 40px;
+    cursor: pointer;
 }
 .section-5-acntpage{
     padding: 3.5rem 0rem;

@@ -19,7 +19,7 @@ function FeaturedContent() {
                     FeaturedData.map((item, index) => {
                       return(
                       <Col lg={3} className='col-md-4 col-sm-6'>
-                        <div className='main-items-of-featured-content'>
+                        <div className='main-items-of-featured-content transition-duretion'>
                           <div className="featured-icon">
                             {item.featureIcon}
                           </div>

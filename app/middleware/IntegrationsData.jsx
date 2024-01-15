@@ -10,6 +10,8 @@ import EmailCheker from '../assets/images/Logo/emailcheker.webp';
 import CheckOutLogo from '../assets/images/Logo/checkoutLogo.webp';
 import ReportLogo from '../assets/images/Logo/reportLogo.webp';
 import UpPromoteLogo from '../assets/images/Logo/UpPromote Logo.png';
+import quickyPartnerFyLogo from '../assets/images/Logo/qikify Sales Pop up & Proof - App logo.png';
+import aliaPartnerLogo from '../assets/images/Logo/Alia-Partner-Logo.png';
 
 export const integrationdata = [
 {
@@ -88,13 +90,31 @@ export const integrationdata = [
 
 export const partnerData = [
   {
-  logo: EmailCheker,
-  heading: "EmailCheckr: Stop Fake Signups",
-  content:"Safeguard your store with Emailcheckr - App designed to shield merchants from fake and spam signups.",
+    logo: CheckOutLogo,
+    heading: "Checkout Extensions Pro",
+    content:"Customize checkout pages: upsells, content widgets, surveys and more with checkout extensions.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: quickyPartnerFyLogo,
+    heading: "Qikify Sales Pop up & Proof",
+    content:"Qikify Sales Pop up & Proof - A powerful app helps boost sales, enhance conversion rate, build trust, and promote campaigns easily.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/customer-account-verification?utm_source=customer-dashboard-pro"
+  },
+  
+{
+  logo: aliaPartnerLogo,
+  heading: "Alia: Popup Alternative",
+  content:"Increase conversions and collect more shopper data with a popup alternative that rewards shoppers for learning about your brand.",
   blog:false,
   blogLink:"/klaviyo-blog",
   link:"https://apps.shopify.com/customer-account-verification?utm_source=customer-dashboard-pro"
 },
+
 {
   logo: ReportLogo,
   heading: "Report Expert ‑ Mandasa",
@@ -103,14 +123,7 @@ export const partnerData = [
   blogLink:"/klaviyo-blog",
   link:"https://apps.shopify.com/report-expert?utm_source=customer-dashboard-pro"
 },
-{
-  logo: CheckOutLogo,
-  heading: "Checkout Extensions Pro",
-  content:"Customize checkout pages: upsells, content widgets, surveys and more with checkout extensions.",
-  blog:false,
-  blogLink:"/klaviyo-blog",
-  link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
-},
+
 {
   logo: UpPromoteLogo,
   heading: "UpPromote Affiliate Marketing",
@@ -118,5 +131,13 @@ export const partnerData = [
   blog:false,
   blogLink:"/klaviyo-blog",
   link:"https://partners.secomapp.com/apps/affiliate/customer-dashboard-pro-app"
+},
+{
+  logo: EmailCheker,
+  heading: "EmailCheckr: Stop Fake Signups",
+  content:"Safeguard your store with Emailcheckr - App designed to shield merchants from fake and spam signups.",
+  blog:false,
+  blogLink:"/klaviyo-blog",
+  link:"https://apps.shopify.com/customer-account-verification?utm_source=customer-dashboard-pro"
 },
 ]
