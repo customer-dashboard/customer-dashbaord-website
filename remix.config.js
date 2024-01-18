@@ -32,3 +32,22 @@ export default {
     },
   },
 };
+export const redirects = async () => {
+  return [
+    {
+      source: '/pages/faq',
+      destination: '/faq',
+      permanent: true,
+    },
+  ];
+};
+
+export const redirects1 = async () => {
+  return [
+    {
+      source: '/sitemap',
+      destination: '/sitemap.xml',
+      permanent: true,
+    },
+  ];
+};
