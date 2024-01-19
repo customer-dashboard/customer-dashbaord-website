@@ -23,7 +23,6 @@ import Facility from "../components/Facility";
 import FacilityStyle from '../styles/Facility.css';
 import StartFree from "../components/StartFree";
 import StartFreeStyle from '../styles/StartFree.css';
-import { json, redirect } from '@remix-run/node';
 export const meta = () => {
   return [
     { title: "Manage and Customize Shopify Account Pages | Customer Dashboard Pro" },

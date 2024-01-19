@@ -88,7 +88,6 @@ function Header() {
                             </NavDropdown>
                             {/* <Link to="/faqs" className=" main-headernav Nav-item nav-link-custom">Faq's</Link> */}
                             <Link to="/pricing" className=" main-headernav Nav-item nav-link-custom">Pricing</Link>
-                            <Link to="/pages/faq" className=" main-headernav Nav-item nav-link-custom">new</Link>
                             {/* <Link to="/blogs" className=" main-headernav Nav-item nav-link-custom">Blogs</Link> */}
                             {/* <Link to="/integrations-partners" className=" main-headernav Nav-item nav-link-custom">Integrations & Partners</Link> */}
                             
