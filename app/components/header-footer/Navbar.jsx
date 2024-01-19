@@ -78,7 +78,7 @@ function Header() {
                                 <Link to="/faqs" className="Nav-item nav-link-custom nav-link-custom-drppdown">Faq's</Link>
                                 <Link to="/blogs" className=" Nav-item nav-link-custom nav-link-custom-drppdown">Blogs</Link>
                                 {/* <Link to="/#" className="Nav-item nav-link-custom">Case Study</Link> */}
-                                {/* <Link to="/re-order" className="Nav-item nav-link-custom">Re-Order</Link> */}
+                                {/* <Link to="/re-order" className="Nav-item nav-link-custom">Re-Order</Link>  */}
                             </NavDropdown>
                             <NavDropdown href="Partners" title="Partners" id="basic-nav-dropdown" show={ThirdIsOpen} onClick={()=>UpdateThirdIsOpen(!ThirdIsOpen)} onMouseOver={handleIsThirdOpen} onMouseLeave={handleIsThirdClosed} >
                                 <Link to="/become-a-partner" className="Nav-item nav-link-custom nav-link-custom-drppdown">Become a Partner</Link>
