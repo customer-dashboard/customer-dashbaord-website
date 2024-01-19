@@ -80,15 +80,3 @@ export default function Index() {
 // src/routes/oldUrl.js
 
 
-
-export async function loader({ request }) {
-  const oldUrl = "/old-url";
-  const newUrl = "/new-url";
-
-  // Access the requested URL using request.url
-  if (request.url === oldUrl) {
-    return redirect(newUrl);
-  }
-
-  return json({ message: "Welcome to Remix Run!" });
-}
