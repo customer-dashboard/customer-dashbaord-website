@@ -3,8 +3,8 @@
 import { redirect } from '@remix-run/node';
 
 export async function loader({ request }) {
-  const oldUrlPrefix = "http://localhost:3000/pages/faq";
-  const newUrl = "http://localhost:3000/faqs";
+  const oldUrlPrefix = "https://customerdashboard.pro/pages/faq";
+  const newUrl = "https://customerdashboard.pro/faqs";
 
   // Requested URL ke prefix ko check karein
   if (request.url.startsWith(oldUrlPrefix)) {
