@@ -23,6 +23,7 @@ import Facility from "../components/Facility";
 import FacilityStyle from '../styles/Facility.css';
 import StartFree from "../components/StartFree";
 import StartFreeStyle from '../styles/StartFree.css';
+import { json, redirect } from '@remix-run/node';
 export const meta = () => {
   return [
     { title: "Manage and Customize Shopify Account Pages | Customer Dashboard Pro" },
@@ -74,4 +75,20 @@ export default function Index() {
     <StartFree/>
    </>
   );
+}
+
+// src/routes/oldUrl.js
+
+
+
+export async function loader({ request }) {
+  const oldUrl = "/old-url";
+  const newUrl = "/new-url";
+
+  // Access the requested URL using request.url
+  if (request.url === oldUrl) {
+    return redirect(newUrl);
+  }
+
+  return json({ message: "Welcome to Remix Run!" });
 }

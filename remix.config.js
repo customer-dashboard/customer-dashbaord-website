@@ -36,7 +36,7 @@ export const redirects = async () => {
   return [
     {
       source: '/pages/faq',
-      destination: '/faq',
+      destination: '/faqs',
       permanent: true,
     },
   ];
