@@ -105,6 +105,14 @@ export const partnerData = [
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/sale-kit?utm_campaign=partnership&utm_medium=referral&utm_source=customerdashboard&utm_content=in-app"
   },
+  {
+    logo: LlLoyalltyLogo,
+    heading: "LL: Loyalty Rewards Referrals",
+    content:"Boost your customer retention rates and increase sales with our powerful loyalty and rewards system.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/loloyal?utm_source=customer-dashboard-pro"
+  },
   
 {
   logo: aliaPartnerLogo,
@@ -140,14 +148,7 @@ export const partnerData = [
   blogLink:"/klaviyo-blog",
   link:"https://apps.shopify.com/customer-account-verification?utm_source=customer-dashboard-pro"
 },
-{
-  logo: LlLoyalltyLogo,
-  heading: "LL: Loyalty Rewards Referrals",
-  content:"Boost your customer retention rates and increase sales with our powerful loyalty and rewards system.",
-  blog:false,
-  blogLink:"/klaviyo-blog",
-  link:"https://apps.shopify.com/loloyal?utm_source=customer-dashboard-pro"
-},
+
 
 
 ]
