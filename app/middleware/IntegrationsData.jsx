@@ -32,7 +32,7 @@ export const integrationdata = [
     link:"https://apps.shopify.com/smile-io?utm_source=customer-dashboard-pro"
   },
 {
-    logo: wishlistPlusLogo,
+    logo: wishlistPlusLogo, 
     heading: "Wishlist Plus",
     content: "Easy to set up Wishlist app that increases conversions. Popular integrations to market your store.",
     blog:false,
