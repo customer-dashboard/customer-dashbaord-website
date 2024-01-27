@@ -40,6 +40,14 @@ export const integrationdata = [
     link:"https://apps.shopify.com/swym-relay?utm_source=customer-dashboard-pro"
   },
   {
+    logo: LlLoyalltyLogo,
+    heading: "LL: Loyalty Rewards Referrals",
+    content:"Boost your customer retention rates and increase sales with our powerful loyalty and rewards system.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/loloyal?utm_source=customer-dashboard-pro"
+  },
+  {
     logo: Track123Logo,
     heading: "Track123 Order Tracking Upsell",
     content: "Get ahead of shipping issues, brand your order tracking experience, and reconvert shoppers.",
@@ -74,14 +82,7 @@ export const integrationdata = [
     link:"https://apps.shopify.com/swell?utm_source=customer-dashboard-pro"
   },
  
-  {
-    logo: LlLoyalltyLogo,
-    heading: "LL: Loyalty Rewards Referrals",
-    content:"Boost your customer retention rates and increase sales with our powerful loyalty and rewards system.",
-    blog:false,
-    blogLink:"/klaviyo-blog",
-    link:"https://apps.shopify.com/loloyal?utm_source=customer-dashboard-pro"
-  },
+ 
 
 ];
 
