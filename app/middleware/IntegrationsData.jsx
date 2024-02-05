@@ -12,6 +12,7 @@ import ReportLogo from '../assets/images/Logo/reportLogo.webp';
 import UpPromoteLogo from '../assets/images/Logo/UpPromote Logo.png';
 import quickyPartnerFyLogo from '../assets/images/Logo/qikify Sales Pop up & Proof - App logo.png';
 import aliaPartnerLogo from '../assets/images/Logo/Alia-Partner-Logo.png';
+import reboltBundleLogo from '../assets/images/Logo/rebolt-bundle-logo.png';
 
 export const integrationdata = [
 {
@@ -97,6 +98,14 @@ export const partnerData = [
     blog:false,
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: reboltBundleLogo,
+    heading: "Rebolt ‑ Bundle Products",
+    content:"Rebolt helps you boost sales with various types of bundles and discounts.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://bit.ly/3Ss53t8"
   },
   {
     logo: quickyPartnerFyLogo,
