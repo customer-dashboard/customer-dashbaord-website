@@ -13,6 +13,7 @@ import UpPromoteLogo from '../assets/images/Logo/UpPromote Logo.png';
 import quickyPartnerFyLogo from '../assets/images/Logo/qikify Sales Pop up & Proof - App logo.png';
 import aliaPartnerLogo from '../assets/images/Logo/Alia-Partner-Logo.png';
 import reboltBundleLogo from '../assets/images/Logo/rebolt-bundle-logo.png';
+import designPackLogo from '../assets/images/Logo/design packs logo.webp';
 
 export const integrationdata = [
 {
@@ -98,6 +99,14 @@ export const partnerData = [
     blog:false,
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: designPackLogo,
+    heading: "Design Packs",
+    content:"Design Packs App is a toolkit that adds a huge collection of new layout blocks and functionality to Shopify stores. Quickly and easily tell your brand story without spending thousands of dollars on web developers and expensive agencies.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/design-packs?utm_source=customer-dashboard-pro"
   },
   {
     logo: reboltBundleLogo,
