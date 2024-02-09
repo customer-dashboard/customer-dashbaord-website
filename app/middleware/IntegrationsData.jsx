@@ -14,6 +14,7 @@ import quickyPartnerFyLogo from '../assets/images/Logo/qikify Sales Pop up & Pro
 import aliaPartnerLogo from '../assets/images/Logo/Alia-Partner-Logo.png';
 import reboltBundleLogo from '../assets/images/Logo/rebolt-bundle-logo.png';
 import designPackLogo from '../assets/images/Logo/design packs logo.webp';
+import foxSellLogo from '../assets/images/Logo/foxsellllogo.webp';
 
 export const integrationdata = [
 {
@@ -99,6 +100,14 @@ export const partnerData = [
     blog:false,
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: foxSellLogo,
+    heading: "FoxSell Bundles Plus",
+    content:"Create mix and match bundles, quantity breaks, upsell and cross sell products",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/foxsell-bundles-plus?utm_source=customer-dashboard-pro"
   },
   {
     logo: designPackLogo,
