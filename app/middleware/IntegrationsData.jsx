@@ -16,6 +16,7 @@ import reboltBundleLogo from '../assets/images/Logo/rebolt-bundle-logo.png';
 import designPackLogo from '../assets/images/Logo/design packs logo.webp';
 import foxSellLogo from '../assets/images/Logo/foxsellllogo.webp';
 import kPreOrderLogo from '../assets/images/Logo/Pre-Order.jpg';
+import foxSellSliderLogo from '../assets/images/Logo/foxSellSliderLogo.webp';
 
 export const integrationdata = [
 {
@@ -101,6 +102,14 @@ export const partnerData = [
     blog:false,
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: foxSellSliderLogo,
+    heading: "FoxSell Slider & Carousel",
+    content:"Boost sales by showcasing the Best Sellers on your Homepage using an image Slider / Carousel.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/foxsell?utm_medium=affiliate&utm_source=customer-dashboard-pro"
   },
   {
     logo: kPreOrderLogo,

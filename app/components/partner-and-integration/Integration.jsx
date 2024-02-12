@@ -5,7 +5,6 @@ import LazyLoadedImage from '../lazyLoadImage/LazyLoadImage';
 
 function Integration(props) {
   const integrationPartnerData = props;
-  console.log(integrationPartnerData.data);
 
     const externalLinkSvg = <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 24 24" fill="none">
     <g id="Interface / External_Link">
