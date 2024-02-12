@@ -15,6 +15,7 @@ import aliaPartnerLogo from '../assets/images/Logo/Alia-Partner-Logo.png';
 import reboltBundleLogo from '../assets/images/Logo/rebolt-bundle-logo.png';
 import designPackLogo from '../assets/images/Logo/design packs logo.webp';
 import foxSellLogo from '../assets/images/Logo/foxsellllogo.webp';
+import kPreOrderLogo from '../assets/images/Logo/Pre-Order.jpg';
 
 export const integrationdata = [
 {
@@ -100,6 +101,14 @@ export const partnerData = [
     blog:false,
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: kPreOrderLogo,
+    heading: "K: PreOrder Now & PreSale",
+    content:"Increase your revenue by selling products even when they’re out of stock by providing users an option to pre-book or pre-order products.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/kaktus-preorder?utm_medium=affiliate&utm_source=customer-dashboard-pro"
   },
   {
     logo: foxSellLogo,
