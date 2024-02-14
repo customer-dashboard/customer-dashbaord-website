@@ -19,6 +19,12 @@ import kPreOrderLogo from '../assets/images/Logo/Pre-Order.jpg';
 import foxSellSliderLogo from '../assets/images/Logo/foxSellSliderLogo.webp';
 import kaktusAdvanceWishlistLogo from '../assets/images/Logo/kaktusAdvanceWishlistLogo.webp';
 import sealSubscriptionLogo from '../assets/images/Logo/sealSubscriptionAppLogo.webp';
+import WishlistKingLogo from '../assets/images/Logo/wishking.webp';
+import wishlistWishifyLogo from '../assets/images/Logo/wish-wishify.webp';
+import ApstelSubscriptionLogo from '../assets/images/Logo/apstelSubscriptionLogo.webp';
+import RechargeSubscriptionLogo from '../assets/images/Logo/RechargeSubscriptionLogo.webp';
+import JoyRewardLoyaltyLogo from '../assets/images/Logo/JoysLoyalltyLogo.webp';
+import simpleMembershipLogo from '../assets/images/Logo/SimpleMemberSHipLogo.webp';
 
 export const integrationdata = [
 {
@@ -104,8 +110,54 @@ export const integrationdata = [
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/seal-subscriptions?utm_source=customer-dashboard-pro"
   },
- 
- 
+  {
+    logo: WishlistKingLogo,
+    heading: "Wishlist King",
+    content:"A fully customisable wishlist enhancing your customers’ journey, assisting in sales and conversion.",
+    blog:false, 
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/wishlist-king?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: wishlistWishifyLogo,
+    heading: "Wishlist ‑ Wishify",
+    content:"Allow customers start saving their favorites to wishlist for later viewing.",
+    blog:false, 
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/wishlist-wishify?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: ApstelSubscriptionLogo,
+    heading: "Appstle℠ Subscriptions App",
+    content:"Conveniently setup and manage subscriptions with robust merchant tools, and an intuitive UI",
+    blog:false, 
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/subscriptions-by-appstle?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: RechargeSubscriptionLogo,
+    heading: "Recharge Subscriptions",
+    content:"Helping brands maximize the value of their shoppers",
+    blog:false, 
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/subscription-payments?utm_source=customer-dashboard-pro"
+  },  
+  {
+    logo: JoyRewardLoyaltyLogo,
+    heading: "Joy: Rewards & Loyalty Program",
+    content:"Joy Loyalty Program: No charge on orders! 24/7 technical support until you get what you want!",
+    blog:false, 
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/joyio?utm_source=customer-dashboard-pro"
+  },  
+  {
+    logo: simpleMembershipLogo,
+    heading: "Simplee Memberships & Rewards",
+    content:"Paid loyalty, recurring memberships, free trials. Reward members with discounts, restrict content",
+    blog:false, 
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/simplee-memberships?utm_source=customer-dashboard-pro"
+  },  
 
 ];
 
