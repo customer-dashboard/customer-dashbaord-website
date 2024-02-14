@@ -17,6 +17,8 @@ import designPackLogo from '../assets/images/Logo/design packs logo.webp';
 import foxSellLogo from '../assets/images/Logo/foxsellllogo.webp';
 import kPreOrderLogo from '../assets/images/Logo/Pre-Order.jpg';
 import foxSellSliderLogo from '../assets/images/Logo/foxSellSliderLogo.webp';
+import kaktusAdvanceWishlistLogo from '../assets/images/Logo/kaktusAdvanceWishlistLogo.webp';
+import sealSubscriptionLogo from '../assets/images/Logo/sealSubscriptionAppLogo.webp';
 
 export const integrationdata = [
 {
@@ -85,6 +87,22 @@ export const integrationdata = [
     blog:false,
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/swell?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: kaktusAdvanceWishlistLogo,
+    heading: "Kaktus: Advanced Wishlist",
+    content:"Elevate customer loyalty&tailor their shopping experience with our seamless&speedy wishlist solution",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/k-wishlist?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: sealSubscriptionLogo,
+    heading: "Seal Subscriptions App",
+    content:"Start discovering the world of subscriptions and start growing your business with recurring revenue!",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/seal-subscriptions?utm_source=customer-dashboard-pro"
   },
  
  
