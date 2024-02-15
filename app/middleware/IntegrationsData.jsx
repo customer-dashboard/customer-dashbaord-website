@@ -25,6 +25,8 @@ import ApstelSubscriptionLogo from '../assets/images/Logo/apstelSubscriptionLogo
 import RechargeSubscriptionLogo from '../assets/images/Logo/RechargeSubscriptionLogo.webp';
 import JoyRewardLoyaltyLogo from '../assets/images/Logo/JoysLoyalltyLogo.webp';
 import simpleMembershipLogo from '../assets/images/Logo/SimpleMemberSHipLogo.webp';
+import foxkitLogo from '../assets/images/Logo/foxkitLogo.webp';
+import foxifyLogo from '../assets/images/Logo/foxifyLogo.webp';
 
 export const integrationdata = [
 {
@@ -182,6 +184,14 @@ export const partnerData = [
     link:"https://apps.shopify.com/foxsell?utm_medium=affiliate&utm_source=customer-dashboard-pro"
   },
   {
+    logo: foxkitLogo,
+    heading: "FoxKit: All‑in‑one Sales Boost",
+    content:"Increase CR & AOV with upsell & cross-sell, boost sales with tempting promotions & engaging alerts",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/foxkit?utm_medium=affiliate&utm_source=customer-dashboard-pro"
+  },
+  {
     logo: kPreOrderLogo,
     heading: "K: PreOrder Now & PreSale",
     content:"Increase your revenue by selling products even when they’re out of stock by providing users an option to pre-book or pre-order products.",
@@ -196,6 +206,14 @@ export const partnerData = [
     blog:false,
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/foxsell-bundles-plus?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: foxifyLogo,
+    heading: "Foxify: Smart Page Builder",
+    content:"Use 80+ high-converting designs to create your pages fast & easy to maximize CR, boost sales & AOV.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/foxify-builder?utm_source=customer-dashboard-pro"
   },
   {
     logo: designPackLogo,
