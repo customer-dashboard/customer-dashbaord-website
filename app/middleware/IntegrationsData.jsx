@@ -27,6 +27,7 @@ import JoyRewardLoyaltyLogo from '../assets/images/Logo/JoysLoyalltyLogo.webp';
 import simpleMembershipLogo from '../assets/images/Logo/SimpleMemberSHipLogo.webp';
 import foxkitLogo from '../assets/images/Logo/foxkitLogo.webp';
 import foxifyLogo from '../assets/images/Logo/foxifyLogo.webp';
+import akoLoyaltyLogo from '../assets/images/Logo/akoloyaltyLogo.webp';
 
 export const integrationdata = [
 {
@@ -189,7 +190,15 @@ export const partnerData = [
     content:"Increase CR & AOV with upsell & cross-sell, boost sales with tempting promotions & engaging alerts",
     blog:false,
     blogLink:"/klaviyo-blog",
-    link:"https://apps.shopify.com/foxkit?utm_medium=affiliate&utm_source=customer-dashboard-pro"
+    link:"https://foxecom.com/products/foxkit-shopify-app?utm_source=CDP&utm_medium=PartnerPage&utm_campaign=partnership"
+  },
+  {
+    logo: akoLoyaltyLogo,
+    heading: "Ako Loyalty & Retargeting Ads",
+    content:"Customize your Ako Loyalty Program, Marketing Funnel, Instagram Retargeting to grow your business.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/ako-retargeting?utm_campaign=partnership&utm_medium=referral&utm_source=dashboardpro"
   },
   {
     logo: kPreOrderLogo,
@@ -213,7 +222,7 @@ export const partnerData = [
     content:"Use 80+ high-converting designs to create your pages fast & easy to maximize CR, boost sales & AOV.",
     blog:false,
     blogLink:"/klaviyo-blog",
-    link:"https://apps.shopify.com/foxify-builder?utm_source=customer-dashboard-pro"
+    link:"https://foxecom.com/products/foxify-shopify-app?utm_source=CDP&utm_medium=PartnerPage&utm_campaign=partnership"
   },
   {
     logo: designPackLogo,
