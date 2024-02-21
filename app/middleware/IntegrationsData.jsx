@@ -190,7 +190,7 @@ export const partnerData = [
     content:"Increase CR & AOV with upsell & cross-sell, boost sales with tempting promotions & engaging alerts",
     blog:false,
     blogLink:"/klaviyo-blog",
-    link:"https://foxecom.com/products/foxkit-shopify-app?utm_source=CDP&utm_medium=PartnerPage&utm_campaign=partnership"
+    link:"https://foxecom.com/products/foxkit-shopify-app?utm_source=CDP&utm_medium=app-wesbite&utm_campaign=partnership"
   },
   {
     logo: akoLoyaltyLogo,
@@ -222,7 +222,7 @@ export const partnerData = [
     content:"Use 80+ high-converting designs to create your pages fast & easy to maximize CR, boost sales & AOV.",
     blog:false,
     blogLink:"/klaviyo-blog",
-    link:"https://foxecom.com/products/foxify-shopify-app?utm_source=CDP&utm_medium=PartnerPage&utm_campaign=partnership"
+    link:"https://foxecom.com/products/foxify-shopify-app?utm_source=CDP&utm_medium=app-wesbite&utm_campaign=partnership"
   },
   {
     logo: designPackLogo,
