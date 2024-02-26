@@ -28,6 +28,7 @@ import simpleMembershipLogo from '../assets/images/Logo/SimpleMemberSHipLogo.web
 import foxkitLogo from '../assets/images/Logo/foxkitLogo.webp';
 import foxifyLogo from '../assets/images/Logo/foxifyLogo.webp';
 import akoLoyaltyLogo from '../assets/images/Logo/akoloyaltyLogo.webp';
+import returnPrimeLogo  from '../assets/images/Logo/RetunPrimeStoreLogo.webp';
 
 export const integrationdata = [
 {
@@ -191,6 +192,14 @@ export const partnerData = [
     blog:false,
     blogLink:"/klaviyo-blog",
     link:"https://foxecom.com/products/foxkit-shopify-app?utm_source=CDP&utm_medium=app-wesbite&utm_campaign=partnership"
+  },
+  {
+    logo: returnPrimeLogo,
+    heading: "Return Prime",
+    content:"Return Prime helps you manage all returns, exchange and refunds at one place. Send return label, offer in-store return, refund via store credit & automate process for more efficient returns management. Connect your choice of logistics and WMS for a seamless returns operation. Migrate to a futuristic solution easily from any other returns app.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/return-prime?utm_source=customer_dashboard_pro&utm_medium=customer_dashboard_pro&utm_campaign=customer_dashboard_pro&utm_id=20249"
   },
   {
     logo: akoLoyaltyLogo,
