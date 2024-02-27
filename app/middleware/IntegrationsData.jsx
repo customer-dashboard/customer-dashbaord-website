@@ -31,13 +31,21 @@ import akoLoyaltyLogo from '../assets/images/Logo/akoloyaltyLogo.webp';
 import returnPrimeLogo  from '../assets/images/Logo/RetunPrimeStoreLogo.webp';
 
 export const integrationdata = [
-{
+  {
     logo: KlaviyoLogo,
     heading: "Klaviyo: Email Marketing & SMS",
     content: "Power smarter digital relationships with marketing automation fueled by all of your data",
     blog:true,
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/klaviyo-email-marketing?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: parcelPanelLogo,
+    heading: "Parcel Panel Order Tracking",
+    content:"Improve customer satisfaction & boost your sales with a branded post-purchase tracking experience.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/parcelpanel?utm_source=customer-dashboard-pro"
   },
  
   { 
@@ -74,14 +82,7 @@ export const integrationdata = [
   },
 
  
-  {
-    logo: parcelPanelLogo,
-    heading: "Parcel Panel Order Tracking",
-    content:"Improve customer satisfaction & boost your sales with a branded post-purchase tracking experience.",
-    blog:false,
-    blogLink:"/klaviyo-blog",
-    link:"https://apps.shopify.com/parcelpanel?utm_source=customer-dashboard-pro"
-  },
+
   {
     logo: GrowaveLoyalltyLogo,
     heading: "Growave: Loyalty & Wishlist",
@@ -176,6 +177,14 @@ export const partnerData = [
     blog:false,
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: parcelPanelLogo,
+    heading: "Parcel Panel Order Tracking",
+    content:"Improve customer satisfaction & boost your sales with a branded post-purchase tracking experience.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/parcelpanel?utm_source=customer-dashboard-pro"
   },
   {
     logo: foxSellSliderLogo,
