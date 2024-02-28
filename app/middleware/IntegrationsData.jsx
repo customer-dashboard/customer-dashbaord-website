@@ -2,7 +2,7 @@ import KlaviyoLogo from '../assets/images/Logo/klaviyo.webp';
 import smilyLogo from '../assets/images/Logo/smily.webp';
 import Track123Logo from '../assets/images/Logo/track123.webp';
 import wishlistPlusLogo from '../assets/images/Logo/wishplus.webp';
-import parcelPanelLogo from '../assets/images/Logo/parcel-panel.webp';
+import parcelPanelLogo from '../assets/images/Logo/ParcelPanelNewLogo.webp';
 import YoptoLoaylltyLogo from '../assets/images/Logo/yoptoLyallty.webp';
 import GrowaveLoyalltyLogo from '../assets/images/Logo/growave-loyallty.webp';
 import LlLoyalltyLogo from '../assets/images/Logo/LL-loyallty.webp';
@@ -185,6 +185,14 @@ export const partnerData = [
     blog:false,
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/parcelpanel?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: sealSubscriptionLogo,
+    heading: "Seal Subscriptions App",
+    content:"Start discovering the world of subscriptions and start growing your business with recurring revenue!",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/seal-subscriptions?utm_source=customer-dashboard-pro"
   },
   {
     logo: foxSellSliderLogo,
