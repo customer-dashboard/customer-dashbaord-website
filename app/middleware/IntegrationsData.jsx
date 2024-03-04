@@ -213,6 +213,14 @@ export const partnerData = [
     link:"https://apps.shopify.com/seal-subscriptions?utm_source=customer-dashboard-pro"
   },
   {
+    logo: parcelPannelExhangeLogo, 
+    heading: "Parcel Panel Returns &Exchange",
+    content: "Make returns and exchanges hassle-free to reduce costs, retain customers and recapture revenue.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/parcel-panel-returns-exchanges?utm_source=customerdashboardpro"
+  },
+  {
     logo: foxSellSliderLogo,
     heading: "FoxSell Slider & Carousel",
     content:"Boost sales by showcasing the Best Sellers on your Homepage using an image Slider / Carousel.",
