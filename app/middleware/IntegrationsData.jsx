@@ -29,6 +29,7 @@ import foxkitLogo from '../assets/images/Logo/foxkitLogo.webp';
 import foxifyLogo from '../assets/images/Logo/foxifyLogo.webp';
 import akoLoyaltyLogo from '../assets/images/Logo/akoloyaltyLogo.webp';
 import returnPrimeLogo  from '../assets/images/Logo/RetunPrimeStoreLogo.webp';
+import aiTrillionLogo from '../assets/images/Logo/AiTrillion(2).png';
 
 export const integrationdata = [
   {
@@ -185,6 +186,14 @@ export const partnerData = [
     blog:false,
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/parcelpanel?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: aiTrillionLogo,
+    heading: "AiTrillion",
+    content:"AiTrillion is a sales & marketing automation platform built to grow E-commerce via powerful modules to maximize customer engagement, and retention.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://www.aitrillion.com/partners?utmmedium=AiTrillionpartner&utmsource=partner_listing&utmcampaign=comarketingvinni"
   },
   {
     logo: sealSubscriptionLogo,
