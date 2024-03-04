@@ -30,6 +30,7 @@ import foxifyLogo from '../assets/images/Logo/foxifyLogo.webp';
 import akoLoyaltyLogo from '../assets/images/Logo/akoloyaltyLogo.webp';
 import returnPrimeLogo  from '../assets/images/Logo/RetunPrimeStoreLogo.webp';
 import aiTrillionLogo from '../assets/images/Logo/AiTrillion(2).png';
+import parcelPannelExhangeLogo from '../assets/images/Logo/ParcelPanelExhangeLogo.webp';
 
 export const integrationdata = [
   {
@@ -57,13 +58,21 @@ export const integrationdata = [
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/smile-io?utm_source=customer-dashboard-pro"
   },
-{
+  {
     logo: wishlistPlusLogo, 
     heading: "Wishlist Plus",
     content: "Easy to set up Wishlist app that increases conversions. Popular integrations to market your store.",
     blog:false,
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/swym-relay?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: parcelPannelExhangeLogo, 
+    heading: "Parcel Panel Returns &Exchange",
+    content: "Make returns and exchanges hassle-free to reduce costs, retain customers and recapture revenue.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/parcel-panel-returns-exchanges?utm_source=customerdashboardpro"
   },
   {
     logo: LlLoyalltyLogo,
