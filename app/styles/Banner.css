@@ -9,6 +9,28 @@
 .hero-banner-image img{
     max-width: 100%;
 }
+.built-for-shopify-button{
+    margin-bottom: 1rem;
+}
+.built-button-wraper{
+    display: inline-flex;
+    align-items: center;
+    background-color: rgb(224, 240, 255);
+    padding: 4px 12px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+}
+.built-shopify-logo{
+    padding-right: 9px;
+}
+.built-shopify-logo svg{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.built-shopify-text{
+    font-size: 18px;
+    font-weight: 600;
+}
 
 .shopify-official-logo-black{
     border: none !important;
@@ -59,6 +81,9 @@
 
 video{
     border-radius: 5px;
+}
+.forever{
+    margin-top: 1.5px;
 }
 
 .forever  button:hover{
