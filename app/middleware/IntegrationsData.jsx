@@ -31,6 +31,8 @@ import akoLoyaltyLogo from '../assets/images/Logo/akoloyaltyLogo.webp';
 import returnPrimeLogo  from '../assets/images/Logo/RetunPrimeStoreLogo.webp';
 import aiTrillionLogo from '../assets/images/Logo/AiTrillion(2).png';
 import parcelPannelExhangeLogo from '../assets/images/Logo/ParcelPanelExhangeLogo.webp';
+import megaExternalLinkButtonLogo from '../assets/images/Logo/MegaExternalLinkButtonLogo.webp'
+import megaAnimatedAnnouncementBarLogo from '../assets/images/Logo/Mega Animated Announcement Bar Logo.webp';
 
 export const integrationdata = [
   {
@@ -205,6 +207,14 @@ export const partnerData = [
     link:"https://www.aitrillion.com/partners?utmmedium=AiTrillionpartner&utmsource=partner_listing&utmcampaign=comarketingvinni"
   },
   {
+    logo: megaExternalLinkButtonLogo,
+    heading: "Mega External Links Button",
+    content:"Unleash Your Product! Seamlessly and Instantly Link to External Affiliate or Payment Sales Channels.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/mega-external-link-buttons?utm_source=customer-dashboard-pro"
+  },
+  {
     logo: sealSubscriptionLogo,
     heading: "Seal Subscriptions App",
     content:"Start discovering the world of subscriptions and start growing your business with recurring revenue!",
@@ -227,6 +237,14 @@ export const partnerData = [
     blog:false,
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/foxsell?utm_medium=affiliate&utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: megaAnimatedAnnouncementBarLogo,
+    heading: "Mega Animated Announcement Bar",
+    content:"Engage customers with customizable scrolling announcements. Share important messages effortlessly.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/mega-animated-announcement-bar?utm_source=customer-dashboard-pro"
   },
   {
     logo: foxkitLogo,
