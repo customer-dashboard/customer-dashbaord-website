@@ -33,15 +33,33 @@ import aiTrillionLogo from '../assets/images/Logo/AiTrillion(2).png';
 import parcelPannelExhangeLogo from '../assets/images/Logo/ParcelPanelExhangeLogo.webp';
 import megaExternalLinkButtonLogo from '../assets/images/Logo/MegaExternalLinkButtonLogo.webp'
 import megaAnimatedAnnouncementBarLogo from '../assets/images/Logo/Mega Animated Announcement Bar Logo.webp';
+import apstelLoyaltyAndReviewLogo from '../assets/images/Logo/Appstle-Loyalty-Rewards.webp';
+import ryviuReviewLogo from '../assets/images/Logo/Ryviu-Product-Reviews-QA.webp';
 
 export const integrationdata = [
   {
     logo: KlaviyoLogo,
     heading: "Klaviyo: Email Marketing & SMS",
-    content: "Power smarter digital relationships with marketing automation fueled by all of your data",
+    content: "Power smarter digital relationships with marketing automation fueled by all of your data.",
     blog:true,
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/klaviyo-email-marketing?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: apstelLoyaltyAndReviewLogo,
+    heading: "Appstle℠ Loyalty & Rewards",
+    content:"Comprehensive and highly customizable loyalty tool with rewards, referrals, store credits, & more.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/appstle-loyalty?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: ryviuReviewLogo,
+    heading: "Ryviu: Product Reviews & QA",
+    content: "Boost eco-friendly eCommerce with trusted reviews and sales growth.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/ryviu?utm_source=customer-dashboard-pro"
   },
   {
     logo: parcelPanelLogo,
@@ -51,7 +69,6 @@ export const integrationdata = [
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/parcelpanel?utm_source=customer-dashboard-pro"
   },
- 
   { 
     logo: smilyLogo,
     heading: "Smile:Rewards & Loyalty",
@@ -189,6 +206,22 @@ export const partnerData = [
     blog:false,
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: apstelLoyaltyAndReviewLogo,
+    heading: "Appstle℠ Loyalty & Rewards",
+    content:"Comprehensive and highly customizable loyalty tool with rewards, referrals, store credits, & more.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/appstle-loyalty?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: ryviuReviewLogo,
+    heading: "Ryviu: Product Reviews & QA",
+    content: "Boost eco-friendly eCommerce with trusted reviews and sales growth.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/ryviu?utm_source=customer-dashboard-pro"
   },
   {
     logo: parcelPanelLogo,
