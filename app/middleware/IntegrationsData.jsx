@@ -35,6 +35,10 @@ import megaExternalLinkButtonLogo from '../assets/images/Logo/MegaExternalLinkBu
 import megaAnimatedAnnouncementBarLogo from '../assets/images/Logo/Mega Animated Announcement Bar Logo.webp';
 import apstelLoyaltyAndReviewLogo from '../assets/images/Logo/Appstle-Loyalty-Rewards.webp';
 import ryviuReviewLogo from '../assets/images/Logo/Ryviu-Product-Reviews-QA.webp';
+import gempassLogo from '../assets/images/Logo/GemPages-Logo.svg';
+import termzyLogo from '../assets/images/Logo/TermzyLogo.webp';
+import exeCheckboxUpsellLogo from '../assets/images/Logo/AxeCheckboxUpsellLogo.webp';
+
 
 export const integrationdata = [
   {
@@ -206,6 +210,30 @@ export const partnerData = [
     blog:false,
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: gempassLogo,
+    heading: "GemPages",
+    content:"GemPages is an effortless and conversion-focused page builder for Shopify sellers. With the most intuitive drag-and-drop Editor and an AI feature.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://gempages.net/?ref=sddycy4t"
+  },
+  {
+    logo: termzyLogo,
+    heading: "Termzy ‑ I Agree To Terms",
+    content:"T&C checkbox on the cart page, above checkout button, Login page, Register Page, and Contact Page.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/i-agree-to-terms?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: exeCheckboxUpsellLogo,
+    heading: "Axe Checkbox Upsell Order Bump",
+    content:"Increase your Average Order Value with a customisable Checkbox Upsell on your product page.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/axe-check-my-box?utm_source=customer-dashboard-pro"
   },
   {
     logo: apstelLoyaltyAndReviewLogo,
