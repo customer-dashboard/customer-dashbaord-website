@@ -38,6 +38,8 @@ import ryviuReviewLogo from '../assets/images/Logo/Ryviu-Product-Reviews-QA.webp
 import gempassLogo from '../assets/images/Logo/GemPages-Logo.svg';
 import termzyLogo from '../assets/images/Logo/TermzyLogo.webp';
 import exeCheckboxUpsellLogo from '../assets/images/Logo/AxeCheckboxUpsellLogo.webp';
+import quickifyFormBuilderLogo from '../assets/images/Logo/qikify Contact Form Builder.webp';
+import wdLiveChatChatbotLogo from '../assets/images/Logo/WD‑Live Chat, Helpdesk,Chatbot.webp';
 
 
 export const integrationdata = [
@@ -210,6 +212,22 @@ export const partnerData = [
     blog:false,
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: wdLiveChatChatbotLogo,
+    heading: "WD‑Live Chat, Helpdesk,Chatbot",
+    content:"Turn customer service into a profit center with Willdesk all-in-one support & marketing platform.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/self-faq?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: quickifyFormBuilderLogo,
+    heading: "Qikify Contact Form Builder",
+    content:"Easily create forms to collect leads, improve customer service & boost sales without coding.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/contact-form-by-qikify?utm_source=customer-dashboard-pro"
   },
   {
     logo: gempassLogo,
