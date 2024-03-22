@@ -40,6 +40,7 @@ import termzyLogo from '../assets/images/Logo/TermzyLogo.webp';
 import exeCheckboxUpsellLogo from '../assets/images/Logo/AxeCheckboxUpsellLogo.webp';
 import quickifyFormBuilderLogo from '../assets/images/Logo/qikify Contact Form Builder.webp';
 import wdLiveChatChatbotLogo from '../assets/images/Logo/WD‑Live Chat, Helpdesk,Chatbot.webp';
+import quickifyUpsellBundleLogo from '../assets/images/Logo/QuickifyUpsellBundulLogo.webp';
 
 
 export const integrationdata = [
@@ -212,6 +213,14 @@ export const partnerData = [
     blog:false,
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: quickifyUpsellBundleLogo,
+    heading: "qikify Upsell Bundle, Discount",
+    content:"Qikify Upsell & Cross Sell helps you maximize revenue with volume discount, product bundle, BOGO",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/booster-kit?utm_source=customer-dashboard-pro"
   },
   {
     logo: wdLiveChatChatbotLogo,
