@@ -41,6 +41,9 @@ import exeCheckboxUpsellLogo from '../assets/images/Logo/AxeCheckboxUpsellLogo.w
 import quickifyFormBuilderLogo from '../assets/images/Logo/qikify Contact Form Builder.webp';
 import wdLiveChatChatbotLogo from '../assets/images/Logo/WD‑Live Chat, Helpdesk,Chatbot.webp';
 import quickifyUpsellBundleLogo from '../assets/images/Logo/QuickifyUpsellBundulLogo.webp';
+import apstilMobileAppBuilderLogo from '../assets/images/Logo/apstilMobileAppBuilderLogo.webp';
+import optimalAbTestingLogo from '../assets/images/Logo/OptimalAbTestingLogo.webp';
+
 
 
 export const integrationdata = [
@@ -213,6 +216,22 @@ export const partnerData = [
     blog:false,
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: apstilMobileAppBuilderLogo,
+    heading: "Apptile ‑ Mobile App Builder",
+    content:"Design your brand's unique mobile app experience instantly. Boost customer conversions & retention.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/apptile-mobile-app-builder?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: optimalAbTestingLogo,
+    heading: "Optimal A/B Testing",
+    content:"Optimize all aspects of your product listings to realize your store’s true earning potential.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/optimal-ab?utm_source=customer-dashboard-pro"
   },
   {
     logo: quickifyUpsellBundleLogo,
