@@ -43,6 +43,8 @@ import wdLiveChatChatbotLogo from '../assets/images/Logo/WD‑Live Chat, Helpdes
 import quickifyUpsellBundleLogo from '../assets/images/Logo/QuickifyUpsellBundulLogo.webp';
 import apstilMobileAppBuilderLogo from '../assets/images/Logo/apstilMobileAppBuilderLogo.webp';
 import optimalAbTestingLogo from '../assets/images/Logo/OptimalAbTestingLogo.webp';
+import trustooProductReviewLogo from '../assets/images/Logo/TrustTooProductReviewLogo.webp';
+import fordeerPdfInvoiceGenereterLogo from '../assets/images/Logo/FordeerPdfInvoiceGenereterLogo.webp';
 
 
 
@@ -54,6 +56,14 @@ export const integrationdata = [
     blog:true,
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/klaviyo-email-marketing?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: fordeerPdfInvoiceGenereterLogo,
+    heading: "Fordeer: PDF Invoice Generator",
+    content:"Invoice with tax compliance helps B2B and wholesale merchants manage professional PDF invoices.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/fordeer-invoice-order-printer?utm_source=customer-dashboard-pro"
   },
   {
     logo: apstelLoyaltyAndReviewLogo,
@@ -216,6 +226,22 @@ export const partnerData = [
     blog:false,
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: trustooProductReviewLogo,
+    heading: "Trustoo.io Product Reviews App",
+    content:"Trustoo product review app makes it easy for brands to collect images and videos, build social proof.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/sealapps-product-review?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: fordeerPdfInvoiceGenereterLogo,
+    heading: "Fordeer: PDF Invoice Generator",
+    content:"Invoice with tax compliance helps B2B and wholesale merchants manage professional PDF invoices.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/fordeer-invoice-order-printer?utm_source=customer-dashboard-pro"
   },
   {
     logo: apstilMobileAppBuilderLogo,
