@@ -221,7 +221,7 @@ export const integrationdata = [
 
 export const partnerData = [
   {
-    logo: CheckOutLogo,
+    logo: CheckOutLogo, 
     heading: "Checkout Extensions Pro",
     content:"Customize checkout pages: upsells, content widgets, surveys and more with checkout extensions.",
     blog:false,
