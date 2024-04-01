@@ -218,7 +218,7 @@ export const integrationdata = [
 
 
 
-
+ 
 export const partnerData = [
   {
     logo: CheckOutLogo, 
