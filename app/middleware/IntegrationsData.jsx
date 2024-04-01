@@ -45,6 +45,7 @@ import apstilMobileAppBuilderLogo from '../assets/images/Logo/apstilMobileAppBui
 import optimalAbTestingLogo from '../assets/images/Logo/OptimalAbTestingLogo.webp';
 import trustooProductReviewLogo from '../assets/images/Logo/TrustTooProductReviewLogo.webp';
 import fordeerPdfInvoiceGenereterLogo from '../assets/images/Logo/FordeerPdfInvoiceGenereterLogo.webp';
+import smartSeoLogo from '../assets/images/Logo/logo_Smart_SEO.png';
 
 
 
@@ -226,6 +227,14 @@ export const partnerData = [
     blog:false,
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: smartSeoLogo,
+    heading: "Smart SEO",
+    content:"Optimize your store in a way Google loves - improve rankings, drive more organic traffic, and boost sales..",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://bit.ly/3IX3izX"
   },
   {
     logo: trustooProductReviewLogo,
