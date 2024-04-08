@@ -46,7 +46,7 @@ import optimalAbTestingLogo from '../assets/images/Logo/OptimalAbTestingLogo.web
 import trustooProductReviewLogo from '../assets/images/Logo/TrustTooProductReviewLogo.webp';
 import fordeerPdfInvoiceGenereterLogo from '../assets/images/Logo/FordeerPdfInvoiceGenereterLogo.webp';
 import smartSeoLogo from '../assets/images/Logo/logo_Smart_SEO.png';
-
+import recurPayLogo from '../assets/images/Logo/recurpayLogo.png';
 
 
 export const integrationdata = [
@@ -227,6 +227,14 @@ export const partnerData = [
     blog:false,
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: recurPayLogo,
+    heading: "Recurpay Subscription App",
+    content:"Subscription app for recurring payments, customer portal. Boost your revenue instantly and grow!",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/recurpay-subscriptions?utm_source=customer-dashboard-pro"
   },
   {
     logo: smartSeoLogo,
