@@ -47,6 +47,8 @@ import trustooProductReviewLogo from '../assets/images/Logo/TrustTooProductRevie
 import fordeerPdfInvoiceGenereterLogo from '../assets/images/Logo/FordeerPdfInvoiceGenereterLogo.webp';
 import smartSeoLogo from '../assets/images/Logo/logo_Smart_SEO.png';
 import recurPayLogo from '../assets/images/Logo/recurpayLogo.png';
+import koalaSkipToCheckoutLogo from '../assets/images/Logo/KOalaSkipToCheckoutLogo.webp';
+import seoAnt404RedirectLogo from '../assets/images/Logo/SEoant404LinkRedirrectLogo.webp';
 
 
 export const integrationdata = [
@@ -227,6 +229,22 @@ export const partnerData = [
     blog:false,
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: seoAnt404RedirectLogo, 
+    heading: "SEOAnt ‑ 404 Link Redirect",
+    content:"Auto-detect 404 errors and generate reports, provide one-click fix and bulk auto-redirect.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/broken-link-manager?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: koalaSkipToCheckoutLogo, 
+    heading: "Koala Skip To Checkout",
+    content:"Increase sales & reduce abandoned carts. Avoid cart page and send your buyers directly to Checkout!",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/skip-to-checkout?utm_source=customer-dashboard-pro"
   },
   {
     logo: recurPayLogo,
