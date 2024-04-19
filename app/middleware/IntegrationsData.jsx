@@ -232,11 +232,11 @@ export const partnerData = [
   },
   {
     logo: seoAnt404RedirectLogo, 
-    heading: "SEOAnt ‑ 404 Link Redirect",
-    content:"Auto-detect 404 errors and generate reports, provide one-click fix and bulk auto-redirect.",
+    heading: "SEOAnt ‑ AI SEO Optimizer",
+    content:"All-in-one SEO booster tools to increase traffic and sales, improve site speed and Google rankings.",
     blog:false,
     blogLink:"/klaviyo-blog",
-    link:"https://apps.shopify.com/broken-link-manager?utm_source=customer-dashboard-pro"
+    link:"https://share.seoant.com/app/116620eaa7a1a5fnXn"
   },
   {
     logo: koalaSkipToCheckoutLogo, 
