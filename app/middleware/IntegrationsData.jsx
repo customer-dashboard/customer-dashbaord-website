@@ -244,7 +244,7 @@ export const partnerData = [
     content:"Increase sales & reduce abandoned carts. Avoid cart page and send your buyers directly to Checkout!",
     blog:false,
     blogLink:"/klaviyo-blog",
-    link:"https://apps.shopify.com/skip-to-checkout?utm_source=customer-dashboard-pro"
+    link:"https://koala-apps.io/koala-inspector/?utm_source=in-app&utm_id=customerdashboard-pro"
   },
   {
     logo: recurPayLogo,
@@ -268,7 +268,7 @@ export const partnerData = [
     content:"Trustoo product review app makes it easy for brands to collect images and videos, build social proof.",
     blog:false,
     blogLink:"/klaviyo-blog",
-    link:"https://apps.shopify.com/sealapps-product-review?utm_source=customer-dashboard-pro"
+    link:"https://share.channelwill.com/app/21662b7196430fdGS2"
   },
   {
     logo: fordeerPdfInvoiceGenereterLogo,
@@ -308,7 +308,7 @@ export const partnerData = [
     content:"Turn customer service into a profit center with Willdesk all-in-one support & marketing platform.",
     blog:false,
     blogLink:"/klaviyo-blog",
-    link:"https://apps.shopify.com/self-faq?utm_source=customer-dashboard-pro"
+    link:"https://share.channelwill.com/app/12662b72be00ebblkA"
   },
   {
     logo: quickifyFormBuilderLogo,
@@ -492,7 +492,7 @@ export const partnerData = [
     content:"Boost your customer retention rates and increase sales with our powerful loyalty and rewards system.",
     blog:false,
     blogLink:"/klaviyo-blog",
-    link:"https://apps.shopify.com/loloyal?utm_source=customer-dashboard-pro"
+    link:"https://share.channelwill.com/app/33662b7240d83dfJ35"
   },
   
 {
