@@ -49,6 +49,7 @@ import smartSeoLogo from '../assets/images/Logo/logo_Smart_SEO.png';
 import recurPayLogo from '../assets/images/Logo/recurpayLogo.png';
 import koalaSkipToCheckoutLogo from '../assets/images/Logo/KOalaSkipToCheckoutLogo.webp';
 import seoAnt404RedirectLogo from '../assets/images/Logo/SEoant404LinkRedirrectLogo.webp';
+import bssLogo from '../assets/images/Logo/BSSLogo.webp';
 
 
 export const integrationdata = [
@@ -229,6 +230,14 @@ export const partnerData = [
     blog:false,
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
+  },  
+  {
+    logo: bssLogo, 
+    heading: "BSS: Product Labels & Badges",
+    content:"Get customers' attention with labels/badges/banners and promote your products to boost your sales.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/product-labels-by-bss?utm_source=in-app&utm_id=customerdashboard-pro"
   },
   {
     logo: seoAnt404RedirectLogo, 
