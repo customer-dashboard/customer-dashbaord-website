@@ -81,7 +81,7 @@ function Header() {
                                 {/* <Link to="/re-order" className="Nav-item nav-link-custom">Re-Order</Link>  */}
                             </NavDropdown>
                             <NavDropdown href="Partners" title="Partners" id="basic-nav-dropdown" show={ThirdIsOpen} onClick={()=>UpdateThirdIsOpen(!ThirdIsOpen)} onMouseOver={handleIsThirdOpen} onMouseLeave={handleIsThirdClosed} >
-                                <Link to="/become-a-partner" className="Nav-item nav-link-custom nav-link-custom-drppdown">Become a Partner</Link>
+                                {/* <Link to="/become-a-partner" className="Nav-item nav-link-custom nav-link-custom-drppdown">Become a Partner</Link> */}
                                 <Link to="/partners-and-integrations" className=" Nav-item nav-link-custom nav-link-custom-drppdown">Partners&nbsp;&&nbsp;Integrations</Link>
                                 {/* <Link to="/#" className="Nav-item nav-link-custom">Case Study</Link> */}
                                 {/* <Link to="/re-order" className="Nav-item nav-link-custom">Re-Order</Link> */}
@@ -98,7 +98,7 @@ function Header() {
                                 <Link to="/re-order" className="Nav-item nav-link-custom">Re-Order</Link> */}
                                 {/* <a href="https://apps.shopify.com/customer-account-verification" target="_blank" rel="noreferrer" className="Nav-item nav-link-custom nav-link-custom-drppdown">Email Checker</a> */}
                             {/* </NavDropdown> */}
-                            <Link to="/contact-us" className=" main-headernav Nav-item nav-link-custom">Contact Us</Link>
+                            {/* <Link to="/contact-us" className=" main-headernav Nav-item nav-link-custom">Contact Us</Link> */}
                             {/* <a href="https://apps.shopify.com/customer-dashboard-pro" className=" main-headernav Nav-item nav-link-custom" rel="noreferrer" target="_blank">Install</a> */}
                        </Nav>
                       
