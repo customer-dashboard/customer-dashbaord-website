@@ -42,7 +42,6 @@ import quickifyFormBuilderLogo from '../assets/images/Logo/qikify Contact Form B
 import wdLiveChatChatbotLogo from '../assets/images/Logo/WD‑Live Chat, Helpdesk,Chatbot.webp';
 import quickifyUpsellBundleLogo from '../assets/images/Logo/QuickifyUpsellBundulLogo.webp';
 import apstilMobileAppBuilderLogo from '../assets/images/Logo/apstilMobileAppBuilderLogo.webp';
-import optimalAbTestingLogo from '../assets/images/Logo/OptimalAbTestingLogo.webp';
 import trustooProductReviewLogo from '../assets/images/Logo/TrustTooProductReviewLogo.webp';
 import fordeerPdfInvoiceGenereterLogo from '../assets/images/Logo/FordeerPdfInvoiceGenereterLogo.webp';
 import smartSeoLogo from '../assets/images/Logo/logo_Smart_SEO.png';
@@ -294,14 +293,6 @@ export const partnerData = [
     blog:false,
     blogLink:"/klaviyo-blog",
     link:"https://dithyrambic-armilla-3285fa14a2a4.herokuapp.com/b?y=49q24eh260pj4e316tgjip9jcgo6copk74sm4c1g6opjcc1hchj3edj564h2o8ji48t24q3keho76ehf5ti34p3a6soj0d1edpgj2bj8ecmn6obcclpiqpbectgmep9ecdnmqbq3ehhiujqj5cp36cho6gnm8ci4d8rj2c1k5t56om9jct77cdqn74qmksqna0r6omhjdh1lecreadd4cmhh6dljasr8asqjakahc9636e2nb9b5clpkehc50kap6t5ngirqctbjiqj78d872capat63ai2n6t9m8q1kb0okme3jat65ee2q8tjiqthmcgq4er2qasrmok1k98o3er1db164elpmapbjisjh6sqmkkj3d1b7ii2nbtlj8hih8dq56lpob1k36k346smj4ti89dbjaminbsrk4crqcti6ksidct56kdqge0o30p1iasr68cjqadm3gkpp6tfjgjhkdgs50dqm9l378ojgap1j8l228gp6ciqi6p95edhlepc68hpie5i58bbkasq7gja78p6jajjac95l6ljdadq4klhid0on6cpnapfj0spkagrlggind9n5edaed9254kpncd63gp1iass3aora9pk36ka7dcsnklpob8q46ci274pkgtrpahbj2srk713keeb88d9kom2n6p8nirj36cr7cqr8dld5ec9h5l272nplet138kqaasql6bag75i3erhid1r4mlpi91m3cd2m6tokmq2m75b3cdrmdpt3ir33f8ql4lpn9cr6cr1k6ti3cr9jehbjcsrha91nge236ln38jj4eosk6bba60q24==="
-  },
-  {
-    logo: optimalAbTestingLogo,
-    heading: "Optimal A/B Testing",
-    content:"Optimize all aspects of your product listings to realize your store’s true earning potential.",
-    blog:false,
-    blogLink:"/klaviyo-blog",
-    link:"https://apps.shopify.com/optimal-ab?utm_source=customer-dashboard-pro"
   },
   {
     logo: quickifyUpsellBundleLogo,
