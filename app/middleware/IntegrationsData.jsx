@@ -50,6 +50,7 @@ import koalaSkipToCheckoutLogo from '../assets/images/Logo/KOalaSkipToCheckoutLo
 import seoAnt404RedirectLogo from '../assets/images/Logo/SEoant404LinkRedirrectLogo.webp';
 import bssLogo from '../assets/images/Logo/BSSLogo.webp';
 import wideBunndelsQuantityBreakLogo from '../assets/images/Logo/WideBunndles-quanitity-breack.webp';
+import ctxWhatsapChat from '../assets/images/Logo/CTX-whatsapp-chat.webp';
 
 
 export const integrationdata = [
@@ -231,6 +232,14 @@ export const partnerData = [
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
   },  
+  {
+    logo: ctxWhatsapChat, 
+    heading: "Ctx: WhatsApp Chat + Marketing",
+    content:"WhatsApp button for chat support, WhatsApp order confirmation, COD confirmation, abandoned cart.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/whatsapp-sharing?utm_source=customer-dashboard-pro"
+  }, 
   {
     logo: wideBunndelsQuantityBreakLogo, 
     heading: "Wide Bundles ‑ Quantity Breaks",
