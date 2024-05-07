@@ -49,6 +49,7 @@ import recurPayLogo from '../assets/images/Logo/recurpayLogo.png';
 import koalaSkipToCheckoutLogo from '../assets/images/Logo/KOalaSkipToCheckoutLogo.webp';
 import seoAnt404RedirectLogo from '../assets/images/Logo/SEoant404LinkRedirrectLogo.webp';
 import bssLogo from '../assets/images/Logo/BSSLogo.webp';
+import wideBunndelsQuantityBreakLogo from '../assets/images/Logo/WideBunndles-quanitity-breack.webp';
 
 
 export const integrationdata = [
@@ -230,6 +231,14 @@ export const partnerData = [
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
   },  
+  {
+    logo: wideBunndelsQuantityBreakLogo, 
+    heading: "Wide Bundles ‑ Quantity Breaks",
+    content:"Increase your AOV by adding product bundles and offers. Provide quantity discounts that boost sales.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/widebundle?utm_source=customer-dashboard-pro"
+  }, 
   {
     logo: bssLogo, 
     heading: "BSS: Product Labels & Badges",
