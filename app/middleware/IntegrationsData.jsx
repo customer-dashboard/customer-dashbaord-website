@@ -246,7 +246,7 @@ export const partnerData = [
     content:"Increase your AOV by adding product bundles and offers. Provide quantity discounts that boost sales.",
     blog:false,
     blogLink:"/klaviyo-blog",
-    link:"https://apps.shopify.com/widebundle?utm_source=customer-dashboard-pro"
+    link:"https://en.widebundle.com/"
   }, 
   {
     logo: bssLogo, 
