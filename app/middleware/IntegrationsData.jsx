@@ -51,6 +51,7 @@ import seoAnt404RedirectLogo from '../assets/images/Logo/SEoant404LinkRedirrectL
 import bssLogo from '../assets/images/Logo/BSSLogo.webp';
 import wideBunndelsQuantityBreakLogo from '../assets/images/Logo/WideBunndles-quanitity-breack.webp';
 import ctxWhatsapChat from '../assets/images/Logo/CTX-whatsapp-chat.webp';
+import pageflyLandingPageBuilder from '../assets/images/Logo/pageflyLandingPageBuilderLogo.png';
 
 
 export const integrationdata = [
@@ -232,6 +233,14 @@ export const partnerData = [
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
   },  
+  {
+    logo: pageflyLandingPageBuilder, 
+    heading: "PageFly Landing Page Builder",
+    content:"Craft stunning web pages without code. More advanced customization to convert your visitors.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/pagefly?utm_source=customer-dashboard-pro"
+  }, 
   {
     logo: ctxWhatsapChat, 
     heading: "Ctx: WhatsApp Chat + Marketing",
