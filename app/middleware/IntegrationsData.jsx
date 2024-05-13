@@ -217,7 +217,7 @@ export const integrationdata = [
     content:"Paid loyalty, recurring memberships, free trials. Reward members with discounts, restrict content",
     blog:false, 
     blogLink:"/klaviyo-blog",
-    link:"https://apps.shopify.com/simplee-memberships?utm_source=customer-dashboard-pro"
+    link:"https://apps.shopify.com/simplee-memberships?utm_source=customer-dashboard-pro"  
   },  
 
 ];
