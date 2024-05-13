@@ -52,6 +52,7 @@ import bssLogo from '../assets/images/Logo/BSSLogo.webp';
 import wideBunndelsQuantityBreakLogo from '../assets/images/Logo/WideBunndles-quanitity-breack.webp';
 import ctxWhatsapChat from '../assets/images/Logo/CTX-whatsapp-chat.webp';
 import pageflyLandingPageBuilder from '../assets/images/Logo/pageflyLandingPageBuilderLogo.png';
+import bundles_productsbundleLogo from '../assets/images/Logo/Bundler-product bundleLogo.webp';
 
 
 export const integrationdata = [
@@ -232,6 +233,14 @@ export const partnerData = [
     blog:false,
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
+  },  
+  {
+    logo: bundles_productsbundleLogo, 
+    heading: "Bundler ‑ Product Bundles",
+    content:"Bundler: Upsell your bundle deals, increase revenue with quantity breaks & volume discounts.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/bundler-product-bundles?utm_source=customer-dashboard-pro"
   },  
   {
     logo: pageflyLandingPageBuilder, 
