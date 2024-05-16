@@ -284,7 +284,7 @@ export const partnerData = [
   },
   {
     logo: koalaSkipToCheckoutLogo, 
-    heading: "Koala Skip To Checkout",
+    heading: "Koala Inspector",
     content:"Increase sales & reduce abandoned carts. Avoid cart page and send your buyers directly to Checkout!",
     blog:false,
     blogLink:"/klaviyo-blog",
