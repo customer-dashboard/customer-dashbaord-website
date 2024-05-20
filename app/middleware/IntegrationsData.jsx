@@ -46,14 +46,13 @@ import trustooProductReviewLogo from '../assets/images/Logo/TrustTooProductRevie
 import fordeerPdfInvoiceGenereterLogo from '../assets/images/Logo/FordeerPdfInvoiceGenereterLogo.webp';
 import smartSeoLogo from '../assets/images/Logo/logo_Smart_SEO.png';
 import recurPayLogo from '../assets/images/Logo/recurpayLogo.png';
-import koalaSkipToCheckoutLogo from '../assets/images/Logo/KOalaSkipToCheckoutLogo.webp';
 import seoAnt404RedirectLogo from '../assets/images/Logo/SEoant404LinkRedirrectLogo.webp';
 import bssLogo from '../assets/images/Logo/BSSLogo.webp';
 import wideBunndelsQuantityBreakLogo from '../assets/images/Logo/WideBunndles-quanitity-breack.webp';
 import ctxWhatsapChat from '../assets/images/Logo/CTX-whatsapp-chat.webp';
 import pageflyLandingPageBuilder from '../assets/images/Logo/pageflyLandingPageBuilderLogo.png';
 import bundles_productsbundleLogo from '../assets/images/Logo/Bundler-product bundleLogo.webp';
-
+import KoalaInspectorLogo from '../assets/images/Logo/Koala inspector logo 600x600.png';
 
 export const integrationdata = [
   {
@@ -283,7 +282,7 @@ export const partnerData = [
     link:"https://share.seoant.com/app/116620eaa7a1a5fnXn"
   },
   {
-    logo: koalaSkipToCheckoutLogo, 
+    logo: KoalaInspectorLogo, 
     heading: "Koala Inspector",
     content:"Increase sales & reduce abandoned carts. Avoid cart page and send your buyers directly to Checkout!",
     blog:false,
