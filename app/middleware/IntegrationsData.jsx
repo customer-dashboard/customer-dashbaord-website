@@ -53,6 +53,8 @@ import ctxWhatsapChat from '../assets/images/Logo/CTX-whatsapp-chat.webp';
 import pageflyLandingPageBuilder from '../assets/images/Logo/pageflyLandingPageBuilderLogo.png';
 import bundles_productsbundleLogo from '../assets/images/Logo/Bundler-product bundleLogo.webp';
 import KoalaInspectorLogo from '../assets/images/Logo/Koala inspector logo 600x600.png';
+import SynceeGlobalDropshippingLogo from '../assets/images/Logo/Syncee ‑ Global DropshippingLogo.webp';
+import CrossSellUpsellBySSCLogo from '../assets/images/Logo/CrossSellUpsellbySSCLogo.webp';
 
 export const integrationdata = [
   {
@@ -233,6 +235,22 @@ export const partnerData = [
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
   },  
+  {
+    logo: CrossSellUpsellBySSCLogo, 
+    heading: "Cross Sell & Upsell by SSC",
+    content:"Drive sales by tailoring Cross Sell, Upsell & Bundle. Cross Sells in 8 strategic locations!",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/cross-sell?utm_source=customer-dashboard-pro"
+  }, 
+  {
+    logo: SynceeGlobalDropshippingLogo, 
+    heading: "Syncee ‑ Global Dropshipping",
+    content:"Find & Sell dropshipping products of US, CA, EU, UK, AU+ suppliers with fast shipping.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/syncee-1?utm_source=customer-dashboard-pro"
+  }, 
   {
     logo: bundles_productsbundleLogo, 
     heading: "Bundler ‑ Product Bundles",
