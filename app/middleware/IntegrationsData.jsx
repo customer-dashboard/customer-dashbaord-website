@@ -55,6 +55,8 @@ import bundles_productsbundleLogo from '../assets/images/Logo/Bundler-product bu
 import KoalaInspectorLogo from '../assets/images/Logo/Koala inspector logo 600x600.png';
 import SynceeGlobalDropshippingLogo from '../assets/images/Logo/Syncee ‑ Global DropshippingLogo.webp';
 import CrossSellUpsellBySSCLogo from '../assets/images/Logo/CrossSellUpsellbySSCLogo.webp';
+import MultiVariantsBulkOrderLogo from '../assets/images/Logo/MultiVariants ‑ Bulk OrderLogo.webp';
+import inCartUpsellAndCrossSellLogo from '../assets/images/Logo/In Cart Upsell & Cross‑SellLogo.webp';
 
 export const integrationdata = [
   {
@@ -236,12 +238,28 @@ export const partnerData = [
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
   },  
   {
+    logo: inCartUpsellAndCrossSellLogo, 
+    heading: "In Cart Upsell & Cross‑Sell",
+    content:"Increase AOV w/targeted in cart Upsell & cross-sell offers. Win big with incart upsell & cross sell!",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/in-cart-upsell?utm_source=customer-dashboard-pro"
+  },  
+  {
+    logo: MultiVariantsBulkOrderLogo, 
+    heading: "MultiVariants ‑ Bulk Order",
+    content:"Boost sales with custom bundles in a user-friendly layout for easy mix-and-match variant ordering.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/multivariants?utm_source=customer-dashboard-pro"
+  },  
+  {
     logo: CrossSellUpsellBySSCLogo, 
     heading: "Cross Sell & Upsell by SSC",
     content:"Drive sales by tailoring Cross Sell, Upsell & Bundle. Cross Sells in 8 strategic locations!",
     blog:false,
     blogLink:"/klaviyo-blog",
-    link:"https://apps.shopify.com/cross-sell?utm_source=customer-dashboard-pro"
+    link:"https://apps.shopify.com/cross-sell?utm_source=web-&-in-app&utm_medium=partner&utm_campaign=Customer-Dashboard"
   }, 
   {
     logo: SynceeGlobalDropshippingLogo, 
