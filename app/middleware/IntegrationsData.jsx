@@ -57,6 +57,10 @@ import SynceeGlobalDropshippingLogo from '../assets/images/Logo/Syncee ‑ Globa
 import CrossSellUpsellBySSCLogo from '../assets/images/Logo/CrossSellUpsellbySSCLogo.webp';
 import MultiVariantsBulkOrderLogo from '../assets/images/Logo/MultiVariants ‑ Bulk OrderLogo.webp';
 import inCartUpsellAndCrossSellLogo from '../assets/images/Logo/In Cart Upsell & Cross‑SellLogo.webp';
+import ZoorixBundleKitCrossSell from '../assets/images/Logo/Zoorix Bundle Kit & Cross Sell.webp';
+import AppSceAIDropshippingApp from '../assets/images/Logo/AI Dropshipping App.webp';
+import StoreLocatorMap from '../assets/images/Logo/Store Locator Map.webp';
+import AttribulyMarketingAnalytics from '../assets/images/Logo/Attribuly Marketing Analytics.webp';
 
 export const integrationdata = [
   {
@@ -237,6 +241,38 @@ export const partnerData = [
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
   },  
+  {
+    logo: AttribulyMarketingAnalytics, 
+    heading: "Attribuly Marketing Analytics",
+    content:"Get customer buying journey across all channels, build a better funnel with attribution, automation",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/attribuly?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: StoreLocatorMap, 
+    heading: "Storemapper Store Locator Map",
+    content:"The Ultimate Store Locator App: Easy to install, fully customizable and proven to drive more traffic",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/storemapper?utm_source=customer-dashboard-pro"
+  },  
+  {
+    logo: AppSceAIDropshippingApp, 
+    heading: "AppScenic: AI Dropshipping App",
+    content:"Dropship 1M+ products with the #1 AI Dropshipping Automation App. Local suppliers. 2-5 Day Delivery",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/appscenic?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: ZoorixBundleKitCrossSell, 
+    heading: "Zoorix Bundle Kit & Cross Sell",
+    content:"Upsell bundles to Boost AOV, with tiered discount, tiered pricing, cart upsell & mix and match",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/zoorix?utm_source=customer-dashboard-pro"
+  },
   {
     logo: inCartUpsellAndCrossSellLogo, 
     heading: "In Cart Upsell & Cross‑Sell",

@@ -139,7 +139,7 @@
 }
 .sec-4-acntpageconatiner{
     /* background: linear-gradient(133deg, #0087C1 0%, #1E235C 100%);    */
-    background: linear-gradient(-18deg, #FFF 0%, #E1E1E1 25%, #FFF 50%, #E1E1E1 75%, #E1E1E1 100%);
+    /* background: linear-gradient(-18deg, #FFF 0%, #E1E1E1 25%, #FFF 50%, #E1E1E1 75%, #E1E1E1 100%); */
     padding-top: 3rem;
     padding-bottom: 5rem;
 }
@@ -218,7 +218,7 @@
     width: 100%;
 }
 .section-5-acntpage {
-    background: linear-gradient(141deg, #FFF 0%, #E1E1E1 25%, #FFF 50%, #E1E1E1 75%, #E1E1E1 100%);
+    /* background: linear-gradient(141deg, #FFF 0%, #E1E1E1 25%, #FFF 50%, #E1E1E1 75%, #E1E1E1 100%); */
 }
 .sec-5col-first{
     border-right:1px solid #000654;
