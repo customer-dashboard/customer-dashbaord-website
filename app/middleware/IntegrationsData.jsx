@@ -61,6 +61,8 @@ import ZoorixBundleKitCrossSell from '../assets/images/Logo/Zoorix Bundle Kit & 
 import AppSceAIDropshippingApp from '../assets/images/Logo/AI Dropshipping App.webp';
 import StoreLocatorMap from '../assets/images/Logo/Store Locator Map.webp';
 import AttribulyMarketingAnalytics from '../assets/images/Logo/Attribuly Marketing Analytics.webp';
+import laiProductAmazonReview  from '../assets/images/Logo/LAI Product Amazon Reviews.webp';
+import DropCommerceUsDropShopping from '../assets/images/Logo/DropCommerce US Dropshipping.webp';
 
 export const integrationdata = [
   {
@@ -241,6 +243,22 @@ export const partnerData = [
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
   },  
+  {
+    logo: DropCommerceUsDropShopping, 
+    heading: "DropCommerce: US Dropshipping",
+    content:"High quality products from USA / Canadian suppliers for fast dropshipping and order fulfillment.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/dropcommerce?utm_source=customer-dashboard-pro"
+  }, 
+  {
+    logo: laiProductAmazonReview, 
+    heading: "LAI Product Amazon Reviews",
+    content:"Build customer trust by collecting, showing, and amplifying product reviews from multiple platforms.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/lai-reviews?utm_source=customer-dashboard-pro"
+  }, 
   {
     logo: AttribulyMarketingAnalytics, 
     heading: "Attribuly Marketing Analytics",
