@@ -63,6 +63,7 @@ import StoreLocatorMap from '../assets/images/Logo/Store Locator Map.webp';
 import AttribulyMarketingAnalytics from '../assets/images/Logo/Attribuly Marketing Analytics.webp';
 import laiProductAmazonReview  from '../assets/images/Logo/LAI Product Amazon Reviews.webp';
 import DropCommerceUsDropShopping from '../assets/images/Logo/DropCommerce US Dropshipping.webp';
+import taglio_reviews_logo from '../assets/images/Logo/taglio-reviews-logo.webp';
 
 export const integrationdata = [
   {
@@ -145,9 +146,6 @@ export const integrationdata = [
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/track123?utm_source=customer-dashboard-pro"
   },
-
- 
-
   {
     logo: GrowaveLoyalltyLogo,
     heading: "Growave: Loyalty & Wishlist",
@@ -243,6 +241,14 @@ export const partnerData = [
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
   },  
+  {
+    logo: taglio_reviews_logo, 
+    heading: "Taglio Review Rewards",
+    content:"Offer coupons for genuine product reviews to boost store credibility and sales.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/taglio-review-1?utm_source=customer-dashboard-pro"
+  }, 
   {
     logo: DropCommerceUsDropShopping, 
     heading: "DropCommerce: US Dropshipping",
