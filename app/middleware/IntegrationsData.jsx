@@ -64,6 +64,8 @@ import AttribulyMarketingAnalytics from '../assets/images/Logo/Attribuly Marketi
 import laiProductAmazonReview  from '../assets/images/Logo/LAI Product Amazon Reviews.webp';
 import DropCommerceUsDropShopping from '../assets/images/Logo/DropCommerce US Dropshipping.webp';
 import taglio_reviews_logo from '../assets/images/Logo/taglio-reviews-logo.webp';
+import gdprCoockies_logo from '../assets/images/Logo/gdpr-coockie-consent.webp';
+import searchingBoxDropshippinglog from '../assets/images/Logo/searchingbox-dropshipping.webp';
 
 export const integrationdata = [
   {
@@ -240,6 +242,22 @@ export const partnerData = [
     blog:false,
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: gdprCoockies_logo, 
+    heading: "Pandectes GDPR Compliance",
+    content:"Cookie banner for GDPR compliance, earn the trust of your users, and bypass legal challenges.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/gdpr-cookie-consent?utm_source=customer-dashboard-pro"
+  },   
+  {
+    logo: searchingBoxDropshippinglog, 
+    heading: "SourcinBox‑Dropshipping Agent",
+    content:"Easily source products from China. Efficient dropshipping order fulfillment helps boost your sales.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/sourcinbox?utm_source=customer-dashboard-pro"
   },  
   {
     logo: taglio_reviews_logo, 
