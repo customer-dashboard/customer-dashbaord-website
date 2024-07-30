@@ -246,10 +246,10 @@ export const partnerData = [
   {
     logo: gdprCoockies_logo, 
     heading: "Pandectes GDPR Compliance",
-    content:"Cookie banner for GDPR compliance, earn the trust of your users, and bypass legal challenges.",
+    content:"The #1 GDPR application for Shopify stores. Ensure GDPR/CCPA compliance effortlessly. Boost trust with transparent cookie management.",
     blog:false,
     blogLink:"/klaviyo-blog",
-    link:"https://apps.shopify.com/gdpr-cookie-consent?utm_source=customer-dashboard-pro"
+    link:"https://apps.shopify.com/gdpr-cookie-consent?utm_source=app-providers&utm_medium=mandasa&utm_campaign=app-listing&utm_content=website"
   },   
   {
     logo: searchingBoxDropshippinglog, 
