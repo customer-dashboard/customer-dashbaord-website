@@ -15,7 +15,11 @@ function NewDate(data) {
     const formattedLocalDate = currentDate.toLocaleString();
     return formattedLocalDate;
 }
-
+export const meta = () => {
+    return [
+        { name: "robots", content: "noindex" }
+    ];
+  };
 
 export default function Index() {
 
