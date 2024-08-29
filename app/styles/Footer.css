@@ -33,6 +33,10 @@
 .my-footer a {
     text-decoration: none;
     display: block;
+    font-size: 14.4px;
+}
+.my-footer h5{
+    font-size: 18px;
 }
 .my-footer a:hover {
     color: gray !important;

@@ -1,6 +1,7 @@
 import React from 'react'
 import PricingpageStyle from '../styles/PricingPage.css';
 import Pricing from '../components/pages/Pricing';
+import PlanPage from '../components/pages/PlanPage';
 
 
 export const links = () =>[
@@ -27,7 +28,8 @@ function pricing() {
   return (
   <>
   
-    <Pricing/>
+    {/* <Pricing/> */}
+    <PlanPage/>
   
   </>
   )
