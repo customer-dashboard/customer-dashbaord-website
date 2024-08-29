@@ -107,7 +107,7 @@
 }
 
 .plan--button{
-    width: 100%;
+    padding: 6px 30px;
 }
 .customer-dashboard-pro--plan-page .Polaris-DataTable__TableRow .Polaris-DataTable__Cell .Polaris-Box{
     font-size: 14.5px;

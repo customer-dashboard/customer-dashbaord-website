@@ -101,12 +101,24 @@ function PlanPage() {
                                 View more
                                </a>
                            </div>}
-                      totals={[,
+                      totals={['',
                          <div className="feature-discription text-center mt-2 mb-2">
-                        <a target='_blank' href='https://apps.shopify.com/customer-dashboard-pro' variant="primary" size="sm" className='plan--button btn header_btn btn-md d-none-991 btn btn-primary'>
+                        <a target='_blank' href='https://apps.shopify.com/customer-dashboard-pro' variant="primary" size="sm" className='plan--button btn header_btn btn-md btn btn-primary'>
                          Install now
                         </a>
-                      </div>,'','','', ''
+                      </div>,<div className="feature-discription text-center mt-2 mb-2">
+                        <a target='_blank' href='https://apps.shopify.com/customer-dashboard-pro' variant="primary" size="sm" className='plan--button btn header_btn btn-md  btn btn-primary'>
+                         Install now
+                        </a>
+                      </div>,<div className="feature-discription text-center mt-2 mb-2">
+                        <a target='_blank' href='https://apps.shopify.com/customer-dashboard-pro' variant="primary" size="sm" className='plan--button btn header_btn btn-md  btn btn-primary'>
+                         Install now
+                        </a>
+                      </div>,<div className="feature-discription text-center mt-2 mb-2">
+                        <a target='_blank' href='https://apps.shopify.com/customer-dashboard-pro' variant="primary" size="sm" className='plan--button btn header_btn btn-md d btn btn-primary'>
+                         Install now
+                        </a>
+                      </div>,
                     ]}
                      />
                     </Card>
