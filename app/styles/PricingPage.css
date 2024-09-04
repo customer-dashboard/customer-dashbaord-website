@@ -1,3 +1,5 @@
+@import '@shopify/polaris/build/esm/styles.css';
+
 .pricing-page-manu{
     padding-top:2rem;
     padding-bottom: 2rem;

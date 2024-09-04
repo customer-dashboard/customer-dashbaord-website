@@ -3,7 +3,7 @@ import Navbar from "./components/header-footer/Navbar";
 import AppStyle from "./styles/App.css";
 import NavBarStyle from "./styles/Navbar.css";
 import FooterStyle from "./styles/Footer.css";
-import '@shopify/polaris/build/esm/styles.css';
+// import '@shopify/polaris/build/esm/styles.css';
 import Footer from "./components/header-footer/Footer";
 import pagesStyle from "./styles/Pages.css";
 import {

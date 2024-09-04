@@ -2,7 +2,7 @@ import React from 'react'
 import PricingpageStyle from '../styles/PricingPage.css';
 import Pricing from '../components/pages/Pricing';
 import PlanPage from '../components/pages/PlanPage';
-
+// import '@shopify/polaris/build/esm/styles.css';
 
 export const links = () =>[
   {rel:'stylesheet', href:PricingpageStyle}
