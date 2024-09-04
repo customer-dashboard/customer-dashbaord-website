@@ -9,18 +9,19 @@ function PlanPage() {
       const rows = [
         [<Box padding='100'>Manage profile & delivery address</Box>,<Icon source={CheckIcon} tone="base" />,<Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />],
         [<Box padding='100'>Order history</Box>, <Icon source={CheckIcon} tone="base" />,<Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />],
+        [<Box padding='100'>Add extra page</Box>, "1",<Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />],
+        [<Box padding='100'>Custom field ( profile )</Box>, "1",<Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />],
+        [<Box padding='100'>Add extra tab</Box>, "1",<Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />],
+        [<Box padding='100'>Registration form</Box>, <Icon source={MinusIcon} tone="base" />,<Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />],
+        [<Box padding='100'>Image Upload</Box>, <Icon source={MinusIcon} tone="base" />,<Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />],
+        [<Box padding='100'>Integration engineer</Box>, <Icon source={MinusIcon} tone="base" />,<Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />],
+        [<Box padding='100'>Third party app integration with account page</Box>, <Icon source={MinusIcon} tone="base" />,<Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />],
         [<Box padding='100'>Recently viewed products</Box>, <Icon source={CheckIcon} tone="base" />,<Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />],
         [<Box padding='100'>ReOrder</Box>, <Icon source={CheckIcon} tone="base" />,<Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />],
         [<Box padding='100'>Contact form in order history</Box>, <Icon source={CheckIcon} tone="base" />,<Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />],
         [<Box padding='100'>Multi language</Box>, <Icon source={CheckIcon} tone="base" />,<Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />],
-        [<Box padding='100'>Registration and profile forms</Box>, <Icon source={CheckIcon} tone="base" />,<Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />],
-        [<Box padding='100'>Image Upload</Box>, <Icon source={CheckIcon} tone="base" />,<Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />],
-        [<Box padding='100'>Add extra page</Box>, <Icon source={CheckIcon} tone="base" />,<Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />],
-        [<Box padding='100'>Add extra tab</Box>, <Icon source={CheckIcon} tone="base" />,<Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />],
+        [<Box padding='100'>Profile page</Box>, <Icon source={CheckIcon} tone="base" />,<Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />],
         [<Box padding='100'>Design customization</Box>, <Icon source={CheckIcon} tone="base" />,<Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />],
-        [<Box padding='100'>Custom field ( profile )</Box>, <Icon source={CheckIcon} tone="base" />,<Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />],
-        [<Box padding='100'>Third party app integration with account page</Box>, <Icon source={CheckIcon} tone="base" />,<Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />],
-        [<Box padding='100'>Integration engineer</Box>, <Icon source={CheckIcon} tone="base" />,<Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />],
         [<Box padding='100'>Ticket and mail Support (24*7)</Box>, <Icon source={CheckIcon} tone="base" />,<Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />],
         [<Box padding='100'>Live chat support (9:30 AM - 6:00 PM IST, Mon to Fri)</Box>, <Icon source={CheckIcon} tone="base" />,<Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />],
         [<Box padding='100'>Dedicated success manager</Box>, <Icon source={CheckIcon} tone="base" />,<Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />, <Icon source={CheckIcon} tone="base" />],
@@ -54,10 +55,10 @@ function PlanPage() {
                                 Starter
                               </Text>
                               <Text variant='headingMd' as="p" alignment="start">
-                               0-1500 Customers
+                              Upto 250 Customers
                               </Text>
                             <Text variant="headingLg" as="h3" alignment="start">
-                              $4 USD / month
+                            Free forever
                             </Text>
                           </BlockStack>,
                             <BlockStack gap="200" inlineAlign="center">
@@ -65,7 +66,7 @@ function PlanPage() {
                                 Growth
                                 </Text>
                                 <Text variant='headingMd' as="p" alignment="start">
-                                1501-5000 Customers
+                                 250-5000 Customers
                                 </Text>
                                 <Text variant="headingLg" as="h3" alignment="start">
                                 $8 USD / month

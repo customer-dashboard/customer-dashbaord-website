@@ -117,3 +117,6 @@
         font-size: 12px;
     }
 }
+.Polaris-DataTable__Cell--numeric{
+    text-align: center;
+}
