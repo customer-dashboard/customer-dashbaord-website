@@ -59,7 +59,7 @@ export const loader = () => {
 <priority>1.0</priority>
 </url>
 <url>
-<loc>https://customerdashboard.pro/custom-field</loc>
+<loc>https://customerdashboard.pro/custom-fields</loc>
 <lastmod>2023-11-09T08:20:09+01:00</lastmod>
 <priority>1.0</priority>
 </url>

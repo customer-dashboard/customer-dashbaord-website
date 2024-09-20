@@ -16,13 +16,13 @@ export const meta = () => {
     { name: "description", content: "Unlock the potential of your Shopify store with custom fields. Collect gender, mobile numbers, and more. Elevate user experience and boost engagement with personalized data." },
     {property:"og:title", content:"Customized Shopify Custom Field Page Shopify App | Customer Dashboard Pro"},
     {property:"og:site_name", content:"Custom field Page Shopify App| Customer Dashboard Pro"},
-    {property:"og:url", content:"https://customerdashboard.pro/custom-field"},
+    {property:"og:url", content:"https://customerdashboard.pro/custom-fields"},
     {property:"keywords", content:"custom fields, customer data, Shopify, user engagement, personalized experience"},
     {property:"og:description", content:"Empower your Shopify store with custom fields. Collect customer data seamlessly. Enhance user experience and boost engagement."},
     {
       tagName: "link",
       rel: "canonical",
-      href: "https://customerdashboard.pro/custom-field",
+      href: "https://customerdashboard.pro/custom-fields",
     },
   ];
 };

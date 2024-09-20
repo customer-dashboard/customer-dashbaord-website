@@ -66,7 +66,7 @@ function Header() {
                                 <Link to="/recently-view" className="Nav-item nav-link-custom nav-link-custom-drppdown">Recently Viewed Product</Link>
                                 <Link to="/top-order-products" className="Nav-item nav-link-custom nav-link-custom-drppdown">Top Order Products</Link>
                                 <Link to="/navigation-builder" className="Nav-item nav-link-custom nav-link-custom-drppdown">Navigation Builder</Link>
-                                <Link to="/custom-field" className="Nav-item nav-link-custom nav-link-custom-drppdown">Custom Fields</Link>
+                                <Link to="/custom-fields" className="Nav-item nav-link-custom nav-link-custom-drppdown">Custom Fields</Link>
                                 {/* <Link to="/pages/top-order-products" className="Nav-item nav-link-custom nav-link-custom-drppdown">Top Order Products</Link> */}
                                 <Link to="/translation" className="Nav-item nav-link-custom nav-link-custom-drppdown">Easy Translation</Link> 
                                 <Link to="/custom-signup-form" className="Nav-item nav-link-custom nav-link-custom-drppdown">Custom Signup Form</Link> 
