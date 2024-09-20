@@ -25,26 +25,28 @@ const Footer = () => <footer className="page-footer font-small blue pt-4 my-foot
             <div className="footer_accordian">
                 <Accordion>
                     <Accordion.Item eventKey="0" className="mb-1 mt-1 footer_acccourdian_item">
-                        <Accordion.Header className="header_background footer_accourdian_header">SUPPORT</Accordion.Header>
+                        <Accordion.Header className="header_background footer_accourdian_header">Resources</Accordion.Header>
                         <Accordion.Body className="accordian_body">
-                            <ul className="list-unstyled text-align-left">
-                                <li> <Link to='/faqs' className="text-reset">Faq's</Link></li>
-                                {/* <li><Link to='/#' className="text-reset">Blog</Link></li> */}
-                                <li><Link to='/privacy-policy' className="text-reset">Privacy Policy</Link></li>
-                                {/* <li><Link to='/contact-us' className="text-reset">Contact Us</Link></li> */}
-                                <li><Link to='/#' className="text-reset">About Us</Link></li>
-                            </ul>
+                        <ul className="list-unstyled text-align-left">
+                        <li> <Link target='_blank' to='https://customer-dashboard-pro.helpscoutdocs.com/' className="text-reset">Knowledge base</Link></li>
+                        {/* <li><Link to='/#' className="text-reset">Blog</Link></li> */}
+                        <li><Link to='/blog' className="text-reset">Blog</Link></li>
+                        <li><Link to='/privacy-policy' className="text-reset">Privacy Policy</Link></li>
+                        {/* <li><Link to='/contact-us' className="text-reset">Contact Us</Link></li> */}
+                        <li><Link to='/#' className="text-reset">About Us</Link></li>
+                    </ul>
                         </Accordion.Body>
                     </Accordion.Item>
             <hr className="width-100 m-t"/>
                     <Accordion.Item eventKey="1" className="mb-1 mt-1 footer_acccourdian_item">
                         <Accordion.Header className="header_background footer_accourdian_header">WORK WITH US</Accordion.Header>
                         <Accordion.Body className="accordian_body">
-                            <ul className="list-unstyled text-align-left">
-                                {/* <li><Link to='/#' className="text-reset">Integration</Link></li> */}
-                                {/* <li><Link to='/become-a-partner' className="text-reset">Become a Partner</Link></li> */}
-                                {/* <li><Link to='/#' className="text-reset">Careers</Link></li> */}
-                            </ul>
+                        <ul className="list-unstyled text-align-left">
+                        {/* <li><Link to='/#' className="text-reset">Integration</Link></li> */}
+                        <li><Link to='/become-a-partner' className="text-reset">Become a Partner</Link></li>
+                        <li><Link to='/partners-and-integrations' className="text-reset">Partners & Integrations</Link></li>
+                         {/* <li><Link to='/#' className="text-reset">Careers</Link></li> */}
+                      </ul>
                         </Accordion.Body>
                     </Accordion.Item>
                     <hr className="width-100 m-t"/>
@@ -52,10 +54,11 @@ const Footer = () => <footer className="page-footer font-small blue pt-4 my-foot
             </div>
 
             <div className="col-md-3 col-lg-2 mb-md-0 mb-3 text-align-left d-none-768">
-                <h5 className="text-uppercase text-align-left font-weight-bold">SUPPORT</h5>
+                <h5 className="text-uppercase text-align-left font-weight-bold">Resources</h5>
                 <ul className="list-unstyled text-align-left">
-                       <li> <Link to='/faqs' className="text-reset">Faq's</Link></li>
+                       <li> <Link target='_blank' to='https://customer-dashboard-pro.helpscoutdocs.com/' className="text-reset">Knowledge base</Link></li>
                        {/* <li><Link to='/#' className="text-reset">Blog</Link></li> */}
+                       <li><Link to='/blog' className="text-reset">Blog</Link></li>
                        <li><Link to='/privacy-policy' className="text-reset">Privacy Policy</Link></li>
                        {/* <li><Link to='/contact-us' className="text-reset">Contact Us</Link></li> */}
                        <li><Link to='/#' className="text-reset">About Us</Link></li>
@@ -66,7 +69,8 @@ const Footer = () => <footer className="page-footer font-small blue pt-4 my-foot
                 <h5 className="text-uppercase text-align-left font-weight-bold">WORK WITH US</h5>
                 <ul className="list-unstyled text-align-left">
                         {/* <li><Link to='/#' className="text-reset">Integration</Link></li> */}
-                        {/* <li><Link to='/become-a-partner' className="text-reset">Become a Partner</Link></li> */}
+                        <li><Link to='/become-a-partner' className="text-reset">Become a Partner</Link></li>
+                        <li><Link to='/partners-and-integrations' className="text-reset">Partners & Integrations</Link></li>
                          {/* <li><Link to='/#' className="text-reset">Careers</Link></li> */}
                 </ul>
             </div>

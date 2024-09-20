@@ -34,3 +34,13 @@ export const RecentViewPageDataOfComparision = {
     OldPageImage:oldAccountPageImage,
     NewPageImage:OrderPageImage
 }
+export const RegistrationFormComparisonData = {
+    MainHeading: 'Revolutionize Registration Form with Custom Fields and Design',
+    SubHeading: 'Compare the Traditional Shopify Registration Form with Our Customized, Flexible, and Feature-Rich Registration Experience.',
+    OldPageHeading: 'Shopify Traditional Registration Form',
+    NewPageHeading: 'Enhanced Registration Form with Custom Fields',
+    OldImageAlttext: 'Old-Registration-Page',
+    NewImageAlttext: 'New-Registration-Page',
+    OldPageImage: oldAccountPageImage,
+    NewPageImage: OrderPageImage
+}

@@ -1,7 +1,7 @@
 import React from 'react'
-import BlogFullPageStyle from '../../styles/BlogFullPage.css';
-import StartFreeSectionStyle from '../../styles/StartFree.css';
-import CustomerDashboardFullBlog from '../../components/blogs/CustomerDashboardFullBlog';
+import BlogFullPageStyle from '../styles/BlogFullPage.css';
+import StartFreeSectionStyle from '../styles/StartFree.css';
+import CustomerDashboardFullBlog from '../components/blogs/CustomerDashboardFullBlog';
 
 export const links = () =>[{rel:"stylesheet",href:BlogFullPageStyle},
     {rel:"stylesheet", href:StartFreeSectionStyle}]
@@ -16,7 +16,7 @@ export const links = () =>[{rel:"stylesheet",href:BlogFullPageStyle},
         {
           tagName: "link",
           rel: "canonical",
-          href: "https://customerdashboard.pro/customer-dashboard-blog",
+          href: "https://customerdashboard.pro/blog/customer-dashboard-pro",
         },
       ];
     };

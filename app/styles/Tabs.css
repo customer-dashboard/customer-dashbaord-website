@@ -185,7 +185,7 @@
   }
   
   .account_potential {
-    margin-top: 6rem !important;
+    margin-top: 2rem !important;
     width: 50%;
     margin: auto;
   }
@@ -448,6 +448,7 @@
       line-height: 30px;
       text-align: center;
       color: #FFFFFF;
+      padding-top: 2rem;
     }
   
   }

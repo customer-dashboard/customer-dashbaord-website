@@ -8,6 +8,7 @@ import { dataOfCUstomFieldsImageWithText } from '../../middleware/ImageWithTextD
 import TestimonialSlider from '../slider/TestimonialSlider';
 import Carousel from '../slider/Carousel';
 import TransitionEffect from '../FadeTransition/TransitionEffect';
+import KnowlageBase from '../KnowlageBase';
 
 
 function CustomerFieldsPage() {
@@ -40,6 +41,9 @@ function CustomerFieldsPage() {
             {/* testimonial Component Calling Here */}
             <div className="testimonialOnReOrderPage" data-aos="fade-up">
                 <TestimonialSlider/>
+            </div>
+            <div className="pageTopSectionOnHomePage" data-aos="fade-up">
+            <KnowlageBase/>
             </div>
         </>
     )

@@ -27,6 +27,7 @@
     "popper.js": "^1.16.1",
     "pure-react-carousel": "^1.30.1",
     "react": "^18.2.0",
+    "react-awesome-reveal": "^4.2.14",
     "react-awesome-slider": "^4.1.0",
     "react-bootstrap": "^2.9.1",
     "react-dom": "^18.2.0",

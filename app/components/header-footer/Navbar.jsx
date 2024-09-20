@@ -69,22 +69,25 @@ function Header() {
                                 <Link to="/custom-field" className="Nav-item nav-link-custom nav-link-custom-drppdown">Custom Fields</Link>
                                 {/* <Link to="/pages/top-order-products" className="Nav-item nav-link-custom nav-link-custom-drppdown">Top Order Products</Link> */}
                                 <Link to="/translation" className="Nav-item nav-link-custom nav-link-custom-drppdown">Easy Translation</Link> 
+                                <Link to="/custom-signup-form" className="Nav-item nav-link-custom nav-link-custom-drppdown">Custom Signup Form</Link> 
                                 {/* <Link to="/#" className="Nav-item nav-link-custom-drppdown">Change Color</Link>
                                 <Link to="/#" className="Nav-item nav-link-custom-drppdown">Change Password</Link>
                                 <Link to="/#" className="Nav-item nav-link-custom-drppdown">Easy Translation</Link> */}
                             </NavDropdown>
 
                             <NavDropdown href="Resources" title="Resources" id="basic-nav-dropdown" show={SecondIsOpen} onClick={()=>UpdateSecondIsOpen(!SecondIsOpen)} onMouseOver={handleIsSecondOpen} onMouseLeave={handleIsSecondClosed} >
-                                <Link to="/faqs" className="Nav-item nav-link-custom nav-link-custom-drppdown">Faq's</Link>
-                                <Link to="/blogs" className=" Nav-item nav-link-custom nav-link-custom-drppdown">Blogs</Link>
+                                {/* <Link to="/faqs" className="Nav-item nav-link-custom nav-link-custom-drppdown">Faq's</Link> */}
+                                <Link to="/blog" className=" Nav-item nav-link-custom nav-link-custom-drppdown">Blog</Link>
+                                <Link to="https://customer-dashboard-pro.helpscoutdocs.com" target='_blank' className=" Nav-item nav-link-custom nav-link-custom-drppdown">Knowledge base</Link>
+                                {/* <Link target='_blank' to='/' className="text-reset"></Link> */}
                                 {/* <Link to="/#" className="Nav-item nav-link-custom">Case Study</Link> */}
                                 {/* <Link to="/re-order" className="Nav-item nav-link-custom">Re-Order</Link>  */}
                             </NavDropdown>
                             <NavDropdown href="Partners" title="Partners" id="basic-nav-dropdown" show={ThirdIsOpen} onClick={()=>UpdateThirdIsOpen(!ThirdIsOpen)} onMouseOver={handleIsThirdOpen} onMouseLeave={handleIsThirdClosed} >
                                 {/* <Link to="/become-a-partner" className="Nav-item nav-link-custom nav-link-custom-drppdown">Become a Partner</Link> */}
-                                <Link to="/partners-and-integrations" className=" Nav-item nav-link-custom nav-link-custom-drppdown">Partners&nbsp;&&nbsp;Integrations</Link>
+                                <Link to="/partners-and-integrations" className=" Nav-item nav-link-custom nav-link-custom-drppdown">Partners & Integrations</Link>
                                 {/* <Link to="/#" className="Nav-item nav-link-custom">Case Study</Link> */}
-                                {/* <Link to="/re-order" className="Nav-item nav-link-custom">Re-Order</Link> */}
+                                <Link to="/become-a-partner" className="Nav-item nav-link-custom">Become a partner</Link>
                             </NavDropdown>
                             {/* <Link to="/faqs" className=" main-headernav Nav-item nav-link-custom">Faq's</Link> */}
                             <Link to="/pricing" className=" main-headernav Nav-item nav-link-custom">Pricing</Link>

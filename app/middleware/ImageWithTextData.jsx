@@ -10,6 +10,7 @@ import TopOrderImageWithText from '../assets/images/NewDataImages/new/Top ordere
 import navigationBuilderImage from '../assets/images/NewDataImages/new/Navigation builder_01.png'
 import customFieldImage_1 from '../assets/images/NewDataImages/new/custom field_02.png';
 import customFieldImage_2 from '../assets/images/NewDataImages/new/custom field_03.png';
+
  export const dataOfAccountPageImageWithText = [
      {
         "imageUrl": RevampPanelImage,
@@ -29,6 +30,14 @@ import customFieldImage_2 from '../assets/images/NewDataImages/new/custom field_
 ]
 export const dataOfReOrderPageImageWithText = [
   {
+    "imageUrl": 'https://mandasa1.b-cdn.net/customer%20dashboard%20website/reorder%20youtube.mp4',
+    "altText": "re-order",
+    video:true,
+    right:false,
+    "heading":`Revolutionize Reordering with Customer Dashboard Pro`,
+    caption: `<p className='mt-3'>Elevate Your Shopping Experience Through Advanced Order Management and Seamless Navigation.Experience Unmatched Convenience and Precision in Order Management.</p>`
+  },
+  {
      "imageUrl": reorderPageImage,
      "altText": "Image 1",
      right:true,
@@ -37,13 +46,14 @@ export const dataOfReOrderPageImageWithText = [
      <p>No more searching for past purchases! With Customer Dashboard Pro Reorder, placing an order for a previously purchased product is now hassle-free and straightforward.</p>
      <p>Simply log in to your Shopify customer account, browse order history, and reorder with a single click using the convenient 'Add to Cart' functionality. It's that easy!</p>`
    },
-   {
-     "imageUrl": SecondImageOfReorderPage,
-     "altText": "Image 2",
-     "heading":`Enable customers to effortlessly edit cart items while reordering`,
-     caption: `<p className='mt-4'>Customer Dashboard Pro Reorder allows customers to easily include/exclude items in the reorder. Additionally, they can adjust product quantities, all before swiftly adding to the cart for checkout convenience.</p>
-     <p className='mt-4'>The customer can also check the status of his order directly. For which Customer Dashboard Pro provides 1 special button.</p>`
-   },
+  //  {
+  //    "imageUrl": SecondImageOfReorderPage,
+  //    "altText": "Image 2",
+  //    "heading":`Enable customers to effortlessly edit cart items while reordering`,
+  //    caption: `<p className='mt-4'>Customer Dashboard Pro Reorder allows customers to easily include/exclude items in the reorder. Additionally, they can adjust product quantities, all before swiftly adding to the cart for checkout convenience.</p>
+  //    <p className='mt-4'>The customer can also check the status of his order directly. For which Customer Dashboard Pro provides 1 special button.</p>`
+  //  },
+
 ]
 
 export const dataOfRecentViewImageWithText = [
@@ -126,3 +136,29 @@ export const dataOfCUstomFieldsImageWithText = [
   }
   
 ]
+
+
+export const dataOfRegistrationFormImageWithText = [
+  {
+     "imageUrl": navigationBuilderImage,
+     "altText": "navigation builder image",
+     right:true,
+     "heading": `Custom Registration Form: Tailored Sign-Up for Your Shopify Customers`,
+     caption: `
+       <p className='mt-3'>Enhance your customer onboarding with our fully customizable registration form. Personalize the layout to match your brand's identity while ensuring a seamless sign-up experience.</p>
+       <p>With advanced options like hCaptcha integration, collect vital information while keeping your store secure from bots and fraudulent sign-ups.</p>
+      `
+   },
+   {
+    "imageUrl": navigationBuilderImage,
+    "altText": "Custom Field and Design Options",
+    right: false,  // Aligns image to the right for a varied layout
+    "heading": `Personalized Sign-Up Forms: Custom Fields and Flexible Design`,
+    caption: `
+      <p className='mt-3'>Take full control over your Shopify store's registration process by adding custom fields that matter most to your business.</p>
+      <p>Whether it's gathering customer preferences, special requests, or additional contact details, you can easily tailor the form fields to suit your needs.</p>
+      `
+  }
+  
+]
+

@@ -32,32 +32,44 @@ const TopOrderProducticon = <svg xmlns="http://www.w3.org/2000/svg" width="260" 
     {
         featureIcon:AccountIcon,
         featureName:"Account",
-        featureDescription:"This is used for wishlist product"
+        featureDescription:"This is used for wishlist product",
+        featuredContent:"Enhance Your Shopify Account with Advanced Tools",
+        featureImage:'https://mandasa1.b-cdn.net/customer%20dashboard%20website/account.png'
     },
     {
         featureIcon:RewardsIcon,
         featureName:"Rewards",
-        featureDescription:"This is used for wishlist product"
+        featureDescription:"This is used for wishlist product",
+        featuredContent:"Seamlessly Track and Redeem Your Customer Rewards",
+        featureImage:'https://mandasa1.b-cdn.net/customer%20dashboard%20website/reword.png'
     },
     {
         featureIcon:ReOrdericon,
         featureName:"Re-order",
-        featureDescription:"This is used for wishlist product"
+        featureDescription:"This is used for wishlist product",
+        featuredContent:"Simplify Your Shopping with Easy Re-order Options",
+        featureImage:'https://mandasa1.b-cdn.net/customer%20dashboard%20website/reorder01.png'
     },
     {
         featureIcon:Wishlisticon,
         featureName:"Wishlist",
-        featureDescription:"This is used for wishlist product"
+        featureDescription:"This is used for wishlist product",
+        featuredContent:"Boost Sales with Personalized Customer Wishlists",
+        featureImage:'https://mandasa1.b-cdn.net/customer%20dashboard%20website/wishlist01.png'
     },
     {
         featureIcon:RecentlyViewIcon,
         featureName:"Recently Viewd",
-        featureDescription:"This is used for wishlist product"
+        featureDescription:"This is used for wishlist product",
+        featuredContent:"Boost Conversions with Recently Viewed Items Display",
+        featureImage:'https://mandasa1.b-cdn.net/customer%20dashboard%20website/recently%20viewd.png'
     },
     {
         featureIcon:TopOrderProducticon,
         featureName:"Top Ordered",
-        featureDescription:"This is used for Reward product"
+        featureDescription:"This is used for Reward product",
+        featuredContent:"Boost Sales with Top Ordered Recommendations",
+        featureImage:'https://mandasa1.b-cdn.net/customer%20dashboard%20website/top%20order.png'
     }
 ]
 

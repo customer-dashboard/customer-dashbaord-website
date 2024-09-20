@@ -48,7 +48,7 @@ function Carousel() {
         <Container>
           <Row>
             <Col lg={12}>
-              <div className="carousel_heading"><h2>TRUSTED BY <strong>1500+</strong> SHOPIFY MERCHANTS</h2></div>
+              <div className="carousel_heading"><h2>TRUSTED BY <strong>1500+ SHOPIFY MERCHANTS</strong></h2></div>
               <Slider2 {...settings} className="my-track">
                 {Images.map((item) => (
                   <div className="images_padding" key={item.id}>

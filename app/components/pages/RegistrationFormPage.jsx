@@ -1,17 +1,19 @@
 import React from 'react';
-import { topOrderProductPagedata } from '../../middleware/PageTopSectionData';
+import { RegistrationFormPageData } from '../../middleware/PageTopSectionData';
 import PagesTopSection from '../PageTopSection';
 import { useEffect } from 'react';
 import ImageWithText from '../ImageWithText';
 import FeaturedContent from '../FeaturedContent';
-import { dataOfTopOrderedProductImageWithText } from '../../middleware/ImageWithTextData';
+import { dataOfRegistrationFormImageWithText } from '../../middleware/ImageWithTextData';
+import PagesComparison from '../PageComparision';
+import { RegistrationFormComparisonData } from '../../middleware/PageComparisionData';
 import TestimonialSlider from '../slider/TestimonialSlider';
 import Carousel from '../slider/Carousel';
 import TransitionEffect from '../FadeTransition/TransitionEffect';
 import KnowlageBase from '../KnowlageBase';
 
 
-function TopOrderProductPage() {
+function RegistrationFormPage() {
 
     useEffect(() => {
         TransitionEffect();
@@ -23,7 +25,7 @@ function TopOrderProductPage() {
 
             {/* Page Top Section Component Calling Here */}
             <div className="pageTopSectionOnReorderPage" data-aos="fade-up">
-                <PagesTopSection data={topOrderProductPagedata} />
+                <PagesTopSection data={RegistrationFormPageData} />
             </div>
             {/* Carousel Component Calling Here */}
             <div className="carousel-section-on-re-order--page" data-aos='fade-up'>
@@ -31,18 +33,17 @@ function TopOrderProductPage() {
             </div>
 
             {/* Image With Text Component Calling Here */}
-            <ImageWithText imageWithTextData={dataOfTopOrderedProductImageWithText} />
+            <ImageWithText imageWithTextData={dataOfRegistrationFormImageWithText} />
 
-            {/* Featured Content Component Calling Here */}
-            <div className="pageTopSectionOnHomePage" data-aos="fade-up">
-                <FeaturedContent />
+   
+        {/* Page COmparision Component Calling Here */}
+        <div className="pageTopSectionOnHomePage" data-aos="fade-up">
+        <PagesComparison pageData={RegistrationFormComparisonData} />
+        </div>
+        {/* Featured Content Component Calling Here */}
+        <div className="pageTopSectionOnHomePage" data-aos="fade-up">
+            <FeaturedContent />
             </div>
-
-            {/* Page COmparision Component Calling Here */}
-            {/* <div className="pageTopSectionOnHomePage" data-aos="fade-up">
-            <PagesComparison pageData={ReOrderPageDataOfComparision} />
-            </div> */}
-         
             {/* testimonial Component Calling Here */}
             <div className="testimonialOnReOrderPage" data-aos="fade-up">
                 <TestimonialSlider/>
@@ -54,4 +55,4 @@ function TopOrderProductPage() {
     )
 }
 
-export default TopOrderProductPage
+export default RegistrationFormPage

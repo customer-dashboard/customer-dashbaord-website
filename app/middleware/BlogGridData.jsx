@@ -10,7 +10,7 @@ export const klaviyoBlogData = [
         Date:"28th Dec 2023",
         Heading:"Klaviyo: Email Marketing & SMS",
         Content:"Klaviyo: Email Marketing & SMS Integration with Customer Dashboard Pro.",
-        Link:"/klaviyo-blog",
+        Link:"/blog/klaviyo-integration",
         WatchIcon:watchIcon
     },
     {
@@ -19,7 +19,7 @@ export const klaviyoBlogData = [
         Date:"28th Dec 2023",
         Heading:"The Importance of Customer Account Page",
         Content:"The Importance of Customer Account Page: Enhancing the Shopping Experience",
-        Link:"/customer-dashboard-blog",
+        Link:"/blog/customer-dashboard-pro",
         WatchIcon:watchIcon
     },
     

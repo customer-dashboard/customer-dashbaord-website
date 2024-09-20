@@ -1,7 +1,7 @@
 import React from 'react'
-import KlaviyoFullBlog from '../../components/blogs/KlaviyoFullBlog';
-import BlogFullPageStyle from '../../styles/BlogFullPage.css';
-import StartFreeSectionStyle from '../../styles/StartFree.css';
+import KlaviyoFullBlog from '../components/blogs/KlaviyoFullBlog';
+import BlogFullPageStyle from '../styles/BlogFullPage.css';
+import StartFreeSectionStyle from '../styles/StartFree.css';
 
 export const links = () => [{ rel: "stylesheet", href: BlogFullPageStyle },
   {rel:"stylesheet", href:StartFreeSectionStyle}];
@@ -16,7 +16,7 @@ export const links = () => [{ rel: "stylesheet", href: BlogFullPageStyle },
       {
         tagName: "link",
         rel: "canonical",
-        href: "https://customerdashboard.pro/klaviyo-blog",
+        href: "https://customerdashboard.pro/blog/klaviyo-integration",
       },
     
     ];

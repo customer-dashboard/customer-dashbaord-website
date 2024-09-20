@@ -1,185 +1,39 @@
-.mobilove_section{
-    background: linear-gradient(141deg, #FFF 0%, #E1E1E1 25%, #FFF 50%, #E1E1E1 75%, #E1E1E1 100%);
-}
-.Mobilove{
-    padding: 60px 0px;
-}
-.percentage{
-    border-radius: 10px;
-    background: linear-gradient(270deg, #EDA288 0%, rgba(237, 162, 136, 0.16) 100%);
-}
-.mobilove_left{
-    position: relative;
-}
+.know_ladge__base--container__wraper{
+    background-image: url(https://www.aitrillion.com/wp-content/themes/allinone/images/newimg/subbox_Footer-image.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 
-.col-6{
-    width: 50%;
-}
-.p_0{
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-}
-.mobilove_main_heading{
-    text-align: center;
-    width: 50%;
-    margin: auto;
-   
-}
-.mobilove_main_heading h2{
-    color: #4F4F4F;
-    font-size: 28px;
-    line-height: 42px;
-    font-weight: 900;
-}
-.mobilove_main_heading h2 span{
-    color: #EDA288;
+  .knowladgebase_main-content__wraper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .knowladge-mini-container h2{
+    color: white;
     font-weight: 700;
-}
+    margin-bottom: 1rem;
+    word-spacing: 1px;
+    letter-spacing: 0.9px;
+    font-family: sans-serif !important;
+  }
 
-/* MObilove main content csss start */
-.mobilove_main_content{
-    padding-top: 40px;
-}
+  .knowladge-mini-container .knowladge--base_explor-button a{
+   margin-top: 1.5rem;
+   margin-bottom: .5rem;
+   font-size: 16px;
+  }
+  .knowladge-mini-container .knowladge--base_explor-button a:hover{
+    color: white !important;
+   }
 
-.progeress_increase_bar {
-    border-radius: 10px;
-    background: linear-gradient(270deg, #EDA288 0%, rgba(237, 162, 136, 0.16) 100%);
-    padding: 9px;
-    margin-top: 30px;
-}
-.progeress_increase_bar p{
-    font-size: 14px;
-    padding-right: 20px;
-}
-.progeress_increase_bar h3{
-    font-size: 41px;
-}
-.mibile_virson img{
-    max-width: 100%;
-}
-.position-rel{
-    position: relative;
-}
-.position-abso{
-    position: absolute;
-}
-.mibile_virson{
-    margin-left: -50px;
-}
-.mobilove_logo_para{
-    font-size: 28px;
-    line-height: 42px;
-    color: #4F4F4F;
-
-}
-.mobilove_logo_para span{
-    color: #4F4F4F;
-    font-weight: 600;
-}
-.mobilove_logo_para-2{
-    font-size: 20px;
-    line-height: 30px;
-    font-weight: 400;
-}
-
-.ready_case_link{
-    color: #EDA288;
-    font-size: 20px;
-    line-height: 30px;
-}
-.ready_case_link:hover{
-    color: gray;
-    
-}
-
-
-
-
-@media screen and (max-width:991px){
-    .mobilove_main_heading {
-        width: 100%;
-    }  
-    .mobilove_logo_para {
-        font-size: 18px;
-        line-height: 30px;
+  @media screen and (min-width: 1100px) {
+    .knowladge-mini-container{
+      width: 857px;
+      padding: 10px;
     }
-    .mobilove_logo_para-2 {
-        font-size: 16px;
-        line-height: 26px;
+    .know_ladge__base--container__wraper h2{
+      font-size: 38px;
     }
-}
-
-
-
-
-@media screen and (max-width:576px){
-    .col-x-sm-6{
-        width: 50%;
-    }
-    .progeress_increase_bar {
-        margin-top: 25px;
-    }
-    .progress_content{
-        margin-left: 30px;
-    }
-    .progeress_increase_bar h3 {
-        font-size: 20px;
-    }
-    .progeress_increase_bar p {
-        font-size: 8px;
-        padding-right: 20px;
-        margin: 0;
-    }
-    .mibile_virson img {
-        max-width: 70%;
-    }
-    .mobilove_main_heading h2 {
-        color: #4F4F4F;
-        font-size: 18px;
-        line-height: 27px;
-    }
-    .mobilove_side_content{
-        padding-top: 25px;
-    }
-    .mobilove_main_content {
-        padding-top: 25px;
-    }
-    .Mobilove {
-        padding: 40px 0px;
-    }  
-    .mobilove_side_content{
-        padding-top: 10px;
-    } 
-    .mobilove_side_content img{
-        width: 125px;    
-    }
-    .mobilove_logo_para {
-        font-size: 13px;
-        line-height: 20px;
-        color: #4F4F4F;
-        margin: 0;
-    }
-    .mobilove_logo_para-2 {
-        font-size: 11px;
-        line-height: 20px;
-        font-weight: 400;
-        margin: 4px 0px !important;
-    }
-    .ready_case_link {
-        font-size: 12px;
-        line-height: 18px;
-        margin: 0 !important;
-    }
-    
-    .mobilove_side_content{
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-}
-
-@media screen and (max-width:450px){
-    .mibile_virson img {
-        max-width: 85%;
-    } 
-
-}
+  }

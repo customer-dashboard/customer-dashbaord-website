@@ -4,7 +4,7 @@
     background-position: center;
 }
 .banner_background{
-    padding: 70px 0px;
+    padding: 45px 0px;
 }
 .hero-banner-image img{
     max-width: 100%;
@@ -22,13 +22,15 @@
 }
 .built-shopify-logo{
     padding-right: 9px;
+    display: flex;
+    align-items: center;
 }
 .built-shopify-logo svg{
-    width: 1.2rem;
-    height: 1.2rem;
+    width: 1.1rem;
+    height: auto;
 }
 .built-shopify-text{
-    font-size: 18px;
+    font-size: 15.5px;
     font-weight: 600;
 }
 
@@ -49,8 +51,30 @@
     font-size: 38px;
     font-weight: 600;
 }
+.main_heading h1 span{
+    color: #eb4503;    
+}
 .main_heading p{
     line-height: 1.6;
+}
+.app__review--section .start-icons svg{
+    margin-right: 3px;
+}
+.start-icons{
+    display: flex;
+    align-items: center;
+}
+.shopify_icon{
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    font-weight: 600;
+}
+
+.app__review--section{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
 }
 
 .btns{

@@ -47,8 +47,8 @@ function BlogsGrid() {
                   <div className="container">
                    <Row className="justify-content-between align-items-center">
                     <Col lg={12}>
-                    <h1 className="fw-600 mb-4 text-center">Welcome To Customer Dashboard Pro Blogs</h1>
-                     <p className="mb-5 text-center">In these blogs, we will discuss how to improve customer accounts in Shopify for e-commerce businesses. Learn how to customize the Account page, add features, and get help with technical issues.</p>
+                    <h1 className="fw-600 text-center">Blogs</h1>
+                     {/* <p className="mb-5 text-center">In these blogs, we will discuss how to improve customer accounts in Shopify for e-commerce businesses. Learn how to customize the Account page, add features, and get help with technical issues.</p> */}
                      {/* <Button className="py-3 px-5 d-block">Get Started</Button> */}
 
                     </Col>
@@ -59,11 +59,11 @@ function BlogsGrid() {
             <div className="container">
               <div className="blg_grd_wrpr mb-5">
                 
-                <div className="grid-srchbr mb-5">
+                {/* <div className="grid-srchbr mb-5">
                 <SearchBar onSearch={setSearchTerm} />
                 
-                </div>
-                <hr className="mb-3 mt-5"/>
+                </div> */}
+                {/* <hr className="mb-3 mt-5"/> */}
 
               {
                 blogFound ? (  <Row>

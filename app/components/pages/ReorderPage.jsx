@@ -6,11 +6,11 @@ import ImageWithText from '../ImageWithText';
 import FeaturedContent from '../FeaturedContent';
 import { dataOfReOrderPageImageWithText } from '../../middleware/ImageWithTextData';
 import PagesComparison from '../PageComparision';
-import { ReOrderPageDataOfComparision } from '../../middleware/PageComparisionData';
+// import { ReOrderPageDataOfComparision } from '../../middleware/PageComparisionData';
 import TestimonialSlider from '../slider/TestimonialSlider';
 import Carousel from '../slider/Carousel';
 import TransitionEffect from '../FadeTransition/TransitionEffect';
-
+import KnowlageBase from "../KnowlageBase";
 
 function ReOrderPage() {
 
@@ -33,19 +33,25 @@ function ReOrderPage() {
 
             {/* Image With Text Component Calling Here */}
             <ImageWithText imageWithTextData={dataOfReOrderPageImageWithText} />
-
             {/* Featured Content Component Calling Here */}
+            {/* <ImageWithText withoutBackground={true} imageWithTextData={ReorderPageShowing} /> */}
+
             <div className="pageTopSectionOnHomePage" data-aos="fade-up">
                 <FeaturedContent />
             </div>
-
-            {/* Page COmparision Component Calling Here */}
-            <div className="pageTopSectionOnHomePage" data-aos="fade-up">
+               {/* Image With Text Component Calling Here */}
+             {/* Page COmparision Component Calling Here */}
+             {/* <div className="pageTopSectionOnHomePage" data-aos="fade-up">
             <PagesComparison pageData={ReOrderPageDataOfComparision} />
-            </div>
+            </div> */}
+  
+
             {/* testimonial Component Calling Here */}
             <div className="testimonialOnReOrderPage" data-aos="fade-up">
                 <TestimonialSlider/>
+            </div>
+            <div className="pageTopSectionOnHomePage" data-aos="fade-up">
+            <KnowlageBase/>
             </div>
         </>
     )

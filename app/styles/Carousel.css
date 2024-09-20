@@ -1,5 +1,5 @@
 .carousel_logo{
-    padding: 70px 0px;
+    padding: 25px 0px;
     padding-bottom: 30px;
 }
 .img {
@@ -65,6 +65,9 @@
 }
 .slick-dots {
   bottom: -55px !important;
+}
+.carousel_heading h2 strong{
+  color: #eb4503;
 }
 
 @media screen and (max-width:576px){

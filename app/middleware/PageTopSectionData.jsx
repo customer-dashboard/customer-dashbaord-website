@@ -72,3 +72,11 @@ export const CustomFieldPageData = {
     pageImageData:customeFieldImage,
     new:false
 }
+
+export const RegistrationFormPageData = {
+    pageHeading:'Custom Registration Form for Shopify: Enhance Customer Sign-Up',
+    pageSubHeading:'Unlock the Power of Customer Insights with a Seamless and Personalized Registration Process.',
+    fistPara:'Create a Unique Customer Experience on Your Shopify Store with a Custom Registration Form that Gathers All the Information You Need.',
+    secondPara:'Effortlessly Integrate Advanced Fields, Like Custom Preferences, Ensuring a Smooth and Secure Sign-Up for Your Customers.',
+    pageImageData:reoderNewGif
+}

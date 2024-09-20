@@ -9,7 +9,7 @@ import TabsStyle from '../styles/Tabs.css';
 import { Tabs } from "../components/Tabs";
 import FeaturedContent from "../components/FeaturedContent";
 import { AccountPageData } from "../middleware/PageTopSectionData";
-import Mobilove from "../components/Mobilove";
+import KnowlageBase from "../components/KnowlageBase";
 import MobiloveStyle from '../styles/Mobilove.css';
 import PagesComparison from "../components/PageComparision";
 import { AccountPageDataOfComparision } from "../middleware/PageComparisionData";
@@ -23,6 +23,11 @@ import Facility from "../components/Facility";
 import FacilityStyle from '../styles/Facility.css';
 import StartFree from "../components/StartFree";
 import StartFreeStyle from '../styles/StartFree.css';
+import VerticalTabs from '../components/vertical-tabs/VerticalTabs';
+import VerticalTab2 from '../components/vertical-tabs/VerticalTab2';
+import VerticalTabCss from '../styles/VerticalTab.css';
+// import ImageWithText from '../components/ImageWithText';
+// import {ReorderPageShowing} from '../middleware/ImageWithTextData';
 export const meta = () => {
   return [
     { title: "Manage and Customize Shopify Account Pages | Customer Dashboard Pro" },
@@ -45,12 +50,13 @@ export const links = () =>[
   {rel:'stylesheet', href:MobileTabReuseStyle},
   {rel:'stylesheet', href:TabsStyle},
   {rel:'stylesheet', href:MobiloveStyle},
-  {rel:'stylesheet', href:FaqStyle},
+  // {rel:'stylesheet', href:FaqStyle},
   {rel:'stylesheet', href:AcountPlayerStyle},
   {rel:'stylesheet', href:TestimonialSliderStyle},
   {rel:'stylesheet', href:FacilityStyle},
   {rel:'stylesheet', href:StartFreeStyle},
-  {rel:'stylesheet', href:CarouselStyle}
+  {rel:'stylesheet', href:CarouselStyle},
+  {rel:'stylesheet', href:VerticalTabCss}
 ]
 
 
@@ -64,17 +70,21 @@ export default function Index() {
 } */}
     <Banner/>
     <Carousel/>
-    <TabsReuse/>
+    <VerticalTabs/>
+    {/* <TabsReuse/> */}
     <PagesTopSection data={AccountPageData}/>
-    <Tabs/>
-    <FeaturedContent/>
-    <Mobilove/>
-    <PagesComparison pageData={AccountPageDataOfComparision}/>
-    <Faq/>
+    {/* <Tabs/> */}
+    <VerticalTab2/>
+    {/* <FeaturedContent/> */}
+    {/* <PagesComparison pageData={AccountPageDataOfComparision}/> */}
+    {/* <ImageWithText withoutBackground={true} imageWithTextData={ReorderPageShowing} /> */}
+    {/* <Faq/> */}
     <AccountPlayer/>
     <TestimonialSlider/>
     <Facility/>
+    <KnowlageBase/>
     <StartFree/>
+ 
    </>
   );
 }

@@ -1,9 +1,7 @@
 import nodemailer from 'nodemailer';
 
-export default function PartnerMail(newUser){
-    const {firstName, websiteName,chooseType, email, message} = newUser;
+export default async function PartnerMail(firstName, websiteName,chooseType, email, message){
      try {
-    console.log("1 step");
         const transporter = nodemailer.createTransport({
           service: "gmail",
             auth: {
@@ -11,10 +9,9 @@ export default function PartnerMail(newUser){
                 pass: "ibce swyq kcgq oxkr"
             }
         })
-       console.log("2 step");
         const mainOption = {
             from: "customerdashboardpro@gmail.com",
-            to: "support@customerdashboard.pro",
+            to: "swathi@mandasa.in",
             subject: `Become a partner request`,
             html: `<table style="text-align:left;width: 100%; margin: auto;  max-width:700px;background-color:#f8f8f8;border-radius:3px;font-family:helvetica;" cellpadding="10">
             <tr><td colspan="2" style="text-align:center;font-weight: bold; font-size: 20px; color: #000;padding-top:30px;" align="center">Become a partner request</td>  </tr>
@@ -47,7 +44,7 @@ export default function PartnerMail(newUser){
             console.log("Error",error);
           }else {
             console.log("EMail Sent Succsesfully"+ info.response);
-            // return json({Ok:yes},200)
+            return  info
           }
         } )
     } catch (error) {

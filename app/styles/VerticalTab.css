@@ -1,0 +1,330 @@
+.vertical-tab--wraper{
+    background-size: 1000px;
+    background-image: url(https://checkoutblocks.com/stars.webp);
+    background-color: rgb(3 7 14);
+}
+.vertical-tab--wraper .nav-pills[role="tablist"]{
+    position: relative;
+    padding: 20px 10px;
+    border-radius: 6px;
+    border: 1px solid #281717;
+}
+.c-fff{
+    color: white;
+}
+.vertical-tab--wraper .nav-item  a{
+   background: none;
+   color: #000;
+   padding: 20px;
+   cursor: pointer;
+}
+.vtab-icon{
+    margin-right: 10px;
+}
+.nav-item-b-wrapper {
+    position: absolute;
+    width: 95%;
+    height: 114px;
+    transition: transform 0.4s ease-in-out;
+    border-radius: 6px;
+    border:1px solid #6b3b3b;
+    z-index: 99;
+    transform: translateY(calc(var(--active-tab) * 100%)); 
+    background-image: linear-gradient(270deg, rgba(73, 187, 251, .15) 17.07%, rgba(73, 187, 251, 0) 82.57%);
+  }
+  .vertical-tab--wraper .nav-pills .nav-link.active{
+    background: none;
+    color: black;
+  }
+  
+  [data-active="first"] {
+    --active-tab: 0.04;
+  }
+  
+  [data-active="second"] {
+    --active-tab: 1.26; 
+  }
+  [data-active="third"] {
+    --active-tab: 2.5; 
+  }
+  [data-active="fourth"] {
+    --active-tab: 0.04;
+  }
+  [data-active="fifth"] {
+    --active-tab: 1.27; 
+  }
+  [data-active="six"] {
+    --active-tab: 2.5; 
+  }
+  [data-active="seven"] {
+    --active-tab: 0.04;
+  }
+  [data-active="eight"] {
+    --active-tab: 1.27; 
+  }
+  [data-active="nine"] {
+    --active-tab: 2.5; 
+  }
+
+  .nav-items-el h3{
+    font-size: 20px;
+    color: #f27502;
+    font-weight: 600;
+  }
+  .nav-items-el p{
+    margin-top: 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+  }
+  .vtab-icon {
+    width: 80px;
+    border: 1px solid #5e5e5e;
+    border-radius: 50%;
+    height: 80px;
+    padding: 19px;
+}
+.vtab-icon svg{
+  width: 40px;
+  height: 40px;
+}
+.account_potential h2 span{
+    color: #eb4503;
+}
+  .vertical-tab--wraper .account_potential{
+    margin-bottom: 3rem !important;
+  }
+  .vertical-tab--wraper{
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+  }
+
+@media screen and (max-width:498px) {
+  .nav-items-el h3{
+    font-size: 15px;
+  }
+  .nav-items-el p{
+    font-size: 11px;
+  }
+  .vtab-icon svg {
+    width: 30px;
+    height: 30px;
+  }
+  .vtab-icon {
+    width: 68px;
+    height: 68px;
+  }
+  [data-active="first"] {
+    --active-tab: 0;
+  }
+  
+  [data-active="second"] {
+    --active-tab: 0.95; 
+  }
+  [data-active="third"] {
+    --active-tab: 1.9; 
+  }
+  [data-active="fourth"] {
+    --active-tab: 0;
+  }
+  [data-active="fifth"] {
+    --active-tab: 0.95; 
+  }
+  [data-active="six"] {
+    --active-tab: 1.9; 
+  }
+  [data-active="seven"] {
+    --active-tab: 0;
+  }
+  [data-active="eight"] {
+    --active-tab: 0.95; 
+  }
+  [data-active="nine"] {
+    --active-tab: 1.9; 
+  }
+
+  .vertical-tab--wraper .nav-pills[role=tablist]{
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1172px){
+  [data-active="first"] {
+    --active-tab: 0.05;
+  }
+  
+  [data-active="second"] {
+    --active-tab: 1.28; 
+  }
+  [data-active="third"] {
+    --active-tab: 2.49; 
+  }
+  [data-active="fourth"] {
+    --active-tab: 0.05;
+  }
+  [data-active="fifth"] {
+    --active-tab: 1.28; 
+  }
+  [data-active="six"] {
+    --active-tab: 2.49; 
+  }
+  [data-active="seven"] {
+    --active-tab: 0.05;
+  }
+  [data-active="eight"] {
+    --active-tab: 1.28; 
+  }
+  [data-active="nine"] {
+    --active-tab: 2.49; 
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .vertical-tab--wraper{
+    padding-top: 0rem;
+    padding-bottom: 3rem;
+  }
+  .vertical-tab--wraper .second-panel .nav-pills[role=tablist]{
+    margin-top: 1rem;
+    border: 1px solid #6c4343;
+  }
+  .vertical-tab--wraper .nav-pills[role=tablist]{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-direction: row !important;
+    margin-bottom: 1rem;
+    padding: 10px;
+  }
+  .nav-items-el h3{
+    font-size: 14px;
+    color: #FFF;
+  }
+  .nav-item-b-wrapper {
+    position: absolute;
+    width: 29%;
+    height: 72px;
+    transition: transform .4s ease-in-out;
+    border-radius: 6px;
+    border: 1px solid #6b3b3b;
+    z-index: 99;
+    transform: translateX(calc(var(--active-tab)* 100%));
+    background-image: linear-gradient(270deg, rgba(73, 187, 251, .15) 17.07%, rgba(73, 187, 251, 0) 82.57%);
+}
+.vertical-tab--wraper .nav-item{
+  width: 33.33%;
+}
+.vtab-icon svg {
+  width: 30px;
+  height: 30px;
+}
+.nav-items-el p{
+  display: none;
+}
+.vtab-icon {
+  width: auto;
+  border:none;
+  border-radius: 0%;
+  height: auto;
+  padding: 0;
+}
+.vertical-tab--wraper .second-panel > div{
+  flex-direction: row-reverse !important;
+}
+[data-active="first"] {
+    --active-tab: 0.05;
+  }
+  
+  [data-active="second"] {
+    --active-tab: 1.2; 
+  }
+  [data-active="third"] {
+    --active-tab: 2.3; 
+  }
+  [data-active="fourth"] {
+    --active-tab: 0.05;
+  }
+  [data-active="fifth"] {
+    --active-tab: 1.28; 
+  }
+  [data-active="six"] {
+    --active-tab: 2.49; 
+  }
+  [data-active="seven"] {
+    --active-tab: 0.05;
+  }
+  [data-active="eight"] {
+    --active-tab: 1.28; 
+  }
+  [data-active="nine"] {
+    --active-tab: 2.49; 
+  }
+}
+
+@media screen and (max-width:599px) {
+  .vertical-tab--wraper .nav-item a{
+    padding: 10px;
+  }
+  .nav-item-b-wrapper {
+    height: 55px;
+    width: 33.33%;
+}
+}
+@media screen and (max-width: 576px) {
+  .nav-item-b-wrapper {
+      height: 45px;
+  }
+  .nav-items-el h3{
+    font-size: 12px;
+    display: none;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+  }
+  .vertical-tab--wraper .nav-item {
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-pills  .active h3{
+  display: block;
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+.nav-pills  .active .nav-item{
+  width: 50%;
+  transition: all 0.3s ease-in-out;
+}
+[data-active=second] {
+  --active-tab: 1;
+}
+[data-active=third] {
+  --active-tab: 1.9;
+}
+[data-active=fifth] {
+  --active-tab: 0.9;
+}
+[data-active=six] {
+  --active-tab: 1.9;
+}
+[data-active=seven] {
+    --active-tab: 1.9;
+}
+[data-active=eight] {
+--active-tab: 0.9;
+}
+[data-active=nine] {
+--active-tab: 1.9;
+}
+
+}
+
+@media screen and (max-width:499px) {
+  .nav-items-el h3 {
+    font-size: 7px;
+}
+}

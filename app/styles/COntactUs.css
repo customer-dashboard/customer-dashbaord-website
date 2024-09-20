@@ -1,3 +1,5 @@
+@import '@shopify/polaris/build/esm/styles.css';
+
 .contact-us-page-container{
     padding-top: 2rem;
     padding-bottom:2rem;
@@ -60,4 +62,16 @@
   .modal-title{
     font-weight: 600;
     color: green;
+  }
+  .form-submit-button{
+    padding: 13px;
+    border-radius: 30px;
+    background: #eb4503;
+    border: 1px solid #eb4503;
+    color: white;
+    transition-duration: 0.4s;
+  }
+  .form-submit-button:hover{
+     background: #ea6935;
+     transition-duration: 0.4s;
   }

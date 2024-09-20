@@ -3,6 +3,7 @@ import Navbar from "./components/header-footer/Navbar";
 import AppStyle from "./styles/App.css";
 import NavBarStyle from "./styles/Navbar.css";
 import FooterStyle from "./styles/Footer.css";
+import knowladgeBaseStyle from './styles/Mobilove.css'
 // import '@shopify/polaris/build/esm/styles.css';
 import Footer from "./components/header-footer/Footer";
 import pagesStyle from "./styles/Pages.css";
@@ -26,6 +27,7 @@ export const links = () => [
         { rel: "stylesheet", href: AppStyle },
         { rel: "stylesheet", href: NavBarStyle },
         { rel: "stylesheet", href: pagesStyle },
+        { rel: "stylesheet", href: knowladgeBaseStyle },
       ]
     : []),
 ];

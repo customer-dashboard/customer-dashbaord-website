@@ -10,6 +10,7 @@ import { dataOfRecentViewImageWithText } from '../../middleware/ImageWithTextDat
 import TestimonialSlider from '../slider/TestimonialSlider';
 import Carousel from '../slider/Carousel';
 import TransitionEffect from '../FadeTransition/TransitionEffect';
+import KnowlageBase from '../KnowlageBase';
 function RecentlyViewd() {
 
     useEffect(() => {
@@ -41,9 +42,13 @@ function RecentlyViewd() {
             {/* <div className="pageTopSectionOnHomePage" data-aos="fade-up">
             <PagesComparison pageData={RecentViewPageDataOfComparision} />
             </div> */}
+    
             {/* testimonial Component Calling Here */}
             <div className="testimonialOnReOrderPage" data-aos="fade-up">
                 <TestimonialSlider/>
+            </div>
+            <div className="pageTopSectionOnHomePage" data-aos="fade-up">
+            <KnowlageBase/>
             </div>
         </>
     )

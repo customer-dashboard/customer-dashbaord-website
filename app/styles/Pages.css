@@ -60,7 +60,7 @@
 }
 .acnt-pg-sctn-3-container p{
     font-size: 1rem;
-    color: #545454;
+    color: #FFF;
     line-height: 1.6;
     
 }
@@ -91,13 +91,16 @@
 }
 
 .shpfy-trial-demo-btn {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
     padding: 19px 10px;
     font-size: 16px;
     text-align: center;
     font-weight: 600;
     border-radius: 6px;
     border: 2px solid #000 !important;
-   display: block;
     margin-right: 10px;
     transition: all .3s ease-in-out 0s;
     color: black;
@@ -136,6 +139,7 @@
 }
 .acnt-pg-inner-feature-container h2 {
     font-weight: 700;
+    color: white;
 }
 .sec-4-acntpageconatiner{
     /* background: linear-gradient(133deg, #0087C1 0%, #1E235C 100%);    */
@@ -156,10 +160,17 @@
     font-size: 18px;
     text-align: center;
 }
+.feature-com-subhead{
+    margin-bottom: 3rem;
+}
 .feature-name {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
-    margin-top: 10px;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+.featurContent{
+    font-size: 14px;
 }
 .featuredescription{
     margin-top: 0.6rem;
@@ -169,6 +180,9 @@
     height: 55px;
     max-width: 100%;
     border-radius: 50%;
+}
+.featured-icon img{
+    max-width: 100%;
 }
 .featured-icon svg{
     height:55px;
@@ -217,9 +231,7 @@
 .sec-5columns img{
     width: 100%;
 }
-.section-5-acntpage {
-    /* background: linear-gradient(141deg, #FFF 0%, #E1E1E1 25%, #FFF 50%, #E1E1E1 75%, #E1E1E1 100%); */
-}
+
 .sec-5col-first{
     border-right:1px solid #000654;
 }
@@ -248,6 +260,17 @@
 .pnfcontainer{
     padding: 3.9rem 0rem;
 }
+@media screen and (min-width:991px) {
+    .featurContentMainWraper{
+        row-gap: 35px;
+    }
+}
+.acnt-pg-sctn-3-container{
+    background-image: url(https://www.aitrillion.com/wp-content/themes/allinone/images/newimg/subbox_Footer-image.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .main-pnf-heading h1 {
     font-size: 90px;
     background-image: linear-gradient(to right, #1A2980 0%, #434db0 51%, #1A2980 100%);
@@ -265,6 +288,7 @@
     width: 175px;
     margin: auto;
   }
+
 @media screen and (max-width:991px) {
     .shpfy-trial-demo-btn {
         font-size: 16px;
