@@ -104,7 +104,7 @@ export const dataOfTranslationPageImageWithText = [
 
 export const dataOfNavigationBuilderImageWithText = [
   {
-     "imageUrl": navigationBuilderImage,
+     "imageUrl": "https://mandasa1.b-cdn.net/customer%20dashboard%20website/navigation_02.png",
      "altText": "navigation builder image",
      right:true,
      "heading":`Strategic Shopify Menu Building for Enhanced Store Strength`,
@@ -140,7 +140,7 @@ export const dataOfCUstomFieldsImageWithText = [
 
 export const dataOfRegistrationFormImageWithText = [
   {
-     "imageUrl": navigationBuilderImage,
+     "imageUrl": "https://mandasa1.b-cdn.net/customer%20dashboard%20website/Registration%20form%202%20re.png",
      "altText": "navigation builder image",
      right:true,
      "heading": `Custom Registration Form: Tailored Sign-Up for Your Shopify Customers`,
@@ -150,7 +150,7 @@ export const dataOfRegistrationFormImageWithText = [
       `
    },
    {
-    "imageUrl": navigationBuilderImage,
+    "imageUrl": "https://mandasa1.b-cdn.net/customer%20dashboard%20website/Registration%20form%203%20re.png",
     "altText": "Custom Field and Design Options",
     right: false,  // Aligns image to the right for a varied layout
     "heading": `Personalized Sign-Up Forms: Custom Fields and Flexible Design`,
