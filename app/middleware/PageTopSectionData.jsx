@@ -61,7 +61,7 @@ export const NavigationBuilderPageData = {
     pageSubHeading:'Optimize Shopify Navigation: Empower Your Business with Streamlined Menus',
     fistPara:"Master Your Store's Navigation effortlessly with our Intuitive Builder. Customize menus seamlessly for a visually appealing and user-friendly online space. Elevate customer experience and boost engagement effortlessly.",
     secondPara:null,
-    pageImageData:navigationBuilderImage,
+    pageImageData:"https://mandasa1.b-cdn.net/customer%20dashboard%20website/navigation_01.png",
     new:false
 }
 export const CustomFieldPageData = {
@@ -78,5 +78,5 @@ export const RegistrationFormPageData = {
     pageSubHeading:'Unlock the Power of Customer Insights with a Seamless and Personalized Registration Process.',
     fistPara:'Create a Unique Customer Experience on Your Shopify Store with a Custom Registration Form that Gathers All the Information You Need.',
     secondPara:'Effortlessly Integrate Advanced Fields, Like Custom Preferences, Ensuring a Smooth and Secure Sign-Up for Your Customers.',
-    pageImageData:reoderNewGif
+    pageImageData:"https://mandasa1.b-cdn.net/customer%20dashboard%20website/Registration%20form%201%20re.png"
 }
