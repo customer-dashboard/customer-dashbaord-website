@@ -65,17 +65,18 @@
     
 }
 .acntpagmnu-hero-heading {
-    font-size: 34px;
+    font-size: 28px;
     font-weight: 700;
 }
 
 .acntpage-col-fst-cntnt h3 {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 600;
     line-height: 1.4;
 }
 .acntpage-col-fst-cntnt p{
-    color:#545454
+    color:#000;
+    font-size: 15px;
 }
 .acntpage-col-scnd-cntnt {
     display: flex;

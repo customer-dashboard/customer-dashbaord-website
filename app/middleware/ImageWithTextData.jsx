@@ -2,14 +2,7 @@
 import RevampPanelImage from '../assets/images/NewDataImages/Revamp panel.png';
 import reorderPageImage from '../assets/images/NewDataImages/new/Group 256.png';
 import customFieldImage from '../assets/images/NewDataImages/customfieldimage.png';
-import SecondImageOfReorderPage from '../assets/images/NewDataImages/new/Group 257.png';
-import Multi_Languages_Support from '../assets/images/NewDataImages/new/Translator_03.png';
 import recentlyImage from '../assets/images/NewDataImages/new/Recently viewed products_02.png';
-import TranslateImage from '../assets/images/NewDataImages/new/Translator_04.png';
-import TopOrderImageWithText from '../assets/images/NewDataImages/new/Top ordered products_02.png'
-import navigationBuilderImage from '../assets/images/NewDataImages/new/Navigation builder_01.png'
-import customFieldImage_1 from '../assets/images/NewDataImages/new/custom field_02.png';
-import customFieldImage_2 from '../assets/images/NewDataImages/new/custom field_03.png';
 
  export const dataOfAccountPageImageWithText = [
      {
@@ -30,9 +23,9 @@ import customFieldImage_2 from '../assets/images/NewDataImages/new/custom field_
 ]
 export const dataOfReOrderPageImageWithText = [
   {
-    "imageUrl": 'https://mandasa1.b-cdn.net/customer%20dashboard%20website/reorder%20youtube.mp4',
+    "imageUrl": 'https://mandasa1.b-cdn.net/customer%20dashboard%20website/reorder_02.png',
     "altText": "re-order",
-    video:true,
+    video:false,
     right:false,
     "heading":`Revolutionize Reordering with Customer Dashboard Pro`,
     caption: `<p className='mt-3'>Elevate Your Shopping Experience Through Advanced Order Management and Seamless Navigation.Experience Unmatched Convenience and Precision in Order Management.</p>`
@@ -71,7 +64,7 @@ export const dataOfRecentViewImageWithText = [
 
 export const dataOfTopOrderedProductImageWithText = [
   {
-     "imageUrl": TopOrderImageWithText,
+     "imageUrl": "https://mandasa1.b-cdn.net/customer%20dashboard%20website/Toporder_02.png",
      "altText": "Top-Ordere-Product-Image",
      right:true,
      "heading":`EXCLUSIVE SELECTIONS: Unveiling Our Top-Ordered Products`,
@@ -84,7 +77,7 @@ export const dataOfTopOrderedProductImageWithText = [
 
 export const dataOfTranslationPageImageWithText = [
   {
-     "imageUrl": TranslateImage,
+     "imageUrl": "https://mandasa1.b-cdn.net/customer%20dashboard%20website/Translations%2002.png",
      "altText": "translation-page-image-2",
      right:true,
      "heading":`Smooth Translation Experience: Effortlessly Customize in Your Preferred Language`,
@@ -92,7 +85,7 @@ export const dataOfTranslationPageImageWithText = [
      <p>Unlock the power of translation tools, enhancing your browsing experience by adapting content to your language.</p>`
    },
    {
-    "imageUrl": Multi_Languages_Support,
+    "imageUrl": "https://mandasa1.b-cdn.net/customer%20dashboard%20website/Translations%2003.png",
     "altText": "translation-page-image-3",
     right:false,
     "heading":`Transform Your Website: Discover Easy Translation Tools`,
@@ -117,7 +110,7 @@ export const dataOfNavigationBuilderImageWithText = [
 
 export const dataOfCUstomFieldsImageWithText = [
   {
-     "imageUrl": customFieldImage_1,
+     "imageUrl": "https://mandasa1.b-cdn.net/customer%20dashboard%20website/custome%20filed%20_02.png",
      "altText": "custom field image",
      right:true,
      "heading":`Empower Your Store: Create Custom Fields with Ease`,
@@ -126,7 +119,7 @@ export const dataOfCUstomFieldsImageWithText = [
      `
    },
    {
-    "imageUrl": customFieldImage_2,
+    "imageUrl": "https://mandasa1.b-cdn.net/customer%20dashboard%20website/custome%20filed%20_03.png",
     "altText": "custom field image-2",
     right:false,
     "heading":`Capture Data According to Your Preferences, in Just One Click`,
