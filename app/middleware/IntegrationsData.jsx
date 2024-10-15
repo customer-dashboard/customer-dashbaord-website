@@ -66,6 +66,7 @@ import DropCommerceUsDropShopping from '../assets/images/Logo/DropCommerce US Dr
 import taglio_reviews_logo from '../assets/images/Logo/taglio-reviews-logo.webp';
 import gdprCoockies_logo from '../assets/images/Logo/gdpr-coockie-consent.webp';
 import searchingBoxDropshippinglog from '../assets/images/Logo/searchingbox-dropshipping.webp';
+import TrackingMoreLogo from '../assets/images/Logo/TrackingMoreLogo.webp';
 
 export const integrationdata = [
   {
@@ -242,6 +243,14 @@ export const partnerData = [
     blog:false,
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: TrackingMoreLogo, 
+    heading: "TrackingMore Order Tracking",
+    content:"Realtime branded tracking enhances shopper experience and reduces WISMO, leading to more conversions.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/trackingmore?utm_source=customer-dashboard-pro"
   },
   {
     logo: gdprCoockies_logo, 

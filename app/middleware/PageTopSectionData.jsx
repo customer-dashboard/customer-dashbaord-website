@@ -21,7 +21,8 @@ export const reOrderPageData = {
     pageSubHeading:'Streamline Customer Reorders Effortlessly with Our Customer Dashboard Pro.',
     fistPara:'Facilitate an Easy Reorder Process for Customers on Your Shopify Store.',
     secondPara:'Simplify Your Shopping Experience: Effortlessly Explore Order History and Add Past Purchases to Your Cart with a Single Click Using Customer Dashboard Pro.',
-    pageImageData:reoderNewGif
+    pageImageData:"https://mandasa1.b-cdn.net/customer%20dashboard%20website/reorder-new.hevc.mp4",
+    video:true
 }
 
 export const recentlyViewPageData = {

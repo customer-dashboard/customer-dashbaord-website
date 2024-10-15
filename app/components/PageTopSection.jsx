@@ -46,10 +46,17 @@ function PagesTopSection(props) {
                                 </div>
                                     </div>
                                 </Col>
-                                <Col lg={6} className='acntpage-col-scnd col-md-6 mob-order after-md-margin-top'>
+                                <Col lg={data.video === true ? 7 : 6} className='acntpage-col-scnd col-md-6 mob-order after-md-margin-top'>
                                     <div className="acntpage-col-scnd-cntnt">
                                         {/* <Image src={data.pageImageData} alt='account-page-image'></Image> */}
-                                        <LazyLoadedImage src={data.pageImageData} alt="account-page-image" />
+                                        
+                                        {
+                                            data.video === true ? 
+                                            <video width="100%" height="100%"  muted autoPlay loop>
+                                            <source src={data.pageImageData} type="video/mp4"/>
+                                           </video>
+                                            : <LazyLoadedImage src={data.pageImageData} alt="account-page-image" />
+                                        }
                                     </div>
                                 </Col>
                             </Row>

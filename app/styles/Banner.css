@@ -116,13 +116,13 @@ video{
 
 @media screen and (max-width:991px) {
     .main_heading h1 {
-        font-size: 30px;
-        line-height: 46px;
-        text-align: center;
+        font-size: 24px;
+        line-height: 36px;
+        /* text-align: center; */
     }
     .main_heading p {
-        font-size: 20px;
-        text-align: center;
+        font-size: 16px;
+        /* text-align: center; */
     }
    
     .span_3{
@@ -137,7 +137,7 @@ video{
 
 @media screen and (min-width:991px) and (max-width:1200px){
     .main_heading h1{
-        font-size: 24px;
+        font-size: 26px;
     }
     .span_3 {
         font-size: 19px;
