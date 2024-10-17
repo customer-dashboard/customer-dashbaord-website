@@ -30,7 +30,7 @@ function Banner() {
                                 </div>
                                 <div className="app__review--section">
                                   <span className="start-icons">{startIcon}{startIcon}{startIcon}{startIcon}{startIcon}</span> 
-                                   <span className="shopify_icon">55 + Reviews from {shopifyIcon}</span>
+                                   <span className="shopify_icon">60 + Reviews from {shopifyIcon}</span>
                                 </div>
                                 <div className="main_section_btn">
                                     <Row>

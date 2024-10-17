@@ -247,10 +247,10 @@ export const partnerData = [
   {
     logo: TrackingMoreLogo, 
     heading: "TrackingMore Order Tracking",
-    content:"Realtime branded tracking enhances shopper experience and reduces WISMO, leading to more conversions.",
+    content:"Best shipment tracking solution that integrates with over 1300 carriers worldwide, track your orders in real-time and takes your post-purchase experience to the next level!.",
     blog:false,
     blogLink:"/klaviyo-blog",
-    link:"https://apps.shopify.com/trackingmore?utm_source=customer-dashboard-pro"
+    link:"https://affiliate.trackingmore.net/?ref=nXvDPou5 "
   },
   {
     logo: gdprCoockies_logo, 
