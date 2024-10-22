@@ -67,6 +67,8 @@ import taglio_reviews_logo from '../assets/images/Logo/taglio-reviews-logo.webp'
 import gdprCoockies_logo from '../assets/images/Logo/gdpr-coockie-consent.webp';
 import searchingBoxDropshippinglog from '../assets/images/Logo/searchingbox-dropshipping.webp';
 import TrackingMoreLogo from '../assets/images/Logo/TrackingMoreLogo.webp';
+import IcartLogo from '../assets/images/Logo/IcartLogo.webp';
+import ToasibarLogo from '../assets/images/Logo/ToastiBar-Logo1200X1200.webp';
 
 export const integrationdata = [
   {
@@ -243,6 +245,22 @@ export const partnerData = [
     blog:false,
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: ToasibarLogo, 
+    heading: "ToastiBar - Sales Popup",
+    content:"Build trust & boost sales by showing Sales, Cart, Visitors, Reviews, Summaries, Low Inventories Notifications, and more.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://makeprosimp.com/partnership/mandasa-technologies-mt-customer-dashboard-pro-toastibar"
+  },
+  {
+    logo: IcartLogo, 
+    heading: "iCart Cart Drawer Cart Upsell",
+    content:"Boost AOV with a slide cart drawer showing in cart upsell offers like progress bar, free gift, etc",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/icart?utm_source=customer-dashboard-pro"
   },
   {
     logo: TrackingMoreLogo, 
