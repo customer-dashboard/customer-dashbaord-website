@@ -11,6 +11,7 @@ import TestimonialSlider from '../slider/TestimonialSlider';
 import Carousel from '../slider/Carousel';
 import TransitionEffect from '../FadeTransition/TransitionEffect';
 import KnowlageBase from '../KnowlageBase';
+import { FeaturedData, featuresPageHeadings } from '../../middleware/FeaturedContentDataM';
 function RecentlyViewd() {
 
     useEffect(() => {
@@ -35,7 +36,7 @@ function RecentlyViewd() {
 
             {/* Featured Content Component Calling Here */}
             <div className="pageTopSectionOnHomePage" data-aos="fade-up">
-                <FeaturedContent />
+                <FeaturedContent data={featuresPageHeadings} features={FeaturedData} />
             </div>
 
             {/* Page COmparision Component Calling Here */}

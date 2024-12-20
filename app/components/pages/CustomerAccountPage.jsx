@@ -10,6 +10,7 @@ import PagesComparison from '../PageComparision';
 import { AccountPageDataOfComparision } from '../../middleware/PageComparisionData';
 import TestimonialSlider from '../slider/TestimonialSlider';
 import Carousel from '../slider/Carousel';
+import { FeaturedData, featuresPageHeadings } from '../../middleware/FeaturedContentDataM';
 function CustomerAccountPage() {
 
     useEffect(() => {
@@ -41,7 +42,7 @@ function CustomerAccountPage() {
 
             {/* Featured Content Component Calling Here */}
             <div className="pageTopSectionOnHomePage" data-aos="fade-up">
-                <FeaturedContent />
+                <FeaturedContent data={featuresPageHeadings} features={FeaturedData}/>
             </div>
 
             {/* Page COmparision Component Calling Here */}

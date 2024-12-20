@@ -151,7 +151,7 @@ body {
     .manu-page-title h1{
         font-size: 44px;
     }
- 
+    
 
 }
 @media screen and (max-width:544px){
@@ -164,12 +164,60 @@ body {
     .mt-xsm-3{
         margin-top: 1rem !important;
     }
-   
+   .image_with_text_new_sub_heading h6{
+    line-height: 22px;
+   }
    
 }
 
 @media screen and (min-width:991px) and (max-width:1200px){
     .col-xmd-3{
         width: 33.33% !important;
+    }
+}
+
+@media screen and (min-width:991px){
+    .image_with_text_new_button{
+        width: 50%;
+    }
+    .image_with_text_new_button a{
+        width: 100%;
+    }
+}
+
+
+
+.image_with_text_new_heading h2{
+    font-weight: 600;
+    line-height: 43px;
+    font-size: 28px;
+}
+.image_with_text_new_heading h2 span, .feature-com-head h2 span, .feature-com-head p span{
+    color: #eb4503;
+}
+
+.image_with_text_new_para p{
+    line-height: 28px;
+    color: #635858;
+    font-weight: 600;
+}
+.image_with_text_new_sub_heading h6{
+    font-size: 18px;
+    line-height: 26px;
+}
+
+@media screen and (max-width: 768px) {
+    .image_with_text_new_heading h2{
+        font-size: 22px;
+        line-height: 34px;
+    }
+    .image_with_text_new_para p{
+        font-size: 14px;
+    }
+    .image_with_text_new_button{
+        width: 100%;
+    }
+    .image_with_text_new_button a{
+        width: 100%;
     }
 }

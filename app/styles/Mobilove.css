@@ -1,9 +1,10 @@
 .know_ladge__base--container__wraper{
     background-image: url(https://www.aitrillion.com/wp-content/themes/allinone/images/newimg/subbox_Footer-image.png);
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
+
 
   .knowladgebase_main-content__wraper{
     display: flex;
@@ -35,5 +36,11 @@
     }
     .know_ladge__base--container__wraper h2{
       font-size: 38px;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .know_ladge__base--container__wraper{
+      background-size: auto;
     }
   }

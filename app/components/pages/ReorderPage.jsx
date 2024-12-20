@@ -11,6 +11,7 @@ import TestimonialSlider from '../slider/TestimonialSlider';
 import Carousel from '../slider/Carousel';
 import TransitionEffect from '../FadeTransition/TransitionEffect';
 import KnowlageBase from "../KnowlageBase";
+import { FeaturedData, featuresPageHeadings } from '../../middleware/FeaturedContentDataM';
 
 function ReOrderPage() {
 
@@ -37,7 +38,7 @@ function ReOrderPage() {
             {/* <ImageWithText withoutBackground={true} imageWithTextData={ReorderPageShowing} /> */}
 
             <div className="pageTopSectionOnHomePage" data-aos="fade-up">
-                <FeaturedContent />
+                <FeaturedContent  data={featuresPageHeadings} features={FeaturedData}/>
             </div>
                {/* Image With Text Component Calling Here */}
              {/* Page COmparision Component Calling Here */}
