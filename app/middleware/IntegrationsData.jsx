@@ -69,6 +69,7 @@ import searchingBoxDropshippinglog from '../assets/images/Logo/searchingbox-drop
 import TrackingMoreLogo from '../assets/images/Logo/TrackingMoreLogo.webp';
 import IcartLogo from '../assets/images/Logo/IcartLogo.webp';
 import ToasibarLogo from '../assets/images/Logo/ToastiBar-Logo1200X1200.webp';
+import SearchPiLogo from '../assets/images/Logo/SearchPie-seo-logo.jpg';
 
 export const integrationdata = [
   {
@@ -245,6 +246,14 @@ export const partnerData = [
     blog:false,
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: SearchPiLogo, 
+    heading: "SearchPie SEO & Speed Optimize",
+    content:"Boost SEO and rank higher on search result today with SearchPie app",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://partners.secomapp.com/apps/searchpie/CDP"
   },
   {
     logo: ToasibarLogo, 
