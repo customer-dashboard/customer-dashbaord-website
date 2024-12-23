@@ -60,7 +60,7 @@ function Banner() {
                             </Col>
                             <Col lg={7}>
                                 <div className="shopify_video banner_video hero-banner-image">
-                                    <Image src="https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/main%20banner%20image%20(2).png" alt="Shopify new customer account hero banner image" title="Shopify new customer account"/>
+                                    <Image src="https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/main%20banner%20image%20(3).png" alt="Shopify new customer account hero banner image" title="Shopify new customer account"/>
                                 </div>
                             </Col>
                         </Row>

@@ -21,7 +21,7 @@ export const orderTrackingWidget = [
         "buttonUrl":"https://apps.shopify.com/customer-dashboard-pro",
         "button":true,
         "imageAlt":"order tracking map and graph with customer dashboard pro ",
-        "imageUrl":"https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/order%20tracking.png",
+        "imageUrl":"https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/order%20tracking%20(1).png",
         "imageLeft":true
     }
 ]
