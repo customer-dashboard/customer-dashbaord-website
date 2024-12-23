@@ -8,7 +8,7 @@ function Eleven() {
           width="100%"
           height="100%"
           src="https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/Testimonials.png"
-          alt="Shopify customer account testimonials from customer account pro : MT"
+          alt="Shopify customer account testimonials from customer dashboard pro"
           title="Shopify customer account testimonials"
         />
       </Zoom>

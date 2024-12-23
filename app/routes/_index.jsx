@@ -25,14 +25,14 @@ import FeaturedContent from '../components/FeaturedContent';
 import { orderTrackingWidget, customFieldData } from '../middleware/new-customer-account/ImageWithText'
 import { HomePageFeatures, homePageHeadings } from "~/middleware/FeaturedContentDataM";
 
-
+ 
 export const meta = () => {
   return [
-    { title: "Customize Shopify Customer Account Pages | Customer Account Pro : MT" },
-    { name: "description", content: "Looking to Take Control Manage and Customize of Your Shopify Customer Account Pages? Look No Further Than Customer Account Pro : MT. Easily Manage and Customize Your Shopify Account Pages With Ease." },
+    { title: "Customize Shopify Customer Account Pages | Customer Dashboard Pro : MT" },
+    { name: "description", content: "Looking to Take Control Manage and Customize of Your Shopify Customer Account Pages? Look No Further Than Customer Dashboard Pro. Easily Manage and Customize Your Shopify Account Pages With Ease." },
     { name: "keywords", content: "Shopify Customer Accounts Page,customer account shopify, Customer Account Page, Customer Dashboard Pro Account Page, Shopify Account Page" },
-    {property:"og:title", content:"Customize Shopify Customer Account Pages | Customer Account Pro : MT"},
-    {property:"og:description", content:"Looking to Take Control Manage and Customize of Your Shopify Customer Account Pages? Look No Further Than Customer Account Pro : MT. Easily Manage and Customize Your Shopify Account Pages With Ease."},
+    {property:"og:title", content:"Customize Shopify Customer Account Pages | Customer Dashboard Pro : MT"},
+    {property:"og:description", content:"Looking to Take Control Manage and Customize of Your Shopify Customer Account Pages? Look No Further Than Customer Dashboard Pro. Easily Manage and Customize Your Shopify Account Pages With Ease."},
     {
       tagName: "link",
       rel: "canonical",

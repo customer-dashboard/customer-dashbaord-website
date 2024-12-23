@@ -107,7 +107,7 @@ export const HomePageFeatures = [
         featureDescription:"Earn rewards and loyalty points with every purchase.",
         featuredContent:"Seamlessly Track and Redeem Your Customer Rewards",
         featureImage:'https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/Group%205.png',
-        imageAlt:"Customer account pro loyalty and rewards point"
+        imageAlt:"Customer dashboard pro loyalty and rewards point"
     },
     {
         featureIcon:RewardsIcon,
@@ -147,7 +147,7 @@ export const HomePageFeatures = [
         featureDescription:"Strengthen your identity with powerful and unique branding.",
         featuredContent:"Seamlessly Track and Redeem Your Customer Rewards",
         featureImage:'https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/Group%209%20(1).png',
-        imageAlt:"Change color branding of new customer account with Customer account pro : MT"
+        imageAlt:"Change color branding of new customer account with Customer dashboard pro"
     },
     {
         featureIcon:RewardsIcon,
@@ -163,7 +163,7 @@ export const HomePageFeatures = [
 
 export const featuresPageHeadings = [
     {
-        "heading":"Explore Customer Account Pro: MT Beyond Basic Shopify Accounts.",
+        "heading":"Explore Customer Dashboard Pro Beyond Basic Shopify Accounts.",
         "subheading":"Revolutionize Customer Interaction: Unleash the Power of Customer Dashboard Pro's Advanced Features for Unparalleled Insights and Engagement.",
         "className":"features-page-headings",
     }
@@ -171,7 +171,7 @@ export const featuresPageHeadings = [
 
 export const homePageHeadings = [
     {
-        "heading":"Unlock the Power of <span> New Customer Accounts</span> with Customer Account Pro - MT",
+        "heading":"Unlock the Power of <span> New Customer Accounts</span> with Customer Dashboard Pro",
         "subheading":"Enhance your Shopify store with personalized features for <span> Shopify's New Customer Accounts</span>",
         "className":"home-page-headings",
     }

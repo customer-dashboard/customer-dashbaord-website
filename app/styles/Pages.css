@@ -386,6 +386,9 @@
         max-width: 1200px !important;
         padding: 15px 2rem;
     }
+    .home_page_features_new h2{
+        font-size: 1.8rem;
+    }
 }
 
 @media screen and (max-width:921px) {
