@@ -56,7 +56,7 @@ function Banner() {
                                         </Col>
                                     </Row>
                                 </div>
-                          
+                            
                             </Col>
                             <Col lg={7}>
                                 <div className="shopify_video banner_video hero-banner-image">
