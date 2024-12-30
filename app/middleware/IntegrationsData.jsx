@@ -70,6 +70,7 @@ import TrackingMoreLogo from '../assets/images/Logo/TrackingMoreLogo.webp';
 import IcartLogo from '../assets/images/Logo/IcartLogo.webp';
 import ToasibarLogo from '../assets/images/Logo/ToastiBar-Logo1200X1200.webp';
 import SearchPiLogo from '../assets/images/Logo/SearchPie-seo-logo.jpg';
+import scalifyLogo from '../assets/images/Logo/Scalify_2_logo.png';
 
 export const integrationdata = [
   {
@@ -246,6 +247,14 @@ export const partnerData = [
     blog:false,
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: scalifyLogo, 
+    heading: "Scalify",
+    content:"Launch, analyze, optimize and scale your ads faster with game-changing automation.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://scalify.com?utm_source=customer-dashboard-pro"
   },
   {
     logo: SearchPiLogo, 

@@ -135,7 +135,7 @@ export const HomePageFeatures = [
     },
     {
         featureIcon:AccountIcon,
-        featureName:"Promostional Banners",
+        featureName:"Promotional Banners",
         featureDescription:"Eye-catching banners to boost your product visibility.",
         featuredContent:"Enhance Your Shopify Account with Advanced Tools",
         featureImage:'https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/Group%208%20(1).png',
