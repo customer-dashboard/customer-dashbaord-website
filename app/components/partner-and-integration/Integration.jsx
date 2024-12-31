@@ -24,11 +24,11 @@ function Integration(props) {
                                   <Col lg={3} className="in-pnr-logo-img col-md-3 col-sm-3">
                                   {
                                     items.blog === true ? (
-                                      <Link to={items.blogLink}>
+                                      <Link to={items.blogLink} className='integration_and_partner'>
                                       <LazyLoadedImage src={items.logo} alt="integration-logo" />
                                       </Link>
                                     ) : (
-                                      <Link to={items.link} target='_blank'>
+                                      <Link to={items.link} className='integration_and_partner' target='_blank'>
                                       <LazyLoadedImage src={items.logo} alt="integration-logo" />
                                       </Link>
                                     )

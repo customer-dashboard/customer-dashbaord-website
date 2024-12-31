@@ -37,7 +37,7 @@ const BrandingIcon = <svg xmlns="http://www.w3.org/2000/svg" width="128" height=
     {
         featureIcon:AccountIcon,
         featureName:"Account",
-        featureDescription:"This is used for wishlist product",
+        // featureDescription1:"This is used for wishlist product",
         featureDescription:"Enhance Your Shopify Account with Advanced Tools",
         featureImage:'https://mandasa1.b-cdn.net/customer%20dashboard%20website/account.png',
         imageAlt:"Account"
@@ -45,7 +45,7 @@ const BrandingIcon = <svg xmlns="http://www.w3.org/2000/svg" width="128" height=
     {
         featureIcon:RewardsIcon,
         featureName:"Rewards",
-        featureDescription:"This is used for wishlist product",
+        featureDescription1:"This is used for wishlist product",
         featureDescription:"Seamlessly Track and Redeem Your Customer Rewards",
         featureImage:'https://mandasa1.b-cdn.net/customer%20dashboard%20website/reword.png',
         imageAlt:"Customer Reward "
@@ -53,7 +53,7 @@ const BrandingIcon = <svg xmlns="http://www.w3.org/2000/svg" width="128" height=
     {
         featureIcon:ReOrdericon,
         featureName:"Re-order",
-        featureDescription:"This is used for wishlist product",
+        featureDescription1:"This is used for wishlist product",
         featureDescription:"Simplify Your Shopping with Easy Re-order Options",
         featureImage:'https://mandasa1.b-cdn.net/customer%20dashboard%20website/reorder01.png',
         imageAlt:"Customer Re-order"
@@ -61,7 +61,7 @@ const BrandingIcon = <svg xmlns="http://www.w3.org/2000/svg" width="128" height=
     {
         featureIcon:Wishlisticon,
         featureName:"Wishlist",
-        featureDescription:"This is used for wishlist product",
+        featureDescription1:"This is used for wishlist product",
         featureDescription:"Boost Sales with Personalized Customer Wishlists",
         featureImage:'https://mandasa1.b-cdn.net/customer%20dashboard%20website/wishlist01.png',
         imageAlt:"customer acccount wishlist "
@@ -69,7 +69,7 @@ const BrandingIcon = <svg xmlns="http://www.w3.org/2000/svg" width="128" height=
     {
         featureIcon:RecentlyViewIcon,
         featureName:"Recently Viewd",
-        featureDescription:"This is used for wishlist product",
+        featureDescription1:"This is used for wishlist product",
         featureDescription:"Boost Conversions with Recently Viewed Items Display",
         featureImage:'https://mandasa1.b-cdn.net/customer%20dashboard%20website/recently%20viewd.png',
         imageAlt:"customer acccount page recentlyviewed products"
@@ -80,7 +80,7 @@ const BrandingIcon = <svg xmlns="http://www.w3.org/2000/svg" width="128" height=
         featureDescription:"This is used for Reward product",
         featureDescription:"Boost Sales with Top Ordered Recommendations",
         featureImage:'https://mandasa1.b-cdn.net/customer%20dashboard%20website/top%20order.png',
-        imageAlt:"Shopify's customer account top order products"
+        imageAlt:"Shopify customer account top order products"
     }
 ]
 
@@ -171,8 +171,8 @@ export const featuresPageHeadings = [
 
 export const homePageHeadings = [
     {
-        "heading":"Unlock the Power of <span> New Customer Accounts</span> with Customer Dashboard Pro",
-        "subheading":"Enhance your Shopify store with personalized features for <span> Shopify's New Customer Accounts</span>",
+        "heading":"Unlock the Power of <span>Customer Accounts</span> with Customer Dashboard Pro",
+        "subheading":"Enhance Your Shopify Store with Personalized Features for <span> Shopify New and Legacy Customer Accounts</span>",
         "className":"home-page-headings",
     }
 ]

@@ -4,7 +4,7 @@
 .integrations-partners-page h1{
     font-size: 52px;
 }
-.partners-integrations-main-content-wraper img{
+.partners-integrations-main-content-wraper a.integration_and_partner img{
     max-width: 100%;
     width: 55px;
     border-radius: 8px;

@@ -1,6 +1,6 @@
 export const customFieldData = [
     {
-        "title":"Customer Dashboard Pro Simplify Profile Fields for Shopify's",
+        "title":"Customer Dashboard Pro Simplify Profile Fields for Shopify",
         "titleColor":"New Customer Accounts",
         "subTitle":"Customizable Profile Fields for In-Depth Customer Information",
         "description":"Upgrade Shopify ‘New Customer Accounts’ with Customer Dashboard Pro collect more data, build profiles, and boost revenue with personalization.",
@@ -15,9 +15,9 @@ export const customFieldData = [
 export const orderTrackingWidget = [
     {
         "title":"Effortless Order Tracking with Interactive Map in",
-        "titleColor":"Shopify's New Customer Account",
+        "titleColor":"Shopify New Customer Account",
         "subTitle":"Interactive Order Tracking Maps for a Seamless New Customer Account Experience",
-        "description":"Upgrade Shopify’s ‘New Customer Accounts’ with Customer Dashboard Pro to track orders seamlessly and boost satisfaction with interactive maps.",
+        "description":"Upgrade Shopify ‘New Customer Accounts’ with Customer Dashboard Pro to track orders seamlessly and boost satisfaction with interactive maps.",
         "buttonUrl":"https://apps.shopify.com/customer-dashboard-pro",
         "button":true,
         "imageAlt":"order tracking map and graph with customer dashboard pro ",

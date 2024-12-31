@@ -1,6 +1,7 @@
 import React from 'react'
 import IntegrationPagesStyle from '../styles/Integration.css';
 import IntegrationsAndPartners from '../components/pages/IntegrationsAndPartners';
+import { partnerData } from '../middleware/IntegrationsData';
 export const links = () => [{ rel: "stylesheet", href: IntegrationPagesStyle }];
 export const meta = () => {
   return [
@@ -12,7 +13,7 @@ export const meta = () => {
     {
       tagName: "link",
       rel: "canonical",
-      href: "https://customerdashboard.pro/partners-and-integrations",
+      href: "https://customerdashboard.pro/partners",
     },
   ];
 };
@@ -21,7 +22,7 @@ function IntegrationsPartners() {
   return (
     <>
         
-        <IntegrationsAndPartners/>
+        <IntegrationsAndPartners data={partnerData} heading="Partners" />
     
     </>
   )

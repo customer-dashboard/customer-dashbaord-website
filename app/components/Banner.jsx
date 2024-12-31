@@ -43,16 +43,11 @@ function Banner() {
                                             </div>
                                         </Col>
                                         <Col lg={6} className="col-md-6 col-sm-6 my-md-4 my-sm-4 my-x-sm col-x-sm-6 ">
-                                            <div className="forever transition-duretion">
-                                            <a href="https://apps.shopify.com/customer-dashboard-pro" target="_blank" rel="noreferrer">
-                                            <Button className=" f_btn btns">
-                                                <div>
-                                                    <span className="span_3 banner-span">Free Forever</span>
-                                                    <span className="span_4 banner-span">for new shopify merchants</span>
-                                                </div>
-                                            </Button>
+                                        <div className='transition-duretion banner_second_btn'>
+                                            <a target="_blank" href="https://customer-dashboard.myshopify.com/password" className="btn header_btn  btn btn-primary">
+                                                View Demo
                                             </a>
-                                            </div>
+                                        </div>
                                         </Col>
                                     </Row>
                                 </div>

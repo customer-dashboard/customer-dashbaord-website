@@ -24,6 +24,9 @@ import ImageWithTextS from '../components/new-customer-account/ImageWithTextS';
 import FeaturedContent from '../components/FeaturedContent';
 import { orderTrackingWidget, customFieldData } from '../middleware/new-customer-account/ImageWithText'
 import { HomePageFeatures, homePageHeadings } from "~/middleware/FeaturedContentDataM";
+import FeaturesTabForBothAccountType from '../components/new-customer-account/FeaturesTabForBothAccountType';
+import IntegrationStyle from '../styles/Integration.css';
+// import '@shopify/polaris/build/esm/styles.css';
 
  
 export const meta = () => {
@@ -53,7 +56,9 @@ export const links = () =>[
   {rel:'stylesheet', href:FacilityStyle},
   {rel:'stylesheet', href:StartFreeStyle},
   {rel:'stylesheet', href:CarouselStyle},
-  {rel:'stylesheet', href:VerticalTabCss}
+  {rel:'stylesheet', href:VerticalTabCss},
+  {rel:'stylesheet', href:IntegrationStyle}
+
 ]
 
 
@@ -64,7 +69,8 @@ export default function Index() {
     <Banner/>
     <Carousel/>
     <div className="pageTopSectionOnHomePage home_page_features_new" >
-        <FeaturedContent data={homePageHeadings} features={HomePageFeatures}/>
+        {/* <FeaturedContent data={homePageHeadings} features={HomePageFeatures}/> */}
+        <FeaturesTabForBothAccountType />
     </div>
     <ImageWithTextS data={customFieldData} />
     <VerticalTab3/>

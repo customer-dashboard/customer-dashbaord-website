@@ -1,7 +1,7 @@
 .navbar-nav a{
     padding: 0px 1.1rem !important;
-    color: black;
-    font-weight: 500;
+    color: #555555;
+    font-weight: 600;
     font-size: 15px;
 }
 .main-headernav:after {
@@ -84,12 +84,15 @@
 }
 .dropdown-menu a{
     padding: 4px 1rem !important;
-    color: black;
+    color: #555555;
     font-size: 14px;
 }
 .button_shopify{
     text-decoration:none;
     color: initial;
+}
+.integrations_legacy_account{
+    color: black !important;
 }
 .customer_logo{
     width: 18%;

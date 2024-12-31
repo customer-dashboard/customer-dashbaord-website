@@ -27,8 +27,8 @@ function VerticalTab3() {
     <section className='vertical-tab--wraper'>
     <div className="vertical-tabs">
       <div className="container">
-      <div class="plugin new_account_tabs_features account_potential mb-4"><h2>Discover the Power of <span className='uniqu_color'>Shopify's New Customer Account</span> Features With Customer Dashboard Pro</h2>
-      <p className='mt-3'>Enhance the customer experience with powerful tools, engaging widgets, and innovative features designed exclusively for <span>Shopify's new customer accounts.</span></p></div>
+      <div class="plugin new_account_tabs_features account_potential mb-4"><h2>Discover the Power of <span className='uniqu_color'>Shopify New Customer Account</span> Features With Customer Dashboard Pro</h2>
+      <p className='mt-3'>Enhance the customer experience with powerful tools, engaging widgets, and innovative features designed exclusively for <span>Shopify new customer accounts.</span></p></div>
       <Tab.Container id="left-tabs-example" activeKey={activeTab} onSelect={handleTabSelect}>
       <Row className='align-items-center justify-content-between'>
         <Col lg={5} className='col-md-6'>

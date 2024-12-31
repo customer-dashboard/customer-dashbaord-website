@@ -5,7 +5,7 @@ import { Tabs, Tab } from "react-bootstrap";
 import { partnerData } from "../../middleware/IntegrationsData";
 import { integrationdata } from "../../middleware/IntegrationsData";
 import TransitionEffect from "../FadeTransition/TransitionEffect";
-function IntegrationsAndPartners() {
+function IntegrationsAndPartners({data, heading}) {
   useEffect(() => {
    TransitionEffect();
   }, []);
@@ -16,9 +16,10 @@ function IntegrationsAndPartners() {
         <div className="container">
           <div className="partners-integrations-main-content-wraper pt-4">
             <div className="p-i-h text-center mb-5 pb-3">
-              <h1 className="fw-600">Partners & Integrations</h1>
+              <h1 className="fw-600">{heading}</h1>
             </div>
-            <Tabs
+            <Integration data={data}/>
+            {/* <Tabs
               defaultActiveKey="Partners"
               id="fill-tab-example"
               className="mb-3"
@@ -30,7 +31,7 @@ function IntegrationsAndPartners() {
               <Tab eventKey="Integrations" title="Integrations" className="tab-2__">
               <Integration data={integrationdata}/>
               </Tab>
-            </Tabs>
+            </Tabs> */}
           </div>
         </div>
       </section>

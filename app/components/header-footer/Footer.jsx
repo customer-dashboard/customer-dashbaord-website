@@ -44,7 +44,7 @@ const Footer = () => <footer className="page-footer font-small blue pt-4 my-foot
                         <ul className="list-unstyled text-align-left">
                         {/* <li><Link to='/#' className="text-reset">Integration</Link></li> */}
                         <li><Link to='/become-a-partner' className="text-reset">Become a Partner</Link></li>
-                        <li><Link to='/partners-and-integrations' className="text-reset">Partners & Integrations</Link></li>
+                        <li><Link to='/partners' className="text-reset">Partners</Link></li>
                          {/* <li><Link to='/#' className="text-reset">Careers</Link></li> */}
                       </ul>
                         </Accordion.Body>
@@ -70,7 +70,7 @@ const Footer = () => <footer className="page-footer font-small blue pt-4 my-foot
                 <ul className="list-unstyled text-align-left">
                         {/* <li><Link to='/#' className="text-reset">Integration</Link></li> */}
                         <li><Link to='/become-a-partner' className="text-reset">Become a Partner</Link></li>
-                        <li><Link to='/partners-and-integrations' className="text-reset">Partners & Integrations</Link></li>
+                        <li><Link to='/partners' className="text-reset">Partners</Link></li>
                          {/* <li><Link to='/#' className="text-reset">Careers</Link></li> */}
                 </ul>
             </div>

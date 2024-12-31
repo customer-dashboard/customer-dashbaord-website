@@ -165,20 +165,20 @@
     margin-bottom: 3rem;
 }
 .feature-name {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     margin-top: 12px;
     margin-bottom: 8px;
 }
 .featurContent{
-    font-size: 14px;
+    font-size: 13px;
 }
 .featuredescription{
     margin-top: 0.6rem;
 }
 .featured-icon{
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     max-width: 100%;
     border-radius: 50%;
 }
