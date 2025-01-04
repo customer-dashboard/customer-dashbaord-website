@@ -21,12 +21,12 @@ import VerticalTab2 from '../components/vertical-tabs/VerticalTab2';
 import VerticalTab3 from '../components/vertical-tabs/VerticalTab3';
 import VerticalTabCss from '../styles/VerticalTab.css';
 import ImageWithTextS from '../components/new-customer-account/ImageWithTextS';
-import FeaturedContent from '../components/FeaturedContent';
 import { orderTrackingWidget, customFieldData } from '../middleware/new-customer-account/ImageWithText'
-import { HomePageFeatures, homePageHeadings } from "~/middleware/FeaturedContentDataM";
 import FeaturesTabForBothAccountType from '../components/new-customer-account/FeaturesTabForBothAccountType';
 import IntegrationStyle from '../styles/Integration.css';
-// import '@shopify/polaris/build/esm/styles.css';
+import { useOutletContext } from "@remix-run/react";
+import ChooseAccountType from '../components/Modals/ChooseAccountType';
+import { useEffect, useState } from "react";
 
  
 export const meta = () => {
@@ -64,20 +64,42 @@ export const links = () =>[
 
 
 export default function Index() {
+  const { modalShow, setModalShow }  = useOutletContext();
+  const [showComponents, setShowComponents] = useState(null);
+
+  useEffect(()=>{
+    const accountType = localStorage.getItem("AccountType");
+    if(accountType){
+      console.log("accountType:",accountType);
+      setShowComponents(accountType);
+    }
+  },[])
+
+  console.log("show components:",showComponents);
+
   return (
    <>
-    <Banner/>
+    <ChooseAccountType showComponents={showComponents} setShowComponents={setShowComponents} />
+
+    <Banner modalShow={modalShow} setModalShow={setModalShow} />
     <Carousel/>
-    <div className="pageTopSectionOnHomePage home_page_features_new" >
-        {/* <FeaturedContent data={homePageHeadings} features={HomePageFeatures}/> */}
-        <FeaturesTabForBothAccountType />
-    </div>
-    <ImageWithTextS data={customFieldData} />
-    <VerticalTab3/>
-    <ImageWithTextS data={orderTrackingWidget} />
-    <VerticalTabs/>
-    <PagesTopSection data={AccountPageData}/>
-    <VerticalTab2/>
+    {/* <div className="pageTopSectionOnHomePage home_page_features_new" >
+           <FeaturesTabForBothAccountType />
+     </div> */}
+    {
+       showComponents == 'New Customer Account' ? <>
+       <ImageWithTextS data={customFieldData} />
+       <VerticalTab3/>
+       <ImageWithTextS data={orderTrackingWidget} />
+       </> : ''
+    }
+    {
+       showComponents == 'Classic Customer Account' ? <>
+          <VerticalTabs/>
+          <PagesTopSection data={AccountPageData} modalShow={modalShow} setModalShow={setModalShow}/>
+          <VerticalTab2/>
+       </> : ''
+     }
     <AccountPlayer/>
     <TestimonialSlider/>
     <Facility/>

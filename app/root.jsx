@@ -17,7 +17,7 @@ import {
 } from "@remix-run/react";
 import { cssBundleHref } from "@remix-run/css-bundle";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export const links = () => [
   ...(cssBundleHref
@@ -33,6 +33,9 @@ export const links = () => [
 ];
 
 export default function App() {
+
+  const [modalShow, setModalShow] = useState(false);
+
   useEffect(() => {
     !(function (e, t, n) {
       function a() {
@@ -68,9 +71,9 @@ export default function App() {
         <Links />
       </head>
       <body>
-        <Navbar />
-        <Outlet />
-        <Footer />
+        <Navbar modalShow={modalShow} setModalShow={setModalShow}  />
+        <Outlet context={{modalShow, setModalShow}} />
+        <Footer modalShow={modalShow} setModalShow={setModalShow} />
         <ScrollRestoration />
         <Scripts />
         <LiveReload />

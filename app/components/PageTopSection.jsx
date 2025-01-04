@@ -1,13 +1,16 @@
 import { Col, Row, Image, Button } from 'react-bootstrap'
 import LazyLoadedImage from '../components/lazyLoadImage/LazyLoadImage';
 import shopifyOfficialLogoBlack from '../assets/images/ofiicialBlackShopifyLogo.png'
+import { VideDemoModal } from './Modals/VideDemoModal';
 
 function PagesTopSection(props) {
-    const { data } = props;
+    const { data, modalShow, setModalShow } = props;
     return (
         <>
-
-
+            <VideDemoModal
+                show={modalShow}
+                onHide={() => setModalShow(false)}
+            />
             <section className='customer-account-page-manu'>
                 <div className='container'>
                     <div className='page-content customer-account-page-manu-content'>
@@ -40,7 +43,13 @@ function PagesTopSection(props) {
                                             </div>
                                         </Col>
                                         <Col lg={6} className="col-md-6 col-sm-6 my-md-4 my-sm-4 my-x-sm col-xsm-6 ">
-                                        <Button href='https://customer-dashboard.myshopify.com/account/login' target='_blank' className='transition-duretion shpfy-trial-demo-btn acntpagedmobtn'>View Demo Store</Button>
+                                        {/* <Button onClick={()=>setModalShow(true)} target='_blank' className='transition-duretion shpfy-trial-demo-btn acntpagedmobtn'>View Demo Store</Button> */}
+                                        {/* <Button href='https://customer-dashboard.myshopify.com/account/login' target='_blank' className='transition-duretion shpfy-trial-demo-btn acntpagedmobtn'>View Demo Store</Button> */}
+                                        <div className='transition-duretion banner_second_btn'>
+                                            <a onClick={()=>setModalShow(true)}  className="btn header_btn  btn btn-primary">
+                                                View Demo
+                                            </a>
+                                        </div>
                                         </Col>
                                     </Row>
                                 </div>

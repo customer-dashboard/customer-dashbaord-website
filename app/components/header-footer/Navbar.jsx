@@ -3,9 +3,10 @@ import { useState, useEffect } from "react";
 import { Button, Container, Nav, NavDropdown, Navbar,Image } from "react-bootstrap";
 // import newLogo from '../assets/images/Logo/newLogo.png'
 import newLogo from '../../assets/images/Logo/newLogo.png'
+import { VideDemoModal } from '../Modals/VideDemoModal';
 
-function Header() {
-
+function Header(props) {
+    const { modalShow, setModalShow }  = props;
     const [isSticky, setSticky] = useState(false);
 
     // Add an event listener to track the scroll position
@@ -53,7 +54,11 @@ function Header() {
     }
     return (
         <>
-        
+
+            <VideDemoModal
+                show={modalShow}
+                onHide={() => setModalShow(false)}
+            />
             <Navbar expand="lg" className={isSticky ? 'sticky-header nav_navbar' : 'nav_navbar'}>
                 <Container>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggle_btn hamburger-icon"/>
@@ -61,7 +66,8 @@ function Header() {
                         <Image src={newLogo}></Image>
                     </Link>
                     <div className="min-width-header-btn">
-                    <Button variant="primary" href="https://customer-dashboard.myshopify.com" target="_blank" className="btn header_btn btn-md ml-15 d-none-min-991">View Demo</Button>
+                    {/* <Button  variant="primary" href="https://customer-dashboard.myshopify.com" target="_blank" className="btn header_btn btn-md ml-15 d-none-min-991">View Demo</Button> */}
+                    <Button onClick={() => setModalShow(true)} variant="primary"  className="btn header_btn btn-md ml-15 d-none-min-991">View Demo</Button>
                     </div>
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                         <Nav>
@@ -115,7 +121,7 @@ function Header() {
                                 {/* <Link to="/become-a-partner" className="Nav-item nav-link-custom nav-link-custom-drppdown">Become a Partner</Link> */}
                                 <Link to="/partners" className=" Nav-item nav-link-custom nav-link-custom-drppdown">Partners</Link>
                                 {/* <Link to="/#" className="Nav-item nav-link-custom">Case Study</Link> */}
-                                <Link to="/become-a-partner" className="Nav-item nav-link-custom">Become a partner</Link>
+                                <Link to="/become-a-partner" className="Nav-item nav-link-custom nav-link-custom-drppdown">Become a partner</Link>
                             </NavDropdown>
                             {/* <Link to="/faqs" className=" main-headernav Nav-item nav-link-custom">Faq's</Link> */}
                             <Link to="/pricing" className=" main-headernav Nav-item nav-link-custom">Pricing</Link>
@@ -134,7 +140,8 @@ function Header() {
                        </Nav>
                       
                     </Navbar.Collapse>
-                     <Button variant="primary" href="https://customer-dashboard.myshopify.com" target="_blank" rel="noreferrer" className="btn header_btn btn-md ml-15 d-none-991">View Demo</Button>
+                     <Button variant="primary" onClick={()=>setModalShow(true)} className="btn header_btn btn-md ml-15 d-none-991">View Demo</Button>
+                     {/* <Button variant="primary" href="https://customer-dashboard.myshopify.com" target="_blank" rel="noreferrer" className="btn header_btn btn-md ml-15 d-none-991">View Demo</Button> */}
                 </Container>
             </Navbar>
         </>
