@@ -395,7 +395,7 @@ body {
     font-weight: 600;
     font-family: monospace;
     padding: 0px 10px;
-    font-size: 14px;
+    font-size: 13.2px;
     border-radius: 5px;
 }
 .account_feature_name{
@@ -518,3 +518,19 @@ body {
     }
   }
   
+  .account_version_features_wraper img{
+    width: 75%;
+  }
+
+
+  @media screen and (max-width:991px) {
+    .customer_account_version_classic{
+        margin-top: 12px;
+    }
+    .account_feature_badge{
+        font-size: 12px;
+    }
+    .account_version_features_wraper img{
+        width: 100%;
+      }
+  }

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Col, Row } from 'react-bootstrap'
+import { Button, Col, Image, Row } from 'react-bootstrap'
 
 function ChooseAccountType(props) {
 
@@ -20,13 +20,13 @@ function ChooseAccountType(props) {
             <div className='container'>
                 <h2 className='text-center fw-600'>Choose which version of <span style={{color:"#eb4503"}}>Customer Account</span> you are using</h2>
                 <div className='choose_version_subhead mt-4 mb-4 text-center fw-600'>
-                    <p>Select Your Preferred <span>Customer Account Type:</span> Whether You're Looking for a <span>New Customer Account</span> That Offers the Latest Features or the <span>Classic Customer Account</span> That Provides a Tried-and-Tested Experience, We Have Both Options Ready for You.</p>
+                    <p><span>Customer Dashboard Pro</span> proudly stands as the only app offering seamless support for both the <span>New Customer Accounts </span> (passwordless login with a one-time verification code) and the <span>Legacy Customer Accounts</span>  (email and password login).</p>
                 </div>
                 <div>
                 </div>
                 <Row className={`align-items-center justify-content-center mt-5 ${!showComponents ? "button__ btn__ btn--shockwave is-active__" : ''}`} >
                     <Col lg={5}>
-                        <div onClick={()=>handleChooseAccountType("New Customer Account")} className={`customera_account_version customer_account_version_classic ${showComponents == 'New Customer Account' ? 'selected__version__' : ''} `}>
+                        <div onClick={()=>handleChooseAccountType("New Customer Account")} className={`customera_account_version customer_account_version_new ${showComponents == 'New Customer Account' ? 'selected__version__' : ''} `}>
                             <div className="account_version_features_wraper">
                                 <div className="features_container_ text-center">
                                     <div className="account_feature_badge">
@@ -41,6 +41,7 @@ function ChooseAccountType(props) {
                                     <div className="account_feature_content">
                                         Customers log in with a one-time code sent to their email (no password). Works with B2B 
                                     </div>
+                                    <Image src='https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/new%20(2).png' alt='new customer account login page image' title='new customer account login page image' />
                                     {/* <div className="account_feature_content_data">
                                         <div className='text-center fw-600 account_feature_name'>Features</div>
                                         <div className="account_feature_content_data_item">
@@ -76,11 +77,12 @@ function ChooseAccountType(props) {
                                         <div className="account_feature_circle_in"></div>
                                     </div>
                                     <div className="account_feature_name">
-                                        Classic Customer Account
+                                        Legacy  Customer Account
                                     </div>
                                     <div className="account_feature_content">
                                         Customers create an account and log in with email and password 
                                     </div>
+                                    <Image src='https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/old%20(2).png' alt='legacy customer account login page image' title='legacy customer account login page image' />
                                     {/* <div className="account_feature_content_data">
                                         <div className='text-center fw-600 account_feature_name'>Features</div>
                                         <div className="account_feature_content_data_item">
