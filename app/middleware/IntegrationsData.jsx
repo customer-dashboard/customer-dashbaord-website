@@ -71,6 +71,7 @@ import IcartLogo from '../assets/images/Logo/IcartLogo.webp';
 import ToasibarLogo from '../assets/images/Logo/ToastiBar-Logo1200X1200.webp';
 import SearchPiLogo from '../assets/images/Logo/SearchPie-seo-logo.jpg';
 import scalifyLogo from '../assets/images/Logo/Scalify_2_logo.png';
+import Utterbond_Logo from '../assets/images/Logo/utterbond_.webp';
 
 export const integrationdata = [
   {
@@ -247,6 +248,14 @@ export const partnerData = [
     blog:false,
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: Utterbond_Logo, 
+    heading: "Utterbond Subscriptions App",
+    content:"The subscriptions app offers recurring payments, custom subscriptions, build a box bundles, & more.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/utterbond-subscriptions?utm_source=customer-dashboard-pro"
   },
   {
     logo: scalifyLogo, 

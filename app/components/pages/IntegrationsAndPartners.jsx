@@ -1,9 +1,9 @@
 import React from "react";
 import { useEffect } from "react";
 import Integration from "../partner-and-integration/Integration";
-import { Tabs, Tab } from "react-bootstrap";
-import { partnerData } from "../../middleware/IntegrationsData";
-import { integrationdata } from "../../middleware/IntegrationsData";
+// import { Tabs, Tab } from "react-bootstrap";
+// import { partnerData } from "../../middleware/IntegrationsData";
+// import { integrationdata } from "../../middleware/IntegrationsData";
 import TransitionEffect from "../FadeTransition/TransitionEffect";
 function IntegrationsAndPartners({data, heading}) {
   useEffect(() => {
