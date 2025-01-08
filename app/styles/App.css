@@ -371,7 +371,7 @@ body {
 }
 
 .features_container_{
-    padding: 30px;
+    padding: 20px;
     /* border: 1px solid; */
     border-radius: 8px;
     position: relative;
@@ -522,6 +522,57 @@ body {
     width: 75%;
   }
 
+  .button-container_ {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 0.35s ease, transform 0.35s ease;
+  }
+  
+  .button-container_.hidden {
+    opacity: 0;
+    transform: scale(0.9);
+    pointer-events: none; /* Prevent interaction when hidden */
+  }
+  
+  .button-container_.visible {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .animated-button {
+    padding: 12px 28px;
+    background-color: #dc3545;
+    color: #fff;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px #0000001a;
+    transition: background-color .35s ease, box-shadow .35s ease;
+    font-size: 14px;
+  }
+  
+  .animated-button:hover {
+    background-color: #cd0606;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .zoom-in-zoom-out {
+    animation: zoom-in-zoom-out 2s ease-out infinite;
+  }
+  
+  @keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.15);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+
 
   @media screen and (max-width:991px) {
     .customer_account_version_classic{
@@ -534,3 +585,12 @@ body {
         width: 100%;
       }
   }
+
+  @media screen and (max-width: 576px) {
+    #choose-customer-account-version h2{
+        font-size: 20px;
+    }
+    .choose_version_subhead {
+        font-size: 14px;
+    }
+ }

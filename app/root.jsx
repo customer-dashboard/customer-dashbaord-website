@@ -34,7 +34,7 @@ export const links = () => [
 
 export default function App() {
 
-  const [modalShow, setModalShow] = useState(false);
+  const [showComponents, setShowComponents] = useState(null);
 
   useEffect(() => {
     !(function (e, t, n) {
@@ -71,9 +71,9 @@ export default function App() {
         <Links />
       </head>
       <body>
-        <Navbar modalShow={modalShow} setModalShow={setModalShow}  />
-        <Outlet context={{modalShow, setModalShow}} />
-        <Footer modalShow={modalShow} setModalShow={setModalShow} />
+        <Navbar  />
+        <Outlet context={ { showComponents, setShowComponents } } />
+        <Footer  />
         <ScrollRestoration />
         <Scripts />
         <LiveReload />

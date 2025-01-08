@@ -24,9 +24,9 @@ import ImageWithTextS from '../components/new-customer-account/ImageWithTextS';
 import { orderTrackingWidget, customFieldData } from '../middleware/new-customer-account/ImageWithText'
 import FeaturesTabForBothAccountType from '../components/new-customer-account/FeaturesTabForBothAccountType';
 import IntegrationStyle from '../styles/Integration.css';
-import { useOutletContext } from "@remix-run/react";
 import ChooseAccountType from '../components/Modals/ChooseAccountType';
 import { useEffect, useState } from "react";
+import { useOutletContext } from "@remix-run/react";
 
  
 export const meta = () => {
@@ -64,8 +64,8 @@ export const links = () =>[
 
 
 export default function Index() {
-  const { modalShow, setModalShow }  = useOutletContext();
-  const [showComponents, setShowComponents] = useState(null);
+  // const [showComponents, setShowComponents] = useState(null);
+  const { showComponents, setShowComponents } = useOutletContext();
 
   useEffect(()=>{
     const accountType = localStorage.getItem("AccountType");
@@ -80,8 +80,7 @@ export default function Index() {
   return (
    <>
     <ChooseAccountType showComponents={showComponents} setShowComponents={setShowComponents} />
-
-    <Banner modalShow={modalShow} setModalShow={setModalShow} />
+    <Banner showComponents={showComponents} />
     <Carousel/>
     {/* <div className="pageTopSectionOnHomePage home_page_features_new" >
            <FeaturesTabForBothAccountType />
@@ -96,7 +95,7 @@ export default function Index() {
     {
        showComponents == 'Classic Customer Account' ? <>
           <VerticalTabs/>
-          <PagesTopSection data={AccountPageData} modalShow={modalShow} setModalShow={setModalShow}/>
+          <PagesTopSection showComponents={showComponents} data={AccountPageData} />
           <VerticalTab2/>
        </> : ''
      }

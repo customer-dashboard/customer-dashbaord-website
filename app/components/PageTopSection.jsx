@@ -4,13 +4,9 @@ import shopifyOfficialLogoBlack from '../assets/images/ofiicialBlackShopifyLogo.
 import { VideDemoModal } from './Modals/VideDemoModal';
 
 function PagesTopSection(props) {
-    const { data, modalShow, setModalShow } = props;
+    const { data, showComponents } = props;
     return (
         <>
-            <VideDemoModal
-                show={modalShow}
-                onHide={() => setModalShow(false)}
-            />
             <section className='customer-account-page-manu'>
                 <div className='container'>
                     <div className='page-content customer-account-page-manu-content'>
@@ -46,9 +42,17 @@ function PagesTopSection(props) {
                                         {/* <Button onClick={()=>setModalShow(true)} target='_blank' className='transition-duretion shpfy-trial-demo-btn acntpagedmobtn'>View Demo Store</Button> */}
                                         {/* <Button href='https://customer-dashboard.myshopify.com/account/login' target='_blank' className='transition-duretion shpfy-trial-demo-btn acntpagedmobtn'>View Demo Store</Button> */}
                                         <div className='transition-duretion banner_second_btn'>
-                                            <a onClick={()=>setModalShow(true)}  className="btn header_btn  btn btn-primary">
+                                            <a  
+                                                target={showComponents ? '_blank' : ''}
+                                                href={  showComponents == 'New Customer Account' ? "https://shopify.com/73535684832/account"
+                                                         : showComponents == 'Classic Customer Account'
+                                                         ? "https://customer-dashboard.myshopify.com"
+                                                         : "#choose-customer-account-version"
+                                                      }
+                                                className="btn header_btn  btn btn-primary"
+                                                >
                                                 View Demo
-                                            </a>
+                                                </a>
                                         </div>
                                         </Col>
                                     </Row>

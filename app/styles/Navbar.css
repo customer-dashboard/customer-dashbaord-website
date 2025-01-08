@@ -1,8 +1,9 @@
 .navbar-nav a{
     padding: 0px 1.1rem !important;
-    color: #555555;
+    color: #000000;
     font-weight: 600;
     font-size: 15px;
+    font-family: system-ui;
 }
 .main-headernav:after {
     content: '';
@@ -98,6 +99,13 @@
     width: 18%;
     margin: auto;
 }
+
+
+.desk_shopify_official_logo__{
+    width: 190px !important;
+    margin-left: 15px;
+}
+
 @media screen and (min-width:991px){
     .d-none-min-991{
         display: none;
@@ -114,6 +122,9 @@
     }
     .customer_logo{
         width: 25%;
+    }
+    .min-width-header-btn .shopify_official_logo__ {
+        width: 170px;
     }
 }
 
@@ -137,6 +148,9 @@
     }
     .my-footer{
         padding-top: 60px !important;
+    }
+    .min-width-header-btn .shopify_official_logo__ {
+        width: 140px;
     }
 }
 
