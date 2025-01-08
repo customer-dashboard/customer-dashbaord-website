@@ -1,33 +1,23 @@
 export async function action({ request }) {
-
-    const formData = await request.formData();
-  
-    const title = formData.get('title');
-  
-    const content = formData.get('content');
-  
-  
-  
-    // Perform your logic to store the new post data (e.g., database interaction)
-  
-  
-  
-    return redirect('/posts'); // Redirect to a list of posts after successful submission
-  
+  const corsHeaders = {
+    "Access-Control-Allow-Origin": "*", // Replace '*' with specific origin(s) for better security
+    "Access-Control-Allow-Methods": "POST, OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type",
+  };
+  if (request.method === "OPTIONS") {
+    return new Response(null, { headers: corsHeaders });
   }
-  
-  
-  
-  // In your component:
-  
-  
-  
-  <form method="post" action="/metal-specialist">
-  
-    <input type="text" name="title" placeholder="Title" />
-  
-    <textarea name="content" placeholder="Content" />
-  
-    <button type="submit">Create Post</button>
-  
-  </form>
+  try {
+    const body = await request.json();
+    console.log("Received data:", body);
+    return new Response(JSON.stringify({ message: "Data received successfully!", data: body }), {
+      headers: corsHeaders,
+    });
+  } catch (error) {
+    console.error("Error handling POST request:", error);
+    return new Response(JSON.stringify({ error: "Invalid request", details: error.message }), {
+      status: 400,
+      headers: corsHeaders,
+    });
+  }
+}
