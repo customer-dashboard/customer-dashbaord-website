@@ -72,6 +72,7 @@ import ToasibarLogo from '../assets/images/Logo/ToastiBar-Logo1200X1200.webp';
 import SearchPiLogo from '../assets/images/Logo/SearchPie-seo-logo.jpg';
 import scalifyLogo from '../assets/images/Logo/Scalify_2_logo.png';
 import Utterbond_Logo from '../assets/images/Logo/utterbond_.webp';
+import doranProductReview from '../assets/images/Logo/doran_product_review.png';
 
 export const integrationdata = [
   {
@@ -248,6 +249,14 @@ export const partnerData = [
     blog:false,
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: doranProductReview, 
+    heading: "Doran Product Reviews",
+    content:"FREE app to collect customer reviews with videos and photos.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/doran-reviews-questions?utm_source=customer_dashboard_pro"
   },
   {
     logo: Utterbond_Logo, 
