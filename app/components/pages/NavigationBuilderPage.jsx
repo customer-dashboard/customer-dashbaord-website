@@ -12,8 +12,8 @@ import KnowlageBase from '../KnowlageBase';
 import { FeaturedData, featuresPageHeadings } from '../../middleware/FeaturedContentDataM';
 
 
-function NavigationBuilderPage() {
-
+function NavigationBuilderPage(props) {
+    const { showComponents } = props;
     useEffect(() => {
         TransitionEffect();
     }, []);
@@ -24,7 +24,7 @@ function NavigationBuilderPage() {
 
             {/* Page Top Section Component Calling Here */}
             <div className="pageTopSectionOnReorderPage" data-aos="fade-up">
-                <PagesTopSection data={NavigationBuilderPageData} />
+                <PagesTopSection showComponents={showComponents} data={NavigationBuilderPageData} />
             </div>
             {/* Carousel Component Calling Here */}
             <div className="carousel-section-on-re-order--page" data-aos='fade-up'>

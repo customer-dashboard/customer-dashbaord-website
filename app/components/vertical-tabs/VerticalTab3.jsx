@@ -4,7 +4,9 @@ import {vTabData4} from '../vertical-tabs/VerticalTabsData';
 import Ten  from '../vertical-tabs/AllTabsData/more-tabs/Ten'
 import Eleven  from '../vertical-tabs/AllTabsData/more-tabs/Eleven'
 import Twelve  from '../vertical-tabs/AllTabsData/more-tabs/Twelve'
-function VerticalTab3() {
+import ViewDemoButton from '../../middleware/new-customer-account/ViewDemoButton';
+function VerticalTab3(props) {
+  const { showComponents } = props;
   const [activeTab, setActiveTab] = useState("ten");
   const handleTabSelect = (eventKey) => {
     setActiveTab(eventKey);
@@ -62,6 +64,9 @@ function VerticalTab3() {
         </Col>
       </Row>
       </Tab.Container>
+      <div className='mt-5'>
+       <ViewDemoButton showComponents={showComponents} />
+      </div>
       </div>
       </div>
     </section>

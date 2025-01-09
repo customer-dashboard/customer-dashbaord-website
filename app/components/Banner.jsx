@@ -37,7 +37,7 @@ function Banner(props) {
                                 </div>
                                 <div className="main_section_btn">
                                     <Row>
-                                        <Col lg={6} className="col-md-6 col-sm-6 my-md-4 my-sm-4 my-x-sm col-x-sm-6">
+                                        <Col lg={5} className="col-md-6 col-sm-6 my-md-4 my-sm-4 my-x-sm col-x-sm-6">
                                             <div className="shopify transition-duretion">
                                             <Button href="https://apps.shopify.com/customer-dashboard-pro" target="_blank" rel="norefferer" className="d-flex s_btn btns justify-content-evenly shopify-official-logo-black">
                                                 <Image src={shopifyOfficialLogoBlack} alt="Shopify-official-logo-black"></Image>
@@ -45,11 +45,8 @@ function Banner(props) {
                                             </Button>
                                             </div>
                                         </Col>
-                                        <Col lg={6} className="col-md-6 col-sm-6 my-md-4 my-sm-4 my-x-sm col-x-sm-6 ">
+                                        <Col lg={5} className="col-md-6 col-sm-6 my-md-4 my-sm-4 my-x-sm col-x-sm-6 ">
                                         <div className='transition-duretion banner_second_btn'>
-                                            {/* <a className="btn header_btn  btn btn-primary">
-                                                View Demo
-                                            </a> */}
                                             <a  
                                                 target={showComponents ? '_blank' : ''}
                                                 href={  showComponents == 'New Customer Account' ? "https://shopify.com/73535684832/account"

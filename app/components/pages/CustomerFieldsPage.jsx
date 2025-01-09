@@ -12,8 +12,8 @@ import KnowlageBase from '../KnowlageBase';
 import { FeaturedData, featuresPageHeadings } from '../../middleware/FeaturedContentDataM';
 
 
-function CustomerFieldsPage() {
-
+function CustomerFieldsPage(props) {
+    const { showComponents } = props;
     useEffect(() => {
         TransitionEffect();
     }, []);
@@ -24,7 +24,7 @@ function CustomerFieldsPage() {
 
             {/* Page Top Section Component Calling Here */}
             <div className="pageTopSectionOnReorderPage" data-aos="fade-up">
-                <PagesTopSection data={CustomFieldPageData} />
+                <PagesTopSection showComponents={showComponents} data={CustomFieldPageData} />
             </div>
             {/* Carousel Component Calling Here */}
             <div className="carousel-section-on-re-order--page" data-aos='fade-up'>

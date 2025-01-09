@@ -12,19 +12,18 @@ import KnowlageBase from '../KnowlageBase';
 import { FeaturedData, featuresPageHeadings } from '../../middleware/FeaturedContentDataM';
 
 
-function TopOrderProductPage() {
-
+function TopOrderProductPage(props) {
+    const { showComponents } = props;
     useEffect(() => {
         TransitionEffect();
     }, []);
-
 
     return (
         <>
 
             {/* Page Top Section Component Calling Here */}
             <div className="pageTopSectionOnReorderPage" data-aos="fade-up">
-                <PagesTopSection data={topOrderProductPagedata} />
+                <PagesTopSection showComponents={showComponents} data={topOrderProductPagedata} />
             </div>
             {/* Carousel Component Calling Here */}
             <div className="carousel-section-on-re-order--page" data-aos='fade-up'>

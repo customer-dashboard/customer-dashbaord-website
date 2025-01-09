@@ -1,10 +1,9 @@
-import React from 'react';
-import { Col, Container, Image, Row } from 'react-bootstrap';
-
-function ImageWithTextS({data}) {
+import { Button, Col, Container, Image, Row } from 'react-bootstrap';
+import shopifyOfficialLogoBlack from '../../assets/images/ofiicialBlackShopifyLogo.png';
+function ImageWithTextS({data, showComponents}) {
   return (
     <>
-    
+     
     <section className="image_with_text_new">
                 <div className="banner_background">
                     <Container>
@@ -19,10 +18,32 @@ function ImageWithTextS({data}) {
                                 <div className='image_with_text_new_para mb-4'>
                                     <p>{data[0].description}</p>
                                 </div>
-                                <div className='image_with_text_new_button'>
-                                    <a target="_blank" href={data[0].buttonUrl} className="btn header_btn  btn btn-primary">
-                                        Install now
-                                    </a>
+                                <div className="main_section_btn">
+                                    <Row>
+                                        <Col lg={5} className="col-md-6 col-sm-6 my-md-4 my-sm-4 my-x-sm col-x-sm-6">
+                                            <div className="shopify transition-duretion">
+                                            <Button href="https://apps.shopify.com/customer-dashboard-pro" target="_blank" rel="norefferer" className="d-flex s_btn btns justify-content-evenly shopify-official-logo-black">
+                                                <Image src={shopifyOfficialLogoBlack} alt="Shopify-official-logo-black"></Image>
+                                              {/* <LazyLoadedImage src={shopifyOfficialLogoBlack} alt="Shopify-official-logo-black" /> */}
+                                            </Button>
+                                            </div>
+                                        </Col>
+                                        <Col lg={5} className="col-md-6 col-sm-6 my-md-4 my-sm-4 my-x-sm col-x-sm-6 ">
+                                        <div className='transition-duretion banner_second_btn'>
+                                            <a  
+                                                target={showComponents ? '_blank' : ''}
+                                                href={  showComponents == 'New Customer Account' ? "https://shopify.com/73535684832/account"
+                                                         : showComponents == 'Classic Customer Account'
+                                                         ? "https://customer-dashboard.myshopify.com"
+                                                         : "#choose-customer-account-version"
+                                                      }
+                                                className="btn header_btn btn btn-primary"
+                                                >
+                                                View Demo
+                                                </a>
+                                        </div>
+                                        </Col>
+                                    </Row>
                                 </div>
                             </Col>
                             <Col lg={7}>

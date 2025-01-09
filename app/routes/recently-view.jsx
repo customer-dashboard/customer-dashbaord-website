@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 // import ReOrderPage from '../components/ReorderPage';
 import RecentlyViewd from '../components/pages/RecentlyViewd';
 import TestimonialStyle from '../styles/TestimonialSlider.css';
 import PageStyle from '~/styles/Pages.css';
 import CarouselStyle from '../styles/Carousel.css';
+import { useOutletContext } from '@remix-run/react';
 
 export const links = () =>[
   {rel:'stylesheet', href:PageStyle},
@@ -28,11 +29,17 @@ export const meta = () => {
 };
 
 function RecentlyViewPage() {
-
+    const { showComponents, setShowComponents } = useOutletContext();
+    useEffect(()=>{
+      const accountType = localStorage.getItem("AccountType");
+      if(accountType){
+        setShowComponents(accountType);
+      }
+    },[])
     return (
         <>
         
-            <RecentlyViewd/>
+            <RecentlyViewd showComponents={showComponents} />
         
         </>
     );

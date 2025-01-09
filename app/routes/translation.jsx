@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import TranslationPage from '../components/pages/TranslationPage';
 import TestimonialStyle from '../styles/TestimonialSlider.css';
 import CarouselStyle from '../styles/Carousel.css';
+import { useOutletContext } from '@remix-run/react';
 
 export const links = () =>[
   {rel:'stylesheet',href:TestimonialStyle},
@@ -24,10 +25,18 @@ export const meta = () => {
 };
 
 function translation() {
+  const { showComponents, setShowComponents } = useOutletContext();
+
+  useEffect(()=>{
+    const accountType = localStorage.getItem("AccountType");
+    if(accountType){
+      setShowComponents(accountType);
+    }
+  },[])
   return (
     <>
     
-        <TranslationPage/>    
+        <TranslationPage showComponents={showComponents} />    
     
 
     </>

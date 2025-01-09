@@ -14,8 +14,8 @@ import KnowlageBase from '../KnowlageBase';
 import { FeaturedData, featuresPageHeadings } from '../../middleware/FeaturedContentDataM';
 
 
-function RegistrationFormPage() {
-
+function RegistrationFormPage(props) {
+    const { showComponents } = props;
     useEffect(() => {
         TransitionEffect();
     }, []);
@@ -26,7 +26,7 @@ function RegistrationFormPage() {
 
             {/* Page Top Section Component Calling Here */}
             <div className="pageTopSectionOnReorderPage" data-aos="fade-up">
-                <PagesTopSection data={RegistrationFormPageData} />
+                <PagesTopSection showComponents={showComponents} data={RegistrationFormPageData} />
             </div>
             {/* Carousel Component Calling Here */}
             <div className="carousel-section-on-re-order--page" data-aos='fade-up'>

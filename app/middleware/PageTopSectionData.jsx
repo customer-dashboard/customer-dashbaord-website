@@ -13,7 +13,8 @@ export const AccountPageData = {
         pageSubHeading:'Unleash the Power of Your Shopify Customer Accounts.',
         fistPara:'Guide customers effortlessly through their account pages for a frictionless experience.',
         secondPara:'Learn how to turn account interactions into opportunities for growth.',
-        pageImageData:NewAccountPagefoAccountPageData
+        pageImageData:NewAccountPagefoAccountPageData,
+        video:false
 }
 
 export const reOrderPageData = {

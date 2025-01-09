@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import TestimonialStyle from '../styles/TestimonialSlider.css';
 import topOrderPageStyle from '~/styles/Pages.css';
 import CarouselStyle from '../styles/Carousel.css';
 import TopOrderProductPage from '../components/pages/TopOrderProductPage';
+import { useOutletContext } from '@remix-run/react';
 
 export const links = () =>[
   {rel:'stylesheet', href:topOrderPageStyle},
@@ -27,14 +28,21 @@ export const meta = () => {
   ];
 };
 
-function reorderPage() {
+function TopOrderProducts() {
+  const { showComponents, setShowComponents } = useOutletContext();
+  useEffect(()=>{
+    const accountType = localStorage.getItem("AccountType");
+    if(accountType){
+      setShowComponents(accountType);
+    }
+  },[])
   return (
     <>
     
-        <TopOrderProductPage/>
+        <TopOrderProductPage showComponents={showComponents} />
     
     </>
   )
 }
 
-export default reorderPage
+export default TopOrderProducts

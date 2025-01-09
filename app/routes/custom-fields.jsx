@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import TestimonialStyle from '../styles/TestimonialSlider.css';
 import CustomerFieldStyle from '~/styles/Pages.css';
 import CarouselStyle from '../styles/Carousel.css';
 import CustomerFieldsPage from '../components/pages/CustomerFieldsPage';
+import { useOutletContext } from '@remix-run/react';
 
 export const links = () =>[
   {rel:'stylesheet', href:CustomerFieldStyle},
@@ -27,14 +28,21 @@ export const meta = () => {
   ];
 };
 
-function reorderPage() {
+function CustomFields() {
+  const { showComponents, setShowComponents } = useOutletContext();
+  useEffect(()=>{
+    const accountType = localStorage.getItem("AccountType");
+    if(accountType){
+      setShowComponents(accountType);
+    }
+  },[])
   return (
     <>
     
-        <CustomerFieldsPage/>
+        <CustomerFieldsPage showComponents={showComponents} />
     
     </>
   )
 }
 
-export default reorderPage
+export default CustomFields

@@ -30,7 +30,7 @@ function PagesTopSection(props) {
                                         } */}
                                          <div className="main_section_btn">
                                     <Row>
-                                        <Col lg={6} className="col-md-6 col-sm-6 my-md-4 my-sm-4 my-x-sm col-xsm-6">
+                                        <Col lg={5} className="col-md-6 col-sm-6 my-md-4 my-sm-4 my-x-sm col-xsm-6">
                                             <div className="shopify">
                                             <Button href="https://apps.shopify.com/customer-dashboard-pro"  target="_blank" rel="norefferer" className=" transition-duretion d-flex s_btn btns justify-content-evenly shopify-official-logo-black">
                                                 <Image src={shopifyOfficialLogoBlack} alt="Shopify-official-logo-black"></Image>
@@ -38,7 +38,7 @@ function PagesTopSection(props) {
                                             </Button>
                                             </div>
                                         </Col>
-                                        <Col lg={6} className="col-md-6 col-sm-6 my-md-4 my-sm-4 my-x-sm col-xsm-6 ">
+                                        <Col lg={5} className="col-md-6 col-sm-6 my-md-4 my-sm-4 my-x-sm col-xsm-6 ">
                                         {/* <Button onClick={()=>setModalShow(true)} target='_blank' className='transition-duretion shpfy-trial-demo-btn acntpagedmobtn'>View Demo Store</Button> */}
                                         {/* <Button href='https://customer-dashboard.myshopify.com/account/login' target='_blank' className='transition-duretion shpfy-trial-demo-btn acntpagedmobtn'>View Demo Store</Button> */}
                                         <div className='transition-duretion banner_second_btn'>

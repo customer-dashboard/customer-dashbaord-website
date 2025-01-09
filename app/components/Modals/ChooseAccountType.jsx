@@ -14,14 +14,14 @@ function ChooseAccountType(props) {
     
         <section id='choose-customer-account-version' className='mb-5 mt-3'>
             <div className='container'>
-                <h2 className='text-center fw-600'>Choose which version of <span style={{color:"#eb4503"}}>Customer Account</span> you are using</h2>
+                <h2 className='text-center fw-600'>Select the <span style={{color:"#eb4503"}}>Customer Account Version </span> You Use</h2>
                 <div className='choose_version_subhead mt-4 mb-4 text-center fw-600'>
-                    <p><span>Customer Dashboard Pro</span> proudly stands as the <span> only app</span> offering seamless support for both the <span>New Customer Accounts </span> (passwordless login with a one-time verification code) and the <span>Legacy Customer Accounts</span>  (email and password login).</p>
+                    <p><span>Customer Dashboard Pro</span> the <span> only app</span> Supporting Both <span>New </span>(Passwordless) and <span>Legacy</span> (Email & Password) Shopify Accounts</p>
                 </div>
                 <div>
                 </div>
                 <Row  className={`align-items-center justify-content-center mt-5 ${!showComponents ? "zoom-in-zoom-out" : ''}`} >
-                    <Col lg={5}>
+                    <Col lg={5} md={6}>
                         <div onClick={()=>handleChooseAccountType("New Customer Account")} className={`customera_account_version customer_account_version_new ${showComponents == 'New Customer Account' ? 'selected__version__' : ''} `}>
                             <div className="account_version_features_wraper">
                                 <div className="features_container_ text-center">
@@ -47,7 +47,7 @@ function ChooseAccountType(props) {
                             </div>
                         </div>
                     </Col>
-                    <Col lg={5}>
+                    <Col lg={5}  md={6}>
                     <div onClick={()=>handleChooseAccountType("Classic Customer Account")} className={`  customera_account_version customer_account_version_classic ${showComponents == 'Classic Customer Account' ? 'selected__version__' : ''} `}>
                             <div className="account_version_features_wraper">
                                 <div className="features_container_ text-center">

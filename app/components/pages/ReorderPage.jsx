@@ -13,8 +13,8 @@ import TransitionEffect from '../FadeTransition/TransitionEffect';
 import KnowlageBase from "../KnowlageBase";
 import { FeaturedData, featuresPageHeadings } from '../../middleware/FeaturedContentDataM';
 
-function ReOrderPage() {
-
+function ReOrderPage(props) {
+    const { showComponents } = props;
     useEffect(() => {
         TransitionEffect();
     }, []);
@@ -25,7 +25,7 @@ function ReOrderPage() {
 
             {/* Page Top Section Component Calling Here */}
             <div className="pageTopSectionOnReorderPage" data-aos="fade-up">
-                <PagesTopSection data={reOrderPageData} />
+                <PagesTopSection showComponents={showComponents} data={reOrderPageData} />
             </div>
             {/* Carousel Component Calling Here */}
             <div className="carousel-section-on-re-order--page" data-aos='fade-up'>

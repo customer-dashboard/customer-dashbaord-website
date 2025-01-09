@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import ReOrderPage from '../components/pages/ReorderPage';
 import TestimonialStyle from '../styles/TestimonialSlider.css';
 import reoderPageStyle from '~/styles/Pages.css';
 import CarouselStyle from '../styles/Carousel.css';
+import { useOutletContext } from '@remix-run/react';
 
 export const links = () =>[
   {rel:'stylesheet', href:reoderPageStyle},
@@ -27,10 +28,18 @@ export const meta = () => {
 };
 
 function reorderPage() {
+  const { showComponents, setShowComponents } = useOutletContext();
+
+  useEffect(()=>{
+    const accountType = localStorage.getItem("AccountType");
+    if(accountType){
+      setShowComponents(accountType);
+    }
+  },[])
   return (
     <>
     
-        <ReOrderPage/>
+        <ReOrderPage showComponents={showComponents} />
     
     </>
   )

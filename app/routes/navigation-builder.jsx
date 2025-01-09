@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import TestimonialStyle from '../styles/TestimonialSlider.css';
 import navigationBuilderStyle from '~/styles/Pages.css';
 import CarouselStyle from '../styles/Carousel.css';
 import NavigationBuilderPage from '../components/pages/NavigationBuilderPage';
+import { useOutletContext } from '@remix-run/react';
 
 export const links = () =>[
   {rel:'stylesheet', href:navigationBuilderStyle},
@@ -27,14 +28,21 @@ export const meta = () => {
   ];
 };
 
-function reorderPage() {
+function NavigationBuilder() {
+  const { showComponents, setShowComponents } = useOutletContext();
+  useEffect(()=>{
+    const accountType = localStorage.getItem("AccountType");
+    if(accountType){
+      setShowComponents(accountType);
+    }
+  },[])
   return (
     <>
     
-        <NavigationBuilderPage/>
+        <NavigationBuilderPage showComponents={showComponents} />
     
     </>
   )
 }
 
-export default reorderPage
+export default NavigationBuilder

@@ -22,12 +22,10 @@ import VerticalTab3 from '../components/vertical-tabs/VerticalTab3';
 import VerticalTabCss from '../styles/VerticalTab.css';
 import ImageWithTextS from '../components/new-customer-account/ImageWithTextS';
 import { orderTrackingWidget, customFieldData } from '../middleware/new-customer-account/ImageWithText'
-import FeaturesTabForBothAccountType from '../components/new-customer-account/FeaturesTabForBothAccountType';
 import IntegrationStyle from '../styles/Integration.css';
 import ChooseAccountType from '../components/Modals/ChooseAccountType';
 import { useEffect, useState } from "react";
 import { useOutletContext } from "@remix-run/react";
-
  
 export const meta = () => {
   return [
@@ -43,8 +41,6 @@ export const meta = () => {
     },
   ];
 };
-
-
 
 export const links = () =>[
   {rel:'stylesheet', href:BannerStyle},
@@ -64,39 +60,32 @@ export const links = () =>[
 
 
 export default function Index() {
-  // const [showComponents, setShowComponents] = useState(null);
   const { showComponents, setShowComponents } = useOutletContext();
 
   useEffect(()=>{
     const accountType = localStorage.getItem("AccountType");
     if(accountType){
-      console.log("accountType:",accountType);
       setShowComponents(accountType);
     }
   },[])
-
-  console.log("show components:",showComponents);
 
   return (
    <>
     <ChooseAccountType showComponents={showComponents} setShowComponents={setShowComponents} />
     <Banner showComponents={showComponents} />
     <Carousel/>
-    {/* <div className="pageTopSectionOnHomePage home_page_features_new" >
-           <FeaturesTabForBothAccountType />
-     </div> */}
     {
        showComponents == 'New Customer Account' ? <>
-       <ImageWithTextS data={customFieldData} />
-       <VerticalTab3/>
-       <ImageWithTextS data={orderTrackingWidget} />
+       <ImageWithTextS data={customFieldData} showComponents={showComponents} />
+       <VerticalTab3 showComponents={showComponents} />
+       <ImageWithTextS data={orderTrackingWidget} showComponents={showComponents} />
        </> : ''
     }
     {
        showComponents == 'Classic Customer Account' ? <>
-          <VerticalTabs/>
+          <VerticalTabs showComponents={showComponents} />
           <PagesTopSection showComponents={showComponents} data={AccountPageData} />
-          <VerticalTab2/>
+          <VerticalTab2 showComponents={showComponents} />
        </> : ''
      }
     <AccountPlayer/>

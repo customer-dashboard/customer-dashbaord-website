@@ -11,7 +11,8 @@ import TransitionEffect from "../FadeTransition/TransitionEffect";
 import KnowlageBase from "../KnowlageBase";
 import { FeaturedData, featuresPageHeadings } from "../../middleware/FeaturedContentDataM";
 
-function TranslationPage() {
+function TranslationPage(props) {
+  const { showComponents } = props;
   useEffect(() => {
    TransitionEffect();
   }, []);
@@ -19,7 +20,7 @@ function TranslationPage() {
   return (
     <>
     <div data-aos="fade-up">
-      <PagesTopSection data={translationPagedata} />
+      <PagesTopSection showComponents={showComponents} data={translationPagedata} />
       </div>
       {/* Carousel Component Calling Here */}
       <div className="carousel-section-on-re-order--page" data-aos="fade-up">
