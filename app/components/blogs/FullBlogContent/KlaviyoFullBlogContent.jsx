@@ -27,7 +27,7 @@ function KlaviyoFullBlogContent() {
 <ul data-border="0" data-indent="1" class="p-rich_text_list p-rich_text_list__bullet" data-stringify-type="unordered-list">
 <li data-stringify-border="0" data-stringify-indent="1">Now, whenever customers access your shop and log in, their custom data will be automatically synced to Klaviyo as custom properties.</li>
 </ul>
-<div class="p-rich_text_section"><span data-stringify-type="paragraph-break" class="c-mrkdwn__br" aria-label=""></span><span data-stringify-type="paragraph-break" class="c-mrkdwn__br" aria-label=""></span><span data-stringify-type="paragraph-break" class="c-mrkdwn__br" aria-label=""></span><span data-stringify-type="paragraph-break" class="c-mrkdwn__br" aria-label=""></span><span data-stringify-type="paragraph-break" class="c-mrkdwn__br" aria-label=""></span>By following these steps, you ensure a seamless integration between Klaviyo and Customer Dashboard Pro, allowing you to collect and utilize customer data effectively.</div>`
+<div class="p-rich_text_section"><span data-stringify-type="paragraph-break" class="c-mrkdwn__br" aria-label=""></span><span data-stringify-type="paragraph-break" class="c-mrkdwn__br" aria-label=""></span><span data-stringify-type="paragraph-break" class="c-mrkdwn__br" aria-label=""></span><span data-stringify-type="paragraph-break" class="c-mrkdwn__br" aria-label=""></span><span data-stringify-type="paragraph-break" class="c-mrkdwn__br" aria-label=""></span>By following these steps, you ensure a seamless integration between Klaviyo and Customer Dashboard Pro, allowing you to collect and utilize customer data effectively.</div>`;
 }
 
-export default KlaviyoFullBlogContent
+export default KlaviyoFullBlogContent;

@@ -1,19 +1,19 @@
 import Banner from "../components/Banner";
-import BannerStyle from '../styles/Banner.css';
-import CarouselStyle from '../styles/Carousel.css';
-import Carousel from '../components/slider/Carousel';
-import MobileTabReuseStyle from '../styles/MobileTabReuse.css';
+import BannerStyle from "../styles/Banner.css";
+import CarouselStyle from "../styles/Carousel.css";
+import Carousel from "../components/slider/Carousel";
+import MobileTabReuseStyle from "../styles/MobileTabReuse.css";
 import PagesTopSection from "../components/PageTopSection";
-import TabsStyle from '../styles/Tabs.css';
+import TabsStyle from "../styles/Tabs.css";
 import { AccountPageData } from "../middleware/PageTopSectionData";
 import KnowlageBase from "../components/KnowlageBase";
-import MobiloveStyle from '../styles/Mobilove.css';
-import AcountPlayerStyle from '../styles/AccountPlayer.css';
-import AccountPlayer from '../components/AccountPlayer';
-import TestimonialSliderStyle from '../styles/TestimonialSlider.css';
+import MobiloveStyle from "../styles/Mobilove.css";
+import AcountPlayerStyle from "../styles/AccountPlayer.css";
+import AccountPlayer from "../components/AccountPlayer";
+import TestimonialSliderStyle from "../styles/TestimonialSlider.css";
 import TestimonialSlider from "../components/slider/TestimonialSlider";
 import Facility from "../components/Facility";
-import FacilityStyle from '../styles/Facility.css';
+import FacilityStyle from "../styles/Facility.css";
 import StartFree from "../components/StartFree";
 import StartFreeStyle from '../styles/StartFree.css';
 import VerticalTabs from '../components/vertical-tabs/VerticalTabs';
@@ -29,11 +29,11 @@ import { useOutletContext } from "@remix-run/react";
  
 export const meta = () => {
   return [
-    { title: "Customize Shopify Customer Account Pages | Customer Dashboard Pro : MT" },
-    { name: "description", content: "Looking to Take Control Manage and Customize of Your Shopify Customer Account Pages? Look No Further Than Customer Dashboard Pro. Easily Manage and Customize Your Shopify Account Pages With Ease." },
-    { name: "keywords", content: "Shopify Customer Accounts Page,customer account shopify, Customer Account Page, Customer Dashboard Pro Account Page, Shopify Account Page" },
-    {property:"og:title", content:"Customize Shopify Customer Account Pages | Customer Dashboard Pro : MT"},
-    {property:"og:description", content:"Looking to Take Control Manage and Customize of Your Shopify Customer Account Pages? Look No Further Than Customer Dashboard Pro. Easily Manage and Customize Your Shopify Account Pages With Ease."},
+    { title: "Customize Shopify Customer Account Pages | Customer Dashboard Pro : MT",},
+    { name: "description",content: "Looking to Take Control Manage and Customize of Your Shopify Customer Account Pages? Look No Further Than Customer Dashboard Pro. Easily Manage and Customize Your Shopify Account Pages With Ease.",},
+    { name: "keywords", content:  "Shopify Customer Accounts Page,customer account shopify, Customer Account Page, Customer Dashboard Pro Account Page, Shopify Account Page", },
+    { property: "og:title", content: "Customize Shopify Customer Account Pages | Customer Dashboard Pro : MT",},
+    {property: "og:description", content:"Looking to Take Control Manage and Customize of Your Shopify Customer Account Pages? Look No Further Than Customer Dashboard Pro. Easily Manage and Customize Your Shopify Account Pages With Ease.",},
     {
       tagName: "link",
       rel: "canonical",
@@ -56,8 +56,6 @@ export const links = () =>[
   {rel:'stylesheet', href:IntegrationStyle}
 
 ]
-
-
 
 export default function Index() {
   const { showComponents, setShowComponents } = useOutletContext();
@@ -97,5 +95,3 @@ export default function Index() {
    </>
   );
 }
-
-

@@ -1,23 +1,22 @@
 import React from "react";
 import BlogsTopSection from "../BlogsTopSection";
-import { klaviyoTop } from "../../middleware/BlogsTopSectionData";
+import { CustomerAccountFeatureTop } from "../../middleware/BlogsTopSectionData";
 import StartFree from "../StartFree";
-import KlaviyoFullBlogContent from "./FullBlogContent/KlaviyoFullBlogContent";
+import CustomerDashboardAccountFeature from "./FullBlogContent/CustomerDashboardAccountFeature";
 import parse from "html-react-parser";
-
-function KlaviyoFullBlog() {
+export default function CustomerDashBoardAccountFeatureFullBlog() {
   return (
     <>
       <main className="blg-full-pg-main-wraper">
         <section className="blg-full-page-section">
-          <div className="main-container-blg-f-section pt-5  ">
+          <div className="main-container-blg-f-section pt-5">
             <div className="container-main">
               <div className="flblgpagecontainer">
                 <div className="blg_fl_pg_headings">
-                  <BlogsTopSection data={klaviyoTop} />
+                  <BlogsTopSection data={CustomerAccountFeatureTop} />
                   <div className="container mb-5">
                     <div className="fullpagemaincontentwithfullinfo pb-5">
-                      {parse(KlaviyoFullBlogContent())}
+                      {parse(CustomerDashboardAccountFeature())}
                     </div>
                   </div>
                   <StartFree />
@@ -30,5 +29,3 @@ function KlaviyoFullBlog() {
     </>
   );
 }
-
-export default KlaviyoFullBlog;
