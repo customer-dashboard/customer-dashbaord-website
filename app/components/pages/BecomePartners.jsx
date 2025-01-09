@@ -1,26 +1,28 @@
 import { Form, useActionData } from "@remix-run/react";
 import React, { useState } from "react";
 import { Col, Row } from "react-bootstrap";
-// import Modal from 'react-bootstrap/Modal';
+
 import { Modal } from "react-bootstrap";
 import { useEffect, useRef } from "react";
 import { AppProvider, Button } from "@shopify/polaris";
 
 function BecomePartners(props) {
   const { fieldType, handleFieldChange, formActionData } = props;
-    return(
-      <>
-          <section className="contact-us-page-manu">
+  return (
+    <>
+      <section className="contact-us-page-manu">
         <div className="container">
           <div className="contact-us-page-container">
             <div className="contact-us-page-title manu-page-title">
-              <h1 className="page-title">Become a Partner</h1>
+              <h2 className="page-title partner-form-title">
+                Become a Partner
+              </h2>
             </div>
 
             <Row className="justify-content-center">
               <Col lg={8} className="col-md-8">
-      <Form method="post">
-      <Row className="mb-3">
+                <Form method="post">
+                  <Row className="mb-3">
                     <Col lg={6}>
                       <label htmlFor="firstName" id="firstName">
                         Name*
@@ -102,7 +104,7 @@ function BecomePartners(props) {
                     </Col>
                   </Row>
                   <Row>
-                  <Col lg={12}>
+                    <Col lg={12}>
                       <label htmlFor="message" id="message">
                         Additional Information*
                       </label>
@@ -128,15 +130,14 @@ function BecomePartners(props) {
                       </button>
                     </Col>
                   </Row>
-        </Form>
-        </Col>
+                </Form>
+              </Col>
             </Row>
           </div>
         </div>
       </section>
-      
-      </>
-    );
+    </>
+  );
 }
 
 export default BecomePartners;

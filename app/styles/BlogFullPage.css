@@ -1,64 +1,142 @@
-  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-.topofTOpsection{
-    background: linear-gradient(141deg, #FFF 0%, #E1E1E1 25%, #FFF 50%, #E1E1E1 75%, #E1E1E1 100%);
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.topofTOpsection {
+  background: linear-gradient(
+    141deg,
+    #fff 0%,
+    #e1e1e1 25%,
+    #fff 50%,
+    #e1e1e1 75%,
+    #e1e1e1 100%
+  );
 }
-.flpgtpscnimg{
-    border-radius: 15px;
-    max-width: 100%;
+.flpgtpscnimg {
+  border-radius: 15px;
+  max-width: 100%;
 }
-.tpmncontainerwithgrid p{
-    letter-spacing: normal;
+.tpmncontainerwithgrid p {
+  letter-spacing: normal;
+  word-spacing: 2px;
+  text-align: justify;
 }
-.dttm-bage{
-    margin-right: 15px;
+.dttm-bage {
+  margin-right: 15px;
 }
-.blog-tag-bage{
-    padding: 2px 20px;
-    background-color: #000;
-    color: white;
-    font-size: 14px;
+.blog-tag-bage {
+  padding: 2px 20px;
+  background-color: #000;
+  color: white;
+  font-size: 14px;
 }
-.fullpagemaincontentwithfullinfo *{
-    font-family: 'Roboto', sans-serif !important;
-
+.fullpagemaincontentwithfullinfo * {
+  font-family: "Roboto", sans-serif !important;
 }
- .fullpagemaincontentwithfullinfo li{
-    letter-spacing: normal;
-    line-height: 1.9;
-
+.fullpagemaincontentwithfullinfo li {
+  letter-spacing: normal;
+  line-height: 1.9;
 }
-.fullpagemaincontentwithfullinfo p{
-    letter-spacing: normal;
-    line-height: 1.9;
-
+.fullpagemaincontentwithfullinfo p {
+  letter-spacing: normal;
+  line-height: 1.9;
 }
-.fullpagemaincontentwithfullinfo ul{
-    margin-top: 1rem;
-
+.fullpagemaincontentwithfullinfo ul {
+  margin-top: 1rem;
 }
-.fullpagemaincontentwithfullinfo ol{
-    margin-top: 1rem;
-
+.fullpagemaincontentwithfullinfo ol {
+  margin-top: 1rem;
 }
-
-.fullpagemaincontentwithfullinfo h1,h2,h3,h4,h5,h6{
-    letter-spacing: normal;
-    margin: 2rem 0rem;
-
+.tpmncontainerwithgrid h1 {
+  letter-spacing: normal;
+  font-size: 40px;
+  word-spacing: 6px;
+}
+.fullpagemaincontentwithfullinfo h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: normal;
+  margin: 2rem 0rem;
+  font-weight: 600;
+  word-spacing: 2px;
+}
+.fullpagemaincontentwithfullinfo p {
+  margin-bottom: 4px !important;
 }
 /* .fullpagemaincontentwithfullinfo h2{
     font-size: 1.8rem;
 
 } */
-.fullpagemaincontentwithfullinfo a{
-    color: black;
-    text-decoration: underline;
-    font-weight: 600;
+.fullpagemaincontentwithfullinfo a {
+  color: black;
+  text-decoration: underline;
+  font-weight: 600;
+}
+.fullpagemaincontentwithfullinfo .hide-underline {
+  text-decoration: none;
+  font-weight: 100;
+}
+.index-container ul li p {
+  font-weight: 600;
+}
+.product-name {
+  color: #eb4503;
+}
+.fullpagemaincontentwithfullinfo .index-main-heading {
+  color: #eb4503;
+  font-weight: 800;
+}
+.fullpagemaincontentwithfullinfo .index-main-sub-heading {
+  font-weight: 600;
+  font-size: 22px;
+}
+.index-container h3 {
+  margin: 10px 0px 15px 0px;
+}
+.index-container h3 a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 1.5px;
+  background: #000;
+  transition: width 0.4s ease-in;
 }
 
-@media screen and (min-width:991px){
-    .tpmncontainerwithgrid h1{
-        letter-spacing: normal;
-        font-size: 40px;
-    }
+.index-container h3 a:hover::after {
+  width: 100%;
+}
+.index-container {
+  border: 1px solid black;
+  padding: 5px 0px 30px 38px;
+}
+
+@media screen and (min-width: 991px) {
+  .tpmncontainerwithgrid h1 {
+    letter-spacing: normal;
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .tpmncontainerwithgrid.m-pt-none {
+    padding-top: 0px !important;
+  }
+  .tpmncontainerwithgrid.m-mt-none {
+    margin-top: 0px !important;
+  }
+  .tpmncontainerwithgrid h1 {
+    font-size: 26px;
+
+    line-height: 36px;
+    margin-top: 8px;
+    margin-top: 8px;
+    margin-bottom: 22px !important;
+  }
+
+  .blog-tag-bage {
+    padding: 10px 20px;
+  }
+  .fullpagemaincontentwithfullinfo .index-main-sub-heading {
+    font-weight: 600;
+    font-size: 19px;
+  }
 }

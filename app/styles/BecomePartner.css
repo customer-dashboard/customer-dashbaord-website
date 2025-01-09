@@ -1,0 +1,174 @@
+.custom-become-partner {
+  padding: 45px 0px;
+}
+.custom-become-partner h1 {
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 48.5px;
+  text-transform: capitalize;
+}
+.custom-become-partner .sub-heading {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+.col-60 {
+  width: 60%;
+}
+.col-40 {
+  width: 40%;
+}
+.custom-become-partner .product-name {
+  color: #eb4503;
+  margin-left: 5px;
+}
+.partner-first-section .description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.partner-first-section .become-partner-btn {
+  width: 100%;
+  font-weight: 600;
+  padding: 22px 26px;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 16px;
+  border: 2px solid #eb4503;
+  color: #fff;
+  background: #eb4503;
+  transition: all 0.3s ease-in-out 0s;
+}
+.partner-first-section .become-partner-btn:hover {
+  background: transparent;
+  border: 2px solid #eb4503;
+  color: #eb4503;
+}
+.become-partner-second-section h3 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 48.5px;
+}
+.parner-img2 {
+  width: 100%;
+}
+.become-partner-second-section .sub-heading {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.become-partner-second-section .fw-600 {
+  font-size: 18px;
+}
+.benfit-point p {
+  font-size: 16px;
+  line-height: 25.2px;
+}
+.benfit-description {
+  font-weight: 400;
+}
+.third-partner-section .heading {
+  font-size: 18px;
+}
+.partner-with-cdp .sub-heading {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.third-partner-section .description {
+  font-size: 16px;
+  line-height: 25.2px;
+}
+.partner-form-title {
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #1e1810;
+  text-transform: uppercase;
+}
+.partner-hr {
+  border: 1px solid #eb4503;
+  border-radius: 10px;
+}
+.contact-heading {
+  font-size: 26px;
+}
+.product-email {
+  color: #eb4503;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration: none;
+}
+.contact-description {
+  font-size: 18px;
+  line-height: 25.2px;
+}
+.modal-title {
+  color: black !important;
+}
+
+@media screen and (max-width: 496px) {
+  .custom-become-partner h1 {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 35.5px;
+    text-align: center;
+  }
+  .partner-first-section .m-mt-5 {
+    margin-top: 20px !important;
+  }
+  .custom-become-partner {
+    padding: 20px 0;
+  }
+  .custom-become-partner .sub-heading {
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 33px;
+    text-align: center;
+  }
+  .partner-first-section .description {
+    font-size: 14px;
+    text-align: justify;
+    margin-top: 25px !important;
+    line-height: 26px;
+  }
+  .m-gap {
+    gap: 15px;
+  }
+  .m-mb-none {
+    margin-bottom: 0 !important;
+  }
+  .m-mt-10 {
+    margin-top: 10px !important;
+  }
+  .partner-first-section .become-partner-btn {
+    font-size: 16px;
+    padding: 10px 26px;
+  }
+  .become-partner-second-section .fw-600 {
+    font-size: 14px;
+  }
+  .benfit-point p {
+    font-size: 14px;
+    line-height: 25.2px;
+  }
+  .third-partner-section .heading {
+    font-size: 14px;
+  }
+  .third-partner-section .description {
+    font-size: 14px;
+    line-height: 23.2px;
+  }
+  .partner-form-title {
+    font-size: 1.1rem;
+  }
+  .contact-description {
+    font-size: 14px;
+    line-height: 25.2px;
+  }
+  .contact-heading {
+    font-size: 20px;
+  }
+}
