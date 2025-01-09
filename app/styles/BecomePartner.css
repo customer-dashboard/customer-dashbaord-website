@@ -24,14 +24,14 @@
   margin-left: 5px;
 }
 .partner-first-section .description {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 32px;
 }
 .partner-first-section .become-partner-btn {
   width: 100%;
   font-weight: 600;
-  padding: 22px 26px;
+  padding: 16px 26px;
   text-align: center;
   border-radius: 6px;
   font-size: 16px;
@@ -54,7 +54,7 @@
   width: 100%;
 }
 .become-partner-second-section .sub-heading {
-  font-size: 28px;
+  font-size: 34px;
   font-weight: 600;
   line-height: 24px;
 }
@@ -73,7 +73,7 @@
   font-size: 18px;
 }
 .partner-with-cdp .sub-heading {
-  font-size: 26px;
+  font-size: 34px;
   font-weight: 600;
   line-height: 24px;
 }

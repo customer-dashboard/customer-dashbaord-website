@@ -41,6 +41,7 @@
 } */
 .main-blg-grd-wraper-container:hover .grid-aftrimg-contnt {
   border: 1px solid;
+  border-top: 0px;
 }
 .blg-dttm {
   display: flex;

@@ -95,12 +95,11 @@ function BecomePartner() {
   useEffect(() => {
     setActive(true);
   }, [formActionData]);
-  console.log("fieldType", fieldType);
+  // console.log("fieldType", fieldType);
   const benefits = [
     {
       title: "Free Access",
-      description:
-        "Get full access to Customer Dashboard Pro’s premium features for development stores and streamline your customer management process.",
+      description: "Get full access to Customer Dashboard Pro’s premium features for development stores and streamline your customer management process.",
     },
     {
       title: "App Integration",

@@ -2,9 +2,7 @@ import React from "react";
 
 export default function CustomerDashboardAccountFeature() {
   return `
-  <div className="index-container">
-  <h2 dir="ltr"><span>What Customer Dashboard Pro can do for your Shopify Account Page?</span></h2>
-
+<div className="index-container">
 <div dir="ltr" align="left">
 <table><colgroup><col></colgroup>
 <tbody>

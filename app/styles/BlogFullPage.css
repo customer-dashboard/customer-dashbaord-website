@@ -46,7 +46,7 @@
 }
 .tpmncontainerwithgrid h1 {
   letter-spacing: normal;
-  font-size: 40px;
+  font-size: 36px;
   word-spacing: 6px;
 }
 .fullpagemaincontentwithfullinfo h1,
@@ -113,7 +113,7 @@ h6 {
 @media screen and (min-width: 991px) {
   .tpmncontainerwithgrid h1 {
     letter-spacing: normal;
-    font-size: 40px;
+    font-size: 32px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -125,7 +125,6 @@ h6 {
   }
   .tpmncontainerwithgrid h1 {
     font-size: 26px;
-
     line-height: 36px;
     margin-top: 8px;
     margin-top: 8px;

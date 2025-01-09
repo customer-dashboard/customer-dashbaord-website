@@ -32,7 +32,7 @@ export default function BecomePartnerSecondSection() {
         <div className="container">
           <div className="become-partner-second-section">
             <div className="">
-              <div className="row">
+              <div className="row align-items-center justify-content-between">
                 <div className="mb-5 m-mb-none">
                   <h2 className="text-center mt-5 sub-heading m-mt-10">
                     Benefits of Partnering with
@@ -113,8 +113,9 @@ export default function BecomePartnerSecondSection() {
                 <div className="col-12 col-sm-6 m-mt-10">
                   <div className="parner-img2">
                     <img
-                      src="https://mandasa1.b-cdn.net/customer%20dashboard%20website/Jayesh/CDP%20banner.png"
-                      alt=""
+                      src="https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/partner-page/CDP%20banner_01%20(1).png"
+                      alt="customer dashboard pro features"
+                      title="customer dashboard pro features"
                       className="w-100"
                     />
                   </div>

@@ -37,22 +37,20 @@ export const klaviyoBlogData = [
   },
   {
     Name: "Supercharge Customer Dashboard Pro",
-    BlogImage: customerDashiboarImage,
+    BlogImage: "https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/Blogs/Supercharge%20(1).png",
     Date: "17th Dec 2024",
     Heading: "Supercharge your Shopify Store with Customer Dashboard Pro",
-    Content:
-      "Supercharge your Shopify Store with Customer Dashboard Pro: The Ultimate Customer Account Solution",
+    Content:"Supercharge your Shopify Store with Customer Dashboard Pro: The Ultimate Customer Account Solution",
     Link: "/blog/shopify-customer-account-solution",
     WatchIcon: watchIcon,
   },
 
   {
     Name: "What Customer Dashboard Pro can do for your Shopify Account Page",
-    BlogImage: customerDashiboarImage,
+    BlogImage: "https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/Blogs/What%20Customer%20Dashboard%20Pro%20can%20do%20for%20your%20Shopify%20Account%20Page%20(1).png",
     Date: "19th Dec 2024",
     Heading: "Transform Your Shopify Store with Customer Dashboard Pro",
-    Content:
-      "you establish an online store – you get access to a wide range of innovative tools and features for initial setup. ",
+    Content:"you establish an online store – you get access to a wide range of innovative tools and features for initial setup. ",
     Link: "/blog/shopify-customer-account-features",
     WatchIcon: watchIcon,
   },

@@ -30,24 +30,25 @@ function PartnerWithCDP({ SectionHeading, details }) {
     <>
       <section className="custom-become-partner partner-with-cdp">
         <div className="container">
-          <div className="row">
+          <div className="row align-items-center justify-content-between">
             <div>
-              <h2 className="text-center mt-2 mb-3 sub-heading">
+              <h2 className="text-center mt-2 mb-5 sub-heading">
                 {SectionHeading}
               </h2>
             </div>
 
-            <div className="col-sm-6 col-12">
+            <div className="col-sm-5 col-12">
               <div>
                 <img
-                  src={PartnerSecondLogo}
-                  alt="partner-logo"
+                  src="https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/partner-page/CDP%20banner_02%20(1).png"
+                  alt="Collaborat with customer dashboard pro"
+                  title="Collaborat with customer dashboard pro"
                   className="w-100"
                 />
               </div>
             </div>
             <div className="col-sm-6 col-12">
-              <div className="mt-5 third-partner-section">
+              <div className="third-partner-section">
                 {details.map((detail, index) => (
                   <div className="pt-4 d-flex gap-2" key={index}>
                     <div>

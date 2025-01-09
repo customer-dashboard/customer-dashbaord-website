@@ -16,8 +16,8 @@ function BlogsTopSection({ data }) {
     </div>   */}
       <div className="container mb-5">
         <div className="tpmncontainerwithgrid pt-5 pb-5 mt-5 mb-5 pb-5 m-pt-none m-mt-none">
-          <Row>
-            <Col lg={6}>
+          <Row className="justify-content-between">
+            <Col lg={5}>
               <div className="full-page-blog-data-time pb-4 fw-600 h-color-dark d-flex d">
                 <span className="d-block dttm-bage ">
                   {parse(propData.Date)}

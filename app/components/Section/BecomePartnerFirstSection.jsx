@@ -16,12 +16,11 @@ function BecomePartnerFirstSection(props) {
       <section className="custom-become-partner">
         <div className="container">
           <div className="partner-first-section">
-            <div className=" m-mt-5 ">
+            <div className=" m-mt-5">
               <div className="row align-items-center">
                 <div className="col-12 col-sm-6">
                   <h1 className=" mb-4">
-                    Welcome to
-                    <span className="product-name">Our Partner Program! </span>
+                    Welcome to Our  <span className="product-name"> Partner Program! </span>
                   </h1>
                   <div>
                     <h2 className=" sub-heading">
@@ -42,7 +41,7 @@ function BecomePartnerFirstSection(props) {
                     </div>
                     <div className="mt-4">
                       <div className="row m-gap">
-                        <div className="col-sm-6 col-12 mt-3">
+                        <div className="col-sm-6 col-lg-5 col-12 mt-3">
                           <button
                             className="become-partner-btn"
                             onClick={handleShow}
@@ -50,7 +49,7 @@ function BecomePartnerFirstSection(props) {
                             Become Partner
                           </button>
                         </div>
-                        <div className="col-sm-6 col-12 mt-3">
+                        <div className="col-sm-6 col-lg-5 col-12 mt-3">
                           <Link to="/partners">
                             <button className="become-partner-btn">
                               Read More...
@@ -64,7 +63,7 @@ function BecomePartnerFirstSection(props) {
                 <div className="col-12 col-sm-6 m-mt-10">
                   <div className="text-center">
                     <div>
-                      <img src={PartnerSecondLogo} alt="" className="w-100" />
+                      <img src="https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/partner-page/Welcome%20to%20Our%20Partner%20Program%20(1).png" title="Partnership with customer dashboard pro" alt="Partnership with customer dashboard pro" className="w-100 rounded" />
                     </div>
                   </div>
                 </div>
