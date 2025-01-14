@@ -1,0 +1,386 @@
+.plus-case-study-hero-section h1{
+    font-size: 27px;
+    font-family: sans-serif;
+    font-weight: 600;
+    line-height: 38px;
+}   
+.plus-case-study-hero-section .single-page-case-study-hero-img{
+    border-radius: 10px;
+}
+.table_item_inner_content a{
+    color: #eb4503;
+}
+.plus-case-study-hero-heading{
+    font-size: 38px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.plus-case-study-hero-section .plus-case-study-hero-desc{
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.table-item .table-item-inner .table_item_title h3{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.information-table{
+    padding: 32px;
+    border: 2px solid #eb4503;
+    border-radius: 8px;
+    border-top-width: 8px;
+}
+.information-table .table-item_2 , .information-table .table-item_3, .information-table .table-item_4{
+    border-top: 1px solid #cdcdcd;
+}
+.information-table .table-item_2 .table-item-inner , .information-table .table-item_3 .table-item-inner, .information-table .table-item_4 .table-item-inner{
+   padding-top: 1rem;
+}
+.information-table .table_item_inner_content{
+    font-family: monospace;
+    font-weight: 600;
+}
+.case-study-hero-video{
+    position: relative;
+}
+.case-study-hero-video video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    bottom: initial;
+    right: initial;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+._brand-roi_heading{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+._brand-roi_data span{
+    font-size: 32px;
+    font-weight: 600;
+    color: #eb4503;
+}
+
+@media screen and (min-width: 991px) {
+    .video__{
+        height: 550px;
+    }
+    
+}
+
+@media screen and (max-width:991px) {
+    .information-table{
+        margin-top: 20px !important;
+    }
+    .video__{
+        height: 450px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .plus-case-study-hero-heading{
+        font-size: 24px !important;
+    }
+    .information-table .table_item_inner_content,  .table-item .table-item-inner .table_item_title h3{
+        font-size: 14px;
+    }
+    .case-study-main-content h2{
+        font-size: 20px !important;
+    }
+    .case-study-main-content h3{
+        font-size: 16px !important;
+    }
+}
+.case-study-main-content > *{
+    font-family: sans-serif;
+}
+.case-study-main-content h2{
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 1.2rem;
+}
+.case-study-main-content h3 {
+    font-weight: 600;
+    font-size: 23px;
+    margin-bottom: 1.2rem;
+}
+.case-study-main-content ul li{
+    margin: 10px 0px;
+}
+/* .hero-image-container{
+    position: relative;
+    width: auto;
+    height: 85vh;
+    overflow: hidden;
+    cursor:grabbing;
+}
+.imgSliderWrapp {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+  }
+  
+  .containerS {
+
+  }
+  
+  .img-afterWrap, .img-beforeWrap {
+    position: absolute;
+    height: 75vh;
+    width: 100vw;
+    transition: all 0.15s;
+  }
+  
+  .img-beforeWrap {
+    overflow: hidden;
+    width: 50vw;
+    border-width: 8px;
+    border-right-style: solid;
+    border-right-color: rgb(167, 167, 167);
+  }
+  
+  .img-beforeWrap img {
+    filter: grayscale(100%);
+  }
+  
+ .containerS img {
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .sliderIndicator {
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background-color: #1B2C34;
+    z-index: 30; 
+    pointer-events: none;
+    transition: all 0.15s;
+  }
+  
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+    animation: fadeInUp 1.5s forwards 0.5s;
+    z-index: 5; 
+    pointer-events: none;
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translate(-50%, -60%);
+    }
+  }
+  
+  .containerS h1 {
+    font-size: 2.8em;
+    color: #FFF;
+    margin-bottom: 20px;
+    font-weight: 700;
+    pointer-events: none;
+    z-index: 40; 
+  }
+  
+  .hero-content-test {
+    pointer-events: none;
+    z-index: 40; 
+  }
+  
+ .containerS  .hero-btn {
+    padding: 15px 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-size: 1.2em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    outline: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 30%; 
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 50;
+  }
+  /* Media query for screens with a width of 280px */
+  /* @media screen and (max-width: 280px) {
+    .hero-btn {
+      font-size: 1em; 
+    }
+    .hero-content h1 {
+      font-size: 2em; 
+    }
+  } */
+  
+  /* Media query for screens with a width of 375px */
+  /* @media screen and (max-width: 376px) {
+    .hero-btn {
+      font-size: 0.9em; 
+      bottom: 10%;
+    }
+    .hero-content h1 {
+      font-size: 1.4em; 
+    }
+  } */
+  
+  /* Media query for screens with a width of 375px */
+  /* @media screen and (max-width: 541px) {
+    .hero-btn {
+      font-size: 1.1em; 
+          bottom: 15%;
+    }
+    .hero-content h1 {
+      font-size: 2.0em;
+    }
+  } */
+  
+  
+  /* Media query for screens with a width of 768px */
+  /* @media screen and (max-width: 768px) {
+        .hero-btn {
+      font-size: 1.1em; 
+          bottom: 18%;
+    }
+  }
+  /* Media query for screens with a width of 768px */
+  /* @media screen and (max-width: 1280px) {
+        .hero-btn {
+  
+          bottom: 18%;
+    }
+  }
+  
+  .hero-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .hero-btn:active {
+    transform: scale(0.95);
+  }
+  
+  .blank-section {
+    height: 100vh;
+  }  */
+
+
+  .information-table .table-content .column-type{
+    font-size: 22px !important;
+    color: #eb4503;
+    font-weight: 600;
+  }
+  .information-table .table-content .column-content{
+    font-size: 18px;
+    margin-top: 12px;
+    font-weight: 600;
+    font-family: sans-serif;
+  }
+
+
+  .container____ {
+    /* display: grid;
+    place-content: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 1rem;
+    margin: 2rem; */
+    margin-bottom: 3rem;
+  }
+  
+  .image-container {
+    position: relative;
+    /* max-width: 100%;
+    max-height: 90vh; */
+  }
+  
+  .slider-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+  }
+  
+  .image-before {
+    position: absolute;
+    inset: 0;
+    width: 50%;
+    filter: grayscale(100%);
+    border-color: black;
+    border-width:3px;
+  }
+  
+  .slider {
+    position: absolute;
+    inset: 0;
+    cursor: pointer;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .slider-line {
+    position: absolute;
+    height: 100%;
+    background-color: transparent;
+    width: 0.2rem;
+    transform: translateX(-50%);
+    pointer-events: none;
+  }
+  
+  .slider-button {
+    position: absolute;
+    background-color: #eb4503;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 100vw;
+    display: grid;
+    place-items: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    box-shadow: 1px 1px 1px hsl(0, 50%, 2%, 0.5);
+  }
+
+  @media screen and (max-width: 768px) {
+    .table-content-item{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .information-table .table-content .column-type{
+      font-size: 16px !important;
+    }
+    .information-table .table-content .column-content{
+      font-size: 14px;
+    }
+    .information-table{
+      margin: 0 !important;
+      padding: 15px !important;
+    }
+    ._brand-roi_heading{
+      font-size: 16px !important;
+    }
+  }

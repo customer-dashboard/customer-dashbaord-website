@@ -37,7 +37,7 @@ export const klaviyoBlogData = [
   },
   {
     Name: "Supercharge Customer Dashboard Pro",
-    BlogImage: "https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/Blogs/Supercharge%20(1).png",
+    BlogImage: "https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/Blogs/Supercharge%20(3).png",
     Date: "17th Dec 2024",
     Heading: "Supercharge your Shopify Store with Customer Dashboard Pro",
     Content:"Supercharge your Shopify Store with Customer Dashboard Pro: The Ultimate Customer Account Solution",

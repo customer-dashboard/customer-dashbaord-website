@@ -1,0 +1,198 @@
+
+
+.sigle-case-study-item-wraper{
+    padding: 12px;
+}
+
+.line-camp {
+    display: -webkit-box; /* Use a flexbox-like layout */
+    -webkit-box-orient: vertical; /* Set the box orientation to vertical */
+    overflow: hidden; /* Hide any overflowing text */
+    text-overflow: ellipsis; /* Add the ellipsis (...) */
+    -webkit-line-clamp: 2; /* Limit to 2 lines */
+  }
+
+.case-study-hero-banner-section{
+    background: url(https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/case-study/Case%20Study%20main%20banner%20_02.png);
+    background-size: auto; /* Makes the image cover the viewport */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.app-color{
+    color: #eb4503;
+}
+
+.case-study-hero-banner-contianer .headings h1, h2{
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.case-study-hero-banner-contianer .headings h1{
+    font-size: 36px;
+}
+.case-study-hero-banner-contianer .headings  h2{
+  font-size: 20px;
+}
+
+
+.sigle-case-study-item-content{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 10px;
+    border: 1px solid #cecece;
+}
+.case-study-main-image-wraper{
+    overflow: hidden;
+    position: relative;
+}
+.sigle-case-study-item-content .brand-main-img{
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.sigle-case-study-item-content .brand-main-img:hover{
+    transform: scale(1.3 );
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
+    -webkit-box-shadow: 3px 3px 5px #000;
+    -moz-box-shadow: 3px 3px 5px #000;
+    box-shadow: 3px 3px 5px #000;
+    -webkit-backface-visibility: hidden;
+}
+.single-item-content{
+    padding: 15px;
+    padding-top: 0px;
+  
+}
+.case-study-brand .brand-logo{
+    width: 200px;
+    height: auto;
+}
+.case-study-brand{
+    padding: 15px;
+}
+.case-study-brand a.case-study-read-more{
+    display: inline-block;
+    position: relative;
+    color: #eb4503;
+    text-decoration: none;
+}
+.case-study-brand a.case-study-read-more::after {
+    color: #eb4503;
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    border-radius: 5px;
+    height: 0.02em;
+    bottom: 0;
+    left: 0;
+    background: currentcolor;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+.case-study-brand a.case-study-read-more:hover::after {
+    color: brown;
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+.sigle-case-study-item-content .single-item-content h2{
+    margin-bottom: 12px;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #eb4503;
+}
+.sigle-case-study-item-content .single-item-content p{
+    font-family: sans-serif;
+}
+
+.brand-main-img {
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .case-study-brand-roi-wraper {
+    position: absolute;
+    top: 0;
+    right: -100%; /* Initially hide the div by moving it outside the view */
+    width: 300px; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    transition: right 0.5s ease-in-out; /* Smooth transition for the slide-in effect */
+  }
+  
+  .sigle-case-study-item-content:hover .case-study-brand-roi-wraper {
+    right: 0; /* Slide in from the right */
+    border-top-right-radius: 10px;
+  }
+  
+  .case-study-main-image-wraper:hover .brand-main-img {
+    opacity: 0.8; /* Reduce opacity on hover */
+  }
+  ._brand-roi_heading{
+    font-size: 22px;
+    color: white;
+    font-weight: 600;
+  }
+ ._brand-roi_data span{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: cursive;
+    color: white;
+ }
+ .case-study-brand-roi-wraper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+ .case-study-main-image-wraper {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+ }
+
+
+ @media screen and (max-width: 991px) {
+    ._brand-roi_heading{
+        font-size: 16px;
+      }
+     ._brand-roi_data span{
+        font-size: 22px;
+     }
+ }
+
+@media screen and (min-width: 1180px) {
+    .case-study-hero-banner-section{
+      height: 100vh; /* Ensures the body is at least the height of the viewport */
+      background-position: bottom;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+    .read-case-study-btn{
+        padding: 18px 45px !important;
+        font-family: sans-serif;
+    }
+    .case-study-hero-banner-contianer .headings h1{
+        font-size: 48px;
+    }
+    .case-study-hero-banner-contianer .headings  h2{
+      font-size: 26px;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .case-study-hero-banner-contianer .headings h1{
+        font-size: 22px;
+    }
+    .case-study-hero-banner-contianer .headings  h2{
+      font-size: 16px;
+    }
+}

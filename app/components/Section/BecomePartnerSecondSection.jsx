@@ -113,7 +113,7 @@ export default function BecomePartnerSecondSection() {
                 <div className="col-12 col-sm-6 m-mt-10">
                   <div className="parner-img2">
                     <img
-                      src="https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/partner-page/CDP%20banner_01%20(1).png"
+                      src="https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/partner-page/CDP%20banner_01%20(3).png"
                       alt="customer dashboard pro features"
                       title="customer dashboard pro features"
                       className="w-100"

@@ -19,7 +19,7 @@ export const meta = () => {
     {
       tagName: "link",
       rel: "canonical",
-      href: "https://customerdashboard.pro/blogs",
+      href: "https://customerdashboard.pro/blog",
     },
   ];
 };

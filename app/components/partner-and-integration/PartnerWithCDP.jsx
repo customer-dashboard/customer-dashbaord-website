@@ -40,10 +40,10 @@ function PartnerWithCDP({ SectionHeading, details }) {
             <div className="col-sm-5 col-12">
               <div>
                 <img
-                  src="https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/partner-page/CDP%20banner_02%20(1).png"
+                  src="https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/partner-page/CDP%20banner_03%20(1).png"
                   alt="Collaborat with customer dashboard pro"
                   title="Collaborat with customer dashboard pro"
-                  className="w-100"
+                  className="w-100 collaborate-image-become-partner"
                 />
               </div>
             </div>

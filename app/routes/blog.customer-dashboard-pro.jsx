@@ -8,11 +8,13 @@ export const links = () =>[{rel:"stylesheet",href:BlogFullPageStyle},
 
     export const meta = () => {
       return [
-        { title: "Importance Of Customer Account Page | Customer Dashboard Pro" },
-        { name: "description", content: "Improve your marketing strategies with Klaviyo Integration for Customer Dashboard Pro. Drive sales and engage customers with personalized, targeted emails through our user-friendly platform." },
-        { name: "keywords", content: "customer dashboard blog" },
-        {property:"og:title", content:"Improve your marketing strategies with  Customer Dashboard Pro. Drive sales and engage customers with personalized, targeted emails through our user-friendly platform."},
-        {property:"og:description", content:"Improve your marketing strategies with  Customer Dashboard Pro. Drive sales and engage customers with personalized, targeted emails through our user-friendly platform."},
+        { title: "The Importance of Customer Account Page | Enhance Shopping Experience" },
+        { name: "description", content: "Discover how a tailored customer account page boosts satisfaction and engagement with personalized recommendations and efficient wishlist management." },
+        { name: "keywords", content: "Customer account page benefits, personalized shopping experience, wishlist management tools, customer satisfaction Shopify, enhance e-commerce engagement" },
+        {property:"og:title", content:"The Importance of Customer Account Page: Enhancing the Shopping Experience."},
+        {property:"og:description", content:"Transform shopping experiences with a powerful customer account page! Provide personalized recommendations, streamline wishlist management, and boost customer satisfaction and engagement."},
+        {property:"og:url", content:"https://customerdashboard.pro/blog/customer-dashboard-pro"},
+        {property:"og:type", content:"article"},
         {
           tagName: "link",
           rel: "canonical",

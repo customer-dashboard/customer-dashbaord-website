@@ -16,7 +16,7 @@ const Footer = () => <footer className="page-footer font-small blue pt-4 my-foot
                         <LazyLoadedImage src={newLogo} alt="logo" />
                     </Link>
                 </h5>
-                <p className="logo_disclamer">This creates a convenient andversatile customer account page,
+                <p className="logo_disclamer">This creates a convenient and versatile customer account page,
                     allowing customers to fully customize
                     their experience and merchants to
                     easily manage their store's look and feel.</p>

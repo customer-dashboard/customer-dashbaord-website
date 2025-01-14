@@ -1,0 +1,51 @@
+export const IndustriesData = [
+    {
+        BrandName: "Hulala Home",
+        UseCase: "Use Wishlist and Order Details",
+        Category: "Furniture and home decor",
+        ImageUrl:"https://cdn.shopify.com/s/files/1/0030/7491/6461/files/libas.png?v=1696658741",
+        ImageAlt: "shopify industries success with customer dashboard pro",
+        Link : "https://hulalahome.com/",
+    },
+    {
+        BrandName: "Verlas",
+        UseCase: "Use Profile (Custom Fields)",
+        Category: "Jewellery and accessories",
+        ImageUrl:"https://cdn.shopify.com/s/files/1/0030/7491/6461/files/synergee-case-study.png",
+        ImageAlt: "shopify industries success with customer dashboard pro",
+        Link : "https://hulalahome.com/",
+    },
+    {
+        BrandName: "Vita Health",
+        UseCase: "Use Profile (Custom Fields)",
+        Category: "Beauty & cosmetics",
+        ImageUrl:"https://cdn.shopify.com/s/files/1/0030/7491/6461/files/synergee-case-study.png",
+        ImageAlt: "shopify industries success with customer dashboard pro",
+        Link : "https://hulalahome.com/",
+    },
+    {
+        BrandName: "Hulala Home",
+        UseCase: "Use Wishlist and loyalty",
+        Category: "Gym, wellness and spa",
+        ImageUrl: "https://cdn.shopify.com/s/files/1/0030/7491/6461/files/libas.png?v=1696658741",
+        ImageAlt: "shopify industries success with customer dashboard pro",
+        Link : "https://hulalahome.com/",
+    },
+    {
+        BrandName: "EGM Cigars",
+        UseCase: "Use Wishlist and loyalty",
+        Category: "Apparel and clothing",
+        ImageUrl:"https://cdn.shopify.com/s/files/1/0030/7491/6461/files/carbone.png?v=1696658741",
+        ImageAlt: "shopify industries success with customer dashboard pro",
+        Link : "https://hulalahome.com/",
+    },
+    {
+        BrandName: "Verlas",
+        UseCase: "Use Wishlist and loyalty",
+        Category: "Jewellery and accessories",
+        ImageUrl:"https://cdn.shopify.com/s/files/1/0030/7491/6461/files/tmc.png?v=1696658741",
+        ImageAlt: "shopify industries success with customer dashboard pro",
+        Link : "https://hulalahome.com/",
+    },
+
+];

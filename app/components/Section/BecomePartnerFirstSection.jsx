@@ -18,7 +18,7 @@ function BecomePartnerFirstSection(props) {
           <div className="partner-first-section">
             <div className=" m-mt-5">
               <div className="row align-items-center">
-                <div className="col-12 col-sm-6">
+                <div className="col-12 col-lg-6">
                   <h1 className=" mb-4">
                     Welcome to Our  <span className="product-name"> Partner Program! </span>
                   </h1>
@@ -40,8 +40,8 @@ function BecomePartnerFirstSection(props) {
                       </p>
                     </div>
                     <div className="mt-4">
-                      <div className="row m-gap">
-                        <div className="col-sm-6 col-lg-5 col-12 mt-3">
+                      <div className="row d-flex m-gap ">
+                        <div className="col-md-6 col-sm-6 my-md-4 my-sm-4 my-x-sm col-x-sm-6 col-lg-5">
                           <button
                             className="become-partner-btn"
                             onClick={handleShow}
@@ -49,10 +49,10 @@ function BecomePartnerFirstSection(props) {
                             Become Partner
                           </button>
                         </div>
-                        <div className="col-sm-6 col-lg-5 col-12 mt-3">
+                        <div className="col-md-6 col-sm-6 my-md-4 my-sm-4 my-x-sm col-x-sm-6  col-lg-5">
                           <Link to="/partners">
                             <button className="become-partner-btn">
-                              Read More...
+                              View Partners
                             </button>
                           </Link>
                         </div>
@@ -60,8 +60,8 @@ function BecomePartnerFirstSection(props) {
                     </div>
                   </div>
                 </div>
-                <div className="col-12 col-sm-6 m-mt-10">
-                  <div className="text-center">
+                <div className="col-12 col-lg-6 m-mt-10">
+                  <div className="text-center become-partner-hero-image">
                     <div>
                       <img src="https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/partner-page/Welcome%20to%20Our%20Partner%20Program%20(1).png" title="Partnership with customer dashboard pro" alt="Partnership with customer dashboard pro" className="w-100 rounded" />
                     </div>

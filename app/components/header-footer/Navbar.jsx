@@ -25,9 +25,16 @@ function Header() {
     const [SecondIsOpen , UpdateSecondIsOpen]= useState(false);
     const [ThirdIsOpen , UpdateThirdIsOpen]= useState(false);
     const [fourth , setFourth]= useState(false);
+    const [caseStudy, setCaseStudy] = useState(false);
    
     const handleIsSecondOpen=(e)=>{
         UpdateSecondIsOpen(true);
+    }
+    const handleCaseStudyOpen=(e)=>{
+        setCaseStudy(true);
+    }
+    const handleCaseStudyClose=(e)=>{
+        setCaseStudy(false);
     }
     const handleIsSecondClosed=(e)=>{
         UpdateSecondIsOpen(false);
@@ -79,11 +86,15 @@ function Header() {
                                 <Link to="/blog" className=" Nav-item nav-link-custom nav-link-custom-drppdown">Blog</Link>
                                 <Link to="https://customer-dashboard-pro.helpscoutdocs.com" target='_blank' className=" Nav-item nav-link-custom nav-link-custom-drppdown">Knowledge base</Link>
                             </NavDropdown>
+                            <NavDropdown href="Resources" title="Case Study" id="basic-nav-dropdown" show={caseStudy} onClick={()=>handleCaseStudyOpen(!caseStudy)} onMouseOver={handleCaseStudyOpen} onMouseLeave={handleCaseStudyClose} >
+                                <Link to="/case-study/shopify-plus-stores-succes-stories" className=" Nav-item nav-link-custom nav-link-custom-drppdown">Shopify Plus</Link>
+                                {/* <Link to="/industries-solutions" className=" Nav-item nav-link-custom nav-link-custom-drppdown">Industries</Link> */}
+                            </NavDropdown>
                             <NavDropdown href="Partners" title="Partners" id="basic-nav-dropdown" show={ThirdIsOpen} onClick={()=>UpdateThirdIsOpen(!ThirdIsOpen)} onMouseOver={handleIsThirdOpen} onMouseLeave={handleIsThirdClosed} >
                                 <Link to="/partners" className=" Nav-item nav-link-custom nav-link-custom-drppdown">Partners</Link>
                                 <Link to="/become-a-partner" className="Nav-item nav-link-custom nav-link-custom-drppdown">Become a partner</Link>
                             </NavDropdown>
-                            <Link to="/pricing" className=" main-headernav Nav-item nav-link-custom">Pricing</Link>
+                            <Link to="/pricing" className="main-headernav Nav-item nav-link-custom">Pricing</Link>
                        </Nav>
                       
                     </Navbar.Collapse>

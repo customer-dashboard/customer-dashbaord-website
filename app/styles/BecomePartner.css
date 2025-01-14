@@ -13,6 +13,7 @@
   line-height: 24px;
   text-transform: capitalize;
 }
+
 .col-60 {
   width: 60%;
 }
@@ -109,9 +110,9 @@
   color: black !important;
 }
 
-@media screen and (max-width: 496px) {
+@media screen and (max-width: 576px) {
   .custom-become-partner h1 {
-    font-size: 26px;
+    font-size: 32px;
     font-weight: 600;
     line-height: 35.5px;
     text-align: center;
@@ -133,9 +134,6 @@
     text-align: justify;
     margin-top: 25px !important;
     line-height: 26px;
-  }
-  .m-gap {
-    gap: 15px;
   }
   .m-mb-none {
     margin-bottom: 0 !important;
@@ -170,5 +168,19 @@
   }
   .contact-heading {
     font-size: 20px;
+  }
+}
+
+@media screen and (min-width:991px) {
+  .collaborate-image-become-partner{
+    width: 70% !important;
+    display: block;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .become-partner-hero-image{
+    margin-top: 2rem;
   }
 }

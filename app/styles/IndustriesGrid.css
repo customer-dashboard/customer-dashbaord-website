@@ -1,0 +1,108 @@
+.shopify-industy-single-item {
+    position: relative;
+    overflow: hidden; /* Ensures the animated content doesn't overflow */
+    cursor: pointer;
+  }
+
+  .industries-main-heading h1,h2{
+    font-family: sans-serif;
+  }
+  
+  .industry-main-content {
+    position: absolute;
+    background: radial-gradient(black, transparent);
+    top: 0;
+    right: -100%; /* Initially hidden outside the container on the right */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0, 0, 0, 0.6); /* Optional background color for the content */
+    color: white; /* Ensures text is visible if background is dark */
+    padding: 20px; /* Adds some spacing inside the content */
+    transition: right 0.5s ease-in-out; /* Smooth animation for sliding in */
+  }
+  
+  .shopify-industy-single-item:hover .industry-main-content {
+    right: 0; /* Moves the block into view */
+  }
+  
+  .per_industry-name_{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .per_industry-name_ .industry-name_ h2{
+    background: white;
+    padding: 15px 30px;
+    font-family: cursive;
+    font-size: 22px;
+  }
+  .shopify-industy-single-item:hover .per_industry-name_ .industry-name_ h2 {
+    opacity: 0; /* Make the element transparent */
+    visibility: hidden; /* Ensure it's not focusable or interactive */
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out; /* Smooth transition */
+  }
+  
+  .per_industry-name_ .industry-name_ h2 {
+    opacity: 1; /* Fully visible initially */
+    visibility: visible; /* Ensure it's interactable */
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+  }
+  .industry-main-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .industry-main-content h2{
+    color: #eb4503;
+    border-bottom: 1px solid;
+    padding-bottom: 0.5rem;
+    font-size: 42px;
+    font-family: fantasy;
+  }
+  .industry-use-cases h3{
+    font-size: 30px;
+    padding-bottom: 0.3rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    border-bottom: 1px solid;
+  }
+  .industry-use-cases p{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+  }
+
+  @media screen and (max-width:576px) {
+    .industry-main-content{
+      position: relative !important;
+      right: 0;
+      background: #d2d2d2;
+    }
+    .industry-use-cases h3, .industry-use-cases p{
+      color: black;
+    }
+    .industries-main-heading h1{
+      font-size: 28px;
+    }
+    .industries-main-heading h2{
+      font-size: 18px;
+    }
+    .per_industry-name_{
+      top: 30%;
+    }
+    .industry-main-content h2{
+      font-size: 32px;
+    }
+    .industry-use-cases h3{
+      font-size: 22px;
+    }
+    .per_industry-name_ .industry-name_ h2{
+      font-size: 18px;
+    }
+    .industry-use-cases p{
+      font-size: 16px;
+    }
+  }

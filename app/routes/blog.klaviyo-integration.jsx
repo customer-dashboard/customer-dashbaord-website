@@ -8,17 +8,18 @@ export const links = () => [{ rel: "stylesheet", href: BlogFullPageStyle },
 
   export const meta = () => {
     return [
-      { title: "Klaviyo Integration | Customer Dashboard Pro" },
-      { name: "description", content: "Improve your marketing strategies with Klaviyo Integration for Customer Dashboard Pro. Drive sales and engage customers with personalized, targeted emails through our user-friendly platform." },
-      { name: "keywords", content: "Klaviyo Integration, Klaviyo Integration With CUstomer Dashboard Pro, Klaviyo With CUstomer Dashboard Pro" },
-      {property:"og:title", content:"Klaviyo Integration | Customer Dashboard Pro"},
-      {property:"og:description", content:"Improve your marketing strategies with Klaviyo Integration for Customer Dashboard Pro. Drive sales and engage customers with personalized, targeted emails through our user-friendly platform."},
+      { title: "Klaviyo Integration with Customer Dashboard Pro | No-Code Setup" },
+      { name: "description", content: "Effortlessly integrate Klaviyo with Customer Dashboard Pro. Automatically collect and sync customer data when they log in, no coding required!" },
+      { name: "keywords", content: "Klaviyo integration Shopify, no-code Klaviyo setup, Customer Dashboard Pro features, automate customer data sync, e-commerce email marketing tools" },
+      {property:"og:title", content:"Klaviyo Integration with Customer Dashboard Pro"},
+      {property:"og:description", content:"Simplify your Shopify store's email marketing with Klaviyo integration in Customer Dashboard Pro. Automatically sync customer data during login without writing a single line of code."},
+      {property:"og:url", content:"https://customerdashboard.pro/blog/klaviyo-integration"},
+      {property:"og:type", content:"article"},
       {
         tagName: "link",
         rel: "canonical",
         href: "https://customerdashboard.pro/blog/klaviyo-integration",
       },
-    
     ];
   };
 
