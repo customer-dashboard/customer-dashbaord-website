@@ -32,17 +32,6 @@ export const links = () => [
     : []),
 ];
 
-export function loader({ request }) {
-  const url = new URL(request.url);
-  console.log("url",url.hostname);
-  // Redirect www to non-www
-  if (url.hostname === "www.customerdashboard.pro") {
-      url.hostname = "customerdashboard.pro";
-      return Response.redirect(url.toString(), 301); // 301 indicates a permanent redirect
-  }
-  return null; // Allow other routes to load normally
-}
-
 export default function App() {
 
   const [showComponents, setShowComponents] = useState(null);
