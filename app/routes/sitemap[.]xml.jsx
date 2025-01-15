@@ -1,87 +1,47 @@
-export const loader = () => {
-  // handle "GET" request
-  // separating xml content from Response to keep clean code.
-  const content = `
-        <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-        <url>
-        <loc>https://customerdashboard.pro/</loc>
-        <lastmod>2023-11-09T08:20:09+01:00</lastmod>
-        <priority>0.6</priority>
-      </url>
-      <url>
-      <loc>https://customerdashboard.pro/pricing</loc>
-      <lastmod>2023-11-09T08:20:09+01:00</lastmod>
-      <priority>1.0</priority>
-    </url>
-<url>
-	<loc>https://customerdashboard.pro/faqs</loc>
-	<lastmod>2023-11-09T08:20:09+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://customerdashboard.pro/privacy-policy</loc>
-	<lastmod>2023-11-09T08:20:09+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-<loc>https://customerdashboard.pro/blog</loc>
-<lastmod>2023-11-09T08:20:09+01:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://customerdashboard.pro/blog/klaviyo-integration</loc>
-<lastmod>2023-11-09T08:20:09+01:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://customerdashboard.pro/blog/customer-dashboard-pro</loc>
-<lastmod>2023-11-09T08:20:09+01:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://customerdashboard.pro/re-order</loc>
-<lastmod>2023-11-09T08:20:09+01:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://customerdashboard.pro/recently-view</loc>
-<lastmod>2023-11-09T08:20:09+01:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://customerdashboard.pro/top-order-products</loc>
-<lastmod>2023-11-09T08:20:09+01:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://customerdashboard.pro/navigation-builder</loc>
-<lastmod>2023-11-09T08:20:09+01:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://customerdashboard.pro/custom-fields</loc>
-<lastmod>2023-11-09T08:20:09+01:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://customerdashboard.pro/translation</loc>
-<lastmod>2023-11-09T08:20:09+01:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://customerdashboard.pro/custom-signup-form</loc>
-<lastmod>2023-11-09T08:20:09+01:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://customerdashboard.pro/partners-and-integrations</loc>
-<lastmod>2023-11-09T08:20:09+01:00</lastmod>
-<priority>1.0</priority>
-</url>
+export function loader() {
+  const BASE_URL = "https://customerdashboard.pro"; // Replace with your site's URL
+
+  const urls = [
+    `${BASE_URL}/`,
+    `${BASE_URL}/pricing`,
+    `${BASE_URL}/faqs`,
+    `${BASE_URL}/privacy-policy`,
+    `${BASE_URL}/blog`,
+    `${BASE_URL}/become-a-partner`,
+    `${BASE_URL}/blog/klaviyo-integration`,
+    `${BASE_URL}/blog/customer-dashboard-pro`,
+    `${BASE_URL}/re-order`,
+    `${BASE_URL}/recently-view`,
+    `${BASE_URL}/top-order-products`,
+    `${BASE_URL}/navigation-builder`,
+    `${BASE_URL}/custom-fields`,
+    `${BASE_URL}/translation`,
+    `${BASE_URL}/custom-signup-form`,
+    `${BASE_URL}/partners`,
+    `${BASE_URL}/legacy-customer-account/integrations`,
+    `${BASE_URL}/blog/shopify-customer-account-solution`,
+    `${BASE_URL}/blog/shopify-customer-account-features`,
+    `${BASE_URL}/case-study/shopify-plus-stores-succes-stories`,
+    `${BASE_URL}/case-study/verlas`,
+    `${BASE_URL}/case-study/hulala-home`,
+  ];
+
+  const sitemap = `
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+        ${urls
+          .map(
+            (url) => `
+            <url>
+              <loc>${url}</loc>
+              <lastmod>2023-11-09T08:20:09+01:00</lastmod>
+              <priority>1.0</priority>
+            </url>`
+          )
+          .join("")}
     </urlset>
-    `;
-  // Return the response with the content, a status 200 message, and the appropriate headers for an XML page
-  return new Response(content, {
+  `.trim();
+
+  return new Response(sitemap, {
     status: 200,
     headers: {
       "Content-Type": "application/xml",
@@ -89,4 +49,5 @@ export const loader = () => {
       encoding: "UTF-8",
     },
   });
-};
+}
+

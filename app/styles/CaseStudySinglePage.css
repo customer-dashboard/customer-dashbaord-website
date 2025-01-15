@@ -327,7 +327,7 @@
     position: absolute;
     inset: 0;
     width: 50%;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
     border-color: black;
     border-width:3px;
   }
