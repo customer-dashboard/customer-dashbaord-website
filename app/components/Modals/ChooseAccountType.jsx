@@ -1,13 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Button, Col, Image, Row } from 'react-bootstrap'
 
 function ChooseAccountType(props) {
 
   const { showComponents, setShowComponents } = props;
+  const [rotation, setRotation] = useState(0);
+
   const handleChooseAccountType = async (value) =>{
     setShowComponents(value);
     localStorage.setItem("AccountType",value)
   }
+
+  const handleRotationChange = (event) => {
+    const value = event.target.value;
+    setRotation(value);
+    document.body.style.setProperty("--scene-rotation", value);
+  };
 
   return (
     <>
@@ -17,7 +25,11 @@ function ChooseAccountType(props) {
             <div className="mb-3 built-for-shopify-button text-center">
                 <span className="built-button-wraper">
                     <span className="built-shopify-logo">
-                    <svg class="tw-h-[0.75em] " viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m13 0-1 5-4 9 8-9.5L13 0ZM3 0l1 5 4 9-8-9.5L3 0Z" fill="#0D79A7"></path><path d="m3 0 1 5 4 9 4-9 1-5H3Z" fill="#49A3C9"></path><path d="M8 14 4 5l-4-.5L8 14ZM8 14l4-9 4-.5L8 14Z" fill="#07425B"></path><path d="M8 5.5 4 5l4 9 4-9-4 .5Z" fill="#0D79A7"></path><path d="m4 5 4-5 4 5-4.001.5L4 5Z" fill="#95D5F0"></path><path d="M4 5 3 0h5L4 5ZM12 5l1-5H8l4 5Z" fill="#49A3C9"></path><path d="M4 5 3 0 0 4.5 4 5ZM12 5l1-5 3 4.5-4 .5Z" fill="#0D79A7"></path></svg>
+                    <div className="diamond-container">
+                <div className="diamond">
+                <svg class="tw-h-[0.75em] " viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m13 0-1 5-4 9 8-9.5L13 0ZM3 0l1 5 4 9-8-9.5L3 0Z" fill="#0D79A7"></path><path d="m3 0 1 5 4 9 4-9 1-5H3Z" fill="#49A3C9"></path><path d="M8 14 4 5l-4-.5L8 14ZM8 14l4-9 4-.5L8 14Z" fill="#07425B"></path><path d="M8 5.5 4 5l4 9 4-9-4 .5Z" fill="#0D79A7"></path><path d="m4 5 4-5 4 5-4.001.5L4 5Z" fill="#95D5F0"></path><path d="M4 5 3 0h5L4 5ZM12 5l1-5H8l4 5Z" fill="#49A3C9"></path><path d="M4 5 3 0 0 4.5 4 5ZM12 5l1-5 3 4.5-4 .5Z" fill="#0D79A7"></path></svg>
+                </div>
+                </div>
                     </span>
                     <span className="built-shopify-text">Built for Shopify</span>
                 </span>
