@@ -1,11 +1,53 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.lato-thin {
+  font-family: "Lato", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", serif;
+  font-weight: 900;
+  font-style: normal;
+}
 
 body {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Lato", serif !important;
+  /* font-weight: 400 !important; */
+  font-style: normal !important;
 }
-
+h1, h2, h3, h4, h5, h6{
+  font-family: "Lato", serif !important;
+  font-weight: 700 !important;
+  font-style: normal !important;
+}
+p, span{
+  font-family: "Lato", serif !important;
+  /* font-weight: 400 !important; */
+  font-style: normal !important;
+}
 * {
   box-sizing: border-box;
 }
@@ -82,7 +124,9 @@ body {
 .react-video-player-section {
   position: relative;
 }
-
+.app-color{
+  color: #eb4503;
+}
 .header_btn {
   font-weight: 600;
   padding: 14px 26px;
@@ -185,7 +229,7 @@ body {
 .image_with_text_new_heading h2 {
   font-weight: 600;
   line-height: 43px;
-  font-size: 28px;
+  font-size: 32px;
 }
 .image_with_text_new_heading h2 span,
 .feature-com-head h2 span,
@@ -211,7 +255,7 @@ body {
 @media screen and (max-width: 768px) {
     .image_with_text_new_heading h2{
         font-size: 18px;
-        line-height: 34px;
+        line-height: 22px;
     }
     .image_with_text_new_sub_heading h6{
       font-size: 15px;
@@ -454,6 +498,9 @@ body {
 .choose_version_subhead p span{
     color: #eb4503;
 }
+.choose_version_subhead p{
+  font-size: 18px;
+}
 
 
 .btn__ {
@@ -485,6 +532,12 @@ body {
     content: "";
     background: #ccc; /* Example background, replace with your specific value */
     animation: shockwave 1s 0.5s ease-out infinite;
+  }
+
+  @media screen and (min-width:991px) {
+    .img-main-head{
+      font-size: 38px;
+    }
   }
   
   @keyframes shockwaveJump {
@@ -522,7 +575,7 @@ body {
   }
   
   .account_version_features_wraper img{
-    width: 75%;
+    width: 85%;
   }
 
   .button-container_ {

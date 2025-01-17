@@ -266,14 +266,14 @@ export const partnerData = [
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/utterbond-subscriptions?utm_source=customer-dashboard-pro"
   },
-  {
-    logo: scalifyLogo, 
-    heading: "Scalify",
-    content:"Launch, analyze, optimize and scale your ads faster with game-changing automation.",
-    blog:false,
-    blogLink:"/klaviyo-blog",
-    link:"https://scalify.com?utm_source=customer-dashboard-pro"
-  },
+  // {
+  //   logo: scalifyLogo, 
+  //   heading: "Scalify",
+  //   content:"Launch, analyze, optimize and scale your ads faster with game-changing automation.",
+  //   blog:false,
+  //   blogLink:"/klaviyo-blog",
+  //   link:"https://scalify.com?utm_source=customer-dashboard-pro"
+  // },
   {
     logo: SearchPiLogo, 
     heading: "SearchPie SEO & Speed Optimize",

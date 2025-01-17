@@ -13,7 +13,7 @@ const Footer = () => <footer className="page-footer font-small blue pt-4 my-foot
                 <h5 className="text-uppercase">
                 <Link to="/" className="customer_logo_footer">
                         {/* <Image src={newLogo}></Image> */}
-                        <LazyLoadedImage src={newLogo} alt="logo" />
+                        <LazyLoadedImage src={newLogo} alt="customer dashboard pro logo" />
                     </Link>
                 </h5>
                 <p className="logo_disclamer">This creates a convenient and versatile customer account page,

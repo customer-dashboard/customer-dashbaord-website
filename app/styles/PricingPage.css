@@ -93,7 +93,7 @@
     }
 }
 .checkout-ectension--plan--page--wraper > *{
-    font-family: sans-serif;
+    font-family: "Lato", serif;
 }
 .checkout-ectension--plan--page--wraper h3{
     font-size: 16px;
@@ -104,6 +104,17 @@
     font-size: 30px;
     font-weight: 600;
 }
+.Polaris-DataTable__Table thead th:nth-child(2),
+.Polaris-DataTable__Table thead th:nth-child(3) {
+    color: #eb4503;
+    background-color: #e6e6e6; 
+}
+
+.Polaris-DataTable__Table tbody td:nth-child(2),
+.Polaris-DataTable__Table tbody td:nth-child(3) {
+    background-color: #ededed;
+}
+
 .checkout-ectension--plan--page--wraper .Polaris-DataTable__TableRow .Polaris-Box{
     font-weight: 500;
 }

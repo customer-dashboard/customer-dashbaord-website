@@ -25,16 +25,16 @@ export const klaviyoBlogData = [
     Link: "/blog/klaviyo-integration",
     WatchIcon: watchIcon,
   },
-  {
-    Name: "Customer Dashboard Pro",
-    BlogImage: customerDashiboarImage,
-    Date: "28th Dec 2023",
-    Heading: "The Importance of Customer Account Page",
-    Content:
-      "The Importance of Customer Account Page: Enhancing the Shopping Experience",
-    Link: "/blog/customer-dashboard-pro",
-    WatchIcon: watchIcon,
-  },
+  // {
+  //   Name: "Customer Dashboard Pro",
+  //   BlogImage: customerDashiboarImage,
+  //   Date: "28th Dec 2023",
+  //   Heading: "The Importance of Customer Account Page",
+  //   Content:
+  //     "The Importance of Customer Account Page: Enhancing the Shopping Experience",
+  //   Link: "/blog/customer-dashboard-pro",
+  //   WatchIcon: watchIcon,
+  // },
   {
     Name: "Supercharge Customer Dashboard Pro",
     BlogImage: "https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/Blogs/Supercharge%20(3).png",

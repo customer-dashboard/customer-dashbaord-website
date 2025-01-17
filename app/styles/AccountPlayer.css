@@ -10,10 +10,10 @@
     font-weight: 700;
 }
 .heading h2{
-    font-size: 1.8rem;
+    font-size: 39px;
 }
 .account-page-video iframe{
-    height: 600px;
+    height: 400px;
 }
 
 @media screen and (max-width:991px){

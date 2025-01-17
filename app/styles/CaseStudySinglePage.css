@@ -1,6 +1,6 @@
 .plus-case-study-hero-section h1{
     font-size: 27px;
-    font-family: sans-serif;
+    font-family: "Lato", serif;
     font-weight: 600;
     line-height: 38px;
 }   
@@ -12,11 +12,11 @@
 }
 .plus-case-study-hero-heading{
     font-size: 38px;
-    font-family: sans-serif;
+    font-family: "Lato", serif;
     font-weight: 600;
 }
 .plus-case-study-hero-section .plus-case-study-hero-desc{
-    font-family: sans-serif;
+    font-family: "Lato", serif;
     letter-spacing: 0.5px;
     font-weight: 600;
     opacity: 0.8;
@@ -25,7 +25,7 @@
 .table-item .table-item-inner .table_item_title h3{
     font-size: 16px;
     font-weight: 600;
-    font-family: sans-serif;
+    font-family: "Lato", serif;
 }
 .information-table{
     padding: 32px;
@@ -63,7 +63,7 @@
 ._brand-roi_heading{
     font-size: 18px;
     font-weight: 600;
-    font-family: sans-serif;
+    font-family: "Lato", serif;
 }
 ._brand-roi_data span{
     font-size: 32px;
@@ -102,7 +102,7 @@
     }
 }
 .case-study-main-content > *{
-    font-family: sans-serif;
+    font-family: "Lato", serif;
 }
 .case-study-main-content h2{
     font-weight: 600;
@@ -294,7 +294,7 @@
     font-size: 18px;
     margin-top: 12px;
     font-weight: 600;
-    font-family: sans-serif;
+    font-family: "Lato", serif;
   }
 
 
@@ -371,10 +371,10 @@
       justify-content: space-between;
     }
     .information-table .table-content .column-type{
-      font-size: 16px !important;
+      font-size: 14px !important;
     }
     .information-table .table-content .column-content{
-      font-size: 14px;
+      font-size: 12px;
     }
     .information-table{
       margin: 0 !important;
@@ -382,5 +382,8 @@
     }
     ._brand-roi_heading{
       font-size: 16px !important;
+    }
+    .slider-button{
+      padding: 0.2rem;
     }
   }

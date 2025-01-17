@@ -24,27 +24,27 @@ function Facility() {
                                         <h2 className='section_heading'>WHY <span>INSTALL?</span></h2>
                                         <ul>
                                             <li>
-                                                <span><Image src={One_Star_Image}></Image></span>
+                                                <span><Image loading='lazy' width="100%" height='100%' src={One_Star_Image} alt='Star' title='Star'></Image></span>
                                                 <span>Customer Dashboard Pro offers a user-friendly interface, making it easy for customers to navigate and access their account information effortlessly.</span>
                                             </li>
                                             <li>
-                                                <span><Image src={One_Star_Image}></Image></span>
+                                                <span><Image loading='lazy' width="100%" height='100%' src={One_Star_Image} alt='Star' title='Star'></Image></span>
                                                 <span>Choose your language effortlessly! With Customer Dashboard Pro, customers can quickly switch languages for a more user-friendly experience.</span>
                                             </li>
                                             <li>
-                                                <span><Image src={One_Star_Image}></Image></span>
+                                                <span><Image loading='lazy' width="100%" height='100%' src={One_Star_Image} alt='Star' title='Star'></Image></span>
                                                 <span>Shop with confidence! Customer Dashboard Pro ensures your information is secure for worry-free.</span>
                                             </li>
                                             <li>
-                                                <span><Image src={One_Star_Image}></Image></span>
+                                                <span><Image loading='lazy' width="100%" height='100%' src={One_Star_Image} alt='Star' title='Star'></Image></span>
                                                 <span>Stay informed about your orders with effortless tracking for a smooth shopping experience.</span>
                                             </li>
                                             <li>
-                                                <span><Image src={One_Star_Image}></Image></span>
+                                                <span><Image loading='lazy' width="100%" height='100%' src={One_Star_Image} alt='Star' title='Star'></Image></span>
                                                 <span>Customer Dashboard Pro supports third-party integrations, allowing you to amplify your customer journey with features like rewards and wishlists.</span>
                                             </li>
                                             <li>
-                                            <span><Image src={One_Star_Image}></Image></span>
+                                            <span><Image loading='lazy' width="100%" height='100%' src={One_Star_Image} alt='Star' title='Star'></Image></span>
                                             <span>With Customer Dashboard Pro Customer Accounts, <span className="last-li-child">you can do that easily.</span></span>
                                             </li>
                                         </ul>

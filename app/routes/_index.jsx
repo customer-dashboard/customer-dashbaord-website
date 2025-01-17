@@ -29,7 +29,7 @@ import { useOutletContext } from "@remix-run/react";
  
 export const meta = () => {
   return [
-    { title: "Customize Shopify Customer Account Pages | Customer Dashboard Pro : MT",},
+    { title: "Customize Shopify Customer Account | Customer Dashboard Pro : MT",},
     { name: "description",content: "Looking to Take Control Manage and Customize of Your Shopify Customer Account Pages? Look No Further Than Customer Dashboard Pro. Easily Manage and Customize Your Shopify Account Pages With Ease.",},
     { name: "keywords", content:  "Shopify Customer Accounts Page,customer account shopify, Customer Account Page, Customer Dashboard Pro Account Page, Shopify Account Page", },
     { property: "og:title", content: "Customize Shopify Customer Account Pages | Customer Dashboard Pro : MT",},
@@ -89,7 +89,7 @@ export default function Index() {
     <AccountPlayer/>
     <TestimonialSlider/>
     <Facility/>
-    <KnowlageBase/>
+    {/* <KnowlageBase/> */}
     <StartFree/>
  
    </>

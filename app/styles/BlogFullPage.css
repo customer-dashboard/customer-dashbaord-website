@@ -27,9 +27,9 @@
   color: white;
   font-size: 14px;
 }
-.fullpagemaincontentwithfullinfo * {
+/* .fullpagemaincontentwithfullinfo * {
   font-family: "Roboto", sans-serif !important;
-}
+} */
 .fullpagemaincontentwithfullinfo li {
   letter-spacing: normal;
   line-height: 1.9;

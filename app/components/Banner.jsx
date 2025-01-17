@@ -66,7 +66,19 @@ function Banner(props) {
                             </Col>
                             <Col lg={7}>
                                 <div className="shopify_video banner_video hero-banner-image">
-                                    <Image src="https://mandasa1.b-cdn.net/customer%20dashboard%20website/Customer%20Dashboard%20Pro%20Images/main%20banner%20image_01%20(1).png" alt="Shopify new customer account hero banner image" title="Shopify new customer account"/>
+                                    {
+                                        showComponents == 'New Customer Account' ?
+                                         <Image src="https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/main%20banner%20image_02_.png" alt="Shopify new customer account hero banner image" title="Shopify new customer account"/>
+                                        :
+                                        showComponents == 'Classic Customer Account' ?
+                                        <Image src="https://mandasa1.b-cdn.net/customer%20dashboard%20website/main%20banner%20image.png"/>
+                                        :
+                                        <video width='100%' loop muted autoPlay controls >
+                                          <source src="https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/video/CDP%20New%20Features%20video_08.mp4" type="video/mp4"/>
+                                        </video> 
+                                    }
+                                 
+                                    {/* <Image src="https://mandasa1.b-cdn.net/customer%20dashboard%20website/Customer%20Dashboard%20Pro%20Images/main%20banner%20image_01%20(1).png" alt="Shopify new customer account hero banner image" title="Shopify new customer account"/> */}
                                 </div>
                             </Col>
                         </Row>

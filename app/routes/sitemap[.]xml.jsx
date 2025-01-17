@@ -9,7 +9,6 @@ export function loader() {
     `${BASE_URL}/blog`,
     `${BASE_URL}/become-a-partner`,
     `${BASE_URL}/blog/klaviyo-integration`,
-    `${BASE_URL}/blog/customer-dashboard-pro`,
     `${BASE_URL}/re-order`,
     `${BASE_URL}/recently-view`,
     `${BASE_URL}/top-order-products`,

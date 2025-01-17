@@ -10,7 +10,7 @@ function KnowlageBase() {
                         <div className="knowladge-mini-container">
                         <h2 className="text-center">Grow Your Customer Engagement, Lifetime Value, and Sales Faster. </h2>
                         <div className="knowladge--base_explor-button text-center">
-                            <a className="btn header_btn  btn btn-primary" href="https://customer-dashboard-pro.helpscoutdocs.com/" target='_blank'>Get Started Now  {icon}</a>
+                            <a className="btn header_btn  btn btn-primary" href="https://apps.shopify.com/customer-dashboard-pro" target='_blank'>Get Started Now  {icon}</a>
                            
                         </div>
                         </div>

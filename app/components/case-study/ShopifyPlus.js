@@ -32,8 +32,8 @@ export const ShopifyPlusCaseStudies = [
 
 export const HulalaHomeCaseStudyData = {
     HeroImage:"https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/case-study/Hulala%20(1).png",
-    BeforImage:"https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/case-study/hulala-home/After%20Hulala%20is%20get.png",
-    AfterImage:"https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/case-study/hulala-home/Before%20Hulala%20(1).png",
+    BeforImage:"https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/case-study/hulala-home/After%20Velras%20(1).png",
+    AfterImage:"https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/case-study/hulala-home/Before%20Hulala%20(2).png",
     HeroImageAlt:"Hulala Home revenue with customer dashboard pro",
     Website:"https://hulalahome.com/",
     Plan:"Shopify Plus",
@@ -47,8 +47,8 @@ export const HulalaHomeCaseStudyData = {
 
 export const VerlasData = {
     HeroImage:"https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/case-study/verlas_01.jpg",
-    BeforImage:"https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/case-study/velras/After%20Velras.png",
-    AfterImage:"https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/case-study/velras/Before%20Velras.png",
+    BeforImage:"https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/case-study/velras/After%20Hulala.png",
+    AfterImage:"https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/case-study/velras/Before%20Velras%20(1).png",
     video:false,
     HeroImageAlt:"verlas used  customer dashboard pro from engage customers",
     Website:"https://verlas.com/",

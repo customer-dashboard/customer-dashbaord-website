@@ -57,7 +57,7 @@ function Header() {
                 <Container>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggle_btn hamburger-icon"/>
                     <Link to="/" className="customer_logo">
-                        <Image src={newLogo}></Image>
+                        <Image src={newLogo} loading='lazy' title='customer dashboard pro logo' alt='customer dashboard pro logo' width="100%" height="100%"  ></Image>
                     </Link>
                     <div className="min-width-header-btn">
                         <Button href="https://apps.shopify.com/customer-dashboard-pro" target="_blank" rel="norefferer" className="shopify_official_logo__ d-none-min-991  s_btn btns  shopify-official-logo-black">

@@ -45,16 +45,16 @@
     --active-tab: 1.26; 
   }
   [data-active="third"] {
-    --active-tab: 2.5; 
+    --active-tab: 2.3; 
   }
   [data-active="fourth"] {
     --active-tab: 0.04;
   }
   [data-active="fifth"] {
-    --active-tab: 1.27; 
+    --active-tab: 1.15; 
   }
   [data-active="six"] {
-    --active-tab: 2.5; 
+    --active-tab: 2.4; 
   }
   [data-active="seven"] {
     --active-tab: 0.04;
@@ -69,14 +69,54 @@
     --active-tab: 0.04;
   }
   [data-active="eleven"] {
-    --active-tab: 1.27; 
+    --active-tab: 1.1; 
   }
   [data-active="twelve"] {
-    --active-tab: 2.5; 
+    --active-tab: 2.2; 
+  }
+
+  @media screen and (max-width: 1280px) {
+    [data-active="first"] {
+      --active-tab: 0.04;
+    }
+    
+    [data-active="second"] {
+      --active-tab: 1.26; 
+    }
+    [data-active="third"] {
+      --active-tab: 2.5; 
+    }
+    [data-active="fourth"] {
+      --active-tab: 0.04;
+    }
+    [data-active="fifth"] {
+      --active-tab: 1.27; 
+    }
+    [data-active="six"] {
+      --active-tab: 2.5; 
+    }
+    [data-active="seven"] {
+      --active-tab: 0.04;
+    }
+    [data-active="eight"] {
+      --active-tab: 1.27; 
+    }
+    [data-active="nine"] {
+      --active-tab: 2.5; 
+    }
+    [data-active="ten"] {
+      --active-tab: 0.04;
+    }
+    [data-active="eleven"] {
+      --active-tab: 1.3; 
+    }
+    [data-active="twelve"] {
+      --active-tab: 2.55; 
+    }
   }
 
   .nav-items-el h3{
-    font-size: 20px;
+    font-size: 22px;
     color: #f27502;
     font-weight: 600;
   }
@@ -253,7 +293,7 @@
   flex-direction: row-reverse !important;
 }
 [data-active="first"] {
-    --active-tab: 0.05;
+    --active-tab: 0;
   }
   
   [data-active="second"] {
@@ -266,28 +306,28 @@
     --active-tab: 0.05;
   }
   [data-active="fifth"] {
-    --active-tab: 1.28; 
+    --active-tab: 1.15; 
   }
   [data-active="six"] {
-    --active-tab: 2.49; 
+    --active-tab: 2.2; 
   }
   [data-active="seven"] {
     --active-tab: 0.05;
   }
   [data-active="eight"] {
-    --active-tab: 1.28; 
+    --active-tab: 1.15; 
   }
   [data-active="nine"] {
-    --active-tab: 2.49; 
+    --active-tab: 2.27; 
   }
   [data-active="ten"] {
     --active-tab: 0.05;
   }
   [data-active="eleven"] {
-    --active-tab: 1.28; 
+    --active-tab: 1.18; 
   }
   [data-active="twelve"] {
-    --active-tab: 2.49; 
+    --active-tab: 2.3; 
   }
 }
 
@@ -327,7 +367,7 @@
   transition: all 0.3s ease-in-out;
 }
 [data-active=second] {
-  --active-tab: 1;
+  --active-tab: 0.9;
 }
 [data-active=third] {
   --active-tab: 1.9;
@@ -338,9 +378,9 @@
 [data-active=six] {
   --active-tab: 1.9;
 }
-[data-active=seven] {
+/* [data-active=seven] {
     --active-tab: 1.9;
-}
+} */
 [data-active=eight] {
 --active-tab: 0.9;
 }

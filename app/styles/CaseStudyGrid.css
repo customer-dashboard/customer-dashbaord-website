@@ -19,12 +19,10 @@
     background-repeat: no-repeat; /* Prevents the image from repeating */
 }
 
-.app-color{
-    color: #eb4503;
-}
+
 
 .case-study-hero-banner-contianer .headings h1, h2{
-    font-family: sans-serif;
+    font-family: "Lato", serif;
     font-weight: 600;
 }
 .case-study-hero-banner-contianer .headings h1{
@@ -107,11 +105,11 @@
     margin-bottom: 12px;
     font-size: 26px;
     font-weight: 600;
-    font-family: sans-serif;
+    font-family: "Lato", serif;
     color: #eb4503;
 }
 .sigle-case-study-item-content .single-item-content p{
-    font-family: sans-serif;
+    font-family: "Lato", serif;
 }
 
 .brand-main-img {
@@ -177,7 +175,7 @@
     }
     .read-case-study-btn{
         padding: 18px 45px !important;
-        font-family: sans-serif;
+        font-family: "Lato", serif;
     }
     .case-study-hero-banner-contianer .headings h1{
         font-size: 48px;

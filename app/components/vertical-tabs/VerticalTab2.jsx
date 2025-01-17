@@ -13,16 +13,16 @@ function VerticalTab2(props) {
   };
   const tabs = ["seven", "eight", "nine"]; 
 
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setActiveTab((prevTab) => {
-        const currentIndex = tabs.indexOf(prevTab);
-        const nextIndex = (currentIndex + 1) % tabs.length;
-        return tabs[nextIndex];
-      });
-    }, 4000);
-    return () => clearInterval(intervalId);
-  }, [tabs]);
+  // useEffect(() => {
+  //   const intervalId = setInterval(() => {
+  //     setActiveTab((prevTab) => {
+  //       const currentIndex = tabs.indexOf(prevTab);
+  //       const nextIndex = (currentIndex + 1) % tabs.length;
+  //       return tabs[nextIndex];
+  //     });
+  //   }, 4000);
+  //   return () => clearInterval(intervalId);
+  // }, [tabs]);
 
   return (
     <>
