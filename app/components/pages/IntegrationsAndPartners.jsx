@@ -5,11 +5,11 @@ import Integration from "../partner-and-integration/Integration";
 // import { partnerData } from "../../middleware/IntegrationsData";
 // import { integrationdata } from "../../middleware/IntegrationsData";
 import TransitionEffect from "../FadeTransition/TransitionEffect";
-function IntegrationsAndPartners({data, heading}) {
+function IntegrationsAndPartners({data, heading, propMain}) {
   useEffect(() => {
    TransitionEffect();
   }, []);
-
+console.log("data",data);
   return (
     <>
       <section className="main-container-for-pndin pt-5 pb-5 integration-partner-tab-key">
@@ -18,7 +18,7 @@ function IntegrationsAndPartners({data, heading}) {
             <div className="p-i-h text-center mb-5 pb-3">
               <h1 className="fw-600">{heading}</h1>
             </div>
-            <Integration data={data}/>
+            <Integration propMain={propMain} data={data}/>
             {/* <Tabs
               defaultActiveKey="Partners"
               id="fill-tab-example"
