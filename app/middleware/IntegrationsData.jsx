@@ -251,6 +251,14 @@ export const partnerData = [
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
   },
   {
+    logo: "https://mandasa1.b-cdn.net/customer%20dashboard%20website/partner%20images/gojiberry.webp", 
+    heading: "Gojiberry Survey & Feedback",
+    content:"Gojiberry boosts CVR with pre/post-purchase surveys and quizzes.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://go.edocode.co.jp/4ha6cjN"
+  },
+  {
     logo: doranProductReview, 
     heading: "Doran Product Reviews",
     content:"FREE app to collect customer reviews with videos and photos.",
