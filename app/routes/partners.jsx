@@ -36,7 +36,7 @@ export const meta = () => {
 
 function IntegrationsPartners() {
   const partner = useLoaderData();
-  console.log("partner",partner);
+  // console.log("partner",partner);
   return (
     <>
         

@@ -39,11 +39,6 @@ export const redirects = async () => {
       destination: '/faqs',
       permanent: true,
     },
-  ];
-};
-
-export const redirects1 = async () => {
-  return [
     {
       source: '/sitemap',
       destination: '/sitemap.xml',
@@ -51,3 +46,13 @@ export const redirects1 = async () => {
     },
   ];
 };
+
+// export const redirects1 = async () => {
+//   return [
+//     {
+//       source: '/sitemap',
+//       destination: '/sitemap.xml',
+//       permanent: true,
+//     },
+//   ];
+// };

@@ -59,3 +59,4 @@ export const VerlasData = {
     Revenue:"19.4%",
     Conclusion:<Velars/>
 }
+

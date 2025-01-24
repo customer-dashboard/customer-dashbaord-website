@@ -16,7 +16,7 @@ function CustomerSolutionFullBlog() {
                   <BlogsTopSection data={CustomerSolutionTop} />
                   <div className="container mb-5">
                     <div className="fullpagemaincontentwithfullinfo pb-5">
-                      {parse(CustomerSolutionBlogContent())}
+                      <CustomerSolutionBlogContent/>
                       {/* {CustomerSolutionBlogContent()} */}
                     </div>
                   </div>

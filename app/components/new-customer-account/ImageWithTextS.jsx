@@ -8,20 +8,19 @@ function ImageWithTextS({data, showComponents}) {
     <section className="image_with_text_new">
                 <div className="banner_background">
                     <Container>
-                        <div className="main-head">
-                            <h2 className='text-center app-color img-main-head mt-5 mt-sm-0'>{data[0].head}</h2>
+                        {
+                        data[0].pages ? "" : <div className="main-head">
+                         <h2 className='text-center app-color img-main-head mt-5 mt-sm-0'>{data[0].head}</h2>
                         </div>
+                        }
                         <Row className="align-items-center mt-4">
                             <Col lg={5} className="banner_left_new">
                                 <div className='image_with_text_new_heading mb-3'>
-                                    <h2>{data[0].title} <span>{data[0].titleColor}</span></h2>
+                                    
+                                   {
+                                    data[0].pages ?  <h1>{data[0].title} <span>{data[0].titleColor}</span></h1> :  <h2>{data[0].title} <span>{data[0].titleColor}</span></h2>
+                                   }
                                 </div>
-                                 {/* <div className='image_with_text_new_sub_heading mb-3'>
-                                    <h6 className='font-weight-bold'>{data[0].subTitle}</h6>
-                                </div>
-                                <div className='image_with_text_new_para mb-4'>
-                                    <p>{data[0].description}</p>
-                                </div> */}
                                 <div className="image_with_text_features">
                                     {
                                         data[0].features.map((item,index)=>{
@@ -46,7 +45,6 @@ function ImageWithTextS({data, showComponents}) {
                                             <div className="shopify transition-duretion">
                                             <Button href="https://apps.shopify.com/customer-dashboard-pro" target="_blank" rel="norefferer" className="d-flex s_btn btns justify-content-evenly shopify-official-logo-black">
                                                 <Image src={shopifyOfficialLogoBlack} alt="Shopify-official-logo-black"></Image>
-                                              {/* <LazyLoadedImage src={shopifyOfficialLogoBlack} alt="Shopify-official-logo-black" /> */}
                                             </Button>
                                             </div>
                                         </Col>

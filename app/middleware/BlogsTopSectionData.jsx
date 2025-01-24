@@ -25,6 +25,15 @@ export const CustomerSolutionTop = {
   SubHeading:"In the current highly competitive e-commerce landscape, buyer experience is everything! Modern Shopify owners know the relevance of offering a seamless, enjoyable shopping experience to boost conversations and foster long-term customer relationships. ",
   BannerButton: "Install Now",
   Tag: "CustomerInsights",
+}; 
+
+export const BoostCustomerAccountTopSectionData = {
+  Date: `<span className = "product-name"> Customer Dashboard Pro </span> - 17th Dec 20241`,
+  Heading: `Supercharge your Shopify Store with<span className = "product-name"> Customer Dashboard Pro</span>`,
+  BannerImage: "https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/Blogs/Supercharge%20(2).png",
+  SubHeading:"In the current highly competitive e-commerce landscape, buyer experience is everything! Modern Shopify owners know the relevance of offering a seamless, enjoyable shopping experience to boost conversations and foster long-term customer relationships. ",
+  BannerButton: "Install Now",
+  Tag: "CustomerInsights",
 };
 
 export const CustomerAccountFeatureTop = {

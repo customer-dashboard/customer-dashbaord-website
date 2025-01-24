@@ -91,7 +91,6 @@ export default function Index() {
     <Facility/>
     {/* <KnowlageBase/> */}
     <StartFree/>
- 
    </>
   );
 }

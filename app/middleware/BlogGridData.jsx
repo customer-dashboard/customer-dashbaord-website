@@ -45,6 +45,17 @@ export const klaviyoBlogData = [
     WatchIcon: watchIcon,
   },
 
+  // {
+  //   Name: "How a Customer Accounts App Can Boost Conversions on Your Shopify Store?",
+  //   BlogImage: "https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/Blogs/Supercharge%20(3).png",
+  //   Date: "24th Jan 2024",
+  //   Heading: "How a Customer Accounts App Can Boost Conversions on Your Shopify Store?",
+  //   Content:"A Customer Accounts app can significantly boost conversions on your Shopify store.",
+  //   Link: "/blog/how-customer-accounts-app-boosts-shopify-conversions",
+  //   WatchIcon: watchIcon,
+  // },
+
+
   {
     Name: "What Customer Dashboard Pro can do for your Shopify Account Page",
     BlogImage: "https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/Blogs/What%20Customer%20Dashboard%20Pro%20can%20do%20for%20your%20Shopify%20Account%20Page%20(1).png",

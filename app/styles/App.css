@@ -226,14 +226,14 @@ p, span{
   }
 }
 
-.image_with_text_new_heading h2 {
+.image_with_text_new_heading h2 , .image_with_text_new_heading h1 {
   font-weight: 600;
   line-height: 43px;
   font-size: 32px;
 }
 .image_with_text_new_heading h2 span,
 .feature-com-head h2 span,
-.feature-com-head p span {
+.feature-com-head p span, .image_with_text_new_heading h1 span {
   color: #eb4503;
 }
 .main_section_btn .header_btn {

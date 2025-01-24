@@ -1,0 +1,10 @@
+img{
+    width: 100%;
+    max-width: 100%;
+}
+.custom_account_pages_section{
+    background-color: #f8f8f8;
+}
+h2 > span{
+    color: #eb4503;
+}

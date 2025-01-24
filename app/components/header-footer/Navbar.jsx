@@ -67,10 +67,7 @@ function Header() {
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                         <Nav>
                         <NavDropdown  title="New Customer Account" id="basic-nav-dropdown" show={fourth} onClick={()=>setFourth(!fourth)} onMouseOver={handleFourthOpen} onMouseLeave={handleFourthClose} >                               
-                                <Link to="#" className="Nav-item nav-link-custom nav-link-custom-drppdown">Profile Fields</Link>
-                                <Link to="#" className="Nav-item nav-link-custom nav-link-custom-drppdown">Order Tracking</Link>
-                                <Link to="#" className="Nav-item nav-link-custom nav-link-custom-drppdown">Order Return</Link>
-                                <Link to="#" className="Nav-item nav-link-custom nav-link-custom-drppdown">Integrations</Link>
+                                <Link to="/customer-accounts/custom-fields" className="Nav-item nav-link-custom nav-link-custom-drppdown">Custom Fields</Link>
                             </NavDropdown>
                             <NavDropdown  title="Legacy Customer Account" id="basic-nav-dropdown" show={IsOpen} onClick={()=>UpdateIsOpen(!IsOpen)} onMouseOver={()=>UpdateIsOpen(true)} onMouseLeave={()=>UpdateIsOpen(false)}>                               
                                 <Link to="/re-order" className="Nav-item nav-link-custom nav-link-custom-drppdown">Re-Order</Link>
