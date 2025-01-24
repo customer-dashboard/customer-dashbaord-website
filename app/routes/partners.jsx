@@ -9,16 +9,16 @@ import { getDatabase } from '../../db.server';
 import DATABASE from '../utils/Mongo';
 export const links = () => [{ rel: "stylesheet", href: IntegrationPagesStyle }];
 
-export const loader = async () =>{
-  const Database = await DATABASE;
-  const collection = Database.collection("all_partners");
-  const data = await collection.find().toArray();
-  // const { db } = await connectToDatabase();
-  // console.log("db",db);
-  // // const posts = await db.collection("all_partners").find();
-  // // return json(posts);
-  return json(data);
-} 
+// export const loader = async () =>{
+//   const Database = await DATABASE;
+//   const collection = Database.collection("all_partners");
+//   const data = await collection.find().toArray();
+//   // const { db } = await connectToDatabase();
+//   // console.log("db",db);
+//   // // const posts = await db.collection("all_partners").find();
+//   // // return json(posts);
+//   return json(data);
+// } 
 export const meta = () => {
   return [
     { title: "Partners: Partners with Customer Dashboard Pro Shopify App" },
@@ -35,12 +35,12 @@ export const meta = () => {
 };
 
 function IntegrationsPartners() {
-  const partner = useLoaderData();
+  // const partner = useLoaderData();
   // console.log("partner",partner);
   return (
     <>
         
-        <IntegrationsAndPartners propMain="partners" data={partner[0].partners} heading="Partners" />
+        <IntegrationsAndPartners propMain="partners__" data={partnerData} heading="Partners" />
     
     </>
   )

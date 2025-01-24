@@ -251,6 +251,39 @@ export const partnerData = [
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
   },
   {
+    logo: "https://mandasa1.b-cdn.net/customer%20dashboard%20website/partner%20images/zipchat.webp", 
+    heading: "Zipchat AI Chatbot+Whatsapp AI",
+    content:"AI Chatbot & Whatsapp AI to address users doubts in real time, add extra revenue & automate support.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/zipchat?utm_source=customer-dashboard-pro"
+  },
+  {
+    logo: "https://mandasa1.b-cdn.net/customer%20dashboard%20website/partner%20images/doramproductreview.webp", 
+    heading: "Doran Product Reviews",
+    content:"Send review requests with discounts to gather photo reviews and video reviews by product reviews app",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/doran-reviews-questions?utm_source=customer_dashboard_pro"
+  },
+
+  {
+    logo: "https://mandasa1.b-cdn.net/customer%20dashboard%20website/partner%20images/weFullfill.webp", 
+    heading: "Wefulfil Dropshipping",
+    content:"Our app helps manage and scale up the user’s business with ease from sourcing to delivery.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://wefulfil.com/?utm_source=partner&utm_medium=referral&utm_campaign=partner_page"
+  },
+  {
+    logo: "https://mandasa1.b-cdn.net/customer%20dashboard%20website/partner%20images/filelare.webp", 
+    heading: "Fileflare Digital Downloads",
+    content:"Sell PDFs, eBooks, stream videos & other digital products. Free unlimited bandwidth & easy setup!",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/digital-assets?utm_campaign=partnership&utm_source=mt-customer-dashboard&utm_medium=in-app-banner"
+  },
+  {
     logo: "https://mandasa1.b-cdn.net/customer%20dashboard%20website/partner%20images/gojiberry.webp", 
     heading: "Gojiberry Survey & Feedback",
     content:"Gojiberry boosts CVR with pre/post-purchase surveys and quizzes.",
