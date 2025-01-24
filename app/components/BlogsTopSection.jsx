@@ -24,10 +24,17 @@ function BlogsTopSection({ data }) {
                 </span>
                 <span className="blog-tag-bage">{propData.Tag}</span>
               </div>
-              <h1 className="full-page-blog-main-heading mb-5 fw-600 h-color-dark">
+              <h1 className="full-page-blog-main-heading mb-4 fw-600 h-color-dark">
                 {parse(propData.Heading)}
               </h1>
-              <p>{propData.SubHeading}</p>
+              <h3 className="subheading_blogs">{propData.SubHeading}</h3>
+              <Row>
+                <Col lg={6}>
+                <a href="https://apps.shopify.com/customer-dashboard-pro?utm_source=customer-dashboard-pro" target="_blank" rel="noopener noreferrer">
+               <Image className="w-100" src="http://localhost:3000/build/_assets/ofiicialBlackShopifyLogo-2ZPWUT4Z.png" alt="customer account logo" title="customer account logo"/>
+               </a>
+                </Col>
+              </Row>
             </Col>
             <Col lg={6}>
               {/* <Image src={propData.BannerImage} alt='blog-page-image' className='flpgtpscnimg'></Image> */}

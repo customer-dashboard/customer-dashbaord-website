@@ -18,7 +18,7 @@ import { Container } from 'react-bootstrap';
 export const meta = () => {
     return [
         {
-          title: "Custom Fields for Shopify | Gather Customer Information & Boost Engagement | Customer Dashboard Pro"
+          title: "Custom Fields for Shopify Customer Accounts | Gather Customer Information & Boost Engagement"
         },
         {
           name: "description",

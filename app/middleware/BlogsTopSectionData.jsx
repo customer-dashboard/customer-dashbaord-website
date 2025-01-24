@@ -19,19 +19,19 @@ export const CustomerDashboardTop = {
 };
 
 export const CustomerSolutionTop = {
-  Date: `<span className = "product-name"> Customer Dashboard Pro </span> - 17th Dec 20241`,
+  Date: `<span className = "product-name"> Customer Dashboard Pro </span> - 17th Dec 2024`,
   Heading: `Supercharge your Shopify Store with<span className = "product-name"> Customer Dashboard Pro</span>`,
   BannerImage: "https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/Blogs/Supercharge%20(2).png",
   SubHeading:"In the current highly competitive e-commerce landscape, buyer experience is everything! Modern Shopify owners know the relevance of offering a seamless, enjoyable shopping experience to boost conversations and foster long-term customer relationships. ",
   BannerButton: "Install Now",
   Tag: "CustomerInsights",
-}; 
+};  
 
 export const BoostCustomerAccountTopSectionData = {
-  Date: `<span className = "product-name"> Customer Dashboard Pro </span> - 17th Dec 20241`,
-  Heading: `Supercharge your Shopify Store with<span className = "product-name"> Customer Dashboard Pro</span>`,
-  BannerImage: "https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/Blogs/Supercharge%20(2).png",
-  SubHeading:"In the current highly competitive e-commerce landscape, buyer experience is everything! Modern Shopify owners know the relevance of offering a seamless, enjoyable shopping experience to boost conversations and foster long-term customer relationships. ",
+  Date: `<span className = "product-name"> Customer Dashboard Pro </span> - 24th Jan 2025`,
+  Heading: `Enhancing Conversions with a <span className = "product-name"> Customer Accounts </span> App on Your Shopify Store`,
+  BannerImage: "https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/Blogs/Blog%20images.png",
+  SubHeading:"Unlock the potential of personalized experiences by integrating a customer accounts app.Increase customer retention, streamline checkout processes, and enhance engagement to drive more conversions. ",
   BannerButton: "Install Now",
   Tag: "CustomerInsights",
 };

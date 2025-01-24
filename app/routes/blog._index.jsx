@@ -7,7 +7,7 @@ import StartFreeSectionStyle from '../styles/StartFree.css';
 export const links = () =>[
   {rel:'stylesheet', href:BlogsGridStyle},
   {rel:'stylesheet', href:StartFreeSectionStyle}
-]
+] 
 
 export const meta = () => {
   return [
@@ -17,12 +17,12 @@ export const meta = () => {
     {property:"og:title", content:"Stay Updated with the Latest Blogs | Customer Dashboard Pro"},
     {property:"og:description", content:"Stay up to date with the latest blogs on Customer Dashboard Pro. Explore a wide range of informative and insightful blog posts to gain valuable knowledge and stay informed."},
     {
-      tagName: "link",
+      tagName: "link", 
       rel: "canonical",
       href: "https://customerdashboard.pro/blog",
     },
   ];
-};
+}; 
 
 function Blogs(){
     return(

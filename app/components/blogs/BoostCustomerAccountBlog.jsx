@@ -5,7 +5,7 @@ import { BoostCustomerAccountTopSectionData } from '../../middleware/BlogsTopSec
 import BlogsTopSection from '../BlogsTopSection'
 
 function BoostCustomerAccountBlog() {
-  return (
+  return ( 
     <main className="blg-full-pg-main-wraper">
     <section className="blg-full-page-section">
       <div className="main-container-blg-f-section pt-5">
@@ -19,7 +19,7 @@ function BoostCustomerAccountBlog() {
                 </div>
               </div>
               <StartFree />
-            </div>
+            </div> 
           </div>
         </div>
       </div>

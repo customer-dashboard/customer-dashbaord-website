@@ -21,6 +21,12 @@
 .dttm-bage {
   margin-right: 15px;
 }
+.subheading_blogs{
+  margin-top: 0rem !important;
+  font-size: 17px;
+  color: black;
+  line-height: 28px;
+}
 .blog-tag-bage {
   padding: 2px 20px;
   background-color: #000;

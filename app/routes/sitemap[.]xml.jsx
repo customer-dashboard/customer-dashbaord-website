@@ -20,9 +20,11 @@ export function loader() {
     `${BASE_URL}/legacy-customer-account/integrations`,
     `${BASE_URL}/blog/shopify-customer-account-solution`,
     `${BASE_URL}/blog/shopify-customer-account-features`,
+    `${BASE_URL}/blog/how-customer-accounts-app-boosts-shopify-conversions`,
     `${BASE_URL}/case-study/shopify-plus-stores-succes-stories`,
     `${BASE_URL}/case-study/verlas`,
     `${BASE_URL}/case-study/hulala-home`,
+    `${BASE_URL}/customer-accounts/custom-fields`,
   ];
 
   const sitemap = `

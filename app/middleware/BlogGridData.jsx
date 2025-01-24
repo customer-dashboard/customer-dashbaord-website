@@ -15,46 +15,17 @@ const watchIcon = (
 import klaviyoblogimage from "../assets/images/Blogs/New_klaviyo.png";
 import customerDashiboarImage from "../assets/images/Blogs/customer_dashboard_blog_image.png";
 export const klaviyoBlogData = [
+  
   {
-    Name: "Klaviyo",
-    BlogImage: klaviyoblogimage,
-    Date: "28th Dec 2023",
-    Heading: "Klaviyo: Email Marketing & SMS",
-    Content:
-      "Klaviyo: Email Marketing & SMS Integration with Customer Dashboard Pro.",
-    Link: "/blog/klaviyo-integration",
+    Name: "How a Customer Accounts App Can Boost Conversions on Your Shopify Store?",
+    BlogImage: "https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/Blogs/Blog%20images.png",
+    Date: "24th Jan 2025",
+    Heading: "How a Customer Accounts App Can Boost Conversions on Your Shopify Store?",
+    Content:"A Customer Accounts app can significantly boost conversions on your Shopify store.",
+    Link: "/blog/how-customer-accounts-app-boosts-shopify-conversions",
     WatchIcon: watchIcon,
   },
-  // {
-  //   Name: "Customer Dashboard Pro",
-  //   BlogImage: customerDashiboarImage,
-  //   Date: "28th Dec 2023",
-  //   Heading: "The Importance of Customer Account Page",
-  //   Content:
-  //     "The Importance of Customer Account Page: Enhancing the Shopping Experience",
-  //   Link: "/blog/customer-dashboard-pro",
-  //   WatchIcon: watchIcon,
-  // },
-  {
-    Name: "Supercharge Customer Dashboard Pro",
-    BlogImage: "https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/Blogs/Supercharge%20(3).png",
-    Date: "17th Dec 2024",
-    Heading: "Supercharge your Shopify Store with Customer Dashboard Pro",
-    Content:"Supercharge your Shopify Store with Customer Dashboard Pro: The Ultimate Customer Account Solution",
-    Link: "/blog/shopify-customer-account-solution",
-    WatchIcon: watchIcon,
-  },
-
-  // {
-  //   Name: "How a Customer Accounts App Can Boost Conversions on Your Shopify Store?",
-  //   BlogImage: "https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/Blogs/Supercharge%20(3).png",
-  //   Date: "24th Jan 2024",
-  //   Heading: "How a Customer Accounts App Can Boost Conversions on Your Shopify Store?",
-  //   Content:"A Customer Accounts app can significantly boost conversions on your Shopify store.",
-  //   Link: "/blog/how-customer-accounts-app-boosts-shopify-conversions",
-  //   WatchIcon: watchIcon,
-  // },
-
+  
 
   {
     Name: "What Customer Dashboard Pro can do for your Shopify Account Page",
@@ -65,4 +36,34 @@ export const klaviyoBlogData = [
     Link: "/blog/shopify-customer-account-features",
     WatchIcon: watchIcon,
   },
+  {
+    Name: "Supercharge Customer Dashboard Pro",
+    BlogImage: "https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/Blogs/Supercharge%20(3).png",
+    Date: "17th Dec 2024",
+    Heading: "Supercharge your Shopify Store with Customer Dashboard Pro",
+    Content:"Supercharge your Shopify Store with Customer Dashboard Pro: The Ultimate Customer Account Solution",
+    Link: "/blog/shopify-customer-account-solution",
+    WatchIcon: watchIcon,
+  },
+  {
+    Name: "Klaviyo",
+    BlogImage: klaviyoblogimage,
+    Date: "28th Dec 2023",
+    Heading: "Klaviyo: Email Marketing & SMS",
+    Content:
+      "Klaviyo: Email Marketing & SMS Integration with Customer Dashboard Pro.",
+    Link: "/blog/klaviyo-integration",
+    WatchIcon: watchIcon,
+  },
+ 
+  // {
+  //   Name: "Customer Dashboard Pro",
+  //   BlogImage: customerDashiboarImage,
+  //   Date: "28th Dec 2023",
+  //   Heading: "The Importance of Customer Account Page",
+  //   Content:
+  //     "The Importance of Customer Account Page: Enhancing the Shopping Experience",
+  //   Link: "/blog/customer-dashboard-pro",
+  //   WatchIcon: watchIcon,
+  // },
 ];

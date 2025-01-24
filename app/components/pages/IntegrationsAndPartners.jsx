@@ -9,7 +9,6 @@ function IntegrationsAndPartners({data, heading, propMain}) {
   useEffect(() => {
    TransitionEffect();
   }, []);
-console.log("data",data);
   return (
     <>
       <section className="main-container-for-pndin pt-5 pb-5 integration-partner-tab-key">
