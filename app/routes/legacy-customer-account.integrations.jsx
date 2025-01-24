@@ -22,19 +22,19 @@ export const meta = () => {
   ];
 };
 
-export const loader = async () =>{
-  const Database = await DATABASE;
-  const collection = Database.collection("all_partners");
-  const data = await collection.find().toArray();
-  // const { db } = await connectToDatabase();
-  // console.log("db",db);
-  // // const posts = await db.collection("all_partners").find();
-  // // return json(posts);
-  return json(data);
-} 
+// export const loader = async () =>{
+//   const Database = await DATABASE;
+//   const collection = Database.collection("all_partners");
+//   const data = await collection.find().toArray();
+//   // const { db } = await connectToDatabase();
+//   // console.log("db",db);
+//   // // const posts = await db.collection("all_partners").find();
+//   // // return json(posts);
+//   return json(data);
+// } 
 
 function Index() {
-    const Integrations = useLoaderData();
+    // const Integrations = useLoaderData();
   return (
     <>
     
