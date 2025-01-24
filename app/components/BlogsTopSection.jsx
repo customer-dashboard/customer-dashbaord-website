@@ -31,7 +31,7 @@ function BlogsTopSection({ data }) {
               <Row>
                 <Col lg={6}>
                 <a href="https://apps.shopify.com/customer-dashboard-pro?utm_source=customer-dashboard-pro" target="_blank" rel="noopener noreferrer">
-               <Image className="w-100" src="http://localhost:3000/build/_assets/ofiicialBlackShopifyLogo-2ZPWUT4Z.png" alt="customer account logo" title="customer account logo"/>
+               <Image className="w-100" src="https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/ofiicialBlackShopifyLogo.png" alt="customer account logo" title="customer account logo"/>
                </a>
                 </Col>
               </Row>
