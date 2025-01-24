@@ -2,7 +2,7 @@ import React from 'react'
 import { integrationdata } from '../middleware/IntegrationsData'
 import IntegrationsAndPartners from '../components/pages/IntegrationsAndPartners';
 import IntegrationPagesStyle from '../styles/Integration.css';
-// import DATABASE from '../utils/Mongo';
+import DATABASE from '../utils/Mongo';
 import { json } from '@remix-run/node';
 import { useLoaderData } from '@remix-run/react';
 
@@ -22,16 +22,16 @@ export const meta = () => {
   ];
 };
 
-// export const loader = async () =>{
-//   const Database = await DATABASE;
-//   const collection = Database.collection("all_partners");
-//   const data = await collection.find().toArray();
-//   // const { db } = await connectToDatabase();
-//   // console.log("db",db);
-//   // // const posts = await db.collection("all_partners").find();
-//   // // return json(posts);
-//   return json(data);
-// } 
+export const loader = async () =>{
+  const Database = await DATABASE;
+  const collection = Database.collection("all_partners");
+  const data = await collection.find().toArray();
+  // const { db } = await connectToDatabase();
+  // console.log("db",db);
+  // // const posts = await db.collection("all_partners").find();
+  // // return json(posts);
+  return json(data);
+} 
 
 function Index() {
     const Integrations = useLoaderData();
