@@ -251,6 +251,14 @@ export const partnerData = [
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
   },
   {
+    logo: "https://mandasa1.b-cdn.net/customer%20dashboard%20website/partner%20images/revenuehunt%20logo.png", 
+    heading: "RevenueHunt: Recommender Quiz",
+    content:"Product Recommendation Quiz builder by RevenueHunt. Grow your subscribers list, boost sales & leads.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://admin.revenuehunt.com/s/customerdashboardpro"
+  },
+  {
     logo: "https://mandasa1.b-cdn.net/customer%20dashboard%20website/partner%20images/zipchat.webp", 
     heading: "Zipchat AI Chatbot+Whatsapp AI",
     content:"AI Chatbot & Whatsapp AI to address users doubts in real time, add extra revenue & automate support.",
@@ -291,14 +299,14 @@ export const partnerData = [
     blogLink:"/klaviyo-blog",
     link:"https://go.edocode.co.jp/4ha6cjN"
   },
-  {
-    logo: doranProductReview, 
-    heading: "Doran Product Reviews",
-    content:"FREE app to collect customer reviews with videos and photos.",
-    blog:false,
-    blogLink:"/klaviyo-blog",
-    link:"https://apps.shopify.com/doran-reviews-questions?utm_source=customer_dashboard_pro"
-  },
+  // {
+  //   logo: doranProductReview, 
+  //   heading: "Doran Product Reviews",
+  //   content:"FREE app to collect customer reviews with videos and photos.",
+  //   blog:false,
+  //   blogLink:"/klaviyo-blog",
+  //   link:"https://apps.shopify.com/doran-reviews-questions?utm_source=customer_dashboard_pro"
+  // },
   {
     logo: Utterbond_Logo, 
     heading: "Utterbond Subscriptions App",

@@ -33,12 +33,14 @@ export const CustomFieldsBackend = {
     { 
         Heading:`FAQ'S`,
         VideoTitle:"<h1>helloooo</h1>Custom Fields in Shopify: A Comprehensive Guide",
+        CardHeading:"Create <span class='app-color'>Custom Fields</span>",
         VideoLink:`<iframe width="100%" height="430" src="https://www.youtube.com/embed/6j3mZjYMGkU?si=AvUTN8BEPp-LzpZ9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`,
         VideoImage:"https://img.youtube.com/vi/7hP_gK4xQ_c/maxresdefault.jpg",
         VideoDescription:"Discover how to use custom fields in Shopify to gather and manage extra customer information."
     },
     { 
         VideoTitle:"<h1>helloooo</h1>Custom Fields in Shopify: A Comprehensive Guide",
+        CardHeading:"Display <span class='app-color'>Custom Fields</span>",
         VideoLink:`<iframe width="100%" height="430" src="https://www.youtube.com/embed/ndAMld0hg80?si=vFln46rC5yRzIW8r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`,
         VideoImage:"https://img.youtube.com/vi/7hP_gK4xQ_c/maxresdefault.jpg",
         VideoDescription:"Discover how to use custom fields in Shopify to gather and manage extra customer information."

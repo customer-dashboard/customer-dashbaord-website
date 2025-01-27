@@ -29,11 +29,11 @@ import { useOutletContext } from "@remix-run/react";
  
 export const meta = () => {
   return [
-    { title: "Customize Shopify Customer Account | Customer Dashboard Pro : MT",},
-    { name: "description",content: "Looking to Take Control Manage and Customize of Your Shopify Customer Account Pages? Look No Further Than Customer Dashboard Pro. Easily Manage and Customize Your Shopify Account Pages With Ease.",},
-    { name: "keywords", content:  "Shopify Customer Accounts Page,customer account shopify, Customer Account Page, Customer Dashboard Pro Account Page, Shopify Account Page", },
-    { property: "og:title", content: "Customize Shopify Customer Account Pages | Customer Dashboard Pro : MT",},
-    {property: "og:description", content:"Looking to Take Control Manage and Customize of Your Shopify Customer Account Pages? Look No Further Than Customer Dashboard Pro. Easily Manage and Customize Your Shopify Account Pages With Ease.",},
+    { title: "Shopify Customer Account App | Customer Dashboard Pro",},
+    { name: "description",content: "Boost your Shopify store with the Customer Account app. Let customers create accounts, track orders, and enjoy a personalized shopping experience.",},
+    { name: "keywords", content:  "Shopify customer accounts, Customer login Shopify, Shopify account app, Personalized shopping Shopify, Shopify order tracking", },
+    { property: "og:title", content: "Shopify Customer Account App | Customer Dashboard Pro",},
+    {property: "og:description", content:"Boost your Shopify store with the Customer Account app. Let customers create accounts, track orders, and enjoy a personalized shopping experience.",},
     {
       tagName: "link",
       rel: "canonical",

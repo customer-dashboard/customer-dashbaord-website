@@ -14,7 +14,12 @@ function VideoCard({ CustomFieldsVideos }) {
             return (
               <>
                 <Col md={6}>
+                 <div>
+                   <h3 className="text-center fw-600 app-color mb-4"> {parse(item.CardHeading)}</h3>
+                 </div>
+                 <div className="video_player">
                   {parse(item.VideoLink)}
+                 </div>
                 </Col>
               </>
             );

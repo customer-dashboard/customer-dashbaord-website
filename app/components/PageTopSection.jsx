@@ -44,10 +44,10 @@ function PagesTopSection(props) {
                                         <div className='transition-duretion banner_second_btn'>
                                             <a  
                                                 target={showComponents ? '_blank' : ''}
-                                                href={  showComponents == 'New Customer Account' ? "https://shopify.com/73535684832/account"
+                                                href={  showComponents == 'New Customer Account' ? "https://customer-dashboard.myshopify.com"
                                                          : showComponents == 'Classic Customer Account'
                                                          ? "https://customer-dashboard.myshopify.com"
-                                                         : "#choose-customer-account-version"
+                                                         : "https://customer-dashboard.myshopify.com"
                                                       }
                                                 className="btn header_btn  btn btn-primary"
                                                 >
@@ -62,7 +62,6 @@ function PagesTopSection(props) {
                                 <Col lg={data.video === true ? 7 : 6} className='acntpage-col-scnd col-md-6 mob-order after-md-margin-top'>
                                     <div className="acntpage-col-scnd-cntnt">
                                         {/* <Image src={data.pageImageData} alt='account-page-image'></Image> */}
-                                        
                                         {
                                             data.video === true ? 
                                             <video width="100%" height="100%"  muted autoPlay loop>

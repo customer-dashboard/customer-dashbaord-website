@@ -12,6 +12,7 @@ import TestimonialSliderStyle from "../styles/TestimonialSlider.css";
 import KnowlageBase from '../components/KnowlageBase';
 import MainBanner from '../components/case-study/shopify-plus-study-main-content/MainBanner';
 import CaseStudyStatusPage from '../styles/CaseStudySinglePage.css';
+import BannerStyle from '../styles/Banner.css';
 import { Container } from 'react-bootstrap';
 
 
@@ -53,6 +54,7 @@ export const meta = () => {
     {rel:'stylesheet', href:NewAccountPagesStyle},
     {rel:'stylesheet', href:TestimonialSliderStyle},
     {rel:'stylesheet', href:CaseStudyStatusPage},
+    {rel:'stylesheet', href:BannerStyle},
   ]
 function CustomFieldsPage() {
     const { showComponents, setShowComponents } = useOutletContext();
