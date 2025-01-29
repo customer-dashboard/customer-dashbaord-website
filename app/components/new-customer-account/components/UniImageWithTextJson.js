@@ -60,7 +60,7 @@ export const CustomFieldsBackend = {
  export const TextBannerVideo = [
     { 
         Heading:`FAQ'S`,
-        VideoTitle:"<h1>helloooo</h1>Custom Fields in Shopify: A Comprehensive Guide",
+        VideoTitle:"<h1>helloooo</h1>Custom Fields in Shopify: A Comprehensive Guide", 
         CardHeading:"Customize <span>Text Banner</span>",
         VideoLink:`<iframe width="100%" height="430" src="https://www.youtube.com/embed/nnekocB27bU?si=jqt8itR0p7MU0wT9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`,
         VideoImage:"https://img.youtube.com/vi/7hP_gK4xQ_c/maxresdefault.jpg",
