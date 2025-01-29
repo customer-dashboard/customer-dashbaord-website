@@ -96,7 +96,7 @@ function BlogsGrid() {
                               </h5>
                             </Link>
                             <div className="blg-grd-contnt fw-600 mb-3">
-                              <span>{items.Content.slice(0, 40)}</span>
+                              <span>{items.Content.slice(0, 50)}...</span>
                             </div>
                             <div className="blg-grd-lnk">
                               <Link to={items.Link}>Read More</Link>
