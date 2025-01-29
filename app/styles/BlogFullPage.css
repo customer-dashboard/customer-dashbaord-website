@@ -21,7 +21,7 @@
 .dttm-bage {
   margin-right: 15px;
 }
-.subheading_blogs{
+.subheading_blogs {
   margin-top: 0rem !important;
   font-size: 17px;
   color: black;
@@ -114,6 +114,9 @@ h6 {
 .index-container {
   border: 1px solid black;
   padding: 5px 0px 30px 38px;
+}
+.product-essentail li::marker {
+  font-weight: bold;
 }
 
 @media screen and (min-width: 991px) {
