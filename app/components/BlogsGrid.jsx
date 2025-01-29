@@ -91,7 +91,7 @@ function BlogsGrid() {
                               <span>{items.Date}</span>
                             </div>
                             <Link to={items.Link} className="blog-link-unstyle">
-                              <h5 className="blg-grd-hdng mb-3 fw-600">
+                              <h5 className="blg-grd-hdng mb-3 fw-600 v">
                                 {items.Heading}
                               </h5>
                             </Link>
