@@ -3,7 +3,7 @@ import { Button, Col, Container, Image, Row } from "react-bootstrap";
 import parse from "html-react-parser";
 import shopifyOfficialLogoBlack from "../../../assets/images/ofiicialBlackShopifyLogo.png";
 
-function UniImageWithText({ data, showComponents }) {
+function UniImageWithText({ data, showComponents, accountType }) {
   return (
     <>
       <Container>
@@ -56,19 +56,27 @@ function UniImageWithText({ data, showComponents }) {
                     className="col-md-6 col-sm-6 my-md-4 my-sm-4 my-x-sm col-x-sm-6 "
                   >
                     <div className="transition-duretion banner_second_btn">
-                      <a
-                        target={showComponents ? "_blank" : ""}
-                        href={
-                          showComponents == "New Customer Account"
-                            ? "https://shopify.com/73535684832/account"
-                            : showComponents == "Classic Customer Account"
-                            ? "https://customer-dashboard.myshopify.com"
-                            : "#choose-customer-account-version"
-                        }
-                        className="btn header_btn btn btn-primary"
-                      >
-                        View Demo
-                      </a>
+                     {
+                      accountType === 'new' ? <a
+                      target={showComponents ? "_blank" : ""}
+                      href="https://shopify.com/73535684832/account"
+                      className="btn header_btn btn btn-primary"
+                    >
+                      View Demo
+                    </a> :  <a
+                      target={showComponents ? "_blank" : ""}
+                      href={
+                        showComponents == "New Customer Account"
+                          ? "https://shopify.com/73535684832/account"
+                          : showComponents == "Classic Customer Account"
+                          ? "https://customer-dashboard.myshopify.com"
+                          : "#choose-customer-account-version"
+                      }
+                      className="btn header_btn btn btn-primary"
+                    >
+                      View Demo
+                    </a>
+                     }
                     </div>
                   </Col>
                 </Row>
@@ -115,20 +123,28 @@ function UniImageWithText({ data, showComponents }) {
                     lg={5}
                     className="col-md-6 col-sm-6 my-md-4 my-sm-4 my-x-sm col-x-sm-6 "
                   >
-                    <div className="transition-duretion banner_second_btn">
-                      <a
-                        target={showComponents ? "_blank" : ""}
-                        href={
-                          showComponents == "New Customer Account"
-                            ? "https://shopify.com/73535684832/account"
-                            : showComponents == "Classic Customer Account"
-                            ? "https://customer-dashboard.myshopify.com"
-                            : "#choose-customer-account-version"
-                        }
-                        className="btn header_btn btn btn-primary"
-                      >
-                        View Demo
-                      </a>
+                      <div className="transition-duretion banner_second_btn">
+                     {
+                      accountType === 'new' ? <a
+                      target={showComponents ? "_blank" : ""}
+                      href="https://shopify.com/73535684832/account"
+                      className="btn header_btn btn btn-primary"
+                    >
+                      View Demo
+                    </a> :  <a
+                      target={showComponents ? "_blank" : ""}
+                      href={
+                        showComponents == "New Customer Account"
+                          ? "https://shopify.com/73535684832/account"
+                          : showComponents == "Classic Customer Account"
+                          ? "https://customer-dashboard.myshopify.com"
+                          : "#choose-customer-account-version"
+                      }
+                      className="btn header_btn btn btn-primary"
+                    >
+                      View Demo
+                    </a>
+                     }
                     </div>
                   </Col>
                 </Row>

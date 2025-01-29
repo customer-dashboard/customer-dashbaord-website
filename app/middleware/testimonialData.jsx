@@ -88,7 +88,7 @@ export const settings = {
     arrows: false,
     autoplay: true,
     dots: true,
-    infinite: true,
+    infinite: false,
     speed: 500,
     // lazyLoad: 'progressive',
     slidesToShow: 2,

@@ -68,6 +68,7 @@ function Header() {
                         <Nav>
                         <NavDropdown  title="New Customer Account" id="basic-nav-dropdown" show={fourth} onClick={()=>setFourth(!fourth)} onMouseOver={handleFourthOpen} onMouseLeave={handleFourthClose} >                               
                                 <Link to="/customer-accounts/custom-fields" className="Nav-item nav-link-custom nav-link-custom-drppdown">Custom Fields</Link>
+                                <Link to="/customer-accounts/promotional-banners" className="Nav-item nav-link-custom nav-link-custom-drppdown">Promotional Banners</Link>
                             </NavDropdown>
                             <NavDropdown  title="Legacy Customer Account" id="basic-nav-dropdown" show={IsOpen} onClick={()=>UpdateIsOpen(!IsOpen)} onMouseOver={()=>UpdateIsOpen(true)} onMouseLeave={()=>UpdateIsOpen(false)}>                               
                                 <Link to="/re-order" className="Nav-item nav-link-custom nav-link-custom-drppdown">Re-Order</Link>

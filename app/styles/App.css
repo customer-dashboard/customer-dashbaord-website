@@ -679,6 +679,9 @@ p, span{
   .built-button-wraper:hover .diamond {
     animation: spin 2s linear infinite;
   }
+  .single__vi .video_player iframe{
+    height: 560px !important;
+  }
   
   @keyframes spin {
     from {

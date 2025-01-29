@@ -61,3 +61,24 @@ export const PageCustomFields = [
         ]
     }
 ]
+
+export const PagePromotionalBanners = [
+    {
+        "head":"Page (Text Banner)",
+        "pages":true,
+        "title":"Promotional Banners for",
+        "titleColor":"Shopify Customer Account",
+        "subTitle":"Interactive Order Tracking Maps for a Seamless New Customer Account Experience",
+        "description":"Upgrade Shopify ‘New Customer Accounts’ with Customer Dashboard Pro to track orders seamlessly and boost satisfaction with interactive maps.",
+        "buttonUrl":"https://apps.shopify.com/customer-dashboard-pro",
+        "button":true,
+        "imageAlt":"Custom Fields With Customer Dashboard Pro",
+        "imageUrl":"https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/New%20Account%20Pages/promotional-banners/promotional-banner-hero-image.png",
+        "imageLeft":true,
+        "icon":DiamondIcon,
+        "features":[
+            { "node":"<strong>Text Banners : </strong> Showcase success, info, warning, or critical banners to communicate key messages on customer account profile, order status, and order index pages." },
+            { "node":"<strong>Image Banners : </strong>  Customize image-based banners by uploading visuals that align with your branding and provide clear, actionable information for customers at key touchpoints." }
+        ]
+    }
+]

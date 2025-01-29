@@ -67,7 +67,7 @@ function CustomFieldsPage() {
   return (
     <>
        <section>
-        <ImageWithTextS data={PageCustomFields} showComponents={showComponents} />
+        <ImageWithTextS seperatePage={true}  accountType="new" data={PageCustomFields} showComponents={showComponents} />
        </section>
        <section className='mt-5'>
         <Container>
@@ -77,8 +77,8 @@ function CustomFieldsPage() {
        </section>
        <section className='mt-3 mb-3 mb-lg-5 mt-lg-5 pt-5 pb-5 custom_account_pages_section custom_fields_account_page '>
         <div className='mt-4 mb-4'>
-            <UniImageWithText data={CustomFieldsBackend}  showComponents={showComponents} />
-            <UniImageWithText data={CustomFieldsFrontend}  showComponents={showComponents} />
+          <UniImageWithText accountType="new" data={CustomFieldsBackend}  showComponents={showComponents} />
+          <UniImageWithText accountType="new" data={CustomFieldsFrontend}  showComponents={showComponents} />
         </div>
        </section>
        <section className='mb-lg-5 mb-4 pb-lg-3 '>

@@ -1,12 +1,12 @@
 import { Button, Col, Container, Image, Row } from 'react-bootstrap';
 import shopifyOfficialLogoBlack from '../../assets/images/ofiicialBlackShopifyLogo.png';
 import parse from 'html-react-parser';
-function ImageWithTextS({data, showComponents}) {
+function ImageWithTextS({data, showComponents, accountType, seperatePage}) {
   return (
     <>
      
     <section className="image_with_text_new">
-                <div className="banner_background">
+                <div className={`banner_background ${seperatePage ? "pt-0" : ''}`} >
                     <Container>
                         {
                         data[0].pages ? "" : <div className="main-head">
@@ -50,17 +50,25 @@ function ImageWithTextS({data, showComponents}) {
                                         </Col>
                                         <Col lg={5} className="col-md-6 col-sm-6 my-md-4 my-sm-4 my-x-sm col-x-sm-6 ">
                                         <div className='transition-duretion banner_second_btn'>
-                                            <a  
-                                                target={showComponents ? '_blank' : ''}
-                                                href={  showComponents == 'New Customer Account' ? "https://shopify.com/73535684832/account"
-                                                         : showComponents == 'Classic Customer Account'
-                                                         ? "https://customer-dashboard.myshopify.com"
-                                                         : "#choose-customer-account-version"
-                                                      }
-                                                className="btn header_btn btn btn-primary"
-                                                >
-                                                View Demo
-                                                </a>
+                                           {
+                                            accountType === 'new' ? <a  
+                                            target={showComponents ? '_blank' : ''}
+                                            href="https://shopify.com/73535684832/account"
+                                            className="btn header_btn btn btn-primary"
+                                            >
+                                            View Demo
+                                            </a> :  <a  
+                                            target={showComponents ? '_blank' : ''}
+                                            href={  showComponents == 'New Customer Account' ? "https://shopify.com/73535684832/account"
+                                                     : showComponents == 'Classic Customer Account'
+                                                     ? "https://customer-dashboard.myshopify.com"
+                                                     : "#choose-customer-account-version"
+                                                  }
+                                            className="btn header_btn btn btn-primary"
+                                            >
+                                            View Demo
+                                            </a>
+                                           }
                                         </div>
                                         </Col>
                                     </Row>
