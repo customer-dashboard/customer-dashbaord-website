@@ -1,12 +1,8 @@
 import { json } from '@remix-run/node';
-import { useFetcher, useLoaderData } from '@remix-run/react';
+import { useLoaderData } from '@remix-run/react';
 import React from 'react'
-import { getDatabase } from '../../db.server';
 export async function loader() {
-    const db = await getDatabase();
-    const collection = db.collection('subscriptions');
-    const data = await collection.find().sort({ created_at: -1 }).toArray();
-    return json(data);
+    return json([]);
 }
 
 
