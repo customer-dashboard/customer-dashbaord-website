@@ -82,7 +82,7 @@ function Integration(props) {
   }
   </Row> :<Row className='mt-5 justify-content-center'>
                     {
-                        data.map((items,index)=>{
+                        data.sort((a, b) => b.orderby_id - a.orderby_id).map((items,index)=>{
                             return <>
                                 <Col lg={3} index={index} className='col-md-6 col-xmd-3 col-sm-6'>
                                   <Row className="main-integration-container-grid mb-5 align-items-center">
@@ -94,7 +94,7 @@ function Integration(props) {
                                       </Link>
                                     ) : (
                                       <Link to={items.link} className='integration_and_partner' target='_blank'>
-                                      <LazyLoadedImage src={items.logo} alt="integration-logo" />
+                                      <LazyLoadedImage src={items.img} alt="integration-logo" />
                                       </Link>
                                     )
                                   }
@@ -111,7 +111,7 @@ function Integration(props) {
                                       ) : (
                                         // <h5 className=' fw-600 mt-xsm-3'>{items.heading}</h5>
                                         <h5 className=' fw-600 mt-xsm-3'>
-                                          <Link to={items.link} target='_blank' className='head-link-integration-grid'>
+                                          <Link to={items.store} target='_blank' className='head-link-integration-grid'>
                                           {items.heading}
                                           </Link>
                                         </h5>
