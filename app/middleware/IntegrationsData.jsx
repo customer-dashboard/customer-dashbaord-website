@@ -251,6 +251,30 @@ export const partnerData = [
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
   },
   {
+    logo: "https://inkybay.com/images/inkybay-logo.svg", 
+    heading: "Inkybay ‑ Product Personalizer",
+    content:"Design and order your Dream Products instantly! Experience InkyBay live customization tools for design, size, and pricing, all in real-time. Elevate your sales effortlessly ",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/productsdesigner?utm_source=partners&utm_medium=cpc&utm_campaign=Collaboration"
+  },
+  {
+    logo: "https://cdn.shopify.com/app-store/listing_images/527afb25a5e67a37ad519fe5e6fb5cd1/icon/CITA67y4pIkDEAE=.png", 
+    heading: "WISS Product Bundle Discounts",
+    content:"Boost your Shopify store’s revenue and AOV with a simple and customizable product bundle app. Offer flexible discount options..",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/wiss-bundle?utm_source=referral&utm_medium=app&utm_campaign=cdp"
+  },
+  {
+    logo: "https://mandasa1.b-cdn.net/customer%20dashboard%20website/partner%20images/AIOD.png", 
+    heading: "AIOD - 8+ Automatic Discounts",
+    content:"Create 8+ automatic discounts like bundles, BOGO, auto free gift & more. Boost AOV & Sales.Try Free!",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/all-in-one-automatic-discounts?utm_source=mandasa&utm_medium=partnrpage&utm_campaign=partnership"
+  },
+  {
     logo: "https://mandasa1.b-cdn.net/customer%20dashboard%20website/partner%20images/revenuehunt%20logo.png", 
     heading: "RevenueHunt: Recommender Quiz",
     content:"Product Recommendation Quiz builder by RevenueHunt. Grow your subscribers list, boost sales & leads.",
