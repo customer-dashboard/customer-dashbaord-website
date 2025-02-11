@@ -125,7 +125,7 @@ p, span{
   position: relative;
 }
 .app-color{
-  color: #eb4503;
+  color: #eb4503 !important;
 }
 .header_btn {
   font-weight: 600;

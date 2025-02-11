@@ -256,7 +256,7 @@ export const partnerData = [
     content:"Design and order your Dream Products instantly! Experience InkyBay live customization tools for design, size, and pricing, all in real-time. Elevate your sales effortlessly ",
     blog:false,
     blogLink:"/klaviyo-blog",
-    link:"https://apps.shopify.com/productsdesigner?utm_source=partners&utm_medium=cpc&utm_campaign=Collaboration"
+    link:"https://apps.shopify.com/productsdesigner?utm_campaign=app-listing&utm_source=CustomerDashboardPRO&utm_medium=inkybay&utm_content=partner_program"
   },
   {
     logo: "https://cdn.shopify.com/app-store/listing_images/527afb25a5e67a37ad519fe5e6fb5cd1/icon/CITA67y4pIkDEAE=.png", 

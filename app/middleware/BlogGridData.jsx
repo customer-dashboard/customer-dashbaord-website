@@ -16,22 +16,17 @@ import klaviyoblogimage from "../assets/images/Blogs/New_klaviyo.png";
 import customerDashiboarImage from "../assets/images/Blogs/customer_dashboard_blog_image.png";
 export const klaviyoBlogData = [
   {
-    Name: "Customer Essentail",
-    BlogImage:
-      "https://mandasa1.b-cdn.net/customer%20dashboard%20website/Jayesh/Blog%20images_ORDER%20HISTORY.png",
-    Date: "2nd Jan 2025",
-    Heading:
-      "Enhancing Customer Experience with a Well-Structured Shopify Order History",
-    Content:
-      "Enhancing Customer Experience with a Well-Structured Shopify Order History",
-    Link: "/blog/customer-history-essentail",
+    Name: "Top 20 Shopify Apps of 2025",
+    BlogImage:"https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/Blogs/Top%2020%20shopify%20app%20202501.png",
+    Date: "11th Feb 2025",
+    Heading:"Top 20 Shopify Apps of 2025 to Elevate Customer Engagement ",
+    Content:"As the eCommerce landscape evolves, Shopify merchants are always searching for the best Shopify apps to enhance customer engagement,",
+    Link: "/blog/top-20-shopify-apps-2025",
     WatchIcon: watchIcon,
   },
-
   {
     Name: "Producct History Essentail",
-    BlogImage:
-      "https://mandasa1.b-cdn.net/customer%20dashboard%20website/Jayesh/Blog%20images_Recently%20Viewed%20Products.png",
+    BlogImage:"https://mandasa1.b-cdn.net/customer%20dashboard%20website/Jayesh/Blog%20images_Recently%20Viewed%20Products.png",
     Date: "3rd Jan 2025",
     Heading: "Empowering Customers with a Clear Product History",
     Content: "Empowering Customers with a Clear Product History",
@@ -39,37 +34,40 @@ export const klaviyoBlogData = [
     WatchIcon: watchIcon,
   },
   {
+    Name: "Customer Essentail",
+    BlogImage:"https://mandasa1.b-cdn.net/customer%20dashboard%20website/Jayesh/Blog%20images_ORDER%20HISTORY.png",
+    Date: "2nd Jan 2025",
+    Heading: "Enhancing Customer Experience with a Well-Structured Shopify Order History",
+    Content: "Enhancing Customer Experience with a Well-Structured Shopify Order History",
+    Link: "/blog/customer-history-essentail",
+    WatchIcon: watchIcon,
+  },
+
+  {
     Name: "How a Customer Accounts App Can Boost Conversions on Your Shopify Store?",
-    BlogImage:
-      "https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/Blogs/Blog%20images.png",
+    BlogImage: "https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/Blogs/Blog%20images.png",
     Date: "24th Jan 2025",
-    Heading:
-      "How a Customer Accounts App Can Boost Conversions on Your Shopify Store?",
-    Content:
-      "A Customer Accounts app can significantly boost conversions on your Shopify store.",
+    Heading:"How a Customer Accounts App Can Boost Conversions on Your Shopify Store?",
+    Content:"A Customer Accounts app can significantly boost conversions on your Shopify store.",
     Link: "/blog/how-customer-accounts-app-boosts-shopify-conversions",
     WatchIcon: watchIcon,
   },
 
   {
     Name: "What Customer Dashboard Pro can do for your Shopify Account Page",
-    BlogImage:
-      "https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/Blogs/What%20Customer%20Dashboard%20Pro%20can%20do%20for%20your%20Shopify%20Account%20Page%20(1).png",
+    BlogImage:"https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/Blogs/What%20Customer%20Dashboard%20Pro%20can%20do%20for%20your%20Shopify%20Account%20Page%20(1).png",
     Date: "19th Dec 2024",
     Heading: "Transform Your Shopify Store with Customer Dashboard Pro",
-    Content:
-      "you establish an online store – you get access to a wide range of innovative tools and features for initial setup. ",
+    Content: "you establish an online store – you get access to a wide range of innovative tools and features for initial setup. ",
     Link: "/blog/shopify-customer-account-features",
     WatchIcon: watchIcon,
   },
   {
     Name: "Supercharge Customer Dashboard Pro",
-    BlogImage:
-      "https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/Blogs/Supercharge%20(3).png",
+    BlogImage: "https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/Blogs/Supercharge%20(3).png",
     Date: "17th Dec 2024",
     Heading: "Supercharge your Shopify Store with Customer Dashboard Pro",
-    Content:
-      "Supercharge your Shopify Store with Customer Dashboard Pro: The Ultimate Customer Account Solution",
+    Content: "Supercharge your Shopify Store with Customer Dashboard Pro: The Ultimate Customer Account Solution",
     Link: "/blog/shopify-customer-account-solution",
     WatchIcon: watchIcon,
   },
@@ -78,8 +76,7 @@ export const klaviyoBlogData = [
     BlogImage: klaviyoblogimage,
     Date: "28th Dec 2023",
     Heading: "Klaviyo: Email Marketing & SMS",
-    Content:
-      "Klaviyo: Email Marketing & SMS Integration with Customer Dashboard Pro.",
+    Content:"Klaviyo: Email Marketing & SMS Integration with Customer Dashboard Pro.",
     Link: "/blog/klaviyo-integration",
     WatchIcon: watchIcon,
   },
