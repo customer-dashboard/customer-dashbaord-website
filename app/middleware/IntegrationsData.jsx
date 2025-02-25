@@ -251,6 +251,14 @@ export const partnerData = [
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
   },
   {
+    logo: "https://mandasa1.b-cdn.net/customer%20dashboard%20website/partner%20images/BOGOS%20white%20background.png", 
+    heading: "BOGOS: Free gifts, Discounts & Bundles",
+    content:"Boost your sales with powerful Free Gifts, Discounts, Bundles and Upsells",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/freegifts?utm_source=Partner&utm_medium=CustomerDashboardPro&utm_campaign=Partner_page"
+  },
+  {
     logo: "https://inkybay.com/images/inkybay-logo.svg", 
     heading: "Inkybay ‑ Product Personalizer",
     content:"Design and order your Dream Products instantly! Experience InkyBay live customization tools for design, size, and pricing, all in real-time. Elevate your sales effortlessly ",
