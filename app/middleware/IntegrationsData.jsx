@@ -251,6 +251,14 @@ export const partnerData = [
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
   },
   {
+    logo: "https://mandasa1.b-cdn.net/customer%20dashboard%20website/partner%20images/EstimatedDeliveryApp.png", 
+    heading: "Estimated Delivery Date",
+    content:"Say goodbye to shipping date inquiries with the Estimated Delivery app.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/estimated-delivery-days?utm_source=Partnership&utm_medium=partner+page&utm_campaign=CEP"
+  },
+  {
     logo: "https://mandasa1.b-cdn.net/customer%20dashboard%20website/partner%20images/BOGOS%20white%20background.png", 
     heading: "BOGOS: Free gifts, Discounts & Bundles",
     content:"Boost your sales with powerful Free Gifts, Discounts, Bundles and Upsells",
