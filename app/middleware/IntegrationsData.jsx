@@ -251,6 +251,22 @@ export const partnerData = [
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
   },
   {
+    logo: "https://cdn.shopify.com/app-store/listing_images/54dd7475555beb5383263439d951ef2f/icon/CLCl25GUn4oDEAE=.png", 
+    heading: "Easy Subscriptions App",
+    content:"Boost Customer Lifetime Value and Ensure Predictable Revenue with Easy Subscriptions!.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/easy-subscription?utm_source=affliate&utm_medium=mandasa&utm_campaign=partnership"
+  },
+  {
+    logo: "https://cdn.shopify.com/app-store/listing_images/4ef330dd71cffdada585ab8b2c0e3cb2/icon/CJOvx86JyfsCEAE=.jpeg", 
+    heading: "PH MultiCarrier Shipping Label App",
+    content:"Rates, Label & Tracking - UPS, FedEx, Amazon Shipping, USPS, Australia & Canada Post, PostNord, etc.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/multi-carrier-shipping-label?utm_source=customerdashboard&utm_medium=partners&utm_campaign=collaborations"
+  },
+  {
     logo: "https://mandasa1.b-cdn.net/customer%20dashboard%20website/partner%20images/EstimatedDeliveryApp.png", 
     heading: "Estimated Delivery Date",
     content:"Say goodbye to shipping date inquiries with the Estimated Delivery app.",
