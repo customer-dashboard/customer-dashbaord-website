@@ -1,0 +1,32 @@
+.item-badge{
+    background-color: #1b4b3d;
+    padding: 0 10px 0px;
+    padding-bottom: 4px;
+    border-radius: 50px;
+    color: white;
+}
+
+.feature-manage-btn{
+    text-decoration: none;
+    color: white;
+    background-color: #1B4B3D;
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 99;
+    cursor: pointer;
+}
+
+.filter-btn, .filter-btn:hover{
+    border: 1px solid #1B4B3D;
+    border-radius: 5px;
+    color: #1B4B3D;
+}
+.filter-btn:hover{
+    background-color: #1B4B3D;
+    color: #fff;
+}
+
+.selected-filter, .selected-filter:hover{
+      background-color: #1B4B3D;
+      color: #fff;
+}

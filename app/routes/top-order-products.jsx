@@ -17,13 +17,13 @@ export const meta = () => {
     { name: "description", content: "Discover the top-selling products on our Shopify app. Explore our selection of high-demand items that customers love. Boost your sales with our top order products." },
     {property:"og:title", content:"Top Order Product Page Shopify App | Customer Dashboard Pro"},
     {property:"og:site_name", content:"Top Order Product Page Shopify App | Customer Dashboard Pro"},
-    {property:"og:url", content:"https://customerdashboard.pro/top-order-products"},
+    {property:"og:url", content:"/top-order-products"},
     { name: "keywords", content: "top order products, top order, top order product account page" },
     {property:"og:description", content:"Discover the top-selling products on our Shopify app. Explore our selection of high-demand items that customers love. Boost your sales with our top order products."},
     {
       tagName: "link",
       rel: "canonical",
-      href: "https://customerdashboard.pro/top-order-products",
+      href: "https://custlo.com/top-order-products",
     },
   ];
 };

@@ -18,7 +18,7 @@ function ImageWithTextS({data, showComponents, accountType, seperatePage}) {
                                 <div className='image_with_text_new_heading mb-3'>
                                     
                                    {
-                                    data[0].pages ?  <h1>{data[0].title} <span>{data[0].titleColor}</span></h1> :  <h2>{data[0].title} <span>{data[0].titleColor}</span></h2>
+                                    data[0].pages ?  <h1>{data[0].title} <span className='new_color'>{data[0].titleColor}</span></h1> :  <h2>{data[0].title} <span className='new_color'>{data[0].titleColor}</span></h2>
                                    }
                                 </div>
                                 <div className="image_with_text_features">

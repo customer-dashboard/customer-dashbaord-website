@@ -14,12 +14,12 @@ export const meta = () => {
     { title: "Shopify Translate Your Preferences  | Customer Dashboard Pro" },
     { name:"description", content:"Explore our translation page within Customer Dashboard Pro to customize your experience. Translate and personalize the content to match your preferences seamlessly." },
     {property:"og:site_name", content:"Translation page | Customer Dashboard Pro"},
-    {property:"og:url", content:"https://customerdashboard.pro/translation"},
+    {property:"og:url", content:"/translation"},
     {property:"og:description", content:"Explore our translation page within Customer Dashboard Pro to customize your experience. Translate and personalize the content to match your preferences seamlessly."},
     {
       tagName: "link",
       rel: "canonical",
-      href: "https://customerdashboard.pro/translation",
+      href: "https://custlo.com/translation",
     },
   ];
 };

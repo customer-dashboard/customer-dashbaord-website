@@ -17,12 +17,12 @@ export const meta = () => {
     { name: "description", content: "Enhance customer registration on your Shopify store with Customer Dashboard Pro. Add custom fields, streamline the registration process, and capture important customer data effortlessly. Offer a personalized registration experience that goes beyond the default Shopify setup, empowering your store to grow with enriched customer insights." },
     { property: "og:title", content: "Customized Shopify Registration Form | Customer Dashboard Pro" },
     { property: "og:site_name", content: "Registration Form | Customer Dashboard Pro" },
-    { property: "og:url", content: "https://customerdashboard.pro/registration-form" },
+    { property: "og:url", content: "/registration-form" },
     { property: "og:description", content: "Enhance customer registration on your Shopify store with Customer Dashboard Pro. Add custom fields, streamline the registration process, and capture important customer data effortlessly." },
     {
       tagName: "link",
       rel: "canonical",
-      href: "https://customerdashboard.pro/registration-form",
+      href: "https://custlo.com/registration-form",
     }
   ];
 };

@@ -7,7 +7,7 @@ function TabTwo() {
       <Image
         width="100%"
         height="100%"
-        src="https://mandasa1.b-cdn.net/customer%20dashboard%20website/reorder%20(2).png"
+        src="https://mandasa1.b-cdn.net/CustLo/Home%20Page%20Images/reorder.png"
         alt="shopify account page re-order"
         title="shopify account page re-order"
       />

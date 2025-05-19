@@ -99,7 +99,7 @@ function PrivacyPolicy() {
                   <p>
                     <strong>Website/App</strong>
                     &nbsp;  refers to Customer Dashboard Pro and it’s app, accessible from &nbsp;
-                    <a href="https://customerdashboard.pro">https://customerdashboard.pro</a> and <a href="https://apps.shopify.com/customer-dashboard-pro">https://apps.shopify.com/customer-dashboard-pro</a>
+                    <a href="/">https://custlo.com</a> and <a href="https://apps.shopify.com/customer-dashboard-pro">https://apps.shopify.com/customer-dashboard-pro</a>
                   </p>
                 </li>
                 <li>

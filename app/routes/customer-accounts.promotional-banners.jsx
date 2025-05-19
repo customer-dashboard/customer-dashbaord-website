@@ -35,7 +35,7 @@ export const meta = () => {
         },
         {
             "property": "og:url",
-            "content": "https://customerdashboard.pro/customer-accounts/promotional-banners"
+            "content": "/customer-accounts/promotional-banners"
         },
         {
             "property": "keywords",
@@ -48,7 +48,7 @@ export const meta = () => {
         {
             "tagName": "link",
             "rel": "canonical",
-            "href": "https://customerdashboard.pro/customer-accounts/promotional-banners"
+            "href": "https://custlo.com/customer-accounts/promotional-banners"
         }
     ]
     

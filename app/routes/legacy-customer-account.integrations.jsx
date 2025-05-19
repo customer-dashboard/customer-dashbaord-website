@@ -17,7 +17,7 @@ export const meta = () => {
     {
       tagName: "link",
       rel: "canonical",
-      href: "https://customerdashboard.pro/legacy-customer-account/integrations",
+      href: "https://custlo.com/legacy-customer-account/integrations",
     },
   ];
 };

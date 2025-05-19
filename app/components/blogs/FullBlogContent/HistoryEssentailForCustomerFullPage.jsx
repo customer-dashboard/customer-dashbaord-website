@@ -216,7 +216,7 @@ export default function HistoryEssentailForCustomerFullPage() {
 <h3 dir="ltr"><span>Case Study 1: Skincare Brand Increases Repeat Sales&nbsp;&nbsp;</span></h3>
 <p dir="ltr"><span>A Shopify skincare brand added and advanced app to its order history page. Customers loved one-click reordering, which saw a 25% increase in repeat sales within six months.</span></p>
 <h3 dir="ltr"><span>Case Study 2: Apparel Store Enhances Transparency&nbsp;&nbsp;</span></h3>
-<p dir="ltr"><span>An apparel store implemented </span><a href="https://customerdashboard.pro/" ><span  class=" product-name">Customer Dashboard Pro</span></a><span> to provide real-time shipping updates. Customer support inquiries about order statuses dropped by 40%, allowing the team to focus on resolving more complex issues.&nbsp;&nbsp;</span></p>
+<p dir="ltr"><span>An apparel store implemented </span><a href="https://custlo.com/" ><span  class=" product-name">Customer Dashboard Pro</span></a><span> to provide real-time shipping updates. Customer support inquiries about order statuses dropped by 40%, allowing the team to focus on resolving more complex issues.&nbsp;&nbsp;</span></p>
 <p dir="ltr"><em><strong>Reduce support tickets and skyrocket satisfaction with optimized order tracking!</strong></em></p>
 <h2 dir="ltr"><span>Conclusion</span></h2>
 <p dir="ltr"><span>An organized history of orders in Shopify is no longer a nice-to-have feature but a current necessity.&nbsp;</span></p>

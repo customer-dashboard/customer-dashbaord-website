@@ -96,6 +96,12 @@ p, span{
   color: transparent;
   border: none;
 }
+.new_color{
+  color: #3BB6B6 !important;
+}
+.new_secondary_color{
+  color: #1B4B3D !important;
+}
 .search-box {
   /* border: 1px solid #bfbebd; */
   border: 1px solid gray;
@@ -125,7 +131,7 @@ p, span{
   position: relative;
 }
 .app-color{
-  color: #eb4503 !important;
+  color: #3BB6B6 !important;
 }
 .header_btn {
   font-weight: 600;
@@ -133,16 +139,16 @@ p, span{
   text-align: center;
   border-radius: 6px;
   font-size: 14px;
-  border: 2px solid #eb4503;
+  border: 2px solid #3BB6B6;
   color: #fff;
-  background: #eb4503;
+  background: #3BB6B6;
   transition: all 0.3s ease-in-out 0s;
 }
 
 .header_btn:hover {
-  background: transparent;
-  border: 2px solid #eb4503;
-  color: #eb4503;
+  background: #1B4B3D;
+  border: 2px solid #1B4B3D;
+  /* color: #1B4B3D; */
 }
 /* .play-pause-button{
     position: absolute;
@@ -496,7 +502,7 @@ p, span{
   transition: background 0.3s ease-in-out;
 }
 .choose_version_subhead p span{
-    color: #eb4503;
+    color: #3bb6b6;
 }
 .choose_version_subhead p{
   font-size: 18px;
@@ -597,7 +603,7 @@ p, span{
   
   .animated-button {
     padding: 12px 28px;
-    background-color: #dc3545;
+    background-color: #3bb6b6;
     color: #fff;
     width: 100%;
     border: none;
@@ -609,7 +615,7 @@ p, span{
   }
   
   .animated-button:hover {
-    background-color: #cd0606;
+    background-color: #1B4B3D ;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
   }
   

@@ -104,7 +104,7 @@ function BoostCustomerAccountBlogData() {
 <p dir="ltr"><span>Did you know that complicated checkout processes are a top reason for cart abandonment?&nbsp;</span></p>
 <p dir="ltr"><span>A customer accounts app eliminates this problem by saving key details like shipping information and payment methods.</span></p>
 <p dir="ltr"><span>Repeat customers can log in, purchase, and check out in seconds. The less time they spend filling out forms, the more likely they will complete their purchase.</span></p>
-<p dir="ltr"><span>Spotlight</span><span>: </span><a href="https://customerdashboard.pro/case-study/shopify-plus-stores-succes-stories"><span>Shopify Plus merchants</span></a><span> see an impressive increase in repeat purchases after implementing customer accounts.</span></p>
+<p dir="ltr"><span>Spotlight</span><span>: </span><a href="/case-study/shopify-plus-stores-succes-stories"><span>Shopify Plus merchants</span></a><span> see an impressive increase in repeat purchases after implementing customer accounts.</span></p>
 <p dir="ltr"><span>Why make customers jump through hoops to buy from you?</span></p>
 <p dir="ltr"><span>__________________________________________</span></p>
 <h3 dir="ltr"><span>Personalized Recommendations&nbsp;&nbsp;</span></h3>

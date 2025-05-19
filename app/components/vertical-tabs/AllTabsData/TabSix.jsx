@@ -7,9 +7,9 @@ function TabSix() {
       <Image
         width="100%"
         height="100%"
-        src="https://mandasa1.b-cdn.net/customer%20dashboard%20website/Recently%20view.png"
-        alt="shoipfy checkout custom image banner"
-        title="shopify checkout custom image banner"
+        src="https://mandasa1.b-cdn.net/CustLo/Home%20Page%20Images/recently%20view.png"
+        alt="shopify customer account recently view page"
+        title="shopify customer account recently view page"
       />
     </>
   );

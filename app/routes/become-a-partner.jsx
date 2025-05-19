@@ -61,7 +61,7 @@ export const meta = () => {
     {
       tagName: "link",
       rel: "canonical",
-      href: "https://customerdashboard.pro/become-a-partner",
+      href: "https://custlo.com/become-a-partner",
     },
   ];
 };

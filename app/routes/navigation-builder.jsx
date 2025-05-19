@@ -17,13 +17,13 @@ export const meta = () => {
     { name: "description", content: "Explore our Navigation Builder feature and create customized navigation menus for your Shopify store. Easy-to-use and powerful navigation tools for your convenience." },
     {property:"og:title", content:"Customized Shopify Navigation-Builder Page Shopify App | Customer Dashboard Pro"},
     {property:"og:site_name", content:"Navigation-Builder Page Shopify App| Customer Dashboard Pro"},
-    {property:"og:url", content:"https://customerdashboard.pro/navigation-builder"},
+    {property:"og:url", content:"/navigation-builder"},
     {property:"keywords", content:"navigation builder, menu builder, custome menu, exstra account page menu"},
     {property:"og:description", content:"Explore our Navigation Builder feature and create customized navigation menus for your Shopify store. Easy-to-use and powerful navigation tools for your convenience."},
     {
       tagName: "link",
       rel: "canonical",
-      href: "https://customerdashboard.pro/navigation-builder",
+      href: "https://custlo.com/navigation-builder",
     },
   ];
 };

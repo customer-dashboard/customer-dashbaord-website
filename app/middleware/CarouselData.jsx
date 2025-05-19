@@ -1,47 +1,42 @@
 
-import sedimat_E_Shop from '../assets/images/Carousel/sedimat-e-shop.png'
-import Pasos_logo from '../assets/images/Carousel/Pasos_Logo_66f6ab33-aaa9-4b16-98c6-823278a7b0ff.png';
-import Oppo_logo from '../assets/images/Carousel/OPPO_Rewards_Logo_2023 1.png';
-import Factom from '../assets/images/Carousel/factom_image.png';
-import Gift_Station from '../assets/images/Carousel/Yellow_without.png';
-import Skinny_Dip from '../assets/images/Carousel/skinny-dip.png';
 const Images = [
     {
       id: 1,
-      src: sedimat_E_Shop,
-      alt: "Image 1",
+      src: "https://mandasa1.b-cdn.net/CustLo/Brand%20Promotion/Group%2010%20(2).png",
+      alt: "customer account app used",
     
     },
     {
+      id: 3,
+      src: "https://mandasa1.b-cdn.net/CustLo/Brand%20Promotion/Group%205%20(2).png",
+      alt: "shopify customer dashboard app used by hulala homes",
+      caseStuday:"/case-study/hulala-home",
+    },
+    {
         id: 2,
-        src: Pasos_logo,
-        alt: "Image 2",
+        src: "https://mandasa1.b-cdn.net/CustLo/Brand%20Promotion/Group%204%20(2).png",
+        alt: "shopify customer account app used",
        
-      },
-      {
-        id: 3,
-        src: Oppo_logo,
-        alt: "Image 3",
-       
-      },
-      {
-        id: 4,
-        src: Factom,
-        alt: "Image 4",
-       
-      },
-      {
-        id: 5,
-        src: Gift_Station,
-        alt: "Image 5",
-       
-      },
-      {
-        id: 6,
-        src: Skinny_Dip,
-        alt: "Image 6",
-       
-      }
+    },
+    {
+      id: 4,
+      src: "https://mandasa1.b-cdn.net/CustLo/Brand%20Promotion/Group%206%20(1).png",
+      alt: "customer dashboard app used by verlas",
+      caseStuday:"/case-study/verlas"
+      
+    },
+    {
+      id: 5,
+      src: "https://mandasa1.b-cdn.net/CustLo/Brand%20Promotion/Group%207.png",
+      alt: "customer account app shopify",
+      
+    },
+    {
+      id: 6,
+      src: "https://mandasa1.b-cdn.net/CustLo/Brand%20Promotion/Group%208%20(2).png",
+      alt: "customer account app merchant",
+      
+    }
     
   ];
   

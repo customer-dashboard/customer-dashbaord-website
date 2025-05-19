@@ -48,12 +48,13 @@ function Carousel() {
         <Container>
           <Row>
             <Col lg={12}>
-              <div className="carousel_heading"><h2>TRUSTED BY <strong>1500+ SHOPIFY MERCHANTS</strong></h2></div>
+              <div className="carousel_heading"><h2>TRUSTED BY <strong className="new_color">1500+ SHOPIFY MERCHANTS</strong></h2></div>
               <Slider2 {...settings} className="my-track">
                 {Images.map((item) => (
-                  <div className="images_padding" key={item.id}>
+                  <div  key={item.id}>
                     <div key={item.id}>
                       <img src={item.src} alt={item.alt} className="img" />
+                      {item.caseStuday ?  <a href={item.caseStuday} className="brand-case-study" target="_blank" rel="noopener noreferrer">Case study</a> : null}
                     </div>
                   </div>
                 ))}

@@ -14,12 +14,12 @@ export const meta = () => {
     { name: "keywords", content: "Shopify apps 2025, best Shopify apps, customer engagement, data-driven growth, Shopify tools, e-commerce solutions" },
     { property: "og:title", content: "Top 20 Shopify Apps of 2025 to Elevate Customer Engagement & Growth" },
     { property: "og:description", content: "Explore the best Shopify apps of 2025 designed to enhance customer experience and boost store growth. Stay ahead in e-commerce with these must-have tools!" },
-    { property: "og:url", content: "https://customerdashboard.pro/blog/top-20-shopify-apps-2025" },
+    { property: "og:url", content: "/blog/top-20-shopify-apps-2025" },
     { property: "og:type", content: "article" },
     {
       tagName: "link",
       rel: "canonical",
-      href: "https://customerdashboard.pro/blog/top-20-shopify-apps-2025",
+      href: "https://custlo.com/blog/top-20-shopify-apps-2025",
     },
   ];
 };

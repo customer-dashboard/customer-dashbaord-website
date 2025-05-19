@@ -7,9 +7,9 @@ function TabThree() {
       <Image
         width="100%"
         height="100%"
-        src="https://mandasa1.b-cdn.net/customer%20dashboard%20website/address.png"
-        alt="shopify checkout extension pro testimonial image"
-        title="shopify checkout extension pro testimonial image"
+        src="https://mandasa1.b-cdn.net/CustLo/Home%20Page%20Images/address.png"
+        alt="customer account address page"
+        title="customer account address page"
       />
     </>
   );

@@ -30,7 +30,7 @@ function VerticalTab3(props) {
     <div className="vertical-tabs">
       <div className="container">
       <div class="plugin new_account_tabs_features account_potential mb-5">
-        <h2>Discover the Power of <span className='uniqu_color'>Shopify New Customer Account</span> Features With Customer Dashboard Pro</h2>
+        <h2>Discover the Power of <span className='new_color'>Shopify New Customer Account</span> Features With Customer Dashboard Pro</h2>
       {/* <p className='mt-3'>Enhance the customer experience with powerful tools, engaging widgets, and innovative features designed exclusively for <span>Shopify new customer accounts.</span></p> */}
       </div>
       <Tab.Container id="left-tabs-example" activeKey={activeTab} onSelect={handleTabSelect}>
@@ -46,7 +46,7 @@ function VerticalTab3(props) {
                         <div className="v-tab-h-container align-items-center d-flex c-fff">
                         <div className="vtab-icon">{item.icon}</div>
                         <div className="nav-items-el">
-                          <h3>{item.tHeading}</h3>
+                          <h3 className='new_color'>{item.tHeading}</h3>
                           <p>{item.tDescription}</p>
                         </div>
                         </div>

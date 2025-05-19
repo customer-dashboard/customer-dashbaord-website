@@ -18,7 +18,7 @@ export const meta = () => {
     {
       tagName: "link",
       rel: "canonical",
-      href: "https://customerdashboard.pro/pricing",
+      href: "https://custlo.com/pricing",
     },
   ];
 };

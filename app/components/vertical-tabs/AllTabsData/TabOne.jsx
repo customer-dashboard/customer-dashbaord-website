@@ -7,9 +7,9 @@ function TabOne() {
         <Image
           width="100%"
           height="100%"
-          src="https://mandasa1.b-cdn.net/customer%20dashboard%20website/my%20profile.png"
-          alt="shopify checkout extension pro upsell and cross-sell"
-          title="shopify checkout upsell and cross-sell"
+          src="https://mandasa1.b-cdn.net/CustLo/Home%20Page%20Images/profile.png"
+          alt="shopify customer account custom fields"
+          title="shopify customer account custom fields"
         />
       </Zoom>
     </>

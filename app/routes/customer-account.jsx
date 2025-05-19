@@ -16,7 +16,7 @@ export const meta = () => {
     { name:"description" ,content:"Enhance the shopping experience you offer and capture more shopper data with Amazon-like Customer Account Pages on your Shopify store." },
     {property:"og:title" ,content:"Customized Shopify Customer Account Page | Customer Dashboard Pro"},
     {property:"og:site_name" ,content:"Customer Account Page | Customer Dashboard Pro"},
-    {property:"og:url" ,content:"https://customerdashboard.pro/customer-account"},
+    {property:"og:url" ,content:"/customer-account"},
     {property:"og:description" ,content:"Enhance the shopping experience you offer and capture more shopper data with Amazon and Flipcart-like Customer Account Pages on your Shopify store."}
   ];
 };

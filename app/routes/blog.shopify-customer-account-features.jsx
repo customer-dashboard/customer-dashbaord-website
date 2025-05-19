@@ -16,12 +16,12 @@ export const meta = () => {
     { name: "keywords", content: "Shopify account page features, Customer Dashboard Pro benefits, enhance Shopify experience, Shopify customer experience tools, e-commerce customer retention" },
     {property:"og:title", content:"What Customer Dashboard Pro Can Do for Your Shopify Account Page?"},
     {property:"og:description", content:"Discover how Customer Dashboard Pro can revolutionize your Shopify account page. Offer seamless shopping experiences, foster loyalty, and stay ahead in the competitive e-commerce landscape."},
-    {property:"og:url", content:"https://customerdashboard.pro/blog/shopify-customer-account-features"},
+    {property:"og:url", content:"/blog/shopify-customer-account-features"},
     {property:"og:type", content:"article"},
     {
       tagName: "link",
       rel: "canonical",
-      href: "https://customerdashboard.pro/blog/shopify-customer-account-features",
+      href: "https://custlo.com/blog/shopify-customer-account-features",
     },
   ];
 };

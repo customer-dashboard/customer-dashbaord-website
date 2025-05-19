@@ -15,12 +15,12 @@ export const meta = () => {
         { name: "keywords", content: "Shopify customer accounts, Shopify customer account apps, boost Shopify conversions, personalized e-commerce experience, customer retention strategies, exclusive perks for customers" },
         { property: "og:title", content: "Enhancing Conversions with Customer Accounts Apps on Shopify" },
         { property: "og:description", content: "Explore how customer account apps can transform your Shopify store. From personalized experiences to exclusive perks, unlock the secrets to boosting conversions and customer loyalty." },
-        { property: "og:url", content: "https://customerdashboard.pro/blog/how-customer-accounts-app-boosts-shopify-conversions" },
+        { property: "og:url", content: "/blog/how-customer-accounts-app-boosts-shopify-conversions" },
         { property: "og:type", content: "article" },
         {
           tagName: "link",
           rel: "canonical",
-          href: "https://customerdashboard.pro/blog/how-customer-accounts-app-boosts-shopify-conversions",
+          href: "https://custlo.com/blog/how-customer-accounts-app-boosts-shopify-conversions",
         },
       ];
       

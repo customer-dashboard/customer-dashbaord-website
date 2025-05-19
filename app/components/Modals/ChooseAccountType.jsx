@@ -34,7 +34,7 @@ function ChooseAccountType(props) {
                     <span className="built-shopify-text">Built for Shopify</span>
                 </span>
             </div>
-                <h2 className='text-center fw-600'>Select the <span style={{color:"#eb4503"}}>Customer Account Version </span> You Use</h2>
+                <h2 className='text-center fw-600'>Select the <span style={{color:"#3BB6B6"}}>Customer Account Version </span> You Use</h2>
                 <div className='choose_version_subhead mt-2 mb-4 text-center fw-600'>
                     <p>Supports both  <strong>Legacy  ( Email & Password )</strong> and <strong> New  ( Passwordless)</strong>   <span>Shopify   Customer Accounts</span></p>
                     {/* <p><span>Customer Dashboard Pro</span> the <span> only app</span> Supporting Both <span>New </span>(Passwordless) and <span>Legacy</span> (Email & Password) Shopify Accounts</p> */}

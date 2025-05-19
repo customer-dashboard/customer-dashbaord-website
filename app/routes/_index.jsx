@@ -8,6 +8,7 @@ import TabsStyle from "../styles/Tabs.css";
 import { AccountPageData } from "../middleware/PageTopSectionData";
 import KnowlageBase from "../components/KnowlageBase";
 import MobiloveStyle from "../styles/Mobilove.css";
+import HomePricing from '../styles/HomePricing.css';
 import AcountPlayerStyle from "../styles/AccountPlayer.css";
 import AccountPlayer from "../components/AccountPlayer";
 import TestimonialSliderStyle from "../styles/TestimonialSlider.css";
@@ -26,6 +27,7 @@ import IntegrationStyle from '../styles/Integration.css';
 import ChooseAccountType from '../components/Modals/ChooseAccountType';
 import { useEffect, useState } from "react";
 import { useOutletContext } from "@remix-run/react";
+import HomePlan from '../components/new-customer-account/components/HomePlan';
  
 export const meta = () => {
   return [
@@ -37,7 +39,7 @@ export const meta = () => {
     {
       tagName: "link",
       rel: "canonical",
-      href: "https://customerdashboard.pro/",
+      href: "https://custlo.com/",
     },
   ];
 };
@@ -53,6 +55,7 @@ export const links = () =>[
   {rel:'stylesheet', href:StartFreeStyle},
   {rel:'stylesheet', href:CarouselStyle},
   {rel:'stylesheet', href:VerticalTabCss},
+  {rel:'stylesheet', href:HomePricing},
   {rel:'stylesheet', href:IntegrationStyle}
 
 ]
@@ -72,6 +75,7 @@ export default function Index() {
     <ChooseAccountType showComponents={showComponents} setShowComponents={setShowComponents} />
     <Banner showComponents={showComponents} />
     <Carousel/>
+    <HomePlan/>
     {
        showComponents == 'New Customer Account' ? <>
        <ImageWithTextS data={customFieldData} showComponents={showComponents} />

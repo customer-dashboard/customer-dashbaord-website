@@ -3,7 +3,7 @@ export function loader() {
         User-agent: *
         Allow: /
 
-        Sitemap: https://customerdashboard.pro/sitemap.xml
+        Sitemap: https://custlo.com/sitemap.xml
     `.trim();
 
     return new Response(content, {

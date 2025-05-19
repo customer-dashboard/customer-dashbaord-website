@@ -13,12 +13,12 @@ export const links = () =>[{rel:"stylesheet",href:BlogFullPageStyle},
         { name: "keywords", content: "Customer account page benefits, personalized shopping experience, wishlist management tools, customer satisfaction Shopify, enhance e-commerce engagement" },
         {property:"og:title", content:"The Importance of Customer Account Page: Enhancing the Shopping Experience."},
         {property:"og:description", content:"Transform shopping experiences with a powerful customer account page! Provide personalized recommendations, streamline wishlist management, and boost customer satisfaction and engagement."},
-        {property:"og:url", content:"https://customerdashboard.pro/blog/customer-dashboard-pro"},
+        {property:"og:url", content:"/blog/customer-dashboard-pro"},
         {property:"og:type", content:"article"},
         {
           tagName: "link",
           rel: "canonical",
-          href: "https://customerdashboard.pro/blog/customer-dashboard-pro",
+          href: "https://custlo.com/blog/customer-dashboard-pro",
         },
       ];
     };

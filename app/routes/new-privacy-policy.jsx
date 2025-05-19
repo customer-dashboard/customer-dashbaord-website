@@ -12,7 +12,7 @@ export const meta = () => {
     {
       tagName: "link",
       rel: "canonical",
-      href: "https://customerdashboard.pro/new-privacy-policy",
+      href: "https://custlo.com/new-privacy-policy",
     },
   ];
 };

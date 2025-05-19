@@ -33,7 +33,7 @@ export const meta = () => {
           property: "og:site_name",
           content: "Customer Dashboard Pro"
         },
-        {property:"og:url", content:"https://customerdashboard.pro/customer-accounts/custom-fields"},
+        {property:"og:url", content:"/customer-accounts/custom-fields"},
         {
           property: "keywords",
           content: "Shopify custom fields, customer information, data collection, personalized profiles, user engagement, sales boost"
@@ -45,7 +45,7 @@ export const meta = () => {
         {
          tagName: "link",
          rel: "canonical",
-         href: "https://customerdashboard.pro/customer-accounts/custom-fields",
+         href: "https://custlo.com/customer-accounts/custom-fields",
       },
     ];
   };

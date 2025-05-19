@@ -30,7 +30,7 @@ export function TabReuseHeader() {
   return (
     <>
       <div className="plugin account_potential">
-        <h2>WITH  CUSTOMER DASHBOARD PRO, UNLEASH YOUR <span>ACCOUNTS' POTENTIAL</span></h2>
+        <h2>WITH  CUSTOMER DASHBOARD PRO, UNLEASH YOUR <span className='new_color'>ACCOUNTS' POTENTIAL</span></h2>
         <p>This powerful Shopify App allows you to customize your customer's experience, allowing them to take advantage of additional features and benefits.</p>
       </div>
     </>

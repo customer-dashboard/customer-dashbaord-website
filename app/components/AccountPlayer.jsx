@@ -14,7 +14,7 @@ function CustomerAccountPage(){
                     <Row>
                         <Col md={5}>
                             <div className="image_with_text_new_heading">
-                               <h2  className="fw-600 text-start mb-4">Built for customizing the look and feel for <span>Shopify Customer Account page</span></h2>
+                               <h2  className="fw-600 text-start mb-4">Built for customizing the look and feel for <span className="new_color">Shopify Customer Account page</span></h2>
                                {/* <p className="mb-5  text-start d-none d-md-block">Transform the Look, Feel, and Functionality of Your Shopify Store's Account Page with Comprehensive and Advanced Customization Capabilities Designed to Elevate User Experience</p> */}
                                <div className="feature_item_box mt-3" >
                                  <div className="d-flex column-gap-3">

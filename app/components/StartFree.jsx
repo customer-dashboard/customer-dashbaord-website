@@ -11,7 +11,7 @@ function StartFree() {
                     <Row>
                         <Col lg={12}>
                             <div className="freen_start_and_free_plans">
-                                <h2>READY? <span>TRY IT - FREE!</span></h2>
+                                <h2>READY? TRY IT - FREE! </h2>
                                 <p>Get started with Shopify Customer Dashboard Pro App</p>
                                 <div className="freen_btns">
                                 <Row>
@@ -21,7 +21,7 @@ function StartFree() {
                                         </a>
                                     </Col>
                                     <Col lg={6} className="text-align-left col-md-6 col-sm-6 col-x-sm-6">
-                                        <Button href='https://customerdashboard.pro/pricing' target='_blank' className="price_btn freen_section_btn">See Pricing Plans</Button>
+                                        <Button href='/pricing' target='_blank' className="price_btn freen_section_btn">See Pricing Plans</Button>
                                     </Col>
                                 </Row>
                                 </div>

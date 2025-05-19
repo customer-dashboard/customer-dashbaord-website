@@ -21,7 +21,7 @@ export const links = () =>[
 //       {
 //         tagName: "link",
 //         rel: "canonical",
-//         href: "https://customerdashboard.pro/",
+//         href: "https://custlo.com/",
 //       },
 //     ];
 //   };

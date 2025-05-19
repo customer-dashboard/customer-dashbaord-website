@@ -9,9 +9,9 @@ function TabFourth() {
         <Image
           width="100%"
           height="100%"
-          src="https://mandasa1.b-cdn.net/customer%20dashboard%20website/custome%20filed.png"
-          alt="shopify checkout free shipping bar"
-          title="shopify checkout free shipping bar"
+          src="https://mandasa1.b-cdn.net/CustLo/Home%20Page%20Images/edit%20profile.png"
+          alt="customer account custom fields edit page"
+          title="customer account custom fields edit page"
         />
       </Zoom>
     </>

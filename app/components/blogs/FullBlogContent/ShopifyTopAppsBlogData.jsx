@@ -26,7 +26,7 @@ function ShopifyTopAppsBlogData() {
 
 
 
-    <h3 dir="ltr"><span>2. </span><a href="https://customerdashboard.pro/"><span>Customer Account Pro : MT</span></a></h3>
+    <h3 dir="ltr"><span>2. </span><a href="/"><span>Customer Account Pro : MT</span></a></h3>
     <p dir="ltr"><strong><span>Category:</span><span> Customer Insights</span></strong></p>
     <p dir="ltr"><strong><span><a href="https://apps.shopify.com/customer-dashboard-pro?search_id=3d87f6f5-1b68-4494-ae61-fd552a84b78b&surface_detail=Customer+Dashboard+Pro&surface_inter_position=1&surface_intra_position=5&surface_type=search" target="_blank" className='app-color' rel="noopener noreferrer">Install Now</a></span></strong></p>
     <ul>

@@ -1,10 +1,7 @@
-import NewAccountPagefoAccountPageData from "../assets/images/NewDataImages/newAccountPage.png";
 import TopOrderPageImage from "../assets/images/NewDataImages/new/Top ordered products_01.png";
-import reoderNewGif from "../assets/images/NewDataImages/reorder 02.png";
 import TranslateImage from "../assets/images/NewDataImages/new/Translator_02.png";
 import IntegrationImage from "../assets/images/NewDataImages/integration.avif";
 import recentlyView from "../assets/images/NewDataImages/new/Recently viewed products_03.png";
-import navigationBuilderImage from "../assets/images/NewDataImages/new/Navigation builder.png";
 import customeFieldImage from "../assets/images/NewDataImages/new/custom field_01.png";
 
 export const AccountPageData = {
@@ -14,7 +11,7 @@ export const AccountPageData = {
     "Guide customers effortlessly through their account pages for a frictionless experience.",
   secondPara:
     "Learn how to turn account interactions into opportunities for growth.",
-  pageImageData: NewAccountPagefoAccountPageData,
+  pageImageData: "https://mandasa1.b-cdn.net/CustLo/Home%20Page%20Images/lagecy%20account%20page01.png",
   video: false,
 };
 

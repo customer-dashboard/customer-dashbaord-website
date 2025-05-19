@@ -1,5 +1,5 @@
 export function loader() {
-  const BASE_URL = "https://customerdashboard.pro"; // Replace with your site's URL
+  const BASE_URL = "https://custlo.com"; // Replace with your site's URL
 
   const urls = [
     `${BASE_URL}/`,

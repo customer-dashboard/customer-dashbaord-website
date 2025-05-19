@@ -45,7 +45,7 @@ function VerticalTabs(props) {
     <section className='vertical-tab--wraper'>
     <div className="vertical-tabs">
       <div className="container">
-      <div class="plugin account_potential mb-4"><h2>WITH  CUSTOMER DASHBOARD PRO, UNLEASH YOUR  <span>ACCOUNTS' POTENTIAL</span></h2>
+      <div class="plugin account_potential mb-4"><h2>WITH  CUSTOMER DASHBOARD PRO, UNLEASH YOUR  <span className='new_color'>ACCOUNTS' POTENTIAL</span></h2>
       <p className='mt-3'>This powerful Shopify App allows you to customize your customer's experience, allowing them to take advantage of additional features and benefits.</p></div>
       <Tab.Container id="left-tabs-example" activeKey={activeTab} onSelect={handleTabSelect}>
       <Row className='align-items-center justify-content-between'>
@@ -60,7 +60,7 @@ function VerticalTabs(props) {
                         <div className="v-tab-h-container align-items-center d-flex c-fff">
                         <div className="vtab-icon">{item.icon}</div>
                         <div className="nav-items-el">
-                          <h3>{item.tHeading}</h3>
+                          <h3 className='new_color'>{item.tHeading}</h3>
                           <p>{item.tDescription}</p>
                         </div>
                         </div>
@@ -103,7 +103,7 @@ function VerticalTabs(props) {
                         <div className="v-tab-h-container align-items-center d-flex c-fff">
                         <div className="vtab-icon">{item.icon}</div>
                         <div className="nav-items-el">
-                          <h3>{item.tHeading}</h3>
+                          <h3 className='new_color'>{item.tHeading}</h3>
                           <p>{item.tDescription}</p>
                         </div>
                         </div>
