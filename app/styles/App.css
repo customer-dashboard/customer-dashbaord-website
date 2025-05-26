@@ -1,52 +1,84 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alverata:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-.lato-thin {
-  font-family: "Lato", serif;
-  font-weight: 100;
+/* Load the fonts (same as before) */
+@font-face {
+  font-family: 'Alverata';
+  src: url('/fonts/Alverata.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Alverata';
+  src: url('/fonts/Alverata-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Alverata';
+  src: url('/fonts/AlverataW06-PESemiBdIt.woff2') format('woff2'),
+       url('/fonts/AlverataW06-PESemiBdIt.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Utility font classes */
+.font-alverata-normal {
+  font-family: 'Alverata', sans-serif !important;
+  font-weight: normal;
   font-style: normal;
 }
 
-.lato-light {
-  font-family: "Lato", serif;
-  font-weight: 300;
+.font-alverata-bold {
+  font-family: 'Alverata', sans-serif !important;
+  font-weight: bold;
   font-style: normal;
 }
 
-.lato-regular {
-  font-family: "Lato", serif;
-  font-weight: 400;
-  font-style: normal;
+.font-alverata-italic {
+  font-family: 'Alverata', sans-serif !important;
+  font-weight: 600;
+  font-style: italic;
 }
 
-.lato-bold {
-  font-family: "Lato", serif;
-  font-weight: 700;
-  font-style: normal;
+.gradient-text {
+  background: linear-gradient(90deg, #3BB6B6, #F43D3F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }
 
-.lato-black {
-  font-family: "Lato", serif;
-  font-weight: 900;
-  font-style: normal;
-}
 
 body {
   margin: 0;
   padding: 0;
-  font-family: "Lato", serif !important;
+  font-family: "Inter", serif !important;
   /* font-weight: 400 !important; */
   font-style: normal !important;
 }
 h1, h2, h3, h4, h5, h6{
-  font-family: "Lato", serif !important;
+  font-family: "Alverata", serif !important;
   font-weight: 700 !important;
   font-style: normal !important;
 }
 p, span{
-  font-family: "Lato", serif !important;
+  font-family: "Alverata", serif !important;
   /* font-weight: 400 !important; */
-  font-style: normal !important;
+  /* font-style: normal !important; */
 }
 * {
   box-sizing: border-box;
@@ -150,34 +182,7 @@ p, span{
   border: 2px solid #1B4B3D;
   /* color: #1B4B3D; */
 }
-/* .play-pause-button{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: transparent;
-    border: none;
-    box-shadow: none;
-    z-index: 99;
-    display: none;
 
-}
-.play-pause-button:hover, .play-pause-button:focus, .play-pause-button:active{
-    background-color: transparent;
-    border: none;
-    box-shadow: none;
-} */
-
-/* .react-video-player-section:hover{
-    .play-pause-button{
-        display: block;
-    }
-} */
-
-/* .play-pause-button svg{
-    width:60px;
-    height: 60px;
-} */
 .h-color-dark {
   color: #000 !important;
 }
