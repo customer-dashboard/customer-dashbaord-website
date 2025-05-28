@@ -28,6 +28,8 @@ import ChooseAccountType from '../components/Modals/ChooseAccountType';
 import { useEffect, useState } from "react";
 import { useOutletContext } from "@remix-run/react";
 import HomePlan from '../components/new-customer-account/components/HomePlan';
+import Hero from '../custlo-components/homepage/Hero';
+import CustomFields from '../custlo-components/homepage/CustomFields';
  
 export const meta = () => {
   return [
@@ -63,16 +65,20 @@ export const links = () =>[
 export default function Index() {
   const { showComponents, setShowComponents } = useOutletContext();
 
-  useEffect(()=>{
-    const accountType = localStorage.getItem("AccountType");
-    if(accountType){
-      setShowComponents(accountType);
-    }
-  },[])
+  // useEffect(()=>{
+  //   const accountType = localStorage.getItem("AccountType");
+  //   if(accountType){
+  //     setShowComponents(accountType);
+  //   }
+  // },[])
 
   return (
    <>
-    <ChooseAccountType showComponents={showComponents} setShowComponents={setShowComponents} />
+   <Hero />
+   <Carousel/>
+   <HomePlan/>
+   <CustomFields/>
+    {/* <ChooseAccountType showComponents={showComponents} setShowComponents={setShowComponents} />
     <Banner showComponents={showComponents} />
     <Carousel/>
     <HomePlan/>
@@ -92,9 +98,9 @@ export default function Index() {
      }
     <AccountPlayer/>
     <TestimonialSlider/>
-    <Facility/>
+    <Facility/> */}
     {/* <KnowlageBase/> */}
-    <StartFree/>
+    {/* <StartFree/> */}
    </>
   );
 }

@@ -31,7 +31,7 @@ const settings = {
       }
     },
     {
-      breakpoint: 576,
+      breakpoint: 749,
       settings: {
 
         autoplaySpeed: 3000,
@@ -48,11 +48,11 @@ function Carousel() {
         <Container>
           <Row>
             <Col lg={12}>
-              <div className="carousel_heading"><h2>TRUSTED BY <strong className="new_color">1500+ SHOPIFY MERCHANTS</strong></h2></div>
+              <div className="carousel_heading pb-4 font-alverata-normal"><h2>Trusted by 1500+<span className="gradient-text"> Shopify merchants</span></h2></div>
               <Slider2 {...settings} className="my-track">
                 {Images.map((item) => (
                   <div  key={item.id}>
-                    <div key={item.id}>
+                    <div key={item.id} className="position-relative">
                       <img src={item.src} alt={item.alt} className="img" />
                       {item.caseStuday ?  <a href={item.caseStuday} className="brand-case-study" target="_blank" rel="noopener noreferrer">Case study</a> : null}
                     </div>

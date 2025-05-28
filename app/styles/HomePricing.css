@@ -1,205 +1,45 @@
-@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap");
-
-:root {
-    --Cyan: #2196f3;
-    --Orange: #f44336;
-    --Green: #009688;
-    --Red: #e91e63;
-    --LightGrey: #eee;
-    --DarkGrey: #7e7e7e;
-}
-::-webkit-scrollbar {
-    width: 10px;
-}
-::-webkit-scrollbar-track {
-    background: var(--LightGrey);
-}
-::-webkit-scrollbar-thumb {
-    background: var(--Red);
+.home-page-pricing-camp{
+    background: linear-gradient(118.98deg, #FFFFFF 0%, #FFF8F8 25.47%, #EAFFFF 50%, #FFF8F8 75%, #FFFFFF 100%);
 }
 
-.offer {
-    width: 130px;
-    padding: 10px 15px;
-    position: absolute;
-    top: 15px;
-    right: 5%;
-    background-color: var(--Cyan);
-    color: #fff;
-    font-weight: bold;
-    font-size: 20px;
-}
-.offer::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    border: 21px solid;
-    border-color: transparent var(--LightGrey) transparent transparent;
-}
 
- .home-page-pricing-camp .plan {
-    background-color: #fcfcfc;
-    border-radius: 15px 15px 0 0;
-    -webkit-border-radius: 15px 15px 0 0;
-    -moz-border-radius: 15px 15px 0 0;
-    -ms-border-radius: 15px 15px 0 0;
-    -o-border-radius: 15px 15px 0 0;
+.main-home-pricing-comparison h3{
+    font-size: 30px;
 }
- .home-page-pricing-camp h3 {
-    margin: -10px 0 0 0;
-    padding: 20px;
-    color: #fff;
-    font-size: 20px;
-    border-radius: 15px 15px 0 0;
-    -webkit-border-radius: 15px 15px 0 0;
-    -moz-border-radius: 15px 15px 0 0;
-    -ms-border-radius: 15px 15px 0 0;
-    -o-border-radius: 15px 15px 0 0;
+.main-home-pricing-comparison h4{
+    font-size: 13px;
 }
- .basic h3 {
-    background-color: #3bb6b6;
-}
- .premium h3 {
-    background-color: #1B4B3D;
-}
- .plan ul {
+.main-home-pricing-comparison ul{
     padding: 0;
- }
- .plan ul li {
-    padding: 20px 0 20px 50px;
-    text-transform: capitalize;
     list-style: none;
-    position: relative;
-    cursor: default;
-    transition: 0.3s;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -ms-transition: 0.3s;
-    -o-transition: 0.3s;
 }
- .plan ul li:hover {
-    font-weight: bold;
-    padding-left: 60px;
+.main-home-pricing-comparison ul li{
+    margin: 0px 0px 15px 0px;
+    font-size: 15px;
 }
- .plan ul li:not(:last-child) {
-    border-bottom: 1px solid var(--LightGrey);
-}
- .plan ul li span {
-    position: absolute;
-    top: 20px;
-    left: 10px;
-    width: 20px;
-    height: 20px;
-    background-color: var(--Green);
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-}
- .basic ul li:not(.tick) span, .premium ul li:not(.tick) span {
-    background-color: var(--Red);
-}
- .premium ul li.tick span::before,
- .basic ul li.tick span::before {
-    content: "";
-    position: absolute;
-    top: 6px;
-    left: 10px;
-    background-color: #fff;
-    width: 3px;
-    height: 9px;
-    transform: rotate(45deg);
-}
- .premium ul li.tick span::after,
- .basic ul li.tick span::after {
-    content: "";
-    position: absolute;
-    top: 10px;
-    left: 5px;
-    background-color: #fff;
-    width: 6px;
-    height: 3px;
-    transform: rotate(45deg);
-}
- .basic ul li:not(.tick) span::before,
- .basic ul li:not(.tick) span::after {
-    content: "";
-    position: absolute;
-    top: 6px;
-    left: 9px;
-    background-color: #fff;
-    width: 2px;
-    height: 9px;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-}
- .premium ul li:not(.tick) span::before,
- .premium ul li:not(.tick) span::after {
-    content: "";
-    position: absolute;
-    top: 6px;
-    left: 9px;
-    background-color: #fff;
-    width: 2px;
-    height: 9px;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-}
- .basic ul li:not(.tick) span::after, .premium ul li:not(.tick) span::after {
-    transform: rotate(-45deg) !important;
-    -webkit-transform: rotate(-45deg) !important;
-    -moz-transform: rotate(-45deg) !important;
-    -ms-transform: rotate(-45deg) !important;
-    -o-transform: rotate(-45deg) !important;
-}
- /* .premium ul li.ques-mk span.mk {
+.main-home-pricing-comparison .pricing-view-demo{
     display: flex;
     justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 90%;
-    color: #fff;
-    font-weight: bold;
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-    background-color: var(--DarkGrey);
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
 }
- .premium ul li.ques-mk span.mk::before {
-    content: "";
-    position: absolute;
-    top: -15px;
-    left: 0;
-    border-width: 10px;
-    border-style: solid;
-    border-color: var(--DarkGrey) transparent transparent transparent;
-    display: none;
+.pricing-view-demo a{
+    width: 166px;
+    height: 48px;
 }
- .premium ul li.ques-mk span.mk::after {
-    content: "This Is Tooltip Content.";
-    display: flex;
-    align-items: center;
-    position: absolute;
-    top: -53px;
-    left: -158px;
-    padding: 10px;
-    background-color: var(--DarkGrey);
-    display: none;
-} */
- .premium ul li.ques-mk span.mk:hover::before,
- .premium ul li.ques-mk span.mk:hover::after {
-    display: inline-flex;
+.main-home-pricing-comparison .new-account{
+    background: #1B4B3D;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 20px;
+}
+.main-home-pricing-comparison .legacy-account{
+    background: #1B4B3D33;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 20px;
+}
+
+@media screen and (max-width:576px) {
+    .home-page-pricing-camp{
+        display: none;
+    }
 }

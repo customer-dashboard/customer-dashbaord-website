@@ -1,8 +1,16 @@
 .navbar-nav a{
     padding: 0px 1.1rem !important;
     color: #000000;
-    font-weight: 600;
     font-size: 15px;
+}
+.main-header{
+    padding: 10px 32px;
+    box-shadow: 0px 4px 8px 0px #0000001A;
+    border-radius: 9px;
+}
+.hero-header-banner{
+background: linear-gradient(118.98deg, #FFFFFF 0%, #FFF8F8 25.47%, #EAFFFF 50%, #FFF8F8 75%, #FFFFFF 100%);
+
 }
 .main-headernav:after {
     content: '';
@@ -15,6 +23,12 @@
 .main-headernav:hover::after {
     width: 100%;
     transition: width .3s;
+}
+
+
+.built-shopify-text {
+    font-size: 15px;
+    font-weight: 600;
 }
 
 .ml-15{
@@ -95,13 +109,13 @@
     color: black !important;
 }
 .customer_logo{
-    width: 15%;
+    width: 169px;
     margin: auto;
 }
 
 
 .desk_shopify_official_logo__{
-    width: 190px !important;
+    width: 185px !important;
     margin-left: 15px;
 }
 
@@ -119,9 +133,7 @@
     .d-none-991{
         display: none;
     }
-    .customer_logo{
-        width: 25%;
-    }
+   
     .min-width-header-btn .shopify_official_logo__ {
         width: 170px;
     }
@@ -132,9 +144,6 @@
     padding: 12px 20px;
     font-size: 10px;
     margin-left: 0.5rem !important;
-    }
-    .customer_logo{
-        width: 36%;
     }
     .toggle_btn {
         font-size: 18px;

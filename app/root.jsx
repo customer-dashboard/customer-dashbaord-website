@@ -71,7 +71,7 @@ export default function App() {
         <Links />
       </head>
       <body>
-        <Navbar  />
+        {/* <Navbar  /> */}
         <Outlet context={ { showComponents, setShowComponents } } />
         <Footer  />
         <ScrollRestoration />
