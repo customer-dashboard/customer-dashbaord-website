@@ -1,4 +1,4 @@
-
+/* 
 .testimonial{
     background: linear-gradient(133deg, #0087C1 0%, #1E235C 100%);
 }
@@ -140,4 +140,31 @@
         padding-bottom: 100px;
     }
 
+} */
+
+.custolo_marchant_reviews{
+    background: linear-gradient(118.98deg, #FFFFFF 0%, #FFF8F8 25.47%, #EAFFFF 50%, #FFF8F8 75%, #FFFFFF 100%);
+}
+
+.custolo_marchant_reviews .slide-group .slide-card{
+    padding: 20px;
+    background: #FFFFFFBF;
+    border-radius: 18.48px;
+    margin-bottom: 24px;
+}
+
+.custolo_marchant_reviews .slide-group .slide-card h4{
+    font-size: 17px;
+}
+.custolo_marchant_reviews .slide-group .slide-card .stars__{
+   display: flex;
+   align-items: center;
+   gap: 2px;
+   margin-bottom:10px;
+}
+.custolo_marchant_reviews .slide-group .slide-card p{
+    font-size: 15px;
+}
+.custolo_marchant_reviews .slide-group .slide-card small{
+    font-size: 13.5px;
 }

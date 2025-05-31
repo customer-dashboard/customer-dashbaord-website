@@ -7,7 +7,7 @@ function Ten() {
         <Image
           width="100%"
           height="100%"
-          src="https://mandasa1.b-cdn.net/customer%20dashboard%20website/new%20customer%20account%20images/Promotional%20Banners.png"
+          src="https://mandasa1.b-cdn.net/CustLo/Home%20Page%20Images/pramotion%20banner%201.png"
           alt="Shopify customer account banners"
           title="Shopify customer account promotional banners"
         />

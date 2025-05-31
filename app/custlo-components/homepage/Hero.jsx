@@ -6,7 +6,7 @@ function Hero() {
   return (
     <>
 
-        <section className='hero-header hero-header-banner pt-5'>
+        <section className='hero-header hero-header-banner pt-sm-5'>
            <div className="pt-2">
              <Header/>
             <Banner/>

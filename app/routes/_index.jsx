@@ -30,6 +30,9 @@ import { useOutletContext } from "@remix-run/react";
 import HomePlan from '../components/new-customer-account/components/HomePlan';
 import Hero from '../custlo-components/homepage/Hero';
 import CustomFields from '../custlo-components/homepage/CustomFields';
+import OrderTracking from '../custlo-components/homepage/OrderTracking';
+import Reviews from '../custlo-components/homepage/Reviews';
+import Benifits from '../custlo-components/homepage/Benifits';
  
 export const meta = () => {
   return [
@@ -78,6 +81,11 @@ export default function Index() {
    <Carousel/>
    <HomePlan/>
    <CustomFields/>
+   <VerticalTab3 showComponents={showComponents} />
+   <OrderTracking/>
+    <Reviews/>
+   <AccountPlayer/>
+   <Benifits/>
     {/* <ChooseAccountType showComponents={showComponents} setShowComponents={setShowComponents} />
     <Banner showComponents={showComponents} />
     <Carousel/>

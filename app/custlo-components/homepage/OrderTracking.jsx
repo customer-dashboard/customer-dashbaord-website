@@ -3,7 +3,7 @@ import shopifyOfficialLogoBlack from '../../assets/images/ofiicialBlackShopifyLo
 import parse from 'html-react-parser';
 
 
-function CustomFields() {
+function OrderTracking() {
     const DiamondIcon = (
   <svg
     height="22px"
@@ -52,7 +52,7 @@ function CustomFields() {
             <Col lg={5} className="banner_left_new">
               <div className='image_with_text_new_heading mb-3'>
                 <h2 className='font-alverata-normal'>
-                  <span className='gradient-text'>Custlo</span> simplify shopify <span className='gradient-text'>profile fields </span>
+                    Effortless <span className='gradient-text'> order tracking </span>with interactive map
                 </h2>
               </div>
               <div className="image_with_text_features">
@@ -62,7 +62,7 @@ function CustomFields() {
                       {DiamondIcon}
                     </div>
                     <div className="feature_description_ mb-4">
-                      {parse("<strong>Simplified Profile Management:</strong> Customize and collect detailed customer information effortlessly.")}
+                      {parse("<strong>Visual Order Progress:</strong> Track order status with an intuitive graphical timeline.")}
                     </div>
                   </div>
                 </div>
@@ -72,38 +72,11 @@ function CustomFields() {
                       {DiamondIcon}
                     </div>
                     <div className="feature_description_ mb-4">
-                      {parse("<strong>Enhanced Personalization:</strong> Build richer profiles to boost engagement and drive revenue.")}
+                      {parse("<strong>Interactive Shipping Map:</strong> View precise customer shipping addresses on a dynamic map.")}
                     </div>
                   </div>
                 </div>
               </div>
-              {/* <div className="main_section_btn">
-                <Row>
-                  <Col lg={5} className="col-md-6 col-sm-6 my-md-4 my-sm-4 my-x-sm col-x-sm-6">
-                    <div className="shopify transition-duretion">
-                      <Button
-                        href="https://apps.shopify.com/customer-dashboard-pro"
-                        target="_blank"
-                        rel="norefferer"
-                        className="d-flex s_btn btns justify-content-evenly shopify-official-logo-black"
-                      >
-                        <Image src={shopifyOfficialLogoBlack} alt="Shopify-official-logo-black" />
-                      </Button>
-                    </div>
-                  </Col>
-                  <Col lg={5} className="col-md-6 col-sm-6 my-md-4 my-sm-4 my-x-sm col-x-sm-6 ">
-                    <div className='transition-duretion banner_second_btn'>
-                      <a
-                        target='_blank'
-                        href="https://shopify.com/73535684832/account"
-                        className="btn header_btn btn btn-primary"
-                      >
-                        View Demo
-                      </a>
-                    </div>
-                  </Col>
-                </Row>
-              </div> */}
               <div className="main-section-btn">
                 <a className='universal-btn featurs-img-btn' href="http://" target="_blank" rel="noopener noreferrer">
                  <Image width="100%" src={shopifyOfficialLogoBlack} title="Find us on the Shopify app store" alt="Shopify app store logo" />
@@ -115,7 +88,7 @@ function CustomFields() {
                 <Image
                   loading='lazy'
                   title="profile fields in new customer account with Customer Dashboard Pro"
-                  src="https://mandasa1.b-cdn.net/CustLo/Home%20Page%20Images/Subtract%20(3).png"
+                  src="https://mandasa1.b-cdn.net/CustLo/Home%20Page%20Images/55555.png"
                   alt="profile fields in new customer account with Customer Dashboard Pro"
                 />
               </div>
@@ -127,4 +100,4 @@ function CustomFields() {
   );
 }
 
-export default CustomFields;
+export default OrderTracking;

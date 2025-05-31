@@ -165,6 +165,12 @@ video{
     .span_4{
         font-size: 18px;
     }
+    .header-hero-content h1{
+        font-size: 32px;
+    }
+        .header-hero-banner .hero-para{
+        font-size: 15px;
+    }
    
 }
 
@@ -228,7 +234,12 @@ video{
     .banner_left_section{
         padding: 0px 30px !important;
     }
-   
+  .header-hero-content .header-hero-btn a{
+    font-size: 14px;
+    margin-bottom: 1rem;
+    width: 150px;
+    height: 40px;
+  }
     
 }
 

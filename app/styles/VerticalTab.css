@@ -1,13 +1,14 @@
 .vertical-tab--wraper{
-    background-size: 1000px;
+    /* background-size: 1000px;
     background-image: url(https://checkoutblocks.com/stars.webp);
-    background-color: rgb(3 7 14);
+    background-color: rgb(3 7 14); */
+    background: linear-gradient(118.98deg, #FFFFFF 0%, #FFF8F8 25.47%, #EAFFFF 50%, #FFF8F8 75%, #FFFFFF 100%);
 }
 .vertical-tab--wraper .nav-pills[role="tablist"]{
-    position: relative;
-    padding: 20px 10px;
+     position: relative;
+    /* padding: 20px 10px;
     border-radius: 6px;
-    border: 1px solid #281717;
+    border: 1px solid #281717; */ 
 }
 .c-fff{
     color: white;
@@ -21,16 +22,32 @@
 .vtab-icon{
     margin-right: 10px;
 }
+
+.nav-item-b-wrapper::after {
+  content: '';
+  position: absolute;
+  right: -19px; /* adjust based on arrow size */
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid #f1b6b6; /* same as end gradient color */
+}
+
 .nav-item-b-wrapper {
     position: absolute;
     width: 95%;
-    height: 114px;
+    height: 120px;
     transition: transform 0.4s ease-in-out;
-    border-radius: 6px;
-    border:1px solid #6b3b3b;
+    /* border-radius: 6px; */
+    /* border:1px solid #6b3b3b; */
     z-index: 99;
     transform: translateY(calc(var(--active-tab) * 100%)); 
-    background-image: linear-gradient(270deg, rgba(73, 187, 251, .15) 17.07%, rgba(73, 187, 251, 0) 82.57%);
+    /* background-image: linear-gradient(270deg, rgba(73, 187, 251, .15) 17.07%, rgba(73, 187, 251, 0) 82.57%); */
+    background: linear-gradient(92.5deg, rgba(59, 182, 182, 0.4) 0%, rgba(244, 61, 63, 0.4) 96.98%);
+
   }
   .vertical-tab--wraper .nav-pills .nav-link.active{
     background: none;
@@ -66,13 +83,13 @@
     --active-tab: 2.5; 
   }
   [data-active="ten"] {
-    --active-tab: 0.04;
+    --active-tab: 0;
   }
   [data-active="eleven"] {
-    --active-tab: 1.1; 
+    --active-tab: 1; 
   }
   [data-active="twelve"] {
-    --active-tab: 2.2; 
+    --active-tab: 2; 
   }
 
   @media screen and (max-width: 1280px) {
@@ -108,17 +125,18 @@
       --active-tab: 0.04;
     }
     [data-active="eleven"] {
-      --active-tab: 1.3; 
+      --active-tab: 1; 
     }
     [data-active="twelve"] {
-      --active-tab: 2.55; 
+      --active-tab: 2; 
     }
   }
 
   .nav-items-el h3{
-    font-size: 22px;
-    color: #f27502;
+    font-size: 24px;
+    color: #000;
     font-weight: 600;
+    margin-bottom: 5px;
   }
   .nav-items-el p{
     margin-top: 10px;
@@ -128,27 +146,30 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: normal;
+    color: #000;
+    font-size: 15px;
+    margin: 0;
   }
   .vtab-icon {
-    width: 80px;
-    border: 1px solid #5e5e5e;
-    border-radius: 50%;
+    /* width: 80px; */
+    /* border: 1px solid #5e5e5e; */
+    /* border-radius: 50%;
     height: 80px;
-    padding: 19px;
+    padding: 19px; */
 }
 .vtab-icon svg{
-  width: 40px;
-  height: 40px;
+  width: 79px;
+  height: 79px;
 }
 .account_potential h2 span{
     color: #eb4503;
 }
   .vertical-tab--wraper .account_potential{
-    margin-bottom: 3rem !important;
+    margin-bottom: 2rem !important;
   }
   .vertical-tab--wraper{
-    padding-top: 3rem;
-    padding-bottom: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
   }
 
 @media screen and (max-width:498px) {
@@ -259,7 +280,7 @@
   }
   .nav-items-el h3{
     font-size: 14px;
-    color: #FFF;
+    /* color: #FFF; */
   }
   .nav-item-b-wrapper {
     position: absolute;
@@ -267,10 +288,11 @@
     height: 72px;
     transition: transform .4s ease-in-out;
     border-radius: 6px;
-    border: 1px solid #6b3b3b;
+    /* border: 1px solid #6b3b3b; */
     z-index: 99;
     transform: translateX(calc(var(--active-tab)* 100%));
-    background-image: linear-gradient(270deg, rgba(73, 187, 251, .15) 17.07%, rgba(73, 187, 251, 0) 82.57%);
+    /* background-image: linear-gradient(270deg, rgba(73, 187, 251, .15) 17.07%, rgba(73, 187, 251, 0) 82.57%); */
+    background: linear-gradient(92.5deg, rgba(59, 182, 182, 0.4) 0%, rgba(244, 61, 63, 0.4) 96.98%);
 }
 .vertical-tab--wraper .nav-item{
   width: 33.33%;
@@ -411,3 +433,12 @@
 }
 }
 
+
+@media screen and (min-width:749px) and (max-width:991px) {
+  .nav-items-el h3{
+    font-size: 18px;
+  }
+  .nav-items-el p{
+    font-size: 14px;
+  }
+}

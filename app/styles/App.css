@@ -237,6 +237,10 @@ p, span{
   transform: translateY(-5px);
 }
 
+.image_with_text_new{
+  padding: 20px 0px;
+}
+
 @media screen and (max-width:921px){
     .manu-page-title h1{
         font-size: 44px;
@@ -313,8 +317,8 @@ p, span{
 }
 @media screen and (max-width: 768px) {
     .image_with_text_new_heading h2{
-        font-size: 18px;
-        line-height: 22px;
+        font-size: 30px;
+        line-height: 38px;
     }
     .image_with_text_new_sub_heading h6{
       font-size: 15px;
@@ -327,6 +331,13 @@ p, span{
     }
     .image_with_text_new_button a{
         width: 100%;
+    }
+    .image_with_text_features .feature_item_box .feature_description_{
+      font-size: 16px;
+    }
+    .featurs-img-btn{
+      width: 150px;
+      height: 40px;
     }
   }
 
@@ -440,6 +451,7 @@ p, span{
   opacity: 1;
   transform: translateX(-50%) scale(1);
 }
+
 
 .radio-buttons{
     width: 100%;
@@ -710,6 +722,9 @@ p, span{
     }
     .account_version_features_wraper img{
         width: 100%;
+      }
+     .account-page-video, .image_with_text_new .hero-banner-image{
+        margin-top: 1rem;
       }
   }
 

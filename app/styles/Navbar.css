@@ -160,5 +160,14 @@ background: linear-gradient(118.98deg, #FFFFFF 0%, #FFF8F8 25.47%, #EAFFFF 50%, 
     .min-width-header-btn .shopify_official_logo__ {
         width: 110px;
     }
+    .main-header{
+        padding: 5px 10px;
+    }
+    .customer_logo{
+        width: 140px;
+    }
+    .hero-header-banner{
+        padding: 0px 0px 20px 0px;
+    }
 }
 

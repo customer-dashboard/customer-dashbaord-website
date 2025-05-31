@@ -3,7 +3,7 @@ export const starIcon = <svg height="20px" width="20px" version="1.1" id="Capa_1
 export const slidesData = [
     {
         id: 8,
-        para: `I give this app 5 stars because it <span class="fw-700 app-color">Simplified Everything For Me</span>. It is an excellent app and would recommend it to everyone.`,
+        para: `I give this app 5 stars because it Simplified Everything For Me. It is an excellent app and would recommend it to everyone.`,
         starImage: StarImage,
         name: "Floral Essence Gifts",
         time: `January 11, 2025`
@@ -11,7 +11,7 @@ export const slidesData = [
 
     {
         id: 7,
-        para: `Easy and user friendly to create more options on <span class="fw-700 app-color">Customer Account & Profiles</span>. Recommended this app. It fills gap where Shopify default features can not do. Some amazing features with lots of customization options. Absolutely love it.`,
+        para: `Easy and user friendly to create more options on Customer Account & Profiles. Recommended this app. It fills gap where Shopify default features can not do. Some amazing features with lots of customization options. Absolutely love it.`,
         starImage: StarImage,
         name: "Vita Health Fresh Market",
         time: `November 8, 2024`
@@ -19,29 +19,29 @@ export const slidesData = [
 
     {
         id: 11,
-        para: `<div><span class="fw-700 app-color">Sunil R's Support</span> is excellent. </div>
-        The app is very good at keeping my <span class="fw-700 app-color">Page Clean And Organized</span> and <span class="fw-700 app-color">integrating with other apps</span> to make it easy for customers to use.`,
+        para: `<div>Sunil R's Support is excellent. </div>
+        The app is very good at keeping my Page Clean And Organized and integrating with other apps to make it easy for customers to use.`,
         starImage: StarImage,
         name: "mutta",
         time: `September 17, 2024`
     },
     {
         id: 1,
-        para: `A very good app, <span class="fw-700 app-color">easy to use, navigate, nice design, very customisable and helpful customer service!</span>`,
+        para: `A very good app, easy to use, navigate, nice design, very customisable and helpful customer service!`,
         starImage: StarImage,
         name: "LIZA VETA",
         time: `March 9, 2023 `
     },
     {
         id: 2,
-        para: `I didnt see a lot of reviews for this product when I downloaded it but I gave it a shot. It works great, and their dev team worked with me to add some <span class="fw-700 app-color">Custom Tabs and Buttons</span> for me super quickly. Can't beat the price for all the functionality you get out of the box with the free plan compared to some of the other Customer Account apps`,
+        para: `I didnt see a lot of reviews for this product when I downloaded it but I gave it a shot. It works great, and their dev team worked with me to add some Custom Tabs and Buttons for me super quickly. Can't beat the price for all the functionality you get out of the box with the free plan compared to some of the other Customer Account apps`,
         starImage: StarImage,
         name: "Kasper Sports",
         time: `January 9, 2023`
     },
     {
         id: 3,
-        para: `This is farway the <span class="fw-700 app-color">Best Plugin For Customer Dashboard</span> , simple , fast with free plan and a such a amazing and fast assistance.`,
+        para: `This is farway the Best Plugin For Customer Dashboard , simple , fast with free plan and a such a amazing and fast assistance.`,
         starImage: StarImage,
         name: "synee.",
         time: `January 16, 2023`
@@ -63,27 +63,73 @@ export const slidesData = [
     },
     {
         id: 6,  
-        para: `Really good app and customer service, they fixed every issue I had. The plan change, they <span class="fw-700 app-color">Integrated With The Other App</span> that I have. <span class="fw-700 app-color"> I'm very satisfied.</span>`,
+        para: `Really good app and customer service, they fixed every issue I had. The plan change, they Integrated With The Other App that I have.  I'm very satisfied.`,
         starImage: StarImage,
         name: "Özel Beslenme",
         time: `September 12, 2023`
     },
     {
         id: 10,
-        para: `Great app to make <span class="fw-700 app-color">Customer Account Look More Professional.</span> .`,
+        para: `Great app to make Customer Account Look More Professional. .`,
         starImage: StarImage,
         name: "Vivaporta",
         time: `September 25, 2024`
     },
     {
         id: 9,
-        para: `Great app. Helps a lot for our use case and <span class="fw-700 app-color">Great Customer Service</span> .`,
+        para: `Great app. Helps a lot for our use case and Great Customer Service .`,
         starImage: StarImage,
         name: "CraftNest",
         time: `November 13, 2024`
     },
  
 ];
+export const merchantReviews = [
+      {
+        id: 1,
+        para: `I give this app 5 stars because it Simplified Everything For Me. It is an excellent app and would recommend it to everyone.`,
+        starImage: StarImage,
+        name: "Floral Essence Gifts",
+        time: `January 11, 2025`
+    },
+    {
+        id: 4,
+        para: `wonderful app.. i tried everything for customer accounts and this is the best no doubt.. Easy to install, smooth layout and quick and great support to style a little css :) Everything i needed at best pirce!`,
+        starImage: StarImage,
+        name: "VintageEcoes",
+        time: `June 27, 2023`
+    },
+
+    {
+        id: 2,
+        para: `<div>Sunil R's Support is excellent. </div>
+        The app is very good at keeping my Page Clean And Organized and integrating with other apps to make it easy for customers to use.`,
+        starImage: StarImage,
+        name: "Mutta",
+        time: `September 17, 2024`
+    },
+    {
+        id: 5,  
+        para: `Really good app and customer service, they fixed every issue I had. The plan change, they Integrated With The Other App that I have.  I'm very satisfied.`,
+        starImage: StarImage,
+        name: "Özel Beslenme",
+        time: `September 12, 2023`
+    },
+     {
+        id: 3,
+        para: `Easy and user friendly to create more options on Customer Account & Profiles. Recommended this app. It fills gap where Shopify default features can not do. Some amazing features with lots of customization options. Absolutely love it.`,
+        starImage: StarImage,
+        name: "Vita Health Fresh Market",
+        time: `November 8, 2024`
+    },
+    {
+        id: 6,
+        para: `A very good app, easy to use, navigate, nice design, very customisable and helpful customer service!`,
+        starImage: StarImage,
+        name: "LIZA VETA",
+        time: `March 9, 2023 `
+    },
+]
 export const settings = {
     arrows: false,
     autoplay: true,
