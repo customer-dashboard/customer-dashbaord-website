@@ -105,7 +105,7 @@ function CustomFields() {
                 </Row>
               </div> */}
               <div className="main-section-btn">
-                <a className='universal-btn featurs-img-btn' href="http://" target="_blank" rel="noopener noreferrer">
+                <a className='universal-btn featurs-img-btn' href="https://apps.shopify.com/customer-dashboard-pro" target="_blank" rel="noopener noreferrer">
                  <Image width="100%" src={shopifyOfficialLogoBlack} title="Find us on the Shopify app store" alt="Shopify app store logo" />
                 </a>
               </div>

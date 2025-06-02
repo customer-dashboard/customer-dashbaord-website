@@ -61,18 +61,31 @@
     display: flex;
     justify-content: center;
     text-decoration: none;
+    transition: background-color 0.4s ease, border 0.4s ease, color 0.4s ease;
+    border: 1px solid transparent;
+}
+.header-hero-btn:hover a{
+  background-color: transparent;
+  border: 1px solid #1e1e1e;
+  color: #1e1e1e;
 }
 .universal-btn {
-    background-color: #1e1e1e;
-    border-radius: 9px;
-    color: #fff;
-    display: block;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    padding: 12px;
+  background-color: #1e1e1e;
+  border-radius: 9px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 12px;
+  transition: background-color 0.4s ease, border 0.4s ease, color 0.4s ease;
+  border: 1px solid transparent;
+}
+
+.universal-btn:hover {
+  background-color: transparent;
+  border: 1px solid #1e1e1e;
+  color: #1e1e1e;
 }
 
 .featurs-img-btn{
@@ -751,13 +764,20 @@ p, span{
     align-items: center;
   }
   
-  .built-button-wraper:hover .diamond {
-    animation: spin 2s linear infinite;
-  }
+
   .single__vi .video_player iframe{
     height: 560px !important;
   }
   
+  .built-button-wraper .diamond {
+    animation: spin 2s linear infinite;
+    animation-play-state: running; /* Default state */
+  }
+
+  .built-button-wraper:hover .diamond {
+    animation-play-state: paused; /* Pause on hover */
+  }
+
   @keyframes spin {
     from {
       transform: rotateY(0deg) rotateX(0deg);

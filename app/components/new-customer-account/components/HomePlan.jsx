@@ -66,7 +66,7 @@ const crosIcon = <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" 
                     </ul>
                           </div>
                     <div className=" pricing-view-demo mt-4">
-                        <a href="https://shopify.com/73535684832/account" className="universal-btn" target="_blank" rel="noopener noreferrer">Viee demo</a>
+                        <a href="https://shopify.com/73535684832/account" className="universal-btn" target="_blank" rel="noopener noreferrer">View demo</a>
                     </div>
                    
                       </div>
@@ -95,7 +95,7 @@ const crosIcon = <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" 
                     </ul>
                         </div>
                       <div className="pricing-view-demo mt-4">
-                        <a href="https://customer-dashboard.myshopify.com" target="_blank" className="universal-btn" rel="noopener noreferrer">Viee demo</a>
+                        <a href="https://customer-dashboard.myshopify.com" target="_blank" className="universal-btn" rel="noopener noreferrer">View demo</a>
                     </div>
                       </div>
                      </div>
