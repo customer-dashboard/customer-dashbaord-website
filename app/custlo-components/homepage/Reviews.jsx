@@ -22,7 +22,7 @@ function Reviews() {
 
               <Row>
                 {groupedSlides.map((group, index) => (
-                  <Col lg={4} key={index} className="slide-group">
+                  <Col lg={4} key={index} className="slide-group col-md-4">
                     {group.map((item) => (
                       <div key={item.id} className="slide-card">
                         <h4>{item.name}</h4>

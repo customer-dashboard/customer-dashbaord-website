@@ -1,0 +1,99 @@
+.install_benifits{
+    background: linear-gradient(118.98deg, #FFFFFF 0%, #FFF8F8 25.47%, #EAFFFF 50%, #FFF8F8 75%, #FFFFFF 100%);
+}
+
+.benifits_content h3{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.benifits_content span.benifit_icon {
+    font-size: 48px;
+    display: block;
+    margin-bottom: 10px;
+}
+.benifits_content p.benifit_para {
+    font-size: 15px;
+}
+.benifits_content .benifit_col{
+    padding: 22px;
+} 
+
+/* -====================================== Shopify App Integrations Css ===========================================*/
+
+.integration_head_count h2{
+    margin-top: -20px;
+}
+
+.app_icons_row {
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.icon-scroll-row {
+  flex-wrap: nowrap; 
+  gap: 1rem; 
+}
+
+.app_icons_row::-webkit-scrollbar {
+  height: 6px;
+}
+.app_icons_row::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+.all_int_btn a{
+    width: 198px;
+    height: 48px;
+}
+
+
+/* -====================================== Case Study Css ===========================================*/
+.case_study_home_division{
+    background: linear-gradient(118.98deg, #FFFFFF 0%, #FFF8F8 25.47%, #EAFFFF 50%, #FFF8F8 75%, #FFFFFF 100%);
+}
+
+.case_study_home_division .single_case_study_content img{
+    border-top-left-radius: 18.48px;
+    border-top-right-radius: 18.48px;
+}
+.case_study_home_division .single_case_study_content .study_info__{
+    border-bottom-right-radius: 18.48px;
+    border-bottom-left-radius: 18.48px;
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+.case_study_home_division .single_case_study_content .study_info__ h3{
+    font-weight: 600;
+    font-size: 16.48px;
+    line-height: 23.08px;
+    color: #1E1E1E;
+}
+.case_study_home_division .single_case_study_content .study_info__ a{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14.51px;
+    text-decoration: underline;
+    text-decoration-style: solid;
+     color: #1E1E1E;   
+}
+
+
+/* -====================================== Ready Try Css ===========================================*/
+
+.ready_try_content p{
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+}
+.ready_try_content a{
+    width: 284px;
+    height: 73px;
+    border-radius: 10px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}

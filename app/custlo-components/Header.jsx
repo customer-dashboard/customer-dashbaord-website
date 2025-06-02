@@ -25,7 +25,7 @@ function Header() {
 
   return (
       <Container>
-         <div className="main-header">
+         <div className="main-header mt-sm-5">
         <Navbar expand="lg" className={isSticky ? 'sticky-header nav_navbar' : 'nav_navbar'}>
        
          <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggle_btn hamburger-icon" />

@@ -251,6 +251,14 @@ export const partnerData = [
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
   },
   {
+    logo: "https://cdn.shopify.com/s/files/1/0663/4553/3698/files/Notim_logo.png?v=1745412661", 
+    heading: "Back In Stock | Notify ‑ Notim",
+    content:"Notify shoppers on restocks, get low-stock alerts, manage inventory across locations, & more.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://makeprosimp.com/partnership/mandasa-technologies-customer-account-pro-mt-notim"
+  },
+  {
     logo: "https://cdn.shopify.com/app-store/listing_images/54dd7475555beb5383263439d951ef2f/icon/CLCl25GUn4oDEAE=.png", 
     heading: "Easy Subscriptions App",
     content:"Boost Customer Lifetime Value and Ensure Predictable Revenue with Easy Subscriptions!.",

@@ -1,6 +1,19 @@
+
+.page-footer{
+  background: linear-gradient(118.98deg, #FFFFFF 0%, #FFF8F8 25.47%, #EAFFFF 50%, #FFF8F8 75%, #FFFFFF 100%);
+}
+
+
+.customer_logo_footer{
+    width: 283px;
+    height: 70px;
+    display: block;
+}
+
 .customer_logo_footer img{
     max-width: 100%;
 }
+
 .shopify-official-logo-black{
     border: none !important;
     background-color: none;
@@ -31,20 +44,29 @@
 }
 
 .my-footer a {
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 17px;
+    color: #1E1E1E;
     text-decoration: none;
-    display: block;
-    font-size: 14.4px;
 }
 .my-footer h5{
-    font-size: 18px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    color: #1E1E1E;
 }
 .my-footer a:hover {
     color: gray !important;
 }
 
 .logo_disclamer {
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-size: 14px;
+    font-family: Inter;
+    font-weight: 300;
+    line-height: 28px;
 }
 
 .normal {
@@ -122,6 +144,10 @@
 }
 .copyright-policy p{
     margin-top: 1rem;
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 18px;
+    color: #1E1E1E;
 }
 .copyright-policy ul a:hover{
    transform: translateY(-5px);
@@ -163,10 +189,6 @@
 
 
 @media screen and (max-width:768px) {
-    .customer_logo_footer{
-        width: 70%;
-        margin: auto;
-    }
     .plus {
         width: 85% !important;
         margin-left: 2rem;

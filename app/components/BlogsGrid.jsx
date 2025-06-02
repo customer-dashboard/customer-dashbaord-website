@@ -5,6 +5,7 @@ import { Link } from "@remix-run/react";
 import topImage from "../assets/images/Logo/changelog.jpeg";
 import LazyLoadedImage from "./lazyLoadImage/LazyLoadImage";
 import StartFree from "./StartFree";
+import Readytry from '../custlo-components/homepage/Readytry';
 
 function SearchBar({ onSearch }) {
   return (
@@ -115,7 +116,8 @@ function BlogsGrid() {
             </div>
           </div>
         </section>
-        <StartFree />
+        {/* <StartFree /> */}
+        <Readytry/>
       </main>
     </>
   );

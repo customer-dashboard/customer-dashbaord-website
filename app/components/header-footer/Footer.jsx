@@ -6,7 +6,7 @@ import {Button } from 'react-bootstrap';
 import newLogo from '../../assets/images/Logo/newLogo.png';
 import { Link } from '@remix-run/react';
 import {Accordion} from 'react-bootstrap';
-const Footer = () => <footer className="page-footer font-small blue pt-4 my-footer">
+const Footer = () => <footer className="page-footer font-small blue mt-3 pt-4 my-footer">
     <div className="container  text-md-left">
         <div className="row justify-content-between">
             <div className="col-md-3 col-lg-3 mt-md-0 mt-3 text-align-left">
@@ -81,13 +81,7 @@ const Footer = () => <footer className="page-footer font-small blue pt-4 my-foot
                     <LazyLoadedImage src={shopifyOfficialLogoBlack} alt="shopify-official-logo-black" />
                 </Button>
                 </a>
-            </div>
-            </div>
-        </div>
-        <div className="d-flex justify-content-between align-items-center py-4 mt-5 mt-sm-2 border-top copyright-policy">
-            <p>© 2023 Customer Dashboard Pro, All Rights Reserved</p>
-            <ul className="list-unstyled d-flex">
-
+                  <ul className="list-unstyled d-flex mt-5">
 
                 <li className="ms-3"><a className="link-dark" href="https://www.facebook.com/profile.php?id=100089113477946" target='_blank' rel='noreferrer'><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                     <path d="M24.0819 2H8.30912C4.82469 2 2 4.75744 2 8.15891V23.5562C2 26.9577 4.82469 29.7151 8.30912 29.7151H24.0819C27.5664 29.7151 30.3911 26.9577 30.3911 23.5562V8.15891C30.3911 4.75744 27.5664 2 24.0819 2Z" stroke="#4F4F4F" stroke-width="3" stroke-linejoin="round" />
@@ -105,6 +99,12 @@ const Footer = () => <footer className="page-footer font-small blue pt-4 my-foot
                     <path d="M18.1674 25.1166H14.8535V18.4888C14.8535 15.6128 17.185 13.2812 20.0611 13.2812C22.9371 13.2812 25.2686 15.6128 25.2686 18.4888V25.1166H21.9547V18.4C21.9547 17.3542 21.1069 16.5064 20.0611 16.5064C19.0153 16.5064 18.1674 17.3542 18.1674 18.4V25.1166Z" fill="#4F4F4F" />
                 </svg></a></li>
             </ul>
+            </div>
+            </div>
+        </div>
+        <div className="d-flex justify-content-center align-items-center py-4 mt-5 mt-sm-2 border-top copyright-policy">
+            <p>© 2023 Customer Dashboard Pro, All Rights Reserved</p>
+          
         </div>
     </div>
 </footer>

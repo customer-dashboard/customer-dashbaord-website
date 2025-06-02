@@ -14,10 +14,12 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
+  useLocation,
 } from "@remix-run/react";
 import { cssBundleHref } from "@remix-run/css-bundle";
 import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
+import Header from "./custlo-components/Header";
 
 export const links = () => [
   ...(cssBundleHref
@@ -33,9 +35,8 @@ export const links = () => [
 ];
 
 export default function App() {
-
   const [showComponents, setShowComponents] = useState(null);
-
+ const location = useLocation(); // <-- Add this
   useEffect(() => {
     !(function (e, t, n) {
       function a() {
@@ -72,6 +73,8 @@ export default function App() {
       </head>
       <body>
         {/* <Navbar  /> */}
+         {/* <Header data={"all"}/> */}
+        {location.pathname !== "/" && <Header  />}
         <Outlet context={ { showComponents, setShowComponents } } />
         <Footer  />
         <ScrollRestoration />

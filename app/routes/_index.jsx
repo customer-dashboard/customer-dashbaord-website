@@ -1,31 +1,32 @@
-import Banner from "../components/Banner";
+// import Banner from "../components/Banner";
 import BannerStyle from "../styles/Banner.css";
+import BanifitsStyle from "../styles/Benifits.css";
 import CarouselStyle from "../styles/Carousel.css";
 import Carousel from "../components/slider/Carousel";
 import MobileTabReuseStyle from "../styles/MobileTabReuse.css";
-import PagesTopSection from "../components/PageTopSection";
+// import PagesTopSection from "../components/PageTopSection";
 import TabsStyle from "../styles/Tabs.css";
-import { AccountPageData } from "../middleware/PageTopSectionData";
-import KnowlageBase from "../components/KnowlageBase";
+// import { AccountPageData } from "../middleware/PageTopSectionData";
+// import KnowlageBase from "../components/KnowlageBase";
 import MobiloveStyle from "../styles/Mobilove.css";
 import HomePricing from '../styles/HomePricing.css';
 import AcountPlayerStyle from "../styles/AccountPlayer.css";
 import AccountPlayer from "../components/AccountPlayer";
 import TestimonialSliderStyle from "../styles/TestimonialSlider.css";
-import TestimonialSlider from "../components/slider/TestimonialSlider";
-import Facility from "../components/Facility";
+// import TestimonialSlider from "../components/slider/TestimonialSlider";
+// import Facility from "../components/Facility";
 import FacilityStyle from "../styles/Facility.css";
-import StartFree from "../components/StartFree";
+// import StartFree from "../components/StartFree";
 import StartFreeStyle from '../styles/StartFree.css';
-import VerticalTabs from '../components/vertical-tabs/VerticalTabs';
-import VerticalTab2 from '../components/vertical-tabs/VerticalTab2';
+// import VerticalTabs from '../components/vertical-tabs/VerticalTabs';
+// import VerticalTab2 from '../components/vertical-tabs/VerticalTab2';
 import VerticalTab3 from '../components/vertical-tabs/VerticalTab3';
 import VerticalTabCss from '../styles/VerticalTab.css';
-import ImageWithTextS from '../components/new-customer-account/ImageWithTextS';
-import { orderTrackingWidget, customFieldData } from '../middleware/new-customer-account/ImageWithText'
+// import ImageWithTextS from '../components/new-customer-account/ImageWithTextS';
+// import { orderTrackingWidget, customFieldData } from '../middleware/new-customer-account/ImageWithText'
 import IntegrationStyle from '../styles/Integration.css';
-import ChooseAccountType from '../components/Modals/ChooseAccountType';
-import { useEffect, useState } from "react";
+// import ChooseAccountType from '../components/Modals/ChooseAccountType';
+// import { useEffect, useState } from "react";
 import { useOutletContext } from "@remix-run/react";
 import HomePlan from '../components/new-customer-account/components/HomePlan';
 import Hero from '../custlo-components/homepage/Hero';
@@ -33,6 +34,9 @@ import CustomFields from '../custlo-components/homepage/CustomFields';
 import OrderTracking from '../custlo-components/homepage/OrderTracking';
 import Reviews from '../custlo-components/homepage/Reviews';
 import Benifits from '../custlo-components/homepage/Benifits';
+import AppIntegrations from '../custlo-components/homepage/AppIntegrations';
+import CaseStudys from '../custlo-components/homepage/CaseStudys';
+import Readytry from '../custlo-components/homepage/Readytry';
  
 export const meta = () => {
   return [
@@ -61,10 +65,10 @@ export const links = () =>[
   {rel:'stylesheet', href:CarouselStyle},
   {rel:'stylesheet', href:VerticalTabCss},
   {rel:'stylesheet', href:HomePricing},
-  {rel:'stylesheet', href:IntegrationStyle}
+  {rel:'stylesheet', href:IntegrationStyle},
+  {rel:'stylesheet', href:BanifitsStyle}
 
 ]
-
 export default function Index() {
   const { showComponents, setShowComponents } = useOutletContext();
 
@@ -86,6 +90,9 @@ export default function Index() {
     <Reviews/>
    <AccountPlayer/>
    <Benifits/>
+   <AppIntegrations/>
+   <CaseStudys/>
+   <Readytry/>
     {/* <ChooseAccountType showComponents={showComponents} setShowComponents={setShowComponents} />
     <Banner showComponents={showComponents} />
     <Carousel/>
