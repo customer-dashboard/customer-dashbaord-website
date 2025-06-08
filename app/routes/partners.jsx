@@ -19,6 +19,22 @@ export const links = () => [{ rel: "stylesheet", href: IntegrationPagesStyle }];
 //   // // return json(posts);
 //   return json(data);
 // } 
+
+export const loader = async ({ request }) => {
+  const url = new URL(request.url);
+
+  const oldDomains = ['customerdashboard.pro', 'www.customerdashboard.pro'];
+
+  if (oldDomains.includes(url.hostname)) {
+    url.hostname = 'custlo.com';
+    url.protocol = 'https:'; // Ensure secure protocol
+    throw redirect(url.toString(), 301); // Permanent redirect
+  }
+
+  return null; // No redirect, no data
+};
+
+
 export const meta = () => {
   return [
     { title: "Partners: Partners with Customer Dashboard Pro Shopify App" },
