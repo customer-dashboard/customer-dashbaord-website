@@ -25,10 +25,17 @@ export async function loader({ request }) {
   const url = new URL(request.url);
   console.log("url",url);
   // Only redirect if the request comes from customerdashboard.pro
-  
-  if (url.hostname === "customerdashboard.pro") {
-    return redirect("https://custlo.com/partners");
+    if (url.hostname === "customerdashboard.pro") {
+    return new Response(null, {
+      status: 301,
+      headers: {
+        Location: "https://custlo.com/partners",
+      },
+    });
   }
+  // if (url.hostname === "customerdashboard.pro") {
+  //   return redirect("https://custlo.com/partners");
+  // }
   //   if (url.hostname === "localhost") {
   //   return redirect("https://custlo.com/partners");
   // }
