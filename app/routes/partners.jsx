@@ -4,7 +4,7 @@ import IntegrationsAndPartners from '../components/pages/IntegrationsAndPartners
 import { partnerData } from '../middleware/IntegrationsData';
 // import { connectToDatabase } from '../utils/Mongo';
 import { useLoaderData } from '@remix-run/react';
-import { json } from '@remix-run/node';
+import { json, redirect } from '@remix-run/node';
 // import { getDatabase } from '../../db.server';
 import DATABASE from '../utils/Mongo';
 export const links = () => [{ rel: "stylesheet", href: IntegrationPagesStyle }];
@@ -19,6 +19,24 @@ export const links = () => [{ rel: "stylesheet", href: IntegrationPagesStyle }];
 //   // // return json(posts);
 //   return json(data);
 // } 
+
+
+export async function loader({ request }) {
+  const url = new URL(request.url);
+  console.log("url",url);
+  // Only redirect if the request comes from customerdashboard.pro
+  
+  if (url.hostname === "customerdashboard.pro") {
+    return redirect("https://custlo.com/partners");
+  }
+  //   if (url.hostname === "localhost") {
+  //   return redirect("https://custlo.com/partners");
+  // }
+
+  // Otherwise, continue as normal (e.g., render content)
+  return new Response("This is the partners page on custlo.com");
+}
+
 export const meta = () => {
   return [
     { title: "Partners: Partners with Customer Dashboard Pro Shopify App" },
