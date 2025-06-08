@@ -34,20 +34,6 @@ export const links = () => [
     : []),
 ];
 
-export const loader = async ({ request }) => {
-  const url = new URL(request.url);
-
-  const oldDomains = ['customerdashboard.pro', 'www.customerdashboard.pro'];
-
-  if (oldDomains.includes(url.hostname)) {
-    url.hostname = 'custlo.com';
-    url.protocol = 'https:'; // optional if already HTTPS
-    throw redirect(url.toString(), 301); // 🔁 Permanent redirect
-  }
-
-  return null;
-};
-
 export default function App() {
   const [showComponents, setShowComponents] = useState(null);
  const location = useLocation(); // <-- Add this
