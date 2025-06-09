@@ -9,6 +9,19 @@ export const links = () =>[
   {rel:'stylesheet', href:StartFreeSectionStyle}
 ] 
 
+export async function loader({ request }) {
+  const url = new URL(request.url);
+    if (url.hostname === "customerdashboard.pro") {
+    return new Response(null, {
+      status: 301,
+      headers: {
+        Location: "https://custlo.com/blog",
+      },
+    });
+  }
+  return new Response("This is the partners page on custlo.com");
+}
+
 export const meta = () => {
   return [
     { title: "Stay Updated with the Latest Blogs | Customer Dashboard Pro" },

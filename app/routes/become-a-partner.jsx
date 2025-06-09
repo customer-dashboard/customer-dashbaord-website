@@ -18,6 +18,7 @@ export const links = () => [
   { rel: "stylesheet", href: BannerStyle },
   { rel: "stylesheet", href: BecomePartnerSectionStyle },
 ];
+
 export async function action({ request }) {
   const body = await request.formData();
   const firstName = body.get("name");
@@ -35,6 +36,19 @@ export async function action({ request }) {
   console.log("data", data);
 
   return json({ data: true });
+}
+
+export async function loader({ request }) {
+  const url = new URL(request.url);
+    if (url.hostname === "customerdashboard.pro") {
+    return new Response(null, {
+      status: 301,
+      headers: {
+        Location: "https://custlo.com/become-a-partner",
+      },
+    });
+  }
+  return new Response("This is the partners page on custlo.com");
 }
 
 export const meta = () => {

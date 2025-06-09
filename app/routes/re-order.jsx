@@ -27,6 +27,19 @@ export const meta = () => {
   ];
 };
 
+export async function loader({ request }) {
+  const url = new URL(request.url);
+    if (url.hostname === "customerdashboard.pro") {
+    return new Response(null, {
+      status: 301,
+      headers: {
+        Location: "https://custlo.com/re-order",
+      },
+    });
+  }
+  return new Response("This is the partners page on custlo.com");
+}
+
 function reorderPage() {
   const { showComponents, setShowComponents } = useOutletContext();
 

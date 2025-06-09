@@ -69,6 +69,21 @@ export const links = () =>[
   {rel:'stylesheet', href:BanifitsStyle}
 
 ]
+
+export async function loader({ request }) {
+  const url = new URL(request.url);
+    if (url.hostname === "customerdashboard.pro") {
+    return new Response(null, {
+      status: 301,
+      headers: {
+        Location: "https://custlo.com",
+      },
+    });
+  }
+  return new Response("This is the partners page on custlo.com");
+}
+
+
 export default function Index() {
   const { showComponents, setShowComponents } = useOutletContext();
 

@@ -23,6 +23,19 @@ export const links = () => [{ rel: "stylesheet", href: BlogFullPageStyle },
     ];
   };
 
+  export async function loader({ request }) {
+  const url = new URL(request.url);
+    if (url.hostname === "customerdashboard.pro") {
+    return new Response(null, {
+      status: 301,
+      headers: {
+        Location: "https://custlo.com/blog/klaviyo-integration",
+      },
+    });
+  }
+  return new Response("This is the partners page on custlo.com");
+}
+
 function index() {
   return (
     <>
