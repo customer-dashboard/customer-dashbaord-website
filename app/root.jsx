@@ -70,6 +70,18 @@ export default function App() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <Meta />
         <Links />
+         {/* Google Analytics script */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-DVB58YMC50"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-DVB58YMC50');
+            `,
+          }}
+        />
       </head>
       <body>
         {/* <Navbar  /> */}
