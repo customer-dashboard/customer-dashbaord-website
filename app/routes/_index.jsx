@@ -42,6 +42,7 @@ export const meta = () => {
   return [
     { title: "Shopify Customer Account App | Customer Dashboard Pro",},
     { name: "description",content: "Boost your Shopify store with the Customer Account app. Let customers create accounts, track orders, and enjoy a personalized shopping experience.",},
+    { name: "google-site-verification", content :"jwa_JNPpnTJCTR-fbminu65Qv7oEJ3f-bYWF06gev-c" },
     { name: "keywords", content:  "Shopify customer accounts, Customer login Shopify, Shopify account app, Personalized shopping Shopify, Shopify order tracking", },
     { property: "og:title", content: "Shopify Customer Account App | Customer Dashboard Pro",},
     {property: "og:description", content:"Boost your Shopify store with the Customer Account app. Let customers create accounts, track orders, and enjoy a personalized shopping experience.",},
