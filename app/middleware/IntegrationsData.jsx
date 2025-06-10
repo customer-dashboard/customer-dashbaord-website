@@ -251,6 +251,30 @@ export const partnerData = [
     link:"https://apps.shopify.com/checkout-extensions-pro?utm_source=customer-dashboard-pro"
   },
   {
+  logo: UpPromoteLogo,
+  heading: "UpPromote Affiliate Marketing",
+  content:"Complete, easy referral & affiliate program app, trusted by top brands & experts for a revenue boost",
+  blog:false,
+  blogLink:"/klaviyo-blog",
+  link:"https://partners.secomapp.com/apps/affiliate/customer-dashboard-pro-app"
+  },
+    {
+    logo: parcelPanelLogo,
+    heading: "Parcel Panel Order Tracking",
+    content:"Improve customer satisfaction & boost your sales with a branded post-purchase tracking experience.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/parcelpanel?utm_source=customer-dashboard-pro"
+  },
+    {
+    logo: parcelPannelExhangeLogo, 
+    heading: "Parcel Panel Returns &Exchange",
+    content: "Make returns and exchanges hassle-free to reduce costs, retain customers and recapture revenue.",
+    blog:false,
+    blogLink:"/klaviyo-blog",
+    link:"https://apps.shopify.com/parcel-panel-returns-exchanges?utm_source=customerdashboardpro"
+  },
+  {
     logo: "https://cdn.shopify.com/s/files/1/0663/4553/3698/files/Notim_logo.png?v=1745412661", 
     heading: "Back In Stock | Notify ‑ Notim",
     content:"Notify shoppers on restocks, get low-stock alerts, manage inventory across locations, & more.",
@@ -683,14 +707,7 @@ export const partnerData = [
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/ryviu?utm_source=customer-dashboard-pro"
   },
-  {
-    logo: parcelPanelLogo,
-    heading: "Parcel Panel Order Tracking",
-    content:"Improve customer satisfaction & boost your sales with a branded post-purchase tracking experience.",
-    blog:false,
-    blogLink:"/klaviyo-blog",
-    link:"https://apps.shopify.com/parcelpanel?utm_source=customer-dashboard-pro"
-  },
+
   {
     logo: aiTrillionLogo,
     heading: "AiTrillion",
@@ -715,14 +732,7 @@ export const partnerData = [
     blogLink:"/klaviyo-blog",
     link:"https://apps.shopify.com/seal-subscriptions?utm_source=customer-dashboard-pro"
   },
-  {
-    logo: parcelPannelExhangeLogo, 
-    heading: "Parcel Panel Returns &Exchange",
-    content: "Make returns and exchanges hassle-free to reduce costs, retain customers and recapture revenue.",
-    blog:false,
-    blogLink:"/klaviyo-blog",
-    link:"https://apps.shopify.com/parcel-panel-returns-exchanges?utm_source=customerdashboardpro"
-  },
+
   {
     logo: foxSellSliderLogo,
     heading: "FoxSell Slider & Carousel",
@@ -838,14 +848,7 @@ export const partnerData = [
   link:"https://apps.shopify.com/report-expert?utm_source=customer-dashboard-pro"
 },
 
-{
-  logo: UpPromoteLogo,
-  heading: "UpPromote Affiliate Marketing",
-  content:"Complete, easy referral & affiliate program app, trusted by top brands & experts for a revenue boost",
-  blog:false,
-  blogLink:"/klaviyo-blog",
-  link:"https://partners.secomapp.com/apps/affiliate/customer-dashboard-pro-app"
-},
+
 {
   logo: EmailCheker,
   heading: "EmailCheckr: Stop Fake Signups",
